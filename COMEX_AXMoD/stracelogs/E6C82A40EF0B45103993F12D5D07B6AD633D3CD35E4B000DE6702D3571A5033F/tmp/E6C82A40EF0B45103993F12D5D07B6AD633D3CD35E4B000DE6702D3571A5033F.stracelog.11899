@@ -1,0 +1,1833 @@
+1719579128.276342 futex(0xb9a6c214, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.277723 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xb9970000, 1044480, "stack_and_tls:11899") = 0
+1719579128.277983 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed0ed000
+1719579128.278419 mprotect(0xed0ed000, 4096, PROT_NONE) = 0
+1719579128.278611 sigaltstack({ss_sp=0xed0ee000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579128.282989 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed0ee000, 16384, "thread signal stack") = 0
+1719579128.289301 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579128.289647 setpriority(PRIO_PROCESS, 0, 0) = 0
+1719579128.289964 prctl(PR_SET_NAME, "ThreadPoolForeg"...) = 0
+1719579128.290206 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.290379 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.292932 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.293558 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.294643 write(6, "E|", 2)     = 2
+1719579128.294802 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.295108 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.295880 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.296833 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.308902 write(6, "E|", 2)     = 2
+1719579128.309316 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.309791 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.310039 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.318679 write(6, "E|", 2)     = 2
+1719579128.318845 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.319091 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=157625735}) = 0
+1719579128.319503 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.319743 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.319976 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=158543704}) = 0
+1719579128.320210 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=158749642}) = 0
+1719579128.320718 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=158749642}, 0xffffffff) = 0
+1719579128.353641 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.353775 write(6, "E|", 2)     = 2
+1719579128.353874 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=192410999}) = 0
+1719579128.353961 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.354105 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.354233 write(6, "E|", 2)     = 2
+1719579128.355480 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.355673 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=194203916}) = 0
+1719579128.356668 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=195341781}) = 0
+1719579128.356973 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Platform Notifications", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.358339 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=196870166}) = 0
+1719579128.358428 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.359411 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.360063 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=198683656}) = 0
+1719579128.360327 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=199653969}) = 0
+1719579128.361426 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=199653969}, 0xffffffff) = 0
+1719579128.643958 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.644182 futex(0xb9a6c008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.655208 write(6, "E|", 2)     = 2
+1719579128.655405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=493925925}) = 0
+1719579128.655477 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.655577 read(159, "\246\21\356\19;\20\227", 8) = 8
+1719579128.655661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=494182904}) = 0
+1719579128.655769 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=494290873}) = 0
+1719579128.655846 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.656010 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=494531446}) = 0
+1719579128.656093 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=494649258}) = 0
+1719579128.656218 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=494649258}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579129.656343 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=494953785}) = 0
+1719579129.656699 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=495238108}) = 0
+1719579129.656996 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=495550660}) = 0
+1719579129.657259 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=423, tv_nsec=495550660}, 0xffffffff) = 0
+1719579132.219511 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.219616 write(6, "E|", 2)     = 2
+1719579132.220459 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=58984718}) = 0
+1719579132.220572 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.220711 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=59233676}) = 0
+1719579132.220846 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.220990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=59528884}) = 0
+1719579132.225588 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=64169822}) = 0
+1719579132.225766 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=64169822}, 0xffffffff) = 0
+1719579132.261628 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=100154930}) = 0
+1719579132.261718 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=100234826}) = 0
+1719579132.261883 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=100407274}) = 0
+1719579132.261961 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/js/index-dir/the-real-index", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579132.262087 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.262182 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579132.262302 write(6, "E|", 2)     = 2
+1719579132.262377 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.262498 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=101040139}) = 0
+1719579132.262658 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=101203680}) = 0
+1719579132.262786 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/js/index-dir/the-real-index", F_OK) = -1 ENOENT (No such file or directory)
+1719579132.262909 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=101430764}) = 0
+1719579132.263019 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=101552534}) = 0
+1719579132.263133 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=101655243}) = 0
+1719579132.263207 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/js/index-dir/the-real-index", 0xb9a6bb40, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579132.263322 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/js", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 225
+1719579132.263462 getdents64(225, /* 3 entries */, 4200) = 80
+1719579132.263575 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=102097222}) = 0
+1719579132.263657 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=102179305}) = 0
+1719579132.263758 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/js/index", 0xb9a6ba50, 0) = 0
+1719579132.263855 getdents64(225, /* 0 entries */, 4200) = 0
+1719579132.263929 close(225)            = 0
+1719579132.264058 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=102580503}) = 0
+1719579132.264214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=102761337}) = 0
+1719579132.264332 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.264415 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=102937066}) = 0
+1719579132.264510 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.264624 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=103145399}) = 0
+1719579132.264762 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=103285972}) = 0
+1719579132.264920 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=103285972}, 0xffffffff) = 0
+1719579132.265494 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.265583 write(6, "E|", 2)     = 2
+1719579132.265660 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=104181910}) = 0
+1719579132.265730 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.265834 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=104356493}) = 0
+1719579132.265908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=104431076}) = 0
+1719579132.265987 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/GPUCache/index-dir/the-real-index", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579132.266178 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=104700399}) = 0
+1719579132.266285 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=104826858}) = 0
+1719579132.266446 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/GPUCache/index-dir/the-real-index", F_OK) = -1 ENOENT (No such file or directory)
+1719579132.266553 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=105075712}) = 0
+1719579132.266633 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=105155087}) = 0
+1719579132.266735 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=105280764}) = 0
+1719579132.266846 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/GPUCache/index-dir/the-real-index", 0xb9a6bb40, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579132.267029 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/GPUCache", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 220
+1719579132.267160 getdents64(220, /* 3 entries */, 4200) = 80
+1719579132.267274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=105796181}) = 0
+1719579132.267348 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=105869202}) = 0
+1719579132.267420 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/GPUCache/index", 0xb9a6ba50, 0) = 0
+1719579132.267538 getdents64(220, /* 0 entries */, 4200) = 0
+1719579132.267614 close(220)            = 0
+1719579132.267733 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=106255556}) = 0
+1719579132.267824 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.267912 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=106434097}) = 0
+1719579132.268067 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.268148 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=106709150}) = 0
+1719579132.268305 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=106849306}) = 0
+1719579132.268431 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=106849306}, 0xffffffff) = 0
+1719579132.322190 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.322347 futex(0xb9a6c008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579132.322496 write(6, "E|", 2)     = 2
+1719579132.322612 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=161132384}) = 0
+1719579132.322687 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.323640 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.324130 futex(0x3a82593c, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579132.324652 write(6, "E|", 2)     = 2
+1719579132.325208 futex(0x3a82593c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.325543 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.325882 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=164531812}) = 0
+1719579132.326236 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.326834 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=165374416}) = 0
+1719579132.327012 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=165538895}) = 0
+1719579132.327224 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=165538895}, 0xffffffff) = 0
+1719579132.364671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=203225409}) = 0
+1719579132.364912 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=203450617}) = 0
+1719579132.365033 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=203567024}) = 0
+1719579132.365165 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/.com.google.Chrome.f7pAxI", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 225
+1719579132.365496 close(225)            = 0
+1719579132.365622 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=204158847}) = 0
+1719579132.365808 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=204361503}) = 0
+1719579132.366064 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/.com.google.Chrome.f7pAxI", O_RDWR|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 225
+1719579132.366358 unlinkat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/.com.google.Chrome.f7pAxI", 0) = 0
+1719579132.366689 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=205305409}) = 0
+1719579132.367136 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.367355 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=205905305}) = 0
+1719579132.367552 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.367734 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=206294316}) = 0
+1719579132.367913 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=206510305}) = 0
+1719579132.368106 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=206510305}, 0xffffffff) = 0
+1719579132.435390 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.435486 futex(0xb9a6c008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579132.435714 write(6, "E|", 2)     = 2
+1719579132.435823 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=274348489}) = 0
+1719579132.435907 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.436038 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.436136 futex(0x3a82593c, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579132.436233 write(6, "E|", 2)     = 2
+1719579132.436319 futex(0x3a82593c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.436449 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=274983802}) = 0
+1719579132.436571 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=275094948}) = 0
+1719579132.436656 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir", 0xb9a6bbe8, 0) = -1 ENOENT (No such file or directory)
+1719579132.436797 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=275328802}) = 0
+1719579132.436900 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=275439427}) = 0
+1719579132.437311 fstatat64(AT_FDCWD, "/", 0xb9a6bb58, 0) = 0
+1719579132.437545 fstatat64(AT_FDCWD, "/data", 0xb9a6bb58, 0) = 0
+1719579132.437674 fstatat64(AT_FDCWD, "/data/user", 0xb9a6bb58, 0) = 0
+1719579132.437780 fstatat64(AT_FDCWD, "/data/user/0", 0xb9a6bb58, 0) = 0
+1719579132.437885 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon", 0xb9a6bb58, 0) = 0
+1719579132.437962 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache", 0xb9a6bb58, 0) = 0
+1719579132.438092 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView", 0xb9a6bb58, 0) = 0
+1719579132.438270 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default", 0xb9a6bb58, 0) = 0
+1719579132.438430 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache", 0xb9a6bb58, 0) = 0
+1719579132.438578 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache", 0xb9a6bb58, 0) = 0
+1719579132.438668 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", 0xb9a6bb58, 0) = 0
+1719579132.438763 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir", 0xb9a6bb58, 0) = -1 ENOENT (No such file or directory)
+1719579132.438849 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir", 0700) = 0
+1719579132.439175 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=277712083}) = 0
+1719579132.439263 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=277796042}) = 0
+1719579132.439379 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", 0xb9a6bbe8, 0) = 0
+1719579132.441663 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=280197031}) = 0
+1719579132.441790 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=280316250}) = 0
+1719579132.441872 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir/temp-index", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 227
+1719579132.443350 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=281926823}) = 0
+1719579132.443624 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.443822 write(6, "E|", 2)     = 2
+1719579132.444016 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=282555990}) = 0
+1719579132.444167 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.444898 fcntl64(227, F_GETFL) = 0x20001 (flags O_WRONLY|O_LARGEFILE)
+1719579132.445060 pwrite64(227, "(\0\0\0 \271\366_oy retne\t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 48, 0) = 48
+1719579132.448408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=286958074}) = 0
+1719579132.448594 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579132.448782 write(6, "E|", 2)     = 2
+1719579132.448949 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=287492657}) = 0
+1719579132.449111 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.449278 close(227)            = 0
+1719579132.449453 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=287997293}) = 0
+1719579132.449617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=288162188}) = 0
+1719579132.449781 renameat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir/temp-index", AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index-dir/the-real-index") = 0
+1719579132.450028 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=288570313}) = 0
+1719579132.450199 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=288737293}) = 0
+1719579132.450383 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579132.450542 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=289086251}) = 0
+1719579132.450710 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=289251251}) = 0
+1719579132.450877 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=289251251}, 0xffffffff) = 0
+1719579133.047452 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=885978550}) = 0
+1719579133.047675 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=886214644}) = 0
+1719579133.047835 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579133.047950 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=886474227}) = 0
+1719579133.048085 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=886608446}) = 0
+1719579133.048414 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=886608446}, 0xffffffff) = 0
+1719579133.058381 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579133.058564 write(6, "E|", 2)     = 2
+1719579133.058670 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=897231728}) = 0
+1719579133.058811 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.059023 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=897584385}) = 0
+1719579133.059235 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=897771676}) = 0
+1719579133.059496 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=898017041}) = 0
+1719579133.059780 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=898299280}) = 0
+1719579133.060051 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/675d01f42fc1b2a8_0", O_RDWR|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579133.060281 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=898815478}) = 0
+1719579133.060424 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=898957093}) = 0
+1719579133.060602 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=899134176}) = 0
+1719579133.060747 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/675d01f42fc1b2a8_0", 0xb9a6b650, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579133.060987 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=899507093}) = 0
+1719579133.061175 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=899696312}) = 0
+1719579133.061310 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/675d01f42fc1b2a8_1", 0xb9a6b650, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579133.061623 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=900154541}) = 0
+1719579133.061768 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=900408968}) = 0
+1719579133.062015 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/675d01f42fc1b2a8_s", 0xb9a6b688, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579133.062625 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579133.062731 write(6, "E|", 2)     = 2
+1719579133.062968 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.063190 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=902110843}) = 0
+1719579133.063719 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=902285062}) = 0
+1719579133.063941 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=902591104}) = 0
+1719579133.064305 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=902959229}) = 0
+1719579133.064686 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/675d01f42fc1b2a8_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 228
+1719579133.066342 mprotect(0x3ab44000, 28672, PROT_READ|PROT_WRITE) = 0
+1719579133.066529 gettimeofday({tv_sec=1719579133, tv_usec=66557}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579133.066772 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=905314385}) = 0
+1719579133.067010 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=905565635}) = 0
+1719579133.067179 fcntl64(228, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579133.067475 pwrite64(228, "0\\r\247\33m\373\374\5\0\0\0004\0\0\0\22\311^\350\0\0\0\0", 24, 0) = 24
+1719579133.067830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=906359594}) = 0
+1719579133.067953 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=906544542}) = 0
+1719579133.068279 fcntl64(228, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579133.068872 pwrite64(228, "1/0/https://www.bcyhq.cn/entranc"..., 52, 24) = 52
+1719579133.069209 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=907752771}) = 0
+1719579133.069410 write(205, "\0", 1)   = 1
+1719579133.069676 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.069981 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579133.070448 write(6, "E|", 2)     = 2
+1719579133.070791 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.071037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=909558917}) = 0
+1719579133.071314 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579133.071436 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579133.071876 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=910400115}) = 0
+1719579133.072014 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=910547928}) = 0
+1719579133.072171 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=910547928}, 0xffffffff) = 0
+1719579133.072572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=911102303}) = 0
+1719579133.072713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=911236886}) = 0
+1719579133.072915 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=911437459}) = 0
+1719579133.073035 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir", 0xb9a6bc40, 0) = -1 ENOENT (No such file or directory)
+1719579133.073262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=911784751}) = 0
+1719579133.073521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=912046209}) = 0
+1719579133.073740 fstatat64(AT_FDCWD, "/", 0xb9a6bbb0, 0) = 0
+1719579133.074085 fstatat64(AT_FDCWD, "/data", 0xb9a6bbb0, 0) = 0
+1719579133.074287 fstatat64(AT_FDCWD, "/data/user", 0xb9a6bbb0, 0) = 0
+1719579133.074618 fstatat64(AT_FDCWD, "/data/user/0", 0xb9a6bbb0, 0) = 0
+1719579133.074765 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon", 0xb9a6bbb0, 0) = 0
+1719579133.074993 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache", 0xb9a6bbb0, 0) = 0
+1719579133.075182 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView", 0xb9a6bbb0, 0) = 0
+1719579133.075336 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default", 0xb9a6bbb0, 0) = 0
+1719579133.075645 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache", 0xb9a6bbb0, 0) = 0
+1719579133.075809 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir", 0xb9a6bbb0, 0) = -1 ENOENT (No such file or directory)
+1719579133.076220 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir", 0700) = 0
+1719579133.076921 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=915464855}) = 0
+1719579133.077038 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=915653501}) = 0
+1719579133.077302 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache", 0xb9a6bc40, 0) = 0
+1719579133.077801 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=916526886}) = 0
+1719579133.078471 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=917028084}) = 0
+1719579133.078953 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir/temp-index", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 227
+1719579133.079457 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=917981470}) = 0
+1719579133.079621 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=918152460}) = 0
+1719579133.080203 fcntl64(227, F_GETFL) = 0x20001 (flags O_WRONLY|O_LARGEFILE)
+1719579133.080464 pwrite64(227, "@\0\0\0\323\217\326\231oy retne\t\0\0\0\1\0\0\0\0\0\0\0\0\2\0\0"..., 72, 0) = 72
+1719579133.081632 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=920309595}) = 0
+1719579133.082071 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=920601522}) = 0
+1719579133.082224 close(227)            = 0
+1719579133.082785 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=921368710}) = 0
+1719579133.082991 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=921522252}) = 0
+1719579133.083136 renameat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir/temp-index", AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/index-dir/the-real-index") = 0
+1719579133.083454 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579133.083641 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579133.083773 write(6, "E|", 2)     = 2
+1719579133.083871 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.084008 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=922537564}) = 0
+1719579133.084275 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579133.084408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=922935585}) = 0
+1719579133.084490 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=923011262}) = 0
+1719579133.084635 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=98, tv_nsec=923011262}, 0xffffffff) = 0
+1719579133.667544 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=506087779}) = 0
+1719579133.667761 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=506298924}) = 0
+1719579133.667892 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=506446737}) = 0
+1719579133.668074 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=506608976}) = 0
+1719579133.668400 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579133.668588 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579133.668755 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=507390435}) = 0
+1719579133.668990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=507547570}) = 0
+1719579133.669245 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=99, tv_nsec=507547570}, 0xffffffff) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+1719579134.355212 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579134.355305 futex(0xeb391244, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579134.355466 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=194005399}) = 0
+1719579134.355622 futex(0xeb391244, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=104, tv_nsec=194005399}, 0xffffffff) = 0
+1719579134.437069 futex(0xeb391244, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579134.437440 rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+1719579134.437625 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=276166605}) = 0
+1719579134.438656 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=277257282}) = 0
+1719579134.438938 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=99, tv_nsec=508481282}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579134.670263 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=508813139}) = 0
+1719579134.670466 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=509018035}) = 0
+1719579134.670648 clock_gettime(CLOCK_MONOTONIC, {tv_sec=99, tv_nsec=509198035}) = 0
+1719579134.670837 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=428, tv_nsec=509198035}, 0xffffffff) = 0
+1719579137.815992 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=654513973}) = 0
+1719579137.816119 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=654667098}) = 0
+1719579137.816305 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19832229}) = 0
+1719579137.816484 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579137.816609 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=655139129}) = 0
+1719579137.816701 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19967646}) = 0
+1719579137.816841 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=655366369}) = 0
+1719579137.816928 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20031968}) = 0
+1719579137.817195 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579137.818390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=657322619}) = 0
+1719579137.818969 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20203999}) = 0
+1719579137.819329 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579137.819654 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=658231109}) = 0
+1719579137.822485 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=661173661}) = 0
+1719579137.822845 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=661366317}) = 0
+1719579137.822943 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=661478088}) = 0
+1719579137.824084 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20513478}) = 0
+1719579137.824263 ftruncate64(223, 102) = 0
+1719579137.828015 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=666547933}) = 0
+1719579137.828750 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20740091}) = 0
+1719579137.829383 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=667909183}) = 0
+1719579137.829518 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=668053089}) = 0
+1719579137.829637 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=668169704}) = 0
+1719579137.829743 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20920717}) = 0
+1719579137.829857 fcntl64(223, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579137.830002 pwrite64(223, "\37\213\10\0\0\0\0\0\0\3\255VQS\32W\24~N~\305f\373\222\314\260\256\246\231\246Q "..., 1432, 102) = 1432
+1719579137.830141 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=668675329}) = 0
+1719579137.830320 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21097121}) = 0
+1719579137.830439 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=668971891}) = 0
+1719579137.830891 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=669435433}) = 0
+1719579137.831016 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=669548818}) = 0
+1719579137.831122 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21247121}) = 0
+1719579137.831234 ftruncate64(223, 5574) = 0
+1719579137.831394 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=669926995}) = 0
+1719579137.831770 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21356862}) = 0
+1719579137.832014 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=670559027}) = 0
+1719579137.832190 gettimeofday({tv_sec=1719579137, tv_usec=832210}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579137.832433 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=670964495}) = 0
+1719579137.832552 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21612068}) = 0
+1719579137.832713 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579137.832862 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=671382829}) = 0
+1719579137.833005 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21729725}) = 0
+1719579137.835178 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579137.835348 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=673871319}) = 0
+1719579137.835664 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21844049}) = 0
+1719579137.835820 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579137.835994 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=674514600}) = 0
+1719579137.836105 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21953527}) = 0
+1719579137.836246 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579137.836422 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=674943038}) = 0
+1719579137.836594 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22078372}) = 0
+1719579137.836773 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=675293558}) = 0
+1719579137.836932 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579137.837067 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=675588350}) = 0
+1719579137.837256 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22214466}) = 0
+1719579137.837445 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579137.837597 write(6, "E|", 2)     = 2
+1719579137.837762 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579137.837978 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579137.838139 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=676702829}) = 0
+1719579137.838512 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=677038090}) = 0
+1719579137.838639 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=103, tv_nsec=677038090}, 0xffffffff) = 0
+1719579138.186885 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=25406406}) = 0
+1719579138.187062 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=25608177}) = 0
+1719579138.187194 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22597647}) = 0
+1719579138.187384 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579138.187479 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=25996562}) = 0
+1719579138.187576 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22684105}) = 0
+1719579138.187635 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=26148958}) = 0
+1719579138.187695 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22714627}) = 0
+1719579138.187850 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579138.187934 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=26451562}) = 0
+1719579138.187996 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22783584}) = 0
+1719579138.188247 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579138.188397 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=26921146}) = 0
+1719579138.188594 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=27116927}) = 0
+1719579138.188777 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=27434583}) = 0
+1719579138.189008 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=27530625}) = 0
+1719579138.189082 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23025460}) = 0
+1719579138.189177 fcntl64(223, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579138.189526 pwrite64(223, "\214\17\0\0\3MG\0024\25)\0\211z/\0\2\2210\0\211z/\0\326\0\0\0HTTP"..., 3984, 1558) = 3984
+1719579138.191818 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=30356875}) = 0
+1719579138.191921 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23221711}) = 0
+1719579138.192046 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=30608490}) = 0
+1719579138.192190 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=30992344}) = 0
+1719579138.192587 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=31112240}) = 0
+1719579138.193124 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23539265}) = 0
+1719579138.193227 fcntl64(223, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579138.193377 pwrite64(223, "\321\335\313,np\342\261r\242\325\237\324\275\206\r\20x\330\370^\321f\222\335\271\322\215\332\362\2435", 32, 5542) = 32
+1719579138.193544 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=32073490}) = 0
+1719579138.193614 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23710309}) = 0
+1719579138.193735 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=32260677}) = 0
+1719579138.193856 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=32379011}) = 0
+1719579138.193949 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=32474271}) = 0
+1719579138.194038 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23851506}) = 0
+1719579138.194125 ftruncate64(223, 5574) = 0
+1719579138.195191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=33711927}) = 0
+1719579138.195252 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24097963}) = 0
+1719579138.195435 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=36775574}) = 0
+1719579138.200064 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=38638334}) = 0
+1719579138.200266 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=38816459}) = 0
+1719579138.200472 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24229785}) = 0
+1719579138.200679 fcntl64(223, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579138.200893 pwrite64(223, "\330A\r\227Eo\372\364\3\0\0\0\367\316j\271\220\17\0\0\0\0\0\0", 24, 5574) = 24
+1719579138.201183 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=39740886}) = 0
+1719579138.201329 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24382601}) = 0
+1719579138.201429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=39949428}) = 0
+1719579138.201677 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=40231720}) = 0
+1719579138.202045 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=40574584}) = 0
+1719579138.202171 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24553330}) = 0
+1719579138.202289 fcntl64(223, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579138.202386 pwrite64(223, "\330A\r\227Eo\372\364\1\0\0\0cv\337.\230\5\0\0\0\0\0\0", 24, 1534) = 24
+1719579138.202473 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=40994741}) = 0
+1719579138.202543 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24734269}) = 0
+1719579138.202628 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=41149793}) = 0
+1719579138.202742 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=41264272}) = 0
+1719579138.202882 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=41403543}) = 0
+1719579138.202962 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24883749}) = 0
+1719579138.203050 close(223)            = 0
+1719579138.203180 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=41709741}) = 0
+1719579138.203286 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24995885}) = 0
+1719579138.203415 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=41936564}) = 0
+1719579138.203539 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=42061512}) = 0
+1719579138.203615 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25124793}) = 0
+1719579138.203707 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579138.203784 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=42305835}) = 0
+1719579138.203906 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25245419}) = 0
+1719579138.204021 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579138.204097 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=42618283}) = 0
+1719579138.204165 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25358336}) = 0
+1719579138.204241 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579138.204405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=42934637}) = 0
+1719579138.204526 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25482504}) = 0
+1719579138.204698 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579138.204993 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=43681356}) = 0
+1719579138.205316 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25614173}) = 0
+1719579138.205650 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=44171408}) = 0
+1719579138.205778 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579138.205889 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=44431981}) = 0
+1719579138.206031 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25768237}) = 0
+1719579138.206162 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579138.206560 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=45081616}) = 0
+1719579138.206663 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=45192293}) = 0
+1719579138.206777 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=104, tv_nsec=45192293}, 0xffffffff) = 0
+1719579138.484257 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=322774092}) = 0
+1719579138.484333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=322847738}) = 0
+1719579138.484383 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26021832}) = 0
+1719579138.484459 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579138.484565 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=323080654}) = 0
+1719579138.484624 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26122716}) = 0
+1719579138.484685 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=323199873}) = 0
+1719579138.484742 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26157299}) = 0
+1719579138.484996 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 120) = 120
+1719579138.485099 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=323891175}) = 0
+1719579138.485540 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26305320}) = 0
+1719579138.485626 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579138.485693 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=324208936}) = 0
+1719579138.485778 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=324302477}) = 0
+1719579138.485897 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=324519404}) = 0
+1719579138.486073 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26432144}) = 0
+1719579138.486224 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579138.486292 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=324807894}) = 0
+1719579138.486411 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26519177}) = 0
+1719579138.486572 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 120) = 120
+1719579138.486661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=325176540}) = 0
+1719579138.486726 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26617874}) = 0
+1719579138.486801 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=325338988}) = 0
+1719579138.487062 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579138.487161 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=325826279}) = 0
+1719579138.488145 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26706830}) = 0
+1719579138.488511 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579138.488632 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=327155811}) = 0
+1719579138.488864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=327399144}) = 0
+1719579138.488961 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=104, tv_nsec=327399144}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579139.489116 clock_gettime(CLOCK_MONOTONIC, {tv_sec=104, tv_nsec=327645963}) = 0
+1719579139.489313 clock_gettime(CLOCK_MONOTONIC, {tv_sec=104, tv_nsec=327845494}) = 0
+1719579139.489412 clock_gettime(CLOCK_MONOTONIC, {tv_sec=104, tv_nsec=327968306}) = 0
+1719579139.489577 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=433, tv_nsec=327968306}, 0xffffffff) = 0
+1719579140.366856 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579140.367070 write(6, "E|", 2)     = 2
+1719579140.367597 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=206201050}) = 0
+1719579140.367778 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.367925 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=206467404}) = 0
+1719579140.368076 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27273440}) = 0
+1719579140.369299 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.369486 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=208023811}) = 0
+1719579140.369697 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27484950}) = 0
+1719579140.369844 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=208383602}) = 0
+1719579140.370062 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27569274}) = 0
+1719579140.370249 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.370511 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=209032821}) = 0
+1719579140.370602 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27731616}) = 0
+1719579140.370773 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579140.370928 write(6, "E|", 2)     = 2
+1719579140.371207 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.371380 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.371693 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=210554905}) = 0
+1719579140.372187 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=210708134}) = 0
+1719579140.372275 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=210813863}) = 0
+1719579140.372388 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28093958}) = 0
+1719579140.372711 prctl(PR_GET_NAME, "ThreadPoolForeg") = 0
+1719579140.375015 write(4, "B|10566|AttachCurrentThread", 27) = 27
+1719579140.375261 write(4, "B|10566|Thread::Attach", 22) = 22
+1719579140.375331 write(4, "B|10566|Thread birth", 20) = 20
+1719579140.375891 write(4, "B|10566|Thread::Init", 20) = 20
+1719579140.376030 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579140.376133 mprotect(0xb9970000, 4096, PROT_NONE) = 0
+1719579140.376377 madvise(0xb9970000, 1024000, MADV_DONTNEED) = 0
+1719579140.376540 write(4, "E|10566", 7) = 7
+1719579140.376628 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579140.376856 write(4, "E|10566", 7) = 7
+1719579140.376938 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579140.377042 write(4, "E|10566", 7) = 7
+1719579140.377212 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee745000
+1719579140.377332 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee745000, 8192, "dalvik-indirect ref table") = 0
+1719579140.377455 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579140.377564 write(4, "E|10566", 7) = 7
+1719579140.377628 write(4, "E|10566", 7) = 7
+1719579140.377694 write(4, "E|10566", 7) = 7
+1719579140.377804 write(4, "C|10566|Heap size (KB)|7220", 27) = 27
+1719579140.377899 getpriority(PRIO_PROCESS, 11899) = 20
+1719579140.378015 prctl(PR_SET_NAME, "ThreadPoolForeg"...) = 0
+1719579140.378459 write(4, "E|10566", 7) = 7
+1719579140.378587 write(4, "E|10566", 7) = 7
+1719579140.378991 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=217514385}) = 0
+1719579140.379061 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29327030}) = 0
+1719579140.379179 write(166, "B|10566|EmbedderCallback|callbac"..., 112) = 112
+1719579140.379431 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=217949072}) = 0
+1719579140.379493 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29494425}) = 0
+1719579140.379569 write(166, "B|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.379676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218198708}) = 0
+1719579140.379743 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29597655}) = 0
+1719579140.379840 write(166, "E|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.379933 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218447822}) = 0
+1719579140.380060 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218589228}) = 0
+1719579140.380133 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29784322}) = 0
+1719579140.380196 write(166, "E|10566|EmbedderCallback||Java,d"..., 77) = 77
+1719579140.380257 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218772822}) = 0
+1719579140.380318 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29850259}) = 0
+1719579140.380387 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218905531}) = 0
+1719579140.380451 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=218969124}) = 0
+1719579140.380514 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29908436}) = 0
+1719579140.380573 write(166, "B|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.380633 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=219150687}) = 0
+1719579140.380693 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29960831}) = 0
+1719579140.380750 write(166, "E|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.380814 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=219328968}) = 0
+1719579140.380871 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30017238}) = 0
+1719579140.380930 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.381018 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=219533083}) = 0
+1719579140.381122 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30065154}) = 0
+1719579140.381270 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.381339 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=219853708}) = 0
+1719579140.381390 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30152968}) = 0
+1719579140.381466 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.381606 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=220141468}) = 0
+1719579140.381694 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.381754 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=220268187}) = 0
+1719579140.381817 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30321928}) = 0
+1719579140.382104 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.382300 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=220825687}) = 0
+1719579140.382404 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=220929489}) = 0
+1719579140.382480 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=220929489}, 0xffffffff) = 0
+1719579140.385408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=223925948}) = 0
+1719579140.385467 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=223983239}) = 0
+1719579140.385546 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30585679}) = 0
+1719579140.385656 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.385763 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=224345167}) = 0
+1719579140.385964 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30757710}) = 0
+1719579140.386070 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=224606260}) = 0
+1719579140.386174 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30820158}) = 0
+1719579140.386497 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.386853 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=225403448}) = 0
+1719579140.387098 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31067500}) = 0
+1719579140.387227 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.387354 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=225889646}) = 0
+1719579140.387486 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=226021990}) = 0
+1719579140.387599 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=226135427}) = 0
+1719579140.387731 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31313803}) = 0
+1719579140.387981 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=226498552}) = 0
+1719579140.388048 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31427241}) = 0
+1719579140.388227 write(166, "B|10566|EmbedderCallback|callbac"..., 112) = 112
+1719579140.388392 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=226919750}) = 0
+1719579140.388461 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31596616}) = 0
+1719579140.388568 write(166, "B|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.388675 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=227191729}) = 0
+1719579140.388767 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31698388}) = 0
+1719579140.388839 write(166, "E|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.388958 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=227475323}) = 0
+1719579140.389155 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=227672823}) = 0
+1719579140.389214 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31849638}) = 0
+1719579140.389274 write(166, "E|10566|EmbedderCallback||Java,d"..., 77) = 77
+1719579140.389334 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=227850688}) = 0
+1719579140.389396 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31911097}) = 0
+1719579140.389512 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228027875}) = 0
+1719579140.389572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228089594}) = 0
+1719579140.389670 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31985107}) = 0
+1719579140.389740 write(166, "B|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.389803 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228320167}) = 0
+1719579140.389862 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32048076}) = 0
+1719579140.389937 write(166, "E|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.389997 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228513917}) = 0
+1719579140.390056 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32111098}) = 0
+1719579140.390134 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.390194 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228709802}) = 0
+1719579140.390252 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32165214}) = 0
+1719579140.390362 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.390458 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=228973552}) = 0
+1719579140.390516 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32248807}) = 0
+1719579140.390609 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.390700 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=229217042}) = 0
+1719579140.390759 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.390814 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=229328084}) = 0
+1719579140.390874 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32340996}) = 0
+1719579140.390930 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.390998 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=229516990}) = 0
+1719579140.391055 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=229572407}) = 0
+1719579140.391112 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=229572407}, 0xffffffff) = 0
+1719579140.417613 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579140.417723 write(6, "E|", 2)     = 2
+1719579140.417787 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=256301211}) = 0
+1719579140.417879 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.417959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=256480430}) = 0
+1719579140.418025 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32567456}) = 0
+1719579140.418202 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.419372 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=258176576}) = 0
+1719579140.420326 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32740632}) = 0
+1719579140.420405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=258928087}) = 0
+1719579140.420516 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32778653}) = 0
+1719579140.422091 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.422344 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=260860483}) = 0
+1719579140.422511 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32949018}) = 0
+1719579140.422628 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.422743 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=261301524}) = 0
+1719579140.422876 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=261393243}) = 0
+1719579140.422992 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=261509493}) = 0
+1719579140.423089 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33165841}) = 0
+1719579140.423313 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=261849129}) = 0
+1719579140.423418 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33347768}) = 0
+1719579140.423526 write(166, "B|10566|EmbedderCallback|callbac"..., 112) = 112
+1719579140.423752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=262296108}) = 0
+1719579140.423879 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33593130}) = 0
+1719579140.423968 write(166, "B|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.424092 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=262620275}) = 0
+1719579140.424211 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33753390}) = 0
+1719579140.424321 write(166, "E|10566|WebViewContentsClientAda"..., 65) = 65
+1719579140.424456 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=262974910}) = 0
+1719579140.424612 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=263131056}) = 0
+1719579140.424714 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33963753}) = 0
+1719579140.424782 write(166, "E|10566|EmbedderCallback||Java,d"..., 77) = 77
+1719579140.424946 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=263469650}) = 0
+1719579140.425021 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34021774}) = 0
+1719579140.425169 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=263685223}) = 0
+1719579140.425244 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=263759181}) = 0
+1719579140.425344 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34089377}) = 0
+1719579140.425418 write(166, "B|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.425518 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=264033504}) = 0
+1719579140.425619 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34176408}) = 0
+1719579140.425705 write(166, "E|10566|SequenceManager PostTask"..., 75) = 75
+1719579140.425770 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=264285066}) = 0
+1719579140.425836 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34232658}) = 0
+1719579140.425924 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579140.426037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=264556993}) = 0
+1719579140.426175 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34291980}) = 0
+1719579140.426339 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 122) = 122
+1719579140.426502 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=265017462}) = 0
+1719579140.426610 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34389376}) = 0
+1719579140.426772 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.426852 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=265367983}) = 0
+1719579140.426949 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.427022 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=265551837}) = 0
+1719579140.427147 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34507916}) = 0
+1719579140.427227 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.427333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=265849754}) = 0
+1719579140.427421 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=265935796}) = 0
+1719579140.427504 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=265935796}, 0xffffffff) = 0
+1719579140.441312 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=279834703}) = 0
+1719579140.441442 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=279961526}) = 0
+1719579140.441624 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34711299}) = 0
+1719579140.441764 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.441874 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=280429912}) = 0
+1719579140.442012 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34853747}) = 0
+1719579140.442153 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=280681005}) = 0
+1719579140.442235 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34947029}) = 0
+1719579140.442367 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.442505 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=281032620}) = 0
+1719579140.442591 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35099424}) = 0
+1719579140.442747 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.442841 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=281363610}) = 0
+1719579140.442995 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=281521735}) = 0
+1719579140.443113 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=281649026}) = 0
+1719579140.443214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=281750016}) = 0
+1719579140.443301 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35362027}) = 0
+1719579140.443475 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/bbfc55c978b2153a_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 105
+1719579140.444021 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=282540745}) = 0
+1719579140.444132 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35889943}) = 0
+1719579140.444248 gettimeofday({tv_sec=1719579140, tv_usec=444268}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579140.444342 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=282868037}) = 0
+1719579140.444432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=282952099}) = 0
+1719579140.444514 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=283040849}) = 0
+1719579140.444590 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36065569}) = 0
+1719579140.444655 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.444760 pwrite64(105, "0\\r\247\33m\373\374\5\0\0\0\\\0\0\0S\224k\377\0\0\0\0", 24, 0) = 24
+1719579140.445302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=283826891}) = 0
+1719579140.445386 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36245202}) = 0
+1719579140.445490 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=284016579}) = 0
+1719579140.445632 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=284152412}) = 0
+1719579140.447098 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=285625589}) = 0
+1719579140.447213 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36541712}) = 0
+1719579140.447322 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.447406 pwrite64(105, "1/0/https://www.bcyhq.cn/lafeng/"..., 92, 24) = 92
+1719579140.447555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=286071787}) = 0
+1719579140.447643 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36688065}) = 0
+1719579140.447712 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=286227152}) = 0
+1719579140.447794 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=286311475}) = 0
+1719579140.447866 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36753845}) = 0
+1719579140.447968 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.448025 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=286538766}) = 0
+1719579140.448091 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36818168}) = 0
+1719579140.448256 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.448337 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=286851683}) = 0
+1719579140.448396 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36875878}) = 0
+1719579140.448518 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.448581 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=287095746}) = 0
+1719579140.448640 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36925720}) = 0
+1719579140.448805 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.448880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=287397569}) = 0
+1719579140.448944 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36996189}) = 0
+1719579140.449004 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.449066 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=287585694}) = 0
+1719579140.449140 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.449197 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=287776475}) = 0
+1719579140.449419 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37088274}) = 0
+1719579140.449507 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.449603 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=288121892}) = 0
+1719579140.449668 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=288186944}) = 0
+1719579140.449726 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=288186944}, 0xffffffff) = 0
+1719579140.523366 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=361883774}) = 0
+1719579140.523427 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=361942159}) = 0
+1719579140.523480 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37255463}) = 0
+1719579140.523646 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.523770 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=362305649}) = 0
+1719579140.523924 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37430723}) = 0
+1719579140.524381 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=362913618}) = 0
+1719579140.524476 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37521036}) = 0
+1719579140.524597 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.524665 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=363182837}) = 0
+1719579140.524725 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37614422}) = 0
+1719579140.524781 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.524881 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=363399243}) = 0
+1719579140.525037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=363555076}) = 0
+1719579140.525101 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=363617576}) = 0
+1719579140.525159 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=363674035}) = 0
+1719579140.525276 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37781767}) = 0
+1719579140.525334 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/20fd6f022fc54392_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 104
+1719579140.525616 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=364136118}) = 0
+1719579140.525676 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38052079}) = 0
+1719579140.525746 gettimeofday({tv_sec=1719579140, tv_usec=525764}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579140.526914 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=365429347}) = 0
+1719579140.527008 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=365526118}) = 0
+1719579140.527067 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=365581743}) = 0
+1719579140.527119 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38172287}) = 0
+1719579140.527233 fcntl64(104, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.527294 pwrite64(104, "0\\r\247\33m\373\374\5\0\0\0O\0\0\0C\214h\255\0\0\0\0", 24, 0) = 24
+1719579140.527377 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=365895076}) = 0
+1719579140.527639 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38377236}) = 0
+1719579140.527820 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=366364087}) = 0
+1719579140.528024 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=366567004}) = 0
+1719579140.528249 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=366771274}) = 0
+1719579140.528326 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38520152}) = 0
+1719579140.528397 fcntl64(104, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.528462 pwrite64(104, "1/0/https://www.bcyhq.cn/lafeng/"..., 79, 24) = 79
+1719579140.529644 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=368182212}) = 0
+1719579140.529775 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38645515}) = 0
+1719579140.529925 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=369325233}) = 0
+1719579140.531168 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=370033462}) = 0
+1719579140.531773 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38884943}) = 0
+1719579140.532326 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.532484 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=371017369}) = 0
+1719579140.532646 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39046192}) = 0
+1719579140.532942 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.533096 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=371639765}) = 0
+1719579140.533442 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39211660}) = 0
+1719579140.533639 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.533889 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=372469765}) = 0
+1719579140.534075 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39341607}) = 0
+1719579140.534261 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.534597 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=373174713}) = 0
+1719579140.534933 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39500304}) = 0
+1719579140.535580 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.535713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=374244504}) = 0
+1719579140.535826 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.537570 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=376232890}) = 0
+1719579140.537839 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39775931}) = 0
+1719579140.537982 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.538091 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=376614088}) = 0
+1719579140.538295 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=376874036}) = 0
+1719579140.538493 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=376874036}, 0xffffffff) = 0
+1719579140.577405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=415925706}) = 0
+1719579140.577477 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=415997634}) = 0
+1719579140.577567 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40054628}) = 0
+1719579140.577761 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579140.577854 futex(0xcbc00524, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579140.578630 write(6, "E|", 2)     = 2
+1719579140.578739 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.579174 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.579277 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=417796852}) = 0
+1719579140.579357 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40374370}) = 0
+1719579140.579424 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=417948571}) = 0
+1719579140.579548 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40444994}) = 0
+1719579140.579671 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.579731 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=418249092}) = 0
+1719579140.579789 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40529420}) = 0
+1719579140.579898 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.580073 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=418596592}) = 0
+1719579140.580706 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=419775134}) = 0
+1719579140.581380 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=419900863}) = 0
+1719579140.581487 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=420090082}) = 0
+1719579140.581670 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40867131}) = 0
+1719579140.581748 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/b8dde2ac749e1283_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 107
+1719579140.582030 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=420551957}) = 0
+1719579140.583199 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41156765}) = 0
+1719579140.583436 gettimeofday({tv_sec=1719579140, tv_usec=583475}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579140.583560 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=422152686}) = 0
+1719579140.584040 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=422620395}) = 0
+1719579140.584435 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=422978051}) = 0
+1719579140.584563 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41438690}) = 0
+1719579140.584673 fcntl64(107, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.585157 pwrite64(107, "0\\r\247\33m\373\374\5\0\0\0`\0\0\0\233\263\242\267\0\0\0\0", 24, 0) = 24
+1719579140.585415 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=423943936}) = 0
+1719579140.585552 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41650772}) = 0
+1719579140.585702 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=424227999}) = 0
+1719579140.585874 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=424422530}) = 0
+1719579140.586163 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=424699249}) = 0
+1719579140.586442 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41773115}) = 0
+1719579140.586857 fcntl64(107, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.587164 pwrite64(107, "1/0/https://www.bcyhq.cn/lafeng/"..., 96, 24) = 96
+1719579140.587417 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=425986697}) = 0
+1719579140.587727 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42127126}) = 0
+1719579140.587968 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=426563155}) = 0
+1719579140.588274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=426803728}) = 0
+1719579140.588393 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42393638}) = 0
+1719579140.588713 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.588844 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=427371541}) = 0
+1719579140.589153 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42646192}) = 0
+1719579140.589293 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.589428 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=428615864}) = 0
+1719579140.590237 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42783017}) = 0
+1719579140.590409 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.590649 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=429168624}) = 0
+1719579140.590751 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42893330}) = 0
+1719579140.591090 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.591222 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=429834770}) = 0
+1719579140.591534 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43050934}) = 0
+1719579140.592014 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.592274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=430834510}) = 0
+1719579140.592439 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.592563 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=431109666}) = 0
+1719579140.592697 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43370516}) = 0
+1719579140.592928 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.593450 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=432021437}) = 0
+1719579140.593636 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=432163208}) = 0
+1719579140.593773 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=432163208}, 0xffffffff) = 0
+1719579140.692848 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=531369312}) = 0
+1719579140.692920 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=531445197}) = 0
+1719579140.693109 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43711763}) = 0
+1719579140.693221 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.693347 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=531872645}) = 0
+1719579140.693569 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43848117}) = 0
+1719579140.693671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=532217176}) = 0
+1719579140.694036 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43918690}) = 0
+1719579140.695146 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.695325 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=533868843}) = 0
+1719579140.695447 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44140358}) = 0
+1719579140.695602 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.696557 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=535085093}) = 0
+1719579140.696715 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=535244677}) = 0
+1719579140.696804 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=535325875}) = 0
+1719579140.696870 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=535391291}) = 0
+1719579140.697082 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44400931}) = 0
+1719579140.697187 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/ac8255da1ffa0c0b_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 108
+1719579140.700411 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=538966448}) = 0
+1719579140.700641 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44898325}) = 0
+1719579140.700769 gettimeofday({tv_sec=1719579140, tv_usec=700798}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579140.700919 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=539454521}) = 0
+1719579140.701003 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=539523427}) = 0
+1719579140.701115 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=539640406}) = 0
+1719579140.701194 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45135252}) = 0
+1719579140.701752 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.701868 pwrite64(108, "0\\r\247\33m\373\374\5\0\0\0f\0\0\0\273\347x\340\0\0\0\0", 24, 0) = 24
+1719579140.702409 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=541008896}) = 0
+1719579140.702736 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45553951}) = 0
+1719579140.703049 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=541585302}) = 0
+1719579140.703234 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=541818375}) = 0
+1719579140.703601 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=542132125}) = 0
+1719579140.703727 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45903535}) = 0
+1719579140.704037 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.704214 pwrite64(108, "1/0/https://www.bcyhq.cn/lafeng/"..., 102, 24) = 102
+1719579140.704359 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=542932490}) = 0
+1719579140.704589 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46065982}) = 0
+1719579140.704648 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=543163896}) = 0
+1719579140.704727 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=543265875}) = 0
+1719579140.704881 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46186867}) = 0
+1719579140.705077 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.705151 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=543669053}) = 0
+1719579140.705214 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46265358}) = 0
+1719579140.705300 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579140.705363 write(6, "E|", 2)     = 2
+1719579140.705428 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.705492 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.705555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=544071605}) = 0
+1719579140.705617 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46397233}) = 0
+1719579140.705699 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.705763 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=544280511}) = 0
+1719579140.705828 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46454421}) = 0
+1719579140.705911 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.705979 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=544494886}) = 0
+1719579140.706039 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46525358}) = 0
+1719579140.706101 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.707490 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=546065824}) = 0
+1719579140.707741 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.707808 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=546327594}) = 0
+1719579140.709357 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46679212}) = 0
+1719579140.710484 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.710993 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=549547855}) = 0
+1719579140.711224 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=549796918}) = 0
+1719579140.712007 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=549796918}, 0xffffffff) = 0
+1719579140.778903 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=617470258}) = 0
+1719579140.779196 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=618490102}) = 0
+1719579140.782106 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47130674}) = 0
+1719579140.782452 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.782635 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=621170727}) = 0
+1719579140.782851 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47325675}) = 0
+1719579140.786291 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=624835884}) = 0
+1719579140.786454 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47426978}) = 0
+1719579140.786690 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.787730 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=626296925}) = 0
+1719579140.788088 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47639634}) = 0
+1719579140.788378 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.788623 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=627159165}) = 0
+1719579140.788785 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=627312394}) = 0
+1719579140.788929 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=627497290}) = 0
+1719579140.789191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=627721300}) = 0
+1719579140.789679 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47907343}) = 0
+1719579140.790317 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/60c2857b14fa2768_0", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 109
+1719579140.790896 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=629429217}) = 0
+1719579140.791118 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48197292}) = 0
+1719579140.791246 gettimeofday({tv_sec=1719579140, tv_usec=791278}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579140.791377 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=629910415}) = 0
+1719579140.791629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=630170988}) = 0
+1719579140.791946 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=630546926}) = 0
+1719579140.792212 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48463490}) = 0
+1719579140.792398 fcntl64(109, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.792554 pwrite64(109, "0\\r\247\33m\373\374\5\0\0\0Z\0\0\0\36304\247\0\0\0\0", 24, 0) = 24
+1719579140.792779 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=631312447}) = 0
+1719579140.792904 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48656669}) = 0
+1719579140.793073 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=631606249}) = 0
+1719579140.793215 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=631748540}) = 0
+1719579140.793344 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=631877290}) = 0
+1719579140.793468 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48822398}) = 0
+1719579140.793602 fcntl64(109, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579140.793769 pwrite64(109, "1/0/https://www.bcyhq.cn/lafeng/"..., 90, 24) = 90
+1719579140.793910 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=632474374}) = 0
+1719579140.794080 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49027086}) = 0
+1719579140.794274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=632818905}) = 0
+1719579140.794419 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=632952655}) = 0
+1719579140.794566 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49163908}) = 0
+1719579140.794769 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.795015 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=633549374}) = 0
+1719579140.795297 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49309846}) = 0
+1719579140.795544 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579140.795697 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=634230312}) = 0
+1719579140.795822 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49448493}) = 0
+1719579140.795949 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579140.796094 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=634627707}) = 0
+1719579140.796311 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49583858}) = 0
+1719579140.796597 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579140.796727 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=635259999}) = 0
+1719579140.796866 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49717245}) = 0
+1719579140.796994 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.797176 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=635710468}) = 0
+1719579140.797293 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579140.797424 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=635956926}) = 0
+1719579140.797578 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49930838}) = 0
+1719579140.797698 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579140.797827 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=636360260}) = 0
+1719579140.797953 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=636487291}) = 0
+1719579140.798301 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=106, tv_nsec=636487291}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579141.798246 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=636796297}) = 0
+1719579141.798548 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=637085984}) = 0
+1719579141.798721 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=637257495}) = 0
+1719579141.798956 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=435, tv_nsec=637257495}, 0xffffffff) = 0
+1719579141.839262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=677793905}) = 0
+1719579141.839425 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=677994582}) = 0
+1719579141.839647 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50416357}) = 0
+1719579141.841621 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579141.842950 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=681538176}) = 0
+1719579141.843310 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50618388}) = 0
+1719579141.843671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=682207083}) = 0
+1719579141.843833 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50702190}) = 0
+1719579141.844160 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579141.844331 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=682937864}) = 0
+1719579141.844634 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50877243}) = 0
+1719579141.846702 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579141.847627 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=686349114}) = 0
+1719579141.848034 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=686572291}) = 0
+1719579141.852349 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=690910729}) = 0
+1719579141.852657 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=691241354}) = 0
+1719579141.852940 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51217818}) = 0
+1719579141.853203 ftruncate64(105, 116) = 0
+1719579141.853447 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=691994011}) = 0
+1719579141.856833 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51435371}) = 0
+1719579141.858699 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=697239740}) = 0
+1719579141.859070 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=697632188}) = 0
+1719579141.859387 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=697936042}) = 0
+1719579141.859681 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51682872}) = 0
+1719579141.859988 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579141.860185 pwrite64(105, "\37\213\10\0\0\0\0\0\0\3\275V[o\33E\24~\316\376\212\221\20R\22y\235\213U7u^"..., 996, 116) = 996
+1719579141.860382 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=698934272}) = 0
+1719579141.860575 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51882979}) = 0
+1719579141.860751 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=701593543}) = 0
+1719579141.863234 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=701919272}) = 0
+1719579141.863591 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=702126876}) = 0
+1719579141.863886 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52092405}) = 0
+1719579141.864078 ftruncate64(105, 5152) = 0
+1719579141.864250 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=702784376}) = 0
+1719579141.864378 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52226258}) = 0
+1719579141.864557 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=703099324}) = 0
+1719579141.864725 gettimeofday({tv_sec=1719579141, tv_usec=864757}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579141.864951 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=703566408}) = 0
+1719579141.865212 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52437300}) = 0
+1719579141.865431 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579141.865617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=704151199}) = 0
+1719579141.865771 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52604228}) = 0
+1719579141.865976 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579141.866297 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=704831304}) = 0
+1719579141.866487 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52942979}) = 0
+1719579141.867144 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579141.867392 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=705990575}) = 0
+1719579141.867761 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53102980}) = 0
+1719579141.868286 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579141.868497 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=707035731}) = 0
+1719579141.868699 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53272148}) = 0
+1719579141.868889 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579141.869269 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=707823283}) = 0
+1719579141.869500 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579141.869753 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=708296044}) = 0
+1719579141.869965 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53574649}) = 0
+1719579141.870343 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579141.870825 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=709367189}) = 0
+1719579141.871032 clock_gettime(CLOCK_MONOTONIC, {tv_sec=106, tv_nsec=709740783}) = 0
+1719579141.871363 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=107, tv_nsec=709740783}, 0xffffffff) = 0
+1719579142.430170 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=268805735}) = 0
+1719579142.430390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=268904797}) = 0
+1719579142.430458 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53983502}) = 0
+1719579142.430588 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579142.430694 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=269400266}) = 0
+1719579142.430977 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54060481}) = 0
+1719579142.431039 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=269579433}) = 0
+1719579142.431149 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54143710}) = 0
+1719579142.431273 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579142.431386 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=269900058}) = 0
+1719579142.431456 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54223085}) = 0
+1719579142.431706 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579142.432138 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=270660162}) = 0
+1719579142.432267 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=270784850}) = 0
+1719579142.432333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=270847662}) = 0
+1719579142.432399 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=270913391}) = 0
+1719579142.432533 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54388605}) = 0
+1719579142.432644 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579142.432777 pwrite64(105, "\214\17\0\0\3MG\2\245\253d\0\211z/\0*Gm\0\211z/\0\325\0\0\0HTTP"..., 3984, 1136) = 3984
+1719579142.432880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=271395787}) = 0
+1719579142.433008 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54539022}) = 0
+1719579142.433112 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=271627037}) = 0
+1719579142.433233 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=271754016}) = 0
+1719579142.433321 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=271835527}) = 0
+1719579142.433391 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54638761}) = 0
+1719579142.433560 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579142.433640 pwrite64(105, "WX\355\206\217Qq\360\255\373\306(vEG\340\346\211\0\233\txj\201Y\35\177ZS\206C\257", 32, 5120) = 32
+1719579142.433770 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=272357089}) = 0
+1719579142.433924 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54776783}) = 0
+1719579142.434027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=272541204}) = 0
+1719579142.434091 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=272627923}) = 0
+1719579142.434198 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=272712402}) = 0
+1719579142.434281 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54876209}) = 0
+1719579142.434365 ftruncate64(105, 5152) = 0
+1719579142.434572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=273085944}) = 0
+1719579142.434640 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54993920}) = 0
+1719579142.434706 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=273219954}) = 0
+1719579142.434800 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=273318339}) = 0
+1719579142.435027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=273545214}) = 0
+1719579142.435117 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55111891}) = 0
+1719579142.435209 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579142.435312 pwrite64(105, "\330A\r\227Eo\372\364\3\0\0\0y\250\362\317\220\17\0\0\0\0\0\0", 24, 5152) = 24
+1719579142.435421 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=273936204}) = 0
+1719579142.435487 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55195484}) = 0
+1719579142.435572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274087506}) = 0
+1719579142.435687 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274202506}) = 0
+1719579142.435752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274265631}) = 0
+1719579142.435819 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55272098}) = 0
+1719579142.435888 fcntl64(105, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579142.435947 pwrite64(105, "\330A\r\227Eo\372\364\1\0\0\0Jq\231j\344\3\0\0\0\0\0\0", 24, 1112) = 24
+1719579142.436057 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274574381}) = 0
+1719579142.436158 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55401475}) = 0
+1719579142.436264 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274781204}) = 0
+1719579142.436368 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274882819}) = 0
+1719579142.436430 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=274943496}) = 0
+1719579142.436487 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55476526}) = 0
+1719579142.436557 close(105)            = 0
+1719579142.436683 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=275198965}) = 0
+1719579142.436749 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55536056}) = 0
+1719579142.436921 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=275547975}) = 0
+1719579142.437201 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=275718913}) = 0
+1719579142.437283 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55684440}) = 0
+1719579142.437365 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579142.437466 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=275980475}) = 0
+1719579142.437534 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55775325}) = 0
+1719579142.437640 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579142.437707 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=276221048}) = 0
+1719579142.437775 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55835273}) = 0
+1719579142.437843 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579142.437909 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=276423548}) = 0
+1719579142.437977 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55885219}) = 0
+1719579142.438064 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579142.438288 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=276836569}) = 0
+1719579142.438437 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55984959}) = 0
+1719579142.438530 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579142.438626 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=277147194}) = 0
+1719579142.438717 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579142.438792 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=277324538}) = 0
+1719579142.438879 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56139127}) = 0
+1719579142.438975 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579142.439143 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=277668496}) = 0
+1719579142.439223 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=277743288}) = 0
+1719579142.439317 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=108, tv_nsec=277743288}, 0xffffffff) = 0
+1719579142.936316 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579142.936451 write(6, "E|", 2)     = 2
+1719579142.936584 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=775132035}) = 0
+1719579142.936836 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579142.936982 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=775508233}) = 0
+1719579142.937120 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56509596}) = 0
+1719579142.937237 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579142.937413 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=775945369}) = 0
+1719579142.937598 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56620482}) = 0
+1719579142.937777 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=776314327}) = 0
+1719579142.938214 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56736004}) = 0
+1719579142.938828 futex(0xcb7f6420, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Try again)
+1719579142.938937 futex(0xcb7f6420, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579142.939042 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579142.939123 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=777644952}) = 0
+1719579142.939194 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56998245}) = 0
+1719579142.939276 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579142.939392 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=777948702}) = 0
+1719579142.939687 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=778211254}) = 0
+1719579142.939849 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=778372608}) = 0
+1719579142.940022 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=778559067}) = 0
+1719579142.940176 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57311735}) = 0
+1719579142.940355 ftruncate64(104, 103) = 0
+1719579142.940603 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=779125994}) = 0
+1719579142.940749 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57481473}) = 0
+1719579142.940900 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=779420109}) = 0
+1719579142.941047 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=779567244}) = 0
+1719579142.941144 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=779676515}) = 0
+1719579142.941311 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57614127}) = 0
+1719579142.941462 fcntl64(104, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579142.941675 pwrite64(104, "/*!\n * jQuery JavaScript Library"..., 3834, 103) = 3834
+1719579142.941857 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=780691307}) = 0
+1719579142.942551 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57808136}) = 0
+1719579142.942875 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=781473963}) = 0
+1719579142.943656 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=782207453}) = 0
+1719579142.943907 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=782450317}) = 0
+1719579142.944069 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58093290}) = 0
+1719579142.944354 ftruncate64(104, 7973) = 0
+1719579142.944647 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=783178859}) = 0
+1719579142.944881 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58252821}) = 0
+1719579142.945120 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=783641359}) = 0
+1719579142.945280 gettimeofday({tv_sec=1719579142, tv_usec=945312}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579142.945471 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=783990474}) = 0
+1719579142.945706 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58454332}) = 0
+1719579142.945834 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579142.945959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=784495422}) = 0
+1719579142.946072 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58588032}) = 0
+1719579142.946446 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579142.946555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=785089015}) = 0
+1719579142.946666 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58751991}) = 0
+1719579142.946924 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579142.947144 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=785706047}) = 0
+1719579142.947337 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58947722}) = 0
+1719579142.947591 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579142.947788 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=786320890}) = 0
+1719579142.947899 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59152357}) = 0
+1719579142.948057 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579142.948495 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=787018547}) = 0
+1719579142.948648 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579142.948792 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=787311411}) = 0
+1719579142.948952 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59372045}) = 0
+1719579142.949210 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579142.949388 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=787909068}) = 0
+1719579142.949484 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=788016307}) = 0
+1719579142.949912 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=108, tv_nsec=788016307}, 0xffffffff) = 0
+1719579143.052403 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=890932099}) = 0
+1719579143.052516 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=891046526}) = 0
+1719579143.052649 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59632977}) = 0
+1719579143.052802 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.054077 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=892870901}) = 0
+1719579143.055279 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59982923}) = 0
+1719579143.055433 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=893954078}) = 0
+1719579143.055518 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60021411}) = 0
+1719579143.055735 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.055921 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=894708297}) = 0
+1719579143.056548 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60262245}) = 0
+1719579143.057310 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.057800 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=896325537}) = 0
+1719579143.058069 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=896616735}) = 0
+1719579143.058556 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=897109808}) = 0
+1719579143.058792 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=897338922}) = 0
+1719579143.058938 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60914951}) = 0
+1719579143.059090 ftruncate64(108, 126) = 0
+1719579143.059257 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=897791162}) = 0
+1719579143.059412 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61033858}) = 0
+1719579143.059713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=898263141}) = 0
+1719579143.059910 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=898429860}) = 0
+1719579143.060107 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=898639548}) = 0
+1719579143.060269 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61205107}) = 0
+1719579143.060424 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.060546 pwrite64(108, "/**\n * \347\231\276\345\272\246\347\232\204\346\216\250\351\200\201\346\224\266\345\275\225\346\226\271\346"..., 1418, 126) = 1418
+1719579143.060920 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=899447829}) = 0
+1719579143.061110 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61384795}) = 0
+1719579143.061286 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=899809756}) = 0
+1719579143.061426 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=899948766}) = 0
+1719579143.061683 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=900223298}) = 0
+1719579143.065151 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61471877}) = 0
+1719579143.065304 ftruncate64(108, 5576) = 0
+1719579143.066320 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=904841892}) = 0
+1719579143.066507 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61623596}) = 0
+1719579143.066643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=905163975}) = 0
+1719579143.066717 gettimeofday({tv_sec=1719579143, tv_usec=66735}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579143.066844 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=905364340}) = 0
+1719579143.067100 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61809951}) = 0
+1719579143.067719 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.069372 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=907962726}) = 0
+1719579143.069585 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62018388}) = 0
+1719579143.069835 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.069965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=908485486}) = 0
+1719579143.070126 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62166618}) = 0
+1719579143.070231 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.070302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=908820590}) = 0
+1719579143.070443 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62278648}) = 0
+1719579143.070609 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.070692 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=909211632}) = 0
+1719579143.070767 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62421409}) = 0
+1719579143.070870 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.071035 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=909556788}) = 0
+1719579143.071151 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.071271 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=909821007}) = 0
+1719579143.071428 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62691043}) = 0
+1719579143.071643 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.071908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=910969913}) = 0
+1719579143.072766 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=911289861}) = 0
+1719579143.072836 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=108, tv_nsec=911289861}, 0xffffffff) = 0
+1719579143.093520 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=932054551}) = 0
+1719579143.093697 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=932231218}) = 0
+1719579143.093904 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63026616}) = 0
+1719579143.094290 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.094482 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=933022416}) = 0
+1719579143.094676 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63182763}) = 0
+1719579143.095166 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=933714291}) = 0
+1719579143.095385 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63260732}) = 0
+1719579143.095731 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.096244 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=934805853}) = 0
+1719579143.096762 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63433597}) = 0
+1719579143.096989 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.097398 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=936098510}) = 0
+1719579143.097838 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=936484395}) = 0
+1719579143.098379 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=936991166}) = 0
+1719579143.098665 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=937260958}) = 0
+1719579143.099154 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63744846}) = 0
+1719579143.099298 ftruncate64(104, 3937) = 0
+1719579143.099601 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=938132781}) = 0
+1719579143.099849 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63851670}) = 0
+1719579143.100138 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=938742052}) = 0
+1719579143.100415 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=938942885}) = 0
+1719579143.100616 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=939149916}) = 0
+1719579143.100792 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64037919}) = 0
+1719579143.100993 fcntl64(104, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.101161 pwrite64(104, "? context[0] : context;\n\t\t\t\t\tdoc"..., 28672, 3937) = 28672
+1719579143.101453 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=940047885}) = 0
+1719579143.101739 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64267658}) = 0
+1719579143.101955 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=940509187}) = 0
+1719579143.102166 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=940704604}) = 0
+1719579143.102334 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=940868458}) = 0
+1719579143.102483 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64428594}) = 0
+1719579143.102673 ftruncate64(104, 36645) = 0
+1719579143.102803 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=941336323}) = 0
+1719579143.102945 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64551561}) = 0
+1719579143.103160 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=941709343}) = 0
+1719579143.103335 gettimeofday({tv_sec=1719579143, tv_usec=103428}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579143.103584 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.103714 futex(0x3a896a50, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579143.104569 write(6, "E|", 2)     = 2
+1719579143.104706 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=943239239}) = 0
+1719579143.104995 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64880520}) = 0
+1719579143.105190 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.105354 futex(0xcbc00524, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579143.106112 write(6, "E|", 2)     = 2
+1719579143.106260 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.106389 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.106511 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=945045333}) = 0
+1719579143.106647 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65205207}) = 0
+1719579143.106780 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.106939 futex(0x3a896a50, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.107097 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=945630073}) = 0
+1719579143.107212 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65370728}) = 0
+1719579143.107437 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.107616 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=946174188}) = 0
+1719579143.107916 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65480571}) = 0
+1719579143.108298 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.108508 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=947043615}) = 0
+1719579143.108648 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65638955}) = 0
+1719579143.108831 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.108960 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=947493198}) = 0
+1719579143.109095 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.109234 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=947767000}) = 0
+1719579143.109377 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65841767}) = 0
+1719579143.109540 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.109669 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=948201011}) = 0
+1719579143.109802 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=948334969}) = 0
+1719579143.109954 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=108, tv_nsec=948334969}, 0xffffffff) = 0
+1719579143.369998 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=208519318}) = 0
+1719579143.370139 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=208659370}) = 0
+1719579143.370250 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66124529}) = 0
+1719579143.370377 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.370550 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=209099735}) = 0
+1719579143.370687 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66266873}) = 0
+1719579143.371990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=210512652}) = 0
+1719579143.372089 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66357653}) = 0
+1719579143.373334 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.373487 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=212008225}) = 0
+1719579143.373617 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66503902}) = 0
+1719579143.373808 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.373906 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=212426558}) = 0
+1719579143.374003 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=212529110}) = 0
+1719579143.374139 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=212659839}) = 0
+1719579143.374236 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=212759787}) = 0
+1719579143.374353 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66729057}) = 0
+1719579143.374469 ftruncate64(109, 114) = 0
+1719579143.374707 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=213249735}) = 0
+1719579143.376733 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=66943380}) = 0
+1719579143.376851 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=215384267}) = 0
+1719579143.376961 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=215493277}) = 0
+1719579143.377069 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=215601037}) = 0
+1719579143.377186 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67089213}) = 0
+1719579143.377298 fcntl64(109, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.377411 pwrite64(109, "/**\n * \350\247\246\345\217\221\344\272\213\344\273\266\n */\nfunction"..., 842, 114) = 842
+1719579143.377543 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=216075673}) = 0
+1719579143.377651 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67242337}) = 0
+1719579143.377766 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=216298694}) = 0
+1719579143.377880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=216413954}) = 0
+1719579143.377990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=216521871}) = 0
+1719579143.378094 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67394890}) = 0
+1719579143.378332 ftruncate64(109, 4988) = 0
+1719579143.378523 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=217053694}) = 0
+1719579143.378634 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67515932}) = 0
+1719579143.378775 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=217329579}) = 0
+1719579143.378915 gettimeofday({tv_sec=1719579143, tv_usec=378928}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579143.379032 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=217561767}) = 0
+1719579143.379180 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67648431}) = 0
+1719579143.379320 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.379445 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=217975621}) = 0
+1719579143.379545 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67774784}) = 0
+1719579143.379684 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.379805 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=218336298}) = 0
+1719579143.379920 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67880824}) = 0
+1719579143.380027 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.380141 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=218674423}) = 0
+1719579143.380254 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=67981397}) = 0
+1719579143.380366 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.380481 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=219000829}) = 0
+1719579143.380567 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=68100668}) = 0
+1719579143.380756 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.380867 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=219390986}) = 0
+1719579143.381014 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.381133 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=219661454}) = 0
+1719579143.381245 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=68278271}) = 0
+1719579143.381349 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.381484 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=220015257}) = 0
+1719579143.381721 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=220241975}) = 0
+1719579143.381841 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=109, tv_nsec=220241975}, 0xffffffff) = 0
+1719579143.532880 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.533067 futex(0xb9a6c008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579143.538392 write(6, "E|", 2)     = 2
+1719579143.538586 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=377126679}) = 0
+1719579143.538798 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.538971 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=377525741}) = 0
+1719579143.539157 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=68783844}) = 0
+1719579143.539368 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.539607 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=378145481}) = 0
+1719579143.539790 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=68961708}) = 0
+1719579143.539968 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=378502668}) = 0
+1719579143.540123 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=69050095}) = 0
+1719579143.540385 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.540567 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=379102043}) = 0
+1719579143.540734 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=69212906}) = 0
+1719579143.540899 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.541094 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=379632616}) = 0
+1719579143.541278 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=379810637}) = 0
+1719579143.541432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=379977877}) = 0
+1719579143.541796 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=380330689}) = 0
+1719579143.542034 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=69521084}) = 0
+1719579143.542378 ftruncate64(107, 120) = 0
+1719579143.542577 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=381132512}) = 0
+1719579143.542847 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=69724415}) = 0
+1719579143.543022 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=381972304}) = 0
+1719579143.543654 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=382194492}) = 0
+1719579143.543833 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=382367825}) = 0
+1719579143.544399 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=69898582}) = 0
+1719579143.544573 fcntl64(107, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.544741 pwrite64(107, "/**\r\n * \350\216\267\345\217\226\345\237\237\345\220\215\r\n */\r\nfunct"..., 3836, 120) = 3836
+1719579143.545143 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=383710533}) = 0
+1719579143.545534 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70071342}) = 0
+1719579143.546488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=385075690}) = 0
+1719579143.546889 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=385427356}) = 0
+1719579143.547071 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=385604336}) = 0
+1719579143.547267 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70292644}) = 0
+1719579143.547439 ftruncate64(107, 7992) = 0
+1719579143.547610 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=386165169}) = 0
+1719579143.547805 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70423479}) = 0
+1719579143.547972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=386506940}) = 0
+1719579143.548139 gettimeofday({tv_sec=1719579143, tv_usec=548206}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579143.548478 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=387014440}) = 0
+1719579143.548740 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70605562}) = 0
+1719579143.548924 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.549104 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=387637148}) = 0
+1719579143.549394 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70727907}) = 0
+1719579143.550991 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.551167 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=389700221}) = 0
+1719579143.551268 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70874418}) = 0
+1719579143.551460 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.551754 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=390485847}) = 0
+1719579143.552211 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=70987905}) = 0
+1719579143.552494 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.556112 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=394687930}) = 0
+1719579143.556438 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=71133947}) = 0
+1719579143.556835 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.557016 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=395550587}) = 0
+1719579143.557189 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.557430 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=395969753}) = 0
+1719579143.557651 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=71375196}) = 0
+1719579143.557836 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.558008 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=396543087}) = 0
+1719579143.558396 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=396987358}) = 0
+1719579143.558680 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=109, tv_nsec=396987358}, 0xffffffff) = 0
+1719579143.611989 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.612291 write(6, "E|", 2)     = 2
+1719579143.612453 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=451003561}) = 0
+1719579143.612629 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.612764 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=451293665}) = 0
+1719579143.612943 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=71946393}) = 0
+1719579143.613992 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.614326 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=452892832}) = 0
+1719579143.615577 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72165405}) = 0
+1719579143.616145 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=454682572}) = 0
+1719579143.616404 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72261968}) = 0
+1719579143.616940 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.617129 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=455734499}) = 0
+1719579143.617416 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72507228}) = 0
+1719579143.617748 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.617961 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=456515332}) = 0
+1719579143.618150 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=456794239}) = 0
+1719579143.618434 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=456970489}) = 0
+1719579143.618611 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=457696426}) = 0
+1719579143.625545 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72811605}) = 0
+1719579143.625703 ftruncate64(104, 32609) = 0
+1719579143.625945 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=464471583}) = 0
+1719579143.626069 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=72964940}) = 0
+1719579143.626202 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=464821583}) = 0
+1719579143.626629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=465194760}) = 0
+1719579143.626867 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=465412781}) = 0
+1719579143.629939 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=73136918}) = 0
+1719579143.633314 fcntl64(104, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.633607 pwrite64(104, "});\n\t\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\t\tdefe"..., 65536, 32609) = 65536
+1719579143.634182 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=472744709}) = 0
+1719579143.636904 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=73339784}) = 0
+1719579143.637338 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=475926011}) = 0
+1719579143.638333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=477274397}) = 0
+1719579143.638965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=479236689}) = 0
+1719579143.644118 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=73556658}) = 0
+1719579143.644628 ftruncate64(104, 102181) = 0
+1719579143.644797 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=490055909}) = 0
+1719579143.651841 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=73724993}) = 0
+1719579143.652100 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=490701065}) = 0
+1719579143.652333 gettimeofday({tv_sec=1719579143, tv_usec=652363}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579143.652499 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=491031325}) = 0
+1719579143.652705 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=73939941}) = 0
+1719579143.653158 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.653315 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=491868565}) = 0
+1719579143.653673 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=74135360}) = 0
+1719579143.653880 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.654018 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=492544294}) = 0
+1719579143.654134 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=74253537}) = 0
+1719579143.654405 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.654693 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=493232628}) = 0
+1719579143.654972 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=74435256}) = 0
+1719579143.655274 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.655777 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=494318513}) = 0
+1719579143.655977 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=74629889}) = 0
+1719579143.656316 futex(0x3a8202d0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.656479 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=495021586}) = 0
+1719579143.656654 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.656931 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=495466430}) = 0
+1719579143.657085 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=74843639}) = 0
+1719579143.657513 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.657686 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=496225805}) = 0
+1719579143.657879 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=496413513}) = 0
+1719579143.658030 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=109, tv_nsec=496413513}, 0xffffffff) = 0
+1719579143.853006 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.853129 write(6, "E|", 2)     = 2
+1719579143.853249 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=691775616}) = 0
+1719579143.853372 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.853487 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=692013689}) = 0
+1719579143.853605 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75192858}) = 0
+1719579143.853724 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.853848 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=692374470}) = 0
+1719579143.854011 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75279003}) = 0
+1719579143.854130 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=692655877}) = 0
+1719579143.854364 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75320200}) = 0
+1719579143.854491 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.854552 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=693069575}) = 0
+1719579143.854653 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75444524}) = 0
+1719579143.854713 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.854775 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=693289939}) = 0
+1719579143.854922 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=693440564}) = 0
+1719579143.854982 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=693497387}) = 0
+1719579143.856094 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=694612856}) = 0
+1719579143.856152 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75580615}) = 0
+1719579143.856206 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.856270 pwrite64(108, "\204\17\0\0\3EG\2OM{\0\211z/\0D\263\201\0\211z/\0\340\0\0\0HTTP"..., 3976, 1568) = 3976
+1719579143.856393 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=694910616}) = 0
+1719579143.856447 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75680145}) = 0
+1719579143.856577 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=695094419}) = 0
+1719579143.856656 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=695179314}) = 0
+1719579143.856722 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=695236814}) = 0
+1719579143.856779 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75761865}) = 0
+1719579143.856837 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.857933 pwrite64(108, "\r\31\"\20WK\346F\n\347J\vX\22!\341\303\253\3114\317J@\16~\217\23\na\216\203\357", 32, 5544) = 32
+1719579143.858021 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=696536033}) = 0
+1719579143.858076 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=75843635}) = 0
+1719579143.858307 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=696823065}) = 0
+1719579143.858405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=700106867}) = 0
+1719579143.861811 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=700337544}) = 0
+1719579143.861888 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76049731}) = 0
+1719579143.861975 ftruncate64(108, 5576) = 0
+1719579143.862307 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=700836294}) = 0
+1719579143.862403 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76224366}) = 0
+1719579143.862522 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=701048013}) = 0
+1719579143.862976 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=701498117}) = 0
+1719579143.863054 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=701572596}) = 0
+1719579143.863162 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76373429}) = 0
+1719579143.863238 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.863538 pwrite64(108, "\330A\r\227Eo\372\364\3\0\0\0\267yg\37\210\17\0\0\0\0\0\0", 24, 5576) = 24
+1719579143.863643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=702168430}) = 0
+1719579143.863750 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76532336}) = 0
+1719579143.863869 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=702409471}) = 0
+1719579143.863961 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=702479315}) = 0
+1719579143.864773 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=703376711}) = 0
+1719579143.865133 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76679523}) = 0
+1719579143.865829 fcntl64(108, F_GETFL) = 0x20002 (flags O_RDWR|O_LARGEFILE)
+1719579143.865942 pwrite64(108, "\330A\r\227Eo\372\364\1\0\0\0\275\202\321\231\212\5\0\0\0\0\0\0", 24, 1544) = 24
+1719579143.866138 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=705158430}) = 0
+1719579143.866705 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76838379}) = 0
+1719579143.866837 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=705359055}) = 0
+1719579143.866907 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=705428534}) = 0
+1719579143.866994 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=705513586}) = 0
+1719579143.867063 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=76989785}) = 0
+1719579143.867134 close(108)            = 0
+1719579143.867338 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=705872753}) = 0
+1719579143.867464 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=77113274}) = 0
+1719579143.867651 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=706171868}) = 0
+1719579143.867780 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=706313899}) = 0
+1719579143.867861 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=77248951}) = 0
+1719579143.868033 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.868115 futex(0xcbc00524, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579143.869390 write(6, "E|", 2)     = 2
+1719579143.869560 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.869648 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.869797 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=708343587}) = 0
+1719579143.869908 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=77527703}) = 0
+1719579143.870083 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.870167 write(6, "E|", 2)     = 2
+1719579143.870391 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579143.870457 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.870557 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=709087180}) = 0
+1719579143.870716 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=77752806}) = 0
+1719579143.870804 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.871326 write(6, "E|", 2)     = 2
+1719579143.871429 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579143.872072 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.872476 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=710999733}) = 0
+1719579143.872617 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78004575}) = 0
+1719579143.872771 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579143.872842 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=711356399}) = 0
+1719579143.872915 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78097285}) = 0
+1719579143.872982 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579143.873046 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579143.874389 write(6, "E|", 2)     = 2
+1719579143.874472 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579143.874531 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=713048535}) = 0
+1719579143.874616 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579143.874908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=713428222}) = 0
+1719579143.874981 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78323224}) = 0
+1719579143.875096 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579143.875185 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=713700983}) = 0
+1719579143.875243 clock_gettime(CLOCK_MONOTONIC, {tv_sec=108, tv_nsec=713759472}) = 0
+1719579143.875315 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=109, tv_nsec=713759472}, 0xffffffff) = 0
+1719579144.710593 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=549117681}) = 0
+1719579144.710670 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=549190493}) = 0
+1719579144.710738 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78522806}) = 0
+1719579144.710888 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579144.710964 write(6, "E|", 2)     = 2
+1719579144.711191 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579144.711794 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579144.712139 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=550692264}) = 0
+1719579144.712291 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78870776}) = 0
+1719579144.712410 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=550936743}) = 0
+1719579144.712528 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=78918433}) = 0
+1719579144.712764 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 123) = 123
+1719579144.712884 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=551409764}) = 0
+1719579144.713003 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=79024787}) = 0
+1719579144.713306 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579144.713478 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=552013462}) = 0
+1719579144.713643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=552181691}) = 0
+1719579144.713844 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=552379660}) = 0
+1719579144.714057 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=79225985}) = 0
+1719579144.714317 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=552852316}) = 0
+1719579144.714486 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=79372078}) = 0
+1719579144.714696 write(166, "B|10566|EmbedderCallback|callbac"..., 112) = 112
+1719579144.715129 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=553684400}) = 0
+1719579144.715336 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=79599839}) = 0
+1719579144.715994 write(166, "B|10566|WebViewContentsClientAda"..., 65) = 65
+1719579144.716402 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=555191431}) = 0
+1719579144.716960 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=79791246}) = 0
+1719579144.717407 write(166, "E|10566|WebViewContentsClientAda"..., 65) = 65
+1719579144.717579 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=556111015}) = 0
+1719579144.717829 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=556357004}) = 0
+1719579144.718007 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80061506}) = 0
+1719579144.718141 write(166, "E|10566|EmbedderCallback||Java,d"..., 77) = 77
+1719579144.718630 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=557159556}) = 0
+1719579144.718757 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80145256}) = 0
+1719579144.718887 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=557417213}) = 0
+1719579144.719018 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=557544765}) = 0
+1719579144.719136 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80219891}) = 0
+1719579144.722093 write(166, "B|10566|SequenceManager PostTask"..., 75) = 75
+1719579144.722235 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=560761953}) = 0
+1719579144.722408 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80344736}) = 0
+1719579144.722570 write(166, "E|10566|SequenceManager PostTask"..., 75) = 75
+1719579144.722726 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=561261796}) = 0
+1719579144.722866 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80487289}) = 0
+1719579144.723085 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579144.723224 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=561757213}) = 0
+1719579144.723400 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80609946}) = 0
+1719579144.723594 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 123) = 123
+1719579144.723718 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=562243776}) = 0
+1719579144.723843 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80708485}) = 0
+1719579144.724009 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=562536640}) = 0
+1719579144.724135 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579144.724291 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=562826953}) = 0
+1719579144.724446 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=80837393}) = 0
+1719579144.724635 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579144.724979 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=563547734}) = 0
+1719579144.725193 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=563840963}) = 0
+1719579144.725587 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=110, tv_nsec=563840963}, 0xffffffff) = 0
+1719579145.132593 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=971122150}) = 0
+1719579145.132828 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=971356681}) = 0
+1719579145.133027 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=81178640}) = 0
+1719579145.133299 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579145.133579 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=972168764}) = 0
+1719579145.133845 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=81328432}) = 0
+1719579145.134009 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=972548660}) = 0
+1719579145.134231 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=81446818}) = 0
+1719579145.134531 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579145.138539 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=977114755}) = 0
+1719579145.138753 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=81650359}) = 0
+1719579145.138901 write(166, "B|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579145.139034 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=977561265}) = 0
+1719579145.139158 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=977685067}) = 0
+1719579145.139287 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=81765930}) = 0
+1719579145.139452 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 109
+1719579145.139779 setsockopt(109, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+1719579145.139957 connect(109, {sa_family=AF_UNIX, sun_path="/dev/socket/dnsproxyd"}, 110) = 0
+1719579145.140256 fcntl64(109, F_GETFL) = 0x2 (flags O_RDWR)
+1719579145.140665 fstat64(109, 0xb9a6b3f0) = 0
+1719579145.140874 write(109, "getaddrinfo hm.baidu.com ^ 1024 "..., 40) = 40
+1719579145.141138 read(109, "222\0\0\0\0\1", 4096) = 8
+1719579145.330474 read(109, "\0\0\4\0\0\0\0\2\0\0\0\1\0\0\0\6\0\0\0\20\2\0\0\0\267\360b\344\0\0\0\0"..., 4096) = 220
+1719579145.330662 close(109)            = 0
+1719579145.332191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=170732795}) = 0
+1719579145.332528 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=82630101}) = 0
+1719579145.332705 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=171239618}) = 0
+1719579145.332863 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=82729736}) = 0
+1719579145.333032 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579145.333510 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=172135712}) = 0
+1719579145.334613 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=82977603}) = 0
+1719579145.338069 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579145.338459 write(205, "\0", 1)   = 1
+1719579145.338796 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=177586806}) = 0
+1719579145.339305 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=83346457}) = 0
+1719579145.339533 write(166, "E|10566|ThreadPool_RunTask_Conti"..., 60) = 60
+1719579145.339708 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=178255920}) = 0
+1719579145.340262 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=83579167}) = 0
+1719579145.341336 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 121) = 121
+1719579145.341691 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=180231025}) = 0
+1719579145.341870 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=83784999}) = 0
+1719579145.342101 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=180642379}) = 0
+1719579145.342307 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579145.342551 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=181098369}) = 0
+1719579145.342836 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=83998281}) = 0
+1719579145.343114 mprotect(0x3ad3c000, 61440, PROT_READ|PROT_WRITE) = 0
+1719579145.343514 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579145.343697 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=182229046}) = 0
+1719579145.343878 clock_gettime(CLOCK_MONOTONIC, {tv_sec=110, tv_nsec=182426181}) = 0
+1719579145.344164 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=111, tv_nsec=182426181}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579146.345710 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=184397114}) = 0
+1719579146.346067 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=184663677}) = 0
+1719579146.346279 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=184922635}) = 0
+1719579146.346558 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=440, tv_nsec=184922635}, 0xffffffff) = 0
+1719579155.219138 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579155.219302 futex(0xb9a6c008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579155.219819 write(6, "E|", 2)     = 2
+1719579155.220073 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=58608415}) = 0
+1719579155.220248 futex(0xb9a6c008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579155.220410 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579155.220768 futex(0x3a82593c, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579155.221580 write(6, "E|", 2)     = 2
+1719579155.222230 futex(0x3a82593c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579155.222427 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=60961645}) = 0
+1719579155.222585 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85074637}) = 0
+1719579155.222790 write(166, "B|10566|WorkerThread active||bas"..., 33) = 33
+1719579155.223105 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=61651020}) = 0
+1719579155.223451 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85307241}) = 0
+1719579155.223702 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=62237322}) = 0
+1719579155.223853 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85397242}) = 0
+1719579155.224067 write(166, "B|10566|ThreadPool_TaskInfo|task"..., 123) = 123
+1719579155.224249 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=62787634}) = 0
+1719579155.224786 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85665677}) = 0
+1719579155.225443 write(166, "B|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579155.225880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=64413728}) = 0
+1719579155.226123 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=65043051}) = 0
+1719579155.226786 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=65318103}) = 0
+1719579155.226949 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=85887657}) = 0
+1719579155.227230 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=65776697}) = 0
+1719579155.227426 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=86158490}) = 0
+1719579155.227618 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579155.228597 write(6, "E|", 2)     = 2
+1719579155.228817 write(166, "B|10566|EmbedderCallback|callbac"..., 112) = 112
+1719579155.228994 futex(0xcbc00524, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579155.229470 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=69793364}) = 0
+1719579155.231460 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=86638805}) = 0
+1719579155.231750 write(166, "B|10566|WebViewContentsClientAda"..., 65) = 65
+1719579155.232033 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=70572427}) = 0
+1719579155.232203 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=86927241}) = 0
+1719579155.232356 write(166, "E|10566|WebViewContentsClientAda"..., 65) = 65
+1719579155.232709 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=71244614}) = 0
+1719579155.233004 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=71544823}) = 0
+1719579155.233260 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=87287036}) = 0
+1719579155.233651 write(166, "E|10566|EmbedderCallback||Java,d"..., 77) = 77
+1719579155.233837 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=72390864}) = 0
+1719579155.234043 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=87473809}) = 0
+1719579155.234191 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579155.234404 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579155.235673 write(6, "E|", 2)     = 2
+1719579155.235912 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579155.236860 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=75409094}) = 0
+1719579155.237246 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=75788625}) = 0
+1719579155.237427 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=87806983}) = 0
+1719579155.237777 write(166, "B|10566|SequenceManager PostTask"..., 75) = 75
+1719579155.238432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=76968782}) = 0
+1719579155.238613 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=88066829}) = 0
+1719579155.238903 write(166, "E|10566|SequenceManager PostTask"..., 75) = 75
+1719579155.239164 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=77708573}) = 0
+1719579155.239349 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=88239017}) = 0
+1719579155.239518 write(166, "E|10566|ThreadPool_RunTask_SkipO"..., 56) = 56
+1719579155.240080 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=78624667}) = 0
+1719579155.240321 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=88419853}) = 0
+1719579155.240573 write(166, "E|10566|ThreadPool_TaskInfo|task"..., 123) = 123
+1719579155.240729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=79266751}) = 0
+1719579155.240874 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=88594958}) = 0
+1719579155.241162 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=80206959}) = 0
+1719579155.242575 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579155.242890 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=81496178}) = 0
+1719579155.243500 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=88811520}) = 0
+1719579155.243796 write(166, "E|10566|WorkerThread active||bas"..., 33) = 33
+1719579155.244074 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=82613365}) = 0
+1719579155.244691 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=83244876}) = 0
+1719579155.245080 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=121, tv_nsec=83244876}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579156.245661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=84323153}) = 0
+1719579156.246032 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=84608778}) = 0
+1719579156.246812 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=85370288}) = 0
+1719579156.246997 futex(0xb9a6c00c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=450, tv_nsec=85370288}, 0xffffffff) = ?
+1719579182.513814 +++ killed by SIGTERM +++

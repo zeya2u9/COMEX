@@ -1,0 +1,23 @@
+1719579137.759231 futex(0xb8bbb214, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579137.768623 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xb8abf000, 1044480, "stack_and_tls:12865") = 0
+1719579137.768924 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xeccdf000
+1719579137.769338 mprotect(0xeccdf000, 4096, PROT_NONE) = 0
+1719579137.769556 sigaltstack({ss_sp=0xecce0000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579137.769869 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xecce0000, 16384, "thread signal stack") = 0
+1719579137.770106 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579137.770372 nanosleep({tv_sec=4, tv_nsec=0}, 0xb8bbb168) = 0
+1719579141.770887 write(4, "B|10566|ShaderCache::saveToDiskL"..., 37) = 37
+1719579141.771165 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.skia.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = -1 EEXIST (File exists)
+1719579141.778578 unlinkat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.skia.shaders_cache", 0) = 0
+1719579141.780001 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.skia.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = 121
+1719579141.780898 write(121, "EGL$\367\311D^$bB_\3\0\0\0\1\0\0\0\n\0\0\0\22\0\0\0S2RI"..., 15996) = 15996
+1719579141.781415 fchmod(121, 0400)     = 0
+1719579141.781774 close(121)            = 0
+1719579141.781952 write(4, "E|10566", 7) = 7
+1719579141.782260 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579141.782550 munmap(0xeccdf000, 20480) = 0
+1719579141.782730 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579141.782906 set_tid_address(0)    = 12865
+1719579141.783091 munmap(0xb8abe000, 1052672) = 0
+1719579141.785050 exit(0)               = ?
+1719579141.785381 +++ exited with 0 +++

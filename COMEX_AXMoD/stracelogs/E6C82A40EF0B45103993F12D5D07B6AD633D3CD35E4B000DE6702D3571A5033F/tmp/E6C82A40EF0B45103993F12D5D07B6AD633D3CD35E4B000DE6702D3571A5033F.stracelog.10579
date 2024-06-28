@@ -1,0 +1,442 @@
+1719579115.974471 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 19, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579130.391363 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.392039 futex(0xeb395204, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579130.394789 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=233803130}) = 0
+1719579130.395523 futex(0xeb395204, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=233803130}, 0xffffffff) = 0
+1719579130.408606 futex(0xeb395204, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579130.409064 rt_sigreturn({mask=[HUP ILL BUS USR1 SEGV PIPE STKFLT CHLD RT_1 RT_4 RT_7 RT_8 RT_9 RT_10 RT_11 RT_13 RT_14 RT_16 RT_18]}) = 3938714632
+1719579130.411910 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 19, NULL) = 0
+1719579137.153361 write(4, "B|10566|JIT compiling void Eg.f("..., 90) = 90
+1719579137.162515 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=1041611}) = 0
+1719579137.163133 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579137.163526 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=2079064}) = 0
+1719579137.167370 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579137.175008 write(4, "E|10566", 7) = 7
+1719579137.177118 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579137.177923 cacheflush(0xdd3301e8, 0xdd330ae8, 0) = 0
+1719579137.179910 cacheflush(0xc39c91e8, 0xc39c9ae8, 0) = 0
+1719579137.185868 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579137.187890 write(4, "E|10566", 7) = 7
+1719579137.188659 cacheflush(0xc59c94e8, 0xc59c9764, 0) = 0
+1719579137.192043 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=30796359}) = 0
+1719579137.193496 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=32225838}) = 0
+1719579137.193990 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=3572130}) = 0
+1719579137.194593 write(4, "E|10566", 7) = 7
+1719579137.198536 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=3663746}) = 0
+1719579137.212637 write(4, "B|10566|TrimMaps", 16) = 16
+1719579137.213160 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579137.215198 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579137.215959 madvise(0xd6920000, 131072, MADV_DONTNEED) = 0
+1719579137.216368 write(4, "E|10566", 7) = 7
+1719579137.216522 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=4136820}) = 0
+1719579137.216656 write(4, "E|10566", 7) = 7
+1719579137.222015 write(4, "E|10566", 7) = 7
+1719579137.224122 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579137.224749 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 20, NULL) = 0
+1719579140.638461 write(4, "B|10566|JIT compiling java.lang."..., 65) = 65
+1719579140.639344 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=4614577}) = 0
+1719579140.639446 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579140.639530 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=478053733}) = 0
+1719579140.640653 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579140.640834 write(4, "E|10566", 7) = 7
+1719579140.641430 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579140.645196 cacheflush(0xdd330af0, 0xdd330cf4, 0) = 0
+1719579140.645279 cacheflush(0xc39c9af0, 0xc39c9cf4, 0) = 0
+1719579140.645526 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579140.646015 write(4, "E|10566", 7) = 7
+1719579140.646274 cacheflush(0xc59c9a18, 0xc59c9a5b, 0) = 0
+1719579140.646417 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=484948838}) = 0
+1719579140.646793 clock_gettime(CLOCK_MONOTONIC, {tv_sec=105, tv_nsec=485330765}) = 0
+1719579140.647006 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6160980}) = 0
+1719579140.647261 write(4, "E|10566", 7) = 7
+1719579140.647422 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6250199}) = 0
+1719579140.647703 write(4, "B|10566|TrimMaps", 16) = 16
+1719579140.648276 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579140.648922 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579140.649141 madvise(0xd6920000, 131072, MADV_DONTNEED) = 0
+1719579140.649310 write(4, "E|10566", 7) = 7
+1719579140.649592 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6591604}) = 0
+1719579140.650067 write(4, "E|10566", 7) = 7
+1719579140.650520 write(4, "E|10566", 7) = 7
+1719579140.651040 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579140.653178 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 21, NULL) = 0
+1719579142.236946 write(4, "B|10566|JIT compiling boolean or"..., 118) = 118
+1719579142.239253 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7085561}) = 0
+1719579142.239990 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579142.240433 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=78977383}) = 0
+1719579142.262040 futex(0xebd794dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579142.266852 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579142.281971 write(4, "E|10566", 7) = 7
+1719579142.282436 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579142.284270 cacheflush(0xdd330cf8, 0xdd3316d8, 0) = 0
+1719579142.285121 cacheflush(0xc39c9cf8, 0xc39ca6d8, 0) = 0
+1719579142.287716 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579142.288550 write(4, "E|10566", 7) = 7
+1719579142.291760 cacheflush(0xc59c9fe8, 0xc59ca560, 0) = 0
+1719579142.292308 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=130897179}) = 0
+1719579142.293945 clock_gettime(CLOCK_MONOTONIC, {tv_sec=107, tv_nsec=133999836}) = 0
+1719579142.295898 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13386188}) = 0
+1719579142.297623 write(4, "E|10566", 7) = 7
+1719579142.298263 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13487073}) = 0
+1719579142.301971 write(4, "B|10566|TrimMaps", 16) = 16
+1719579142.307442 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579142.308701 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579142.310107 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579142.320314 madvise(0xd6920000, 131072, MADV_DONTNEED) = 0
+1719579142.322304 write(4, "E|10566", 7) = 7
+1719579142.327411 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13985771}) = 0
+1719579142.328828 write(4, "E|10566", 7) = 7
+1719579142.329156 write(4, "E|10566", 7) = 7
+1719579142.329749 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579142.331462 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 22, NULL) = 0
+1719579144.655816 write(4, "B|10566|JIT compiling boolean j2"..., 59) = 59
+1719579144.655966 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=14536032}) = 0
+1719579144.656219 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579144.658944 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=497493457}) = 0
+1719579144.661701 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579144.662558 write(4, "E|10566", 7) = 7
+1719579144.663382 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579144.663474 cacheflush(0xdd3316e0, 0xdd33189c, 0) = 0
+1719579144.663697 cacheflush(0xc39ca6e0, 0xc39ca89c, 0) = 0
+1719579144.663767 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579144.664563 write(4, "E|10566", 7) = 7
+1719579144.664747 cacheflush(0xc59ca8b0, 0xc59ca8e2, 0) = 0
+1719579144.672219 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=514072104}) = 0
+1719579144.675875 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=514394448}) = 0
+1719579144.676472 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15616603}) = 0
+1719579144.677770 write(4, "E|10566", 7) = 7
+1719579144.677989 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15710613}) = 0
+1719579144.679660 write(4, "B|10566|TrimMaps", 16) = 16
+1719579144.681662 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579144.682463 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579144.682980 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579144.685171 write(4, "E|10566", 7) = 7
+1719579144.687362 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16032853}) = 0
+1719579144.688535 write(4, "E|10566", 7) = 7
+1719579144.690156 write(4, "E|10566", 7) = 7
+1719579144.690446 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579144.690579 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 23, NULL) = 0
+1719579156.233603 write(4, "B|10566|JIT compiling Xu0 Yu0.c("..., 64) = 64
+1719579156.234401 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16573166}) = 0
+1719579156.235242 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579156.237132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=75705235}) = 0
+1719579156.240441 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579156.241354 write(4, "E|10566", 7) = 7
+1719579156.245055 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579156.245920 cacheflush(0xdd3318a0, 0xdd331a24, 0) = 0
+1719579156.247397 cacheflush(0xc39ca8a0, 0xc39caa24, 0) = 0
+1719579156.247848 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579156.247993 write(4, "E|10566", 7) = 7
+1719579156.248865 cacheflush(0xc59cabc0, 0xc59cabf3, 0) = 0
+1719579156.249160 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=87741799}) = 0
+1719579156.249387 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=88025653}) = 0
+1719579156.249640 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18385877}) = 0
+1719579156.249845 write(4, "E|10566", 7) = 7
+1719579156.251089 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18520095}) = 0
+1719579156.251452 write(4, "B|10566|TrimMaps", 16) = 16
+1719579156.254152 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579156.256452 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579156.257019 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579156.257235 write(4, "E|10566", 7) = 7
+1719579156.257731 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18899680}) = 0
+1719579156.258051 write(4, "E|10566", 7) = 7
+1719579156.258353 write(4, "E|10566", 7) = 7
+1719579156.259993 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579156.260846 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 24, NULL) = 0
+1719579158.054177 write(4, "B|10566|JIT compiling boolean or"..., 120) = 120
+1719579158.054433 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19460773}) = 0
+1719579158.054628 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579158.055291 clock_gettime(CLOCK_MONOTONIC, {tv_sec=122, tv_nsec=893817395}) = 0
+1719579158.065193 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579158.067061 write(4, "E|10566", 7) = 7
+1719579158.069553 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579158.070494 cacheflush(0xdd331a28, 0xdd331e08, 0) = 0
+1719579158.070898 cacheflush(0xc39caa28, 0xc39cae08, 0) = 0
+1719579158.071933 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579158.077416 write(4, "E|10566", 7) = 7
+1719579158.084395 cacheflush(0xc59caf90, 0xc59cb019, 0) = 0
+1719579158.085432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=122, tv_nsec=924016982}) = 0
+1719579158.085838 clock_gettime(CLOCK_MONOTONIC, {tv_sec=122, tv_nsec=924403596}) = 0
+1719579158.089319 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22119626}) = 0
+1719579158.089711 write(4, "E|10566", 7) = 7
+1719579158.091111 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22244574}) = 0
+1719579158.092488 write(4, "B|10566|TrimMaps", 16) = 16
+1719579158.093257 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579158.093845 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579158.094099 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579158.094367 write(4, "E|10566", 7) = 7
+1719579158.095588 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22875306}) = 0
+1719579158.095717 write(4, "E|10566", 7) = 7
+1719579158.095848 write(4, "E|10566", 7) = 7
+1719579158.097992 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579158.098672 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 25, NULL) = 0
+1719579161.841299 write(4, "B|10566|JIT compiling void org.c"..., 96) = 96
+1719579161.841937 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23386659}) = 0
+1719579161.842118 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579161.842537 clock_gettime(CLOCK_MONOTONIC, {tv_sec=126, tv_nsec=682394387}) = 0
+1719579161.844756 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579161.845293 write(4, "E|10566", 7) = 7
+1719579161.847320 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579161.847794 cacheflush(0xdd331e10, 0xdd3320b4, 0) = 0
+1719579161.848577 cacheflush(0xc39cae10, 0xc39cb0b4, 0) = 0
+1719579161.849296 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579161.850004 write(4, "E|10566", 7) = 7
+1719579161.850773 cacheflush(0xc59cb380, 0xc59cb3db, 0) = 0
+1719579161.850919 clock_gettime(CLOCK_MONOTONIC, {tv_sec=126, tv_nsec=689445586}) = 0
+1719579161.852410 clock_gettime(CLOCK_MONOTONIC, {tv_sec=126, tv_nsec=690936367}) = 0
+1719579161.852509 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25011710}) = 0
+1719579161.852614 write(4, "E|10566", 7) = 7
+1719579161.852842 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25099211}) = 0
+1719579161.855600 write(4, "B|10566|TrimMaps", 16) = 16
+1719579161.855876 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579161.868636 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579161.869396 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579161.871852 write(4, "E|10566", 7) = 7
+1719579161.880409 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25543065}) = 0
+1719579161.881705 write(4, "E|10566", 7) = 7
+1719579161.887656 write(4, "E|10566", 7) = 7
+1719579161.891060 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579161.892428 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 26, NULL) = 0
+1719579162.665694 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=504260042}) = 0
+1719579162.665982 write(4, "B|10566|JIT compiling void U10.s"..., 161) = 161
+1719579162.666277 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26070202}) = 0
+1719579162.666529 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=505364469}) = 0
+1719579162.667220 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.667669 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=506225511}) = 0
+1719579162.668882 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.669488 write(4, "E|10566", 7) = 7
+1719579162.669744 futex(0xf0c8a42c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579162.669985 futex(0xf0c8a42c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579162.670709 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.671115 cacheflush(0xdd3320b8, 0xdd332310, 0) = 0
+1719579162.671348 cacheflush(0xc39cb0b8, 0xc39cb310, 0) = 0
+1719579162.671837 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.673183 write(4, "E|10566", 7) = 7
+1719579162.673505 cacheflush(0xc59cb710, 0xc59cb76b, 0) = 0
+1719579162.673766 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=512379210}) = 0
+1719579162.674227 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=512781606}) = 0
+1719579162.674597 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27859369}) = 0
+1719579162.675023 write(4, "E|10566", 7) = 7
+1719579162.675214 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27980307}) = 0
+1719579162.675452 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.675649 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.675883 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.676101 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.676293 write(4, "E|10566", 7) = 7
+1719579162.676609 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28341399}) = 0
+1719579162.676813 write(4, "E|10566", 7) = 7
+1719579162.677047 write(4, "E|10566", 7) = 7
+1719579162.678199 write(4, "B|10566|JIT compiling void org.c"..., 273) = 273
+1719579162.678569 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28716345}) = 0
+1719579162.678899 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.679092 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=517672492}) = 0
+1719579162.688471 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.690885 write(4, "E|10566", 7) = 7
+1719579162.692955 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.696918 cacheflush(0xdd332318, 0xdd3324fa, 0) = 0
+1719579162.697784 cacheflush(0xc39cb318, 0xc39cb4fa, 0) = 0
+1719579162.698071 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.706333 write(4, "E|10566", 7) = 7
+1719579162.706605 cacheflush(0xc59cba90, 0xc59cbad8, 0) = 0
+1719579162.706866 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=545402807}) = 0
+1719579162.707214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=545760880}) = 0
+1719579162.707937 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31562960}) = 0
+1719579162.708757 write(4, "E|10566", 7) = 7
+1719579162.715847 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31659575}) = 0
+1719579162.716426 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.716822 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.717334 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.717750 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.718253 write(4, "E|10566", 7) = 7
+1719579162.718661 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32007698}) = 0
+1719579162.719162 write(4, "E|10566", 7) = 7
+1719579162.719854 write(4, "E|10566", 7) = 7
+1719579162.720286 write(4, "B|10566|JIT compiling void org.c"..., 221) = 221
+1719579162.720618 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32263584}) = 0
+1719579162.721258 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.721908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=560989215}) = 0
+1719579162.724580 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.730126 write(4, "E|10566", 7) = 7
+1719579162.733074 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.735991 cacheflush(0xdd332500, 0xdd33274c, 0) = 0
+1719579162.737461 cacheflush(0xc39cb500, 0xc39cb74c, 0) = 0
+1719579162.737643 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.737815 write(4, "E|10566", 7) = 7
+1719579162.738012 cacheflush(0xc59cbe20, 0xc59cbe76, 0) = 0
+1719579162.738295 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=576868175}) = 0
+1719579162.738525 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=577066612}) = 0
+1719579162.739317 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33520200}) = 0
+1719579162.739798 write(4, "E|10566", 7) = 7
+1719579162.740269 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33647804}) = 0
+1719579162.740453 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.740720 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.740870 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.741060 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.741316 write(4, "E|10566", 7) = 7
+1719579162.741587 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34019368}) = 0
+1719579162.743813 write(4, "E|10566", 7) = 7
+1719579162.744389 write(4, "E|10566", 7) = 7
+1719579162.746742 write(4, "B|10566|JIT compiling void org.c"..., 190) = 190
+1719579162.753036 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34385774}) = 0
+1719579162.753926 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.754661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=593202239}) = 0
+1719579162.757421 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.757664 write(4, "E|10566", 7) = 7
+1719579162.757963 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.758464 cacheflush(0xdd332750, 0xdd332a10, 0) = 0
+1719579162.758638 cacheflush(0xc39cb750, 0xc39cba10, 0) = 0
+1719579162.765210 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.765503 write(4, "E|10566", 7) = 7
+1719579162.765719 cacheflush(0xc59cc1f0, 0xc59cc249, 0) = 0
+1719579162.765871 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=604406250}) = 0
+1719579162.766215 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=604789375}) = 0
+1719579162.766439 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36706867}) = 0
+1719579162.775174 write(4, "E|10566", 7) = 7
+1719579162.778490 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36870045}) = 0
+1719579162.778907 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.779021 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.779259 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.779695 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.779867 write(4, "E|10566", 7) = 7
+1719579162.779967 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37214002}) = 0
+1719579162.780169 write(4, "E|10566", 7) = 7
+1719579162.780389 write(4, "E|10566", 7) = 7
+1719579162.780629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=619152970}) = 0
+1719579162.780926 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=619446408}) = 0
+1719579162.781001 futex(0xf0705690, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xf0705674) = 1
+1719579162.781204 futex(0xf0705674, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579162.783148 write(4, "B|10566|JIT compiling void U10.s"..., 156) = 156
+1719579162.787898 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37667755}) = 0
+1719579162.790005 write(4, "B|10566|Compiling OSR", 21) = 21
+1719579162.790685 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=629264273}) = 0
+1719579162.800587 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=639123441}) = 0
+1719579162.804556 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.805229 write(4, "E|10566", 7) = 7
+1719579162.805519 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.805745 cacheflush(0xdd332a18, 0xdd332f4c, 0) = 0
+1719579162.805895 cacheflush(0xc39cba18, 0xc39cbf4c, 0) = 0
+1719579162.806097 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.806260 write(4, "E|10566", 7) = 7
+1719579162.806480 cacheflush(0xc59cc510, 0xc59cc61d, 0) = 0
+1719579162.806644 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=645165369}) = 0
+1719579162.807023 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=645566619}) = 0
+1719579162.807133 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43702074}) = 0
+1719579162.807263 write(4, "E|10566", 7) = 7
+1719579162.807583 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43779886}) = 0
+1719579162.807859 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.807937 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.808249 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.811349 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.812888 write(4, "E|10566", 7) = 7
+1719579162.813055 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44333585}) = 0
+1719579162.813221 write(4, "E|10566", 7) = 7
+1719579162.813757 write(4, "E|10566", 7) = 7
+1719579162.813832 write(4, "B|10566|Lock contention on profi"..., 59) = 59
+1719579162.813914 futex(0xf0c8955c, FUTEX_WAIT_PRIVATE, 3, NULL) = 0
+1719579162.814986 write(4, "E|10566", 7) = 7
+1719579162.815396 write(4, "B|10566|JIT compiling android.vi"..., 187) = 187
+1719579162.815555 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44675878}) = 0
+1719579162.815824 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.816085 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=654601463}) = 0
+1719579162.816829 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.816942 write(4, "E|10566", 7) = 7
+1719579162.817218 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.817300 cacheflush(0xdd332f50, 0xdd332fcc, 0) = 0
+1719579162.817367 cacheflush(0xc39cbf50, 0xc39cbfcc, 0) = 0
+1719579162.817428 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.817501 write(4, "E|10566", 7) = 7
+1719579162.817622 cacheflush(0xc59cc938, 0xc59cc950, 0) = 0
+1719579162.817694 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=656355526}) = 0
+1719579162.818047 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=656562974}) = 0
+1719579162.818118 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45348534}) = 0
+1719579162.818263 write(4, "E|10566", 7) = 7
+1719579162.818364 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45389055}) = 0
+1719579162.818446 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.818514 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.818576 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.818678 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.818749 write(4, "E|10566", 7) = 7
+1719579162.819013 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45526452}) = 0
+1719579162.819139 write(4, "E|10566", 7) = 7
+1719579162.819221 write(4, "E|10566", 7) = 7
+1719579162.819397 write(4, "B|10566|JIT compiling void org.c"..., 158) = 158
+1719579162.819488 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45678537}) = 0
+1719579162.819558 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579162.819622 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=658141776}) = 0
+1719579162.820412 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.820519 write(4, "E|10566", 7) = 7
+1719579162.820736 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.820835 cacheflush(0xdd332fd0, 0xdd33304a, 0) = 0
+1719579162.820923 cacheflush(0xc39cbfd0, 0xc39cc04a, 0) = 0
+1719579162.821000 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.821349 write(4, "E|10566", 7) = 7
+1719579162.821424 cacheflush(0xc59ccc40, 0xc59ccc58, 0) = 0
+1719579162.821619 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=660137610}) = 0
+1719579162.821731 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=660248652}) = 0
+1719579162.822012 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46285408}) = 0
+1719579162.822244 write(4, "E|10566", 7) = 7
+1719579162.822378 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46404730}) = 0
+1719579162.822559 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.822680 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.822852 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.823033 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.823298 write(4, "E|10566", 7) = 7
+1719579162.823650 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46715773}) = 0
+1719579162.823740 write(4, "E|10566", 7) = 7
+1719579162.823981 write(4, "E|10566", 7) = 7
+1719579162.824677 write(4, "B|10566|JIT compiling void org.c"..., 216) = 216
+1719579162.825045 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46981920}) = 0
+1719579162.825348 write(4, "B|10566|Compiling OSR", 21) = 21
+1719579162.825506 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=664030058}) = 0
+1719579162.826287 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=664814590}) = 0
+1719579162.827081 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.827366 write(4, "E|10566", 7) = 7
+1719579162.828934 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579162.829370 cacheflush(0xdd333050, 0xdd333334, 0) = 0
+1719579162.829597 cacheflush(0xc39cc050, 0xc39cc334, 0) = 0
+1719579162.829966 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579162.830365 write(4, "E|10566", 7) = 7
+1719579162.830723 cacheflush(0xc59ccf18, 0xc59ccfb6, 0) = 0
+1719579162.830898 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=669489642}) = 0
+1719579162.831159 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=669808705}) = 0
+1719579162.831651 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49217597}) = 0
+1719579162.831895 write(4, "E|10566", 7) = 7
+1719579162.832101 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49317492}) = 0
+1719579162.832272 write(4, "B|10566|TrimMaps", 16) = 16
+1719579162.832380 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.832549 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579162.832766 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579162.833032 write(4, "E|10566", 7) = 7
+1719579162.833219 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49662230}) = 0
+1719579162.833297 write(4, "E|10566", 7) = 7
+1719579162.833441 write(4, "E|10566", 7) = 7
+1719579162.833615 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579162.833690 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 28, NULL) = 0
+1719579163.352759 write(4, "B|10566|JIT compiling void Kb.ha"..., 88) = 88
+1719579163.352914 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50002022}) = 0
+1719579163.353111 write(4, "B|10566|Compiling baseline", 26) = 26
+1719579163.354598 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=193381778}) = 0
+1719579163.356623 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579163.356756 write(4, "E|10566", 7) = 7
+1719579163.357071 write(4, "B|10566|ScopedCodeCacheWrite", 28) = 28
+1719579163.357189 cacheflush(0xdd333338, 0xdd3336c8, 0) = 0
+1719579163.357260 cacheflush(0xc39cc338, 0xc39cc6c8, 0) = 0
+1719579163.357593 uname({sysname="Linux", nodename="localhost", ...}) = 0
+1719579163.357685 write(4, "E|10566", 7) = 7
+1719579163.357781 cacheflush(0xc59cd398, 0xc59cd447, 0) = 0
+1719579163.357890 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=196407767}) = 0
+1719579163.358075 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=196602142}) = 0
+1719579163.358150 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51427810}) = 0
+1719579163.358331 write(4, "E|10566", 7) = 7
+1719579163.358572 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51599372}) = 0
+1719579163.358759 write(4, "B|10566|TrimMaps", 16) = 16
+1719579163.358866 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579163.358999 madvise(0xd4ade000, 131072, MADV_DONTNEED) = 0
+1719579163.359149 madvise(0xdf7c2000, 131072, MADV_DONTNEED) = 0
+1719579163.359243 write(4, "E|10566", 7) = 7
+1719579163.359401 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51935049}) = 0
+1719579163.359559 write(4, "E|10566", 7) = 7
+1719579163.359652 write(4, "E|10566", 7) = 7
+1719579163.359734 futex(0xeac403ec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579163.360227 futex(0xeac40408, FUTEX_WAIT_PRIVATE, 29, NULL) = ?
+1719579182.560491 +++ killed by SIGTERM +++

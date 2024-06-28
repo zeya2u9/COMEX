@@ -1,0 +1,1349 @@
+1719579127.328508 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xba279000, 1044480, "stack_and_tls:11816") = 0
+1719579127.336030 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed1c4000
+1719579127.336660 mprotect(0xed1c4000, 4096, PROT_NONE) = 0
+1719579127.336902 sigaltstack({ss_sp=0xed1c5000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579127.339205 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed1c5000, 16384, "thread signal stack") = 0
+1719579127.339441 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579127.339909 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579127.341062 futex(0xcbc00478, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579127.342830 write(6, "E|", 2)     = 2
+1719579127.342971 futex(0xcbc00478, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579127.343111 setpriority(PRIO_PROCESS, 0, 0) = 0
+1719579127.343900 prctl(PR_SET_NAME, "ThreadPoolServi"...) = 0
+1719579127.344738 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=183269857}) = 0
+1719579127.345199 getuid32()            = 10277
+1719579127.345427 geteuid32()           = 10277
+1719579127.345540 getgid32()            = 10277
+1719579127.345642 getegid32()           = 10277
+1719579127.345717 epoll_create1(0)      = 180
+1719579127.346306 fcntl64(180, F_SETFD, FD_CLOEXEC) = 0
+1719579127.346463 socketpair(AF_UNIX, SOCK_STREAM, 0, [181, 182]) = 0
+1719579127.346759 fcntl64(181, F_SETFD, FD_CLOEXEC) = 0
+1719579127.347943 fcntl64(182, F_SETFD, FD_CLOEXEC) = 0
+1719579127.349394 fcntl64(181, F_GETFL) = 0x2 (flags O_RDWR)
+1719579127.350037 fcntl64(181, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+1719579127.350226 fcntl64(182, F_GETFL) = 0x2 (flags O_RDWR)
+1719579127.350532 fcntl64(182, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+1719579127.351343 getuid32()            = 10277
+1719579127.351916 geteuid32()           = 10277
+1719579127.352090 getgid32()            = 10277
+1719579127.352224 getegid32()           = 10277
+1719579127.352471 pipe2([183, 184], 0)  = 0
+1719579127.352937 fcntl64(183, F_GETFD) = 0
+1719579127.353131 fcntl64(183, F_SETFD, FD_CLOEXEC) = 0
+1719579127.353360 fcntl64(184, F_GETFD) = 0
+1719579127.353647 fcntl64(184, F_SETFD, FD_CLOEXEC) = 0
+1719579127.353991 fcntl64(183, F_GETFL) = 0 (flags O_RDONLY)
+1719579127.354393 fcntl64(183, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1719579127.354537 fcntl64(184, F_GETFL) = 0x1 (flags O_WRONLY)
+1719579127.355129 fcntl64(184, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+1719579127.355364 epoll_ctl(180, EPOLL_CTL_ADD, 183, {EPOLLIN, {u32=183, u64=183}}) = 0
+1719579127.355788 write(184, "\0", 1)   = 1
+1719579127.356766 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=195328712}) = 0
+1719579127.357190 mprotect(0x3a960000, 16384, PROT_READ|PROT_WRITE) = 0
+1719579127.357599 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=196845692}) = 0
+1719579127.360357 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=199506994}) = 0
+1719579127.362005 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=200583557}) = 0
+1719579127.362252 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 0, NULL, 8) = 1
+1719579127.362408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=200947567}) = 0
+1719579127.362640 read(183, "\0", 1)    = 1
+1719579127.362824 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201359755}) = 0
+1719579127.362908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201429130}) = 0
+1719579127.362974 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201490796}) = 0
+1719579127.363086 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579127.363173 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201688296}) = 0
+1719579127.363235 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201751786}) = 0
+1719579127.363429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=201982307}) = 0
+1719579127.363588 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=202113817}) = 0
+1719579127.363721 epoll_pwait(180, 0x3a805400, 32, 9952, NULL, 8) = -1 EINTR (Interrupted system call)
+1719579132.751775 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579132.751904 futex(0xeb395ec4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.752090 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=590631229}) = 0
+1719579132.752238 futex(0xeb395ec4, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=102, tv_nsec=590631229}, 0xffffffff) = 0
+1719579132.822066 futex(0xeb395ec4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579132.822387 rt_sigreturn({mask=[HUP ILL ABRT KILL PIPE ALRM STKFLT CHLD RT_3 RT_4 RT_5 RT_6 RT_9]}) = -1 EINTR (Interrupted system call)
+1719579132.825212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=663746132}) = 0
+1719579132.825452 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 4491, NULL, 8) = 1
+1719579133.530710 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=369232765}) = 0
+1719579133.530854 read(183, "\0", 1)    = 1
+1719579133.530962 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=369486671}) = 0
+1719579133.531042 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=369561775}) = 0
+1719579133.531124 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=369648077}) = 0
+1719579133.531415 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=369939796}) = 0
+1719579133.531486 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=370089484}) = 0
+1719579133.531659 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=370180265}) = 0
+1719579133.531778 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=371040890}) = 0
+1719579133.532634 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579133.532819 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=371343130}) = 0
+1719579133.532914 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=372267817}) = 0
+1719579133.534805 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=373339849}) = 0
+1719579133.534961 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=373479797}) = 0
+1719579133.535037 epoll_pwait(180, [], 32, 130, NULL, 8) = 0
+1719579133.665687 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=504336424}) = 0
+1719579133.665976 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=504510851}) = 0
+1719579133.666265 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=504801112}) = 0
+1719579133.666419 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=504946112}) = 0
+1719579133.666647 futex(0xb9a6c00c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579133.667720 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=506266945}) = 0
+1719579133.669348 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=507883716}) = 0
+1719579133.669518 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=508065591}) = 0
+1719579133.669712 clock_gettime(CLOCK_MONOTONIC, {tv_sec=98, tv_nsec=508243612}) = 0
+1719579133.669845 epoll_pwait(180, [], 32, 3648, NULL, 8) = 0
+1719579137.323429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=163619341}) = 0
+1719579137.328212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=166757310}) = 0
+1719579137.328338 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=5309219}) = 0
+1719579137.328708 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579137.328833 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=167365487}) = 0
+1719579137.328948 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=167480747}) = 0
+1719579137.329059 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=167590852}) = 0
+1719579137.329164 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=5567032}) = 0
+1719579137.329299 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579137.329413 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=167947779}) = 0
+1719579137.329524 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=5696928}) = 0
+1719579137.329641 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579137.329755 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=168287414}) = 0
+1719579137.329865 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=5807187}) = 0
+1719579137.329979 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=168512102}) = 0
+1719579137.330087 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=5877813}) = 0
+1719579137.330207 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579137.330500 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=169071633}) = 0
+1719579137.330672 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=169205748}) = 0
+1719579137.330784 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=169316581}) = 0
+1719579137.330892 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=169423821}) = 0
+1719579137.330998 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6100575}) = 0
+1719579137.331134 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579137.331250 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=169783508}) = 0
+1719579137.331357 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6230158}) = 0
+1719579137.331480 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579137.331676 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579137.332099 futex(0xb9f71008, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579137.332910 futex(0x3a825dd4, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579137.334378 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=172907154}) = 0
+1719579137.334484 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6628491}) = 0
+1719579137.334760 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579137.335745 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=174269967}) = 0
+1719579137.336160 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6747972}) = 0
+1719579137.338098 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=176898769}) = 0
+1719579137.339541 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6821983}) = 0
+1719579137.339747 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579137.340079 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=178616582}) = 0
+1719579137.340236 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=6947295}) = 0
+1719579137.340448 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579137.340585 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=179118769}) = 0
+1719579137.340695 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=179227624}) = 0
+1719579137.341622 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7225005}) = 0
+1719579137.342032 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579137.342177 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=180695905}) = 0
+1719579137.342285 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7393443}) = 0
+1719579137.342423 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579137.342548 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=181066738}) = 0
+1719579137.342616 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7543703}) = 0
+1719579137.342759 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579137.342842 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=181364343}) = 0
+1719579137.342997 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7653494}) = 0
+1719579137.343081 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579137.343163 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=181683613}) = 0
+1719579137.343256 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=7755682}) = 0
+1719579137.343427 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579137.343554 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=182074655}) = 0
+1719579137.343737 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=182286478}) = 0
+1719579137.344052 clock_gettime(CLOCK_MONOTONIC, {tv_sec=102, tv_nsec=182605020}) = 0
+1719579137.344408 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 35246, NULL, 8) = 1
+1719579138.342074 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=180635275}) = 0
+1719579138.342214 read(183, "\0", 1)    = 1
+1719579138.342337 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=180870796}) = 0
+1719579138.342445 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8204011}) = 0
+1719579138.342576 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579138.342729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=181262671}) = 0
+1719579138.342840 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=181372776}) = 0
+1719579138.342972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=181505223}) = 0
+1719579138.343079 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8402865}) = 0
+1719579138.343206 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579138.343320 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=181852619}) = 0
+1719579138.343427 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8521564}) = 0
+1719579138.343547 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579138.343664 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=182197151}) = 0
+1719579138.343770 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8633856}) = 0
+1719579138.343882 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=182414807}) = 0
+1719579138.343988 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8703126}) = 0
+1719579138.344106 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579138.344220 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=182753140}) = 0
+1719579138.344333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=182865067}) = 0
+1719579138.344439 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8853022}) = 0
+1719579138.344555 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579138.344669 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=183201838}) = 0
+1719579138.344775 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=8961617}) = 0
+1719579138.345096 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=186955589}) = 0
+1719579138.349778 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9042710}) = 0
+1719579138.349933 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579138.350172 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=188693245}) = 0
+1719579138.350287 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9150418}) = 0
+1719579138.350493 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579138.350728 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=189248662}) = 0
+1719579138.351218 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=189808870}) = 0
+1719579138.351562 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9356983}) = 0
+1719579138.355836 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579138.356288 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=194865746}) = 0
+1719579138.359060 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9527557}) = 0
+1719579138.359684 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579138.362633 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=201238298}) = 0
+1719579138.363014 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=201542986}) = 0
+1719579138.363148 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=201676319}) = 0
+1719579138.363261 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9752400}) = 0
+1719579138.363407 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579138.363628 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=202154861}) = 0
+1719579138.363749 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=9872713}) = 0
+1719579138.363985 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579138.364893 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=203514392}) = 0
+1719579138.365126 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579138.365288 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=203815174}) = 0
+1719579138.365413 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=203938038}) = 0
+1719579138.365543 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=10070212}) = 0
+1719579138.365737 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579138.367872 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=208626476}) = 0
+1719579138.370558 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=10222089}) = 0
+1719579138.371708 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579138.372131 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=213424602}) = 0
+1719579138.378430 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=10404641}) = 0
+1719579138.379013 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579138.379399 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=217960279}) = 0
+1719579138.379642 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=218185696}) = 0
+1719579138.379771 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=218303821}) = 0
+1719579138.380004 epoll_pwait(180, [], 32, 99, NULL, 8) = 0
+1719579138.479366 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=317897893}) = 0
+1719579138.480490 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=319280445}) = 0
+1719579138.481031 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=10826985}) = 0
+1719579138.481141 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579138.481231 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=319756539}) = 0
+1719579138.481365 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=319887581}) = 0
+1719579138.481611 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=320153362}) = 0
+1719579138.482060 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11065735}) = 0
+1719579138.482210 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579138.482275 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=320790394}) = 0
+1719579138.482339 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11152454}) = 0
+1719579138.482498 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579138.482727 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=321500394}) = 0
+1719579138.483167 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11231515}) = 0
+1719579138.483641 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=322319769}) = 0
+1719579138.483889 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11273962}) = 0
+1719579138.484005 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579138.484075 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=322591800}) = 0
+1719579138.484159 futex(0xb9a6c00c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579138.484442 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=322960081}) = 0
+1719579138.484799 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11413752}) = 0
+1719579138.485143 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579138.485909 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=324591748}) = 0
+1719579138.486454 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11498336}) = 0
+1719579138.486617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=325139665}) = 0
+1719579138.486862 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11554586}) = 0
+1719579138.487229 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579138.487464 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=326836853}) = 0
+1719579138.488570 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11654951}) = 0
+1719579138.488934 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579138.489137 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=327658988}) = 0
+1719579138.489225 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=327748051}) = 0
+1719579138.489313 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11751512}) = 0
+1719579138.489462 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579138.489677 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=328198519}) = 0
+1719579138.489791 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11868491}) = 0
+1719579138.489919 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579138.490044 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=328565290}) = 0
+1719579138.490148 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=11994479}) = 0
+1719579138.490290 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579138.490390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=328911488}) = 0
+1719579138.490555 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=12143178}) = 0
+1719579138.490733 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579138.490832 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=329361853}) = 0
+1719579138.490905 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=12220002}) = 0
+1719579138.490980 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579138.491037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=329555290}) = 0
+1719579138.491097 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=329614769}) = 0
+1719579138.491157 clock_gettime(CLOCK_MONOTONIC, {tv_sec=103, tv_nsec=329674717}) = 0
+1719579138.491221 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 34098, NULL, 8) = 1
+1719579146.805250 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=643813827}) = 0
+1719579146.805414 read(183, "\0", 1)    = 1
+1719579146.805555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=644092004}) = 0
+1719579146.805675 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=12517298}) = 0
+1719579146.805822 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579146.805957 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=644492837}) = 0
+1719579146.806076 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=644609973}) = 0
+1719579146.806191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=644724869}) = 0
+1719579146.806300 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=12735059}) = 0
+1719579146.806430 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579146.806547 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=645178514}) = 0
+1719579146.806814 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=12862819}) = 0
+1719579146.806941 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579146.807027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=645603619}) = 0
+1719579146.812339 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13011050}) = 0
+1719579146.812529 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=651066744}) = 0
+1719579146.812865 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13176103}) = 0
+1719579146.817232 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579146.817887 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=656454245}) = 0
+1719579146.818410 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=657163620}) = 0
+1719579146.821096 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13392925}) = 0
+1719579146.821636 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579146.823993 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=662531589}) = 0
+1719579146.824112 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13599851}) = 0
+1719579146.824245 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=662802475}) = 0
+1719579146.824720 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13677558}) = 0
+1719579146.826041 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579146.827045 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=665782631}) = 0
+1719579146.827413 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=13879227}) = 0
+1719579146.827705 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579146.827839 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=666364715}) = 0
+1719579146.827950 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=666524506}) = 0
+1719579146.829569 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=14137770}) = 0
+1719579146.829739 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579146.830004 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=668632058}) = 0
+1719579146.831670 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=14312091}) = 0
+1719579146.832208 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579146.832582 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=671103777}) = 0
+1719579146.832803 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=671333257}) = 0
+1719579146.832919 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=672201955}) = 0
+1719579146.833832 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=14655164}) = 0
+1719579146.834312 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579146.834411 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=673278986}) = 0
+1719579146.835965 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=14888913}) = 0
+1719579146.836421 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579146.836682 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=675222476}) = 0
+1719579146.836858 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579146.837107 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=675990445}) = 0
+1719579146.839475 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=678010705}) = 0
+1719579146.839652 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15218756}) = 0
+1719579146.839996 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579146.840185 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=678721955}) = 0
+1719579146.840528 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15374277}) = 0
+1719579146.840701 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579146.840904 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=679643518}) = 0
+1719579146.841264 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15504693}) = 0
+1719579146.844595 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579146.845026 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=684897737}) = 0
+1719579146.846790 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=685390706}) = 0
+1719579146.847052 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=685696591}) = 0
+1719579146.847628 epoll_pwait(180, [], 32, 129, NULL, 8) = 0
+1719579146.980530 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=819051605}) = 0
+1719579146.980807 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=819339313}) = 0
+1719579146.981288 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=15938964}) = 0
+1719579146.981963 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579146.985034 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=823680928}) = 0
+1719579146.986988 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=825900668}) = 0
+1719579146.987536 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=826070043}) = 0
+1719579146.987819 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16223237}) = 0
+1719579146.987963 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579146.988581 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=827103741}) = 0
+1719579146.988735 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16348185}) = 0
+1719579146.989033 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579146.989810 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=828372699}) = 0
+1719579146.989984 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16478549}) = 0
+1719579146.990101 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=828630824}) = 0
+1719579146.992986 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16557821}) = 0
+1719579146.998501 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579146.998684 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=837221867}) = 0
+1719579146.998887 futex(0xba27400c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579146.999627 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=838161919}) = 0
+1719579147.000127 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=16850425}) = 0
+1719579147.000316 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579147.001207 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=839733638}) = 0
+1719579147.001564 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17013030}) = 0
+1719579147.001885 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=840418951}) = 0
+1719579147.002465 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17090894}) = 0
+1719579147.003483 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579147.003583 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=842114472}) = 0
+1719579147.004069 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17243707}) = 0
+1719579147.004242 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579147.004408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=842930670}) = 0
+1719579147.004491 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=843020826}) = 0
+1719579147.004622 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17405842}) = 0
+1719579147.004746 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579147.005375 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=843910305}) = 0
+1719579147.005733 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17544696}) = 0
+1719579147.005941 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579147.006185 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=844711139}) = 0
+1719579147.006333 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17733654}) = 0
+1719579147.006652 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579147.006767 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=845334107}) = 0
+1719579147.006922 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=17907038}) = 0
+1719579147.007446 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579147.007593 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=846133430}) = 0
+1719579147.007721 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18054435}) = 0
+1719579147.007963 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579147.008129 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=846834680}) = 0
+1719579147.008967 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=847498274}) = 0
+1719579147.009083 clock_gettime(CLOCK_MONOTONIC, {tv_sec=111, tv_nsec=847606243}) = 0
+1719579147.009390 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 25582, NULL, 8) = 1
+1719579152.190886 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=29421238}) = 0
+1719579152.191066 read(183, "\0", 1)    = 1
+1719579152.191242 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=29775926}) = 0
+1719579152.191394 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18508601}) = 0
+1719579152.191612 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579152.192067 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=30608582}) = 0
+1719579152.192312 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=30848634}) = 0
+1719579152.192557 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=31102541}) = 0
+1719579152.193222 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=18866517}) = 0
+1719579152.193800 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579152.197452 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=35995458}) = 0
+1719579152.198787 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19043964}) = 0
+1719579152.198909 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579152.199238 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=37823218}) = 0
+1719579152.199419 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19195370}) = 0
+1719579152.199529 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=38067906}) = 0
+1719579152.199783 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19271723}) = 0
+1719579152.199952 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579152.200228 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=38761291}) = 0
+1719579152.200650 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=39231031}) = 0
+1719579152.200991 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19473495}) = 0
+1719579152.201766 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579152.203729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=43196813}) = 0
+1719579152.204927 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19682920}) = 0
+1719579152.205186 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=43823375}) = 0
+1719579152.205765 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19767971}) = 0
+1719579152.206136 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579152.206258 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=44780875}) = 0
+1719579152.206352 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=19913700}) = 0
+1719579152.206474 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579152.206580 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=45107334}) = 0
+1719579152.211296 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=49850147}) = 0
+1719579152.211469 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20098857}) = 0
+1719579152.212377 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579152.213068 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=51614522}) = 0
+1719579152.213241 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20249743}) = 0
+1719579152.213404 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579152.213569 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=52100824}) = 0
+1719579152.213712 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=52238168}) = 0
+1719579152.213972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=52583480}) = 0
+1719579152.214692 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20463076}) = 0
+1719579152.215509 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579152.217922 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=56450772}) = 0
+1719579152.218049 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20632972}) = 0
+1719579152.218872 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579152.219323 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=57910252}) = 0
+1719579152.219617 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579152.219773 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=58310825}) = 0
+1719579152.220708 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=59274835}) = 0
+1719579152.220981 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=20878077}) = 0
+1719579152.222107 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579152.223546 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=62102440}) = 0
+1719579152.224033 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21097036}) = 0
+1719579152.225022 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579152.225172 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=63694888}) = 0
+1719579152.225643 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21351358}) = 0
+1719579152.225833 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579152.225992 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=64507700}) = 0
+1719579152.226137 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=64657752}) = 0
+1719579152.227267 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=65821242}) = 0
+1719579152.227914 epoll_pwait(180, [], 32, 148, NULL, 8) = 0
+1719579152.376345 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=214878549}) = 0
+1719579152.376704 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=215241049}) = 0
+1719579152.376859 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21647713}) = 0
+1719579152.377097 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579152.377347 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=215880163}) = 0
+1719579152.377645 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=216266569}) = 0
+1719579152.378109 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=216651361}) = 0
+1719579152.378481 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=21859539}) = 0
+1719579152.378796 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579152.379135 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=217675111}) = 0
+1719579152.379308 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22061933}) = 0
+1719579152.379485 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579152.379667 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=218262924}) = 0
+1719579152.379918 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22188442}) = 0
+1719579152.380223 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=218765945}) = 0
+1719579152.380891 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22314328}) = 0
+1719579152.381926 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579152.382457 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=221031622}) = 0
+1719579152.385102 futex(0xba27400c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579152.385617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=224161206}) = 0
+1719579152.385829 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22665734}) = 0
+1719579152.387341 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579152.391758 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=230309592}) = 0
+1719579152.392979 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22811515}) = 0
+1719579152.394482 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=233070738}) = 0
+1719579152.396507 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=22922973}) = 0
+1719579152.397086 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579152.398083 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=237156415}) = 0
+1719579152.399531 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23122765}) = 0
+1719579152.400654 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579152.402466 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=241092353}) = 0
+1719579152.402899 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=241489853}) = 0
+1719579152.403251 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23294588}) = 0
+1719579152.403383 mprotect(0x3ae7c000, 61440, PROT_READ|PROT_WRITE) = 0
+1719579152.404529 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579152.405084 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=243791989}) = 0
+1719579152.405587 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23571671}) = 0
+1719579152.406915 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579152.407772 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=246297822}) = 0
+1719579152.407872 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23796932}) = 0
+1719579152.408069 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579152.408342 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=246869541}) = 0
+1719579152.408426 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=23928650}) = 0
+1719579152.408527 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579152.408611 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=247135895}) = 0
+1719579152.409377 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24038442}) = 0
+1719579152.409641 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579152.409825 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=248366937}) = 0
+1719579152.410062 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=248585531}) = 0
+1719579152.410152 clock_gettime(CLOCK_MONOTONIC, {tv_sec=117, tv_nsec=248710114}) = 0
+1719579152.410375 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 20184, NULL, 8) = 1
+1719579156.896965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=735487124}) = 0
+1719579156.897036 read(183, "\0", 1)    = 1
+1719579156.897210 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=735731499}) = 0
+1719579156.897312 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24422296}) = 0
+1719579156.897438 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579156.897598 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=736119988}) = 0
+1719579156.897671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=736192384}) = 0
+1719579156.897763 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=736286395}) = 0
+1719579156.897917 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24621201}) = 0
+1719579156.898511 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579156.898705 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=737227801}) = 0
+1719579156.898795 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24754273}) = 0
+1719579156.898887 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579156.898980 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=737502437}) = 0
+1719579156.899072 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24871982}) = 0
+1719579156.899214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=737738218}) = 0
+1719579156.899495 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=24951254}) = 0
+1719579156.899652 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579156.899739 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=738261655}) = 0
+1719579156.899820 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=738342697}) = 0
+1719579156.899892 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25118338}) = 0
+1719579156.899973 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579156.900139 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=738663687}) = 0
+1719579156.900266 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25260683}) = 0
+1719579156.900393 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=738914520}) = 0
+1719579156.900463 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25333444}) = 0
+1719579156.900552 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579156.900676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=739197124}) = 0
+1719579156.900827 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25445163}) = 0
+1719579156.900928 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579156.901062 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=739604676}) = 0
+1719579156.901194 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=739723218}) = 0
+1719579156.901302 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25631622}) = 0
+1719579156.901463 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579156.901657 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=740186187}) = 0
+1719579156.901755 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=25790843}) = 0
+1719579156.901867 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579156.902012 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=740534051}) = 0
+1719579156.902105 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=740633895}) = 0
+1719579156.902238 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=740767801}) = 0
+1719579156.902373 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26079856}) = 0
+1719579156.902538 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579156.902626 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=741148687}) = 0
+1719579156.902743 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26202355}) = 0
+1719579156.902868 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579156.902973 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=741494729}) = 0
+1719579156.903114 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579156.903407 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=741956812}) = 0
+1719579156.903597 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=742120093}) = 0
+1719579156.903683 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26609390}) = 0
+1719579156.903821 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579156.903959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=742482593}) = 0
+1719579156.904097 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26737203}) = 0
+1719579156.904556 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579156.904670 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=743192177}) = 0
+1719579156.904773 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=26888453}) = 0
+1719579156.905241 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579156.905375 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=743897541}) = 0
+1719579156.905494 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=744016708}) = 0
+1719579156.905574 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=744095041}) = 0
+1719579156.905701 epoll_pwait(180, [], 32, 160, NULL, 8) = 0
+1719579157.066047 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=904594745}) = 0
+1719579157.070174 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=908944277}) = 0
+1719579157.072248 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27234648}) = 0
+1719579157.072830 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579157.073537 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=912065996}) = 0
+1719579157.073683 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=912211673}) = 0
+1719579157.073857 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=912384954}) = 0
+1719579157.073996 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27505274}) = 0
+1719579157.074143 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579157.074322 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=912850527}) = 0
+1719579157.074461 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27628347}) = 0
+1719579157.074579 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579157.074707 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=913233652}) = 0
+1719579157.075045 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27718868}) = 0
+1719579157.075341 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=914242871}) = 0
+1719579157.075806 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=27805951}) = 0
+1719579157.075947 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579157.076082 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=915425058}) = 0
+1719579157.077234 futex(0xba27400c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579157.077474 futex(0xba274008, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579157.077547 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=916065267}) = 0
+1719579157.077886 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28082098}) = 0
+1719579157.078049 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579157.078334 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=916889381}) = 0
+1719579157.078441 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28215485}) = 0
+1719579157.078583 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=917105527}) = 0
+1719579157.078708 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28284547}) = 0
+1719579157.078822 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579157.079164 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=917696986}) = 0
+1719579157.079689 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28403610}) = 0
+1719579157.080276 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579157.080462 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=918997090}) = 0
+1719579157.085373 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=923896726}) = 0
+1719579157.086157 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28553090}) = 0
+1719579157.086326 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579157.088482 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=927111987}) = 0
+1719579157.088980 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28651683}) = 0
+1719579157.089244 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579157.089377 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=927903081}) = 0
+1719579157.089489 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28765539}) = 0
+1719579157.089580 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579157.089695 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=928209799}) = 0
+1719579157.089764 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28840226}) = 0
+1719579157.089959 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579157.090029 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=928547039}) = 0
+1719579157.090103 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=28906007}) = 0
+1719579157.090196 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579157.090263 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=928779747}) = 0
+1719579157.090335 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=928850060}) = 0
+1719579157.090402 clock_gettime(CLOCK_MONOTONIC, {tv_sec=121, tv_nsec=928946935}) = 0
+1719579157.090539 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 15506, NULL, 8) = 1
+1719579159.354502 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=193087525}) = 0
+1719579159.355207 read(183, "\0", 1)    = 1
+1719579159.355673 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=194215181}) = 0
+1719579159.356107 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29425224}) = 0
+1719579159.356545 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579159.357016 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=195603358}) = 0
+1719579159.357861 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=196456848}) = 0
+1719579159.358304 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=196850338}) = 0
+1719579159.358635 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=29937776}) = 0
+1719579159.359048 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579159.359663 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=198281380}) = 0
+1719579159.360178 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30228037}) = 0
+1719579159.360527 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579159.361180 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=199778463}) = 0
+1719579159.361992 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30451110}) = 0
+1719579159.362690 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=201326953}) = 0
+1719579159.363448 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=30908714}) = 0
+1719579159.364012 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579159.365494 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=204104974}) = 0
+1719579159.366171 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=204754349}) = 0
+1719579159.366454 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31455433}) = 0
+1719579159.366699 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579159.366936 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=205472995}) = 0
+1719579159.367201 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31596943}) = 0
+1719579159.367328 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=205861693}) = 0
+1719579159.367462 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31684599}) = 0
+1719579159.367597 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579159.367746 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=206280130}) = 0
+1719579159.367864 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=31826683}) = 0
+1719579159.368002 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579159.368326 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=206866641}) = 0
+1719579159.368510 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=208327683}) = 0
+1719579159.370118 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32060381}) = 0
+1719579159.370372 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579159.370564 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=209102370}) = 0
+1719579159.370722 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32215381}) = 0
+1719579159.371033 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579159.371212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=209750183}) = 0
+1719579159.371442 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=209983152}) = 0
+1719579159.371747 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=210283725}) = 0
+1719579159.371942 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32530016}) = 0
+1719579159.372127 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579159.372325 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=210889037}) = 0
+1719579159.372505 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=32726890}) = 0
+1719579159.372692 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579159.372965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=211507006}) = 0
+1719579159.373156 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579159.373311 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=211875027}) = 0
+1719579159.373623 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=212161485}) = 0
+1719579159.373783 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33007826}) = 0
+1719579159.374060 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579159.374227 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=212766225}) = 0
+1719579159.374375 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33238400}) = 0
+1719579159.374568 write(166, "B|10566|SequenceManagerImpl::May"..., 65) = 65
+1719579159.374753 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=213305392}) = 0
+1719579159.375659 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=214246485}) = 0
+1719579159.376014 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=214589871}) = 0
+1719579159.376276 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=214834819}) = 0
+1719579159.376617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=215164038}) = 0
+1719579159.376854 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33838452}) = 0
+1719579159.377150 write(166, "E|10566|SequenceManagerImpl::May"..., 65) = 65
+1719579159.377396 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=215931225}) = 0
+1719579159.377662 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=33998348}) = 0
+1719579159.377846 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579159.378830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=217373986}) = 0
+1719579159.379020 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34160796}) = 0
+1719579159.379226 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579159.379412 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=217952267}) = 0
+1719579159.379570 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=218107163}) = 0
+1719579159.379710 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=218244246}) = 0
+1719579159.379877 epoll_pwait(180, [], 32, 91, NULL, 8) = 0
+1719579159.471869 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=310419880}) = 0
+1719579159.472176 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=310805505}) = 0
+1719579159.472499 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34710746}) = 0
+1719579159.473089 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579159.473509 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=312127693}) = 0
+1719579159.473860 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=316716235}) = 0
+1719579159.478430 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=317046444}) = 0
+1719579159.478676 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=34974234}) = 0
+1719579159.478852 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579159.479273 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=317840350}) = 0
+1719579159.479654 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35166423}) = 0
+1719579159.480108 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579159.480286 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=318822069}) = 0
+1719579159.480457 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35297466}) = 0
+1719579159.480626 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=319170350}) = 0
+1719579159.480820 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35389393}) = 0
+1719579159.481018 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579159.481201 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=319740663}) = 0
+1719579159.481738 futex(0xba27400c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579159.481969 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=320518996}) = 0
+1719579159.482330 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35799759}) = 0
+1719579159.482530 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579159.482713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=321249048}) = 0
+1719579159.482922 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=35946009}) = 0
+1719579159.483064 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=321597277}) = 0
+1719579159.483245 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36020331}) = 0
+1719579159.483389 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579159.483555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=322088163}) = 0
+1719579159.483727 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36137571}) = 0
+1719579159.483993 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579159.484385 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=322928892}) = 0
+1719579159.484542 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=323076861}) = 0
+1719579159.484677 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36305332}) = 0
+1719579159.485258 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579159.485762 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=324296600}) = 0
+1719579159.485922 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36477729}) = 0
+1719579159.486204 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579159.486468 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=324994257}) = 0
+1719579159.486767 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36612781}) = 0
+1719579159.487108 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579159.487481 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=326069621}) = 0
+1719579159.487649 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36751479}) = 0
+1719579159.487798 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579159.488871 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=327411340}) = 0
+1719579159.488987 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=36898458}) = 0
+1719579159.489153 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579159.489309 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=327839830}) = 0
+1719579159.489405 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=327925247}) = 0
+1719579159.489495 clock_gettime(CLOCK_MONOTONIC, {tv_sec=124, tv_nsec=328046965}) = 0
+1719579159.489908 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 13102, NULL, 8) = 1
+1719579162.426745 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=265266841}) = 0
+1719579162.426859 read(183, "\0", 1)    = 1
+1719579162.426998 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=265521008}) = 0
+1719579162.427105 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37289811}) = 0
+1719579162.427259 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579162.427379 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=265911269}) = 0
+1719579162.427488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=266019758}) = 0
+1719579162.427597 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=266129237}) = 0
+1719579162.427703 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37506011}) = 0
+1719579162.427832 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579162.427945 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=266477675}) = 0
+1719579162.428052 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37626584}) = 0
+1719579162.428214 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579162.428341 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=266874446}) = 0
+1719579162.428492 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37739812}) = 0
+1719579162.428606 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=267138456}) = 0
+1719579162.428767 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37809136}) = 0
+1719579162.428897 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579162.429011 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=267544237}) = 0
+1719579162.429124 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=267656321}) = 0
+1719579162.429229 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=37957988}) = 0
+1719579162.429408 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579162.429570 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=268091633}) = 0
+1719579162.429717 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38062101}) = 0
+1719579162.429897 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=268419342}) = 0
+1719579162.430051 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38124810}) = 0
+1719579162.430246 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579162.430401 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=268922779}) = 0
+1719579162.430550 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38227205}) = 0
+1719579162.430720 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579162.430874 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=269396425}) = 0
+1719579162.431020 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=269542206}) = 0
+1719579162.431172 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38364289}) = 0
+1719579162.431342 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579162.431592 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=270113196}) = 0
+1719579162.431714 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38482727}) = 0
+1719579162.431881 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579162.431963 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=270484081}) = 0
+1719579162.432064 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=270584602}) = 0
+1719579162.432132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=270652988}) = 0
+1719579162.432203 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38694395}) = 0
+1719579162.432308 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579162.432380 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=270901321}) = 0
+1719579162.432447 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=38806426}) = 0
+1719579162.432526 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579162.432639 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=271160696}) = 0
+1719579162.432738 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579162.432807 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=271327467}) = 0
+1719579162.432875 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=271396373}) = 0
+1719579162.432947 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39013821}) = 0
+1719579162.433090 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579162.433162 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=271683561}) = 0
+1719579162.433230 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39123353}) = 0
+1719579162.433322 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579162.433429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=271950332}) = 0
+1719579162.433496 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39261894}) = 0
+1719579162.433570 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579162.433672 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=272193925}) = 0
+1719579162.433763 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=272283665}) = 0
+1719579162.433832 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=272353040}) = 0
+1719579162.433899 epoll_pwait(180, [], 32, 130, NULL, 8) = 0
+1719579162.564719 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=403255605}) = 0
+1719579162.564972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=403520136}) = 0
+1719579162.565125 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=39976477}) = 0
+1719579162.565266 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579162.565430 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=403975970}) = 0
+1719579162.565586 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=404113470}) = 0
+1719579162.565721 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=404252532}) = 0
+1719579162.565859 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40137676}) = 0
+1719579162.565989 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579162.566187 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=404713730}) = 0
+1719579162.566342 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40233718}) = 0
+1719579162.566480 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579162.566647 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=405173991}) = 0
+1719579162.566775 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40338561}) = 0
+1719579162.566964 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=405635605}) = 0
+1719579162.567242 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40415695}) = 0
+1719579162.567606 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579162.567763 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=406295918}) = 0
+1719579162.567975 futex(0xba27400c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579162.568370 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=406896960}) = 0
+1719579162.568482 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40648769}) = 0
+1719579162.568619 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579162.568699 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=407221126}) = 0
+1719579162.568836 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40765695}) = 0
+1719579162.568966 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=407488053}) = 0
+1719579162.569112 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40851476}) = 0
+1719579162.569300 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579162.569492 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=408017012}) = 0
+1719579162.569591 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=40993404}) = 0
+1719579162.569753 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579162.569930 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=408590397}) = 0
+1719579162.570240 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=408761856}) = 0
+1719579162.570308 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41189550}) = 0
+1719579162.570416 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579162.570487 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=409008522}) = 0
+1719579162.570559 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41321009}) = 0
+1719579162.570749 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579162.570898 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=409423991}) = 0
+1719579162.570987 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41474186}) = 0
+1719579162.571141 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579162.571253 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=409773991}) = 0
+1719579162.571325 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41592779}) = 0
+1719579162.571547 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579162.571696 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=410218835}) = 0
+1719579162.571767 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=41709862}) = 0
+1719579162.572009 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579162.572142 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=410722793}) = 0
+1719579162.572310 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=410836335}) = 0
+1719579162.572486 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=411009148}) = 0
+1719579162.572641 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 10017, NULL, 8) = 1
+1719579163.378583 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=217153238}) = 0
+1719579163.378794 read(183, "\0", 1)    = 1
+1719579163.378995 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=217564020}) = 0
+1719579163.379197 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42190173}) = 0
+1719579163.379419 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579163.379622 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=218146415}) = 0
+1719579163.379737 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=218266728}) = 0
+1719579163.379891 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=218422509}) = 0
+1719579163.380014 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42424388}) = 0
+1719579163.380170 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579163.380421 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=218951988}) = 0
+1719579163.380541 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42599754}) = 0
+1719579163.380777 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579163.380948 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=219512926}) = 0
+1719579163.381120 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42736785}) = 0
+1719579163.381262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=219788707}) = 0
+1719579163.381393 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=42809442}) = 0
+1719579163.381601 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579163.381753 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=220282457}) = 0
+1719579163.381867 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=220390530}) = 0
+1719579163.381976 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43005327}) = 0
+1719579163.382126 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579163.382302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=220833030}) = 0
+1719579163.382419 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43117619}) = 0
+1719579163.382641 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=221203655}) = 0
+1719579163.382809 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43218036}) = 0
+1719579163.382935 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579163.383073 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=221596312}) = 0
+1719579163.383182 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43330119}) = 0
+1719579163.383329 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579163.383504 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=222037145}) = 0
+1719579163.383627 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=222159853}) = 0
+1719579163.383769 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43479650}) = 0
+1719579163.384620 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579163.384798 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=223386156}) = 0
+1719579163.385007 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43696420}) = 0
+1719579163.385153 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579163.385348 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=223905010}) = 0
+1719579163.385489 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=224024020}) = 0
+1719579163.385614 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=224148551}) = 0
+1719579163.385746 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=43920065}) = 0
+1719579163.385929 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579163.386070 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=224605739}) = 0
+1719579163.386245 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44066628}) = 0
+1719579163.386451 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579163.386660 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=225194072}) = 0
+1719579163.386791 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579163.387030 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=225556833}) = 0
+1719579163.387183 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=225718500}) = 0
+1719579163.387320 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44362356}) = 0
+1719579163.387456 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579163.387579 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=226115583}) = 0
+1719579163.387752 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44487668}) = 0
+1719579163.387908 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579163.388055 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=226588604}) = 0
+1719579163.388278 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=44643449}) = 0
+1719579163.388427 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579163.388688 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=227251833}) = 0
+1719579163.388876 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=227419802}) = 0
+1719579163.389019 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=227551729}) = 0
+1719579163.389184 epoll_pwait(180, [], 32, 177, NULL, 8) = 0
+1719579163.566686 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=405227528}) = 0
+1719579163.566865 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=405408465}) = 0
+1719579163.567040 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45048449}) = 0
+1719579163.567261 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579163.567468 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=406008570}) = 0
+1719579163.567647 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=406188049}) = 0
+1719579163.567818 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=406360913}) = 0
+1719579163.568019 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45312824}) = 0
+1719579163.568283 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579163.568551 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=407102997}) = 0
+1719579163.568740 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45492561}) = 0
+1719579163.568927 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579163.569108 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=407659351}) = 0
+1719579163.569327 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45626728}) = 0
+1719579163.569685 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=408226070}) = 0
+1719579163.569867 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45691155}) = 0
+1719579163.570015 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579163.570183 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=408711851}) = 0
+1719579163.570337 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579163.571303 futex(0xb9f71008, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579163.571653 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=410187633}) = 0
+1719579163.571843 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=45972406}) = 0
+1719579163.571934 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579163.572005 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=410521747}) = 0
+1719579163.572079 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46040635}) = 0
+1719579163.572157 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=410845341}) = 0
+1719579163.572426 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46096312}) = 0
+1719579163.572904 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579163.572998 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=411649924}) = 0
+1719579163.573232 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46183864}) = 0
+1719579163.574984 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579163.575054 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=413571383}) = 0
+1719579163.575116 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=413633570}) = 0
+1719579163.575208 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46286313}) = 0
+1719579163.575329 write(166, "B|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579163.575474 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=414081070}) = 0
+1719579163.575676 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46351626}) = 0
+1719579163.575771 write(166, "E|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579163.575834 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=414381748}) = 0
+1719579163.575973 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46421366}) = 0
+1719579163.576388 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579163.576623 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=415150550}) = 0
+1719579163.576734 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46530688}) = 0
+1719579163.576825 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579163.576881 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=415397841}) = 0
+1719579163.576965 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46599959}) = 0
+1719579163.577060 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579163.577143 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=415657425}) = 0
+1719579163.577205 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=415719091}) = 0
+1719579163.577262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=128, tv_nsec=415778935}) = 0
+1719579163.577326 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 9012, NULL, 8) = 1
+1719579164.701016 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=539546287}) = 0
+1719579164.701169 read(183, "\0", 1)    = 1
+1719579164.701284 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=539807797}) = 0
+1719579164.701355 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=46839908}) = 0
+1719579164.701437 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579164.701560 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=540077485}) = 0
+1719579164.701659 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=540212537}) = 0
+1719579164.701834 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=540468110}) = 0
+1719579164.702113 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47045899}) = 0
+1719579164.702397 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579164.702470 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=541037329}) = 0
+1719579164.702635 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47151159}) = 0
+1719579164.702712 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.705419 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=544401756}) = 0
+1719579164.706086 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47287564}) = 0
+1719579164.706420 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=544974256}) = 0
+1719579164.706702 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47354855}) = 0
+1719579164.706869 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.707104 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=545643423}) = 0
+1719579164.707264 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=545797121}) = 0
+1719579164.707360 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47468658}) = 0
+1719579164.707452 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.707521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=546037277}) = 0
+1719579164.707590 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47528449}) = 0
+1719579164.709001 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=547549569}) = 0
+1719579164.709126 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47604542}) = 0
+1719579164.709271 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.709339 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=547853579}) = 0
+1719579164.709397 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=47670895}) = 0
+1719579164.709510 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579164.709604 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=548146027}) = 0
+1719579164.709829 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=548808996}) = 0
+1719579164.710684 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48067927}) = 0
+1719579164.710958 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579164.711754 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=550409725}) = 0
+1719579164.712111 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48270792}) = 0
+1719579164.712439 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579164.712561 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=551106392}) = 0
+1719579164.712671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=551200871}) = 0
+1719579164.712772 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=551337850}) = 0
+1719579164.712906 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48509176}) = 0
+1719579164.713119 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579164.713629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=552257590}) = 0
+1719579164.714017 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48653448}) = 0
+1719579164.714228 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579164.715316 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=554016861}) = 0
+1719579164.715697 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579164.715862 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=554397642}) = 0
+1719579164.716390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=554931080}) = 0
+1719579164.716626 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=48941211}) = 0
+1719579164.716817 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.717417 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=556160872}) = 0
+1719579164.717805 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49072306}) = 0
+1719579164.718070 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579164.718383 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=556965091}) = 0
+1719579164.718625 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49219441}) = 0
+1719579164.718754 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.718865 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=557394153}) = 0
+1719579164.719012 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=557533528}) = 0
+1719579164.719092 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=557622018}) = 0
+1719579164.719225 epoll_pwait(180, [], 32, 150, NULL, 8) = 0
+1719579164.869643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=708271616}) = 0
+1719579164.869909 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=708507085}) = 0
+1719579164.870173 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49565589}) = 0
+1719579164.870382 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579164.873211 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=711781043}) = 0
+1719579164.873425 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=711945783}) = 0
+1719579164.873622 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=712143231}) = 0
+1719579164.873806 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=49903606}) = 0
+1719579164.876275 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579164.876568 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=715170888}) = 0
+1719579164.876864 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50170586}) = 0
+1719579164.877097 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.877200 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=715718856}) = 0
+1719579164.877332 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50300534}) = 0
+1719579164.877455 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=715975836}) = 0
+1719579164.878134 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50367149}) = 0
+1719579164.878335 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.878446 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=716967034}) = 0
+1719579164.878553 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579164.878789 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=717319273}) = 0
+1719579164.878903 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50626106}) = 0
+1719579164.879802 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.880125 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=718677086}) = 0
+1719579164.880351 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50807408}) = 0
+1719579164.880546 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=719070523}) = 0
+1719579164.880865 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=50979023}) = 0
+1719579164.881152 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.881372 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=720103023}) = 0
+1719579164.885140 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51187306}) = 0
+1719579164.885481 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579164.890568 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=729126514}) = 0
+1719579164.890797 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=729344170}) = 0
+1719579164.890921 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51408765}) = 0
+1719579164.891167 write(166, "B|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579164.891625 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=730149847}) = 0
+1719579164.891743 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51537933}) = 0
+1719579164.891884 write(166, "E|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579164.892033 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=730910993}) = 0
+1719579164.892836 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51670641}) = 0
+1719579164.892992 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.893521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=732158650}) = 0
+1719579164.899218 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51820380}) = 0
+1719579164.900128 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579164.900732 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=739255890}) = 0
+1719579164.901173 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=51973347}) = 0
+1719579164.901839 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.902205 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=740730109}) = 0
+1719579164.902343 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=740867296}) = 0
+1719579164.906286 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=744936724}) = 0
+1719579164.906737 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 7696, NULL, 8) = 1
+1719579164.907010 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=745537036}) = 0
+1719579164.907234 read(183, "\0", 1)    = 1
+1719579164.907351 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=745872245}) = 0
+1719579164.907473 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52404648}) = 0
+1719579164.909202 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579164.909924 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=748463183}) = 0
+1719579164.910267 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=748794589}) = 0
+1719579164.910721 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=749262349}) = 0
+1719579164.911195 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52630481}) = 0
+1719579164.911677 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579164.911917 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=750446204}) = 0
+1719579164.912030 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52753709}) = 0
+1719579164.912159 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.912232 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=750753183}) = 0
+1719579164.912300 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52859700}) = 0
+1719579164.912509 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=751027714}) = 0
+1719579164.912581 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=52927617}) = 0
+1719579164.912703 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.915587 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=754275162}) = 0
+1719579164.916035 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=754560475}) = 0
+1719579164.916129 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53124336}) = 0
+1719579164.916423 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.918116 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=756719954}) = 0
+1719579164.918512 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53231157}) = 0
+1719579164.918649 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=757174277}) = 0
+1719579164.918759 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53300584}) = 0
+1719579164.918963 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.919128 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=757656360}) = 0
+1719579164.921012 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53453189}) = 0
+1719579164.921742 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579164.923331 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=761916205}) = 0
+1719579164.925561 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=764501257}) = 0
+1719579164.926345 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53720324}) = 0
+1719579164.930493 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579164.930833 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=769368237}) = 0
+1719579164.930945 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=53881417}) = 0
+1719579164.931077 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579164.931197 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=769730633}) = 0
+1719579164.935114 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=773663654}) = 0
+1719579164.935335 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=775179018}) = 0
+1719579164.937398 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54133607}) = 0
+1719579164.937805 write(166, "B|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579164.938394 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=776932456}) = 0
+1719579164.938519 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54257461}) = 0
+1719579164.938998 write(166, "E|10566|RealTimeDomain::DelayTil"..., 74) = 74
+1719579164.942389 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=780923759}) = 0
+1719579164.942640 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579164.942752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=781285946}) = 0
+1719579164.942869 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=781402613}) = 0
+1719579164.943253 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54530377}) = 0
+1719579164.943860 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.944035 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=782557978}) = 0
+1719579164.944255 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54654857}) = 0
+1719579164.944387 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579164.944541 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=783134957}) = 0
+1719579164.944795 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=54814285}) = 0
+1719579164.945062 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.946338 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=784900165}) = 0
+1719579164.946582 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=785117353}) = 0
+1719579164.946843 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=785376780}) = 0
+1719579164.947059 epoll_pwait(180, [], 32, 30, NULL, 8) = 0
+1719579164.979596 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=818139752}) = 0
+1719579164.979760 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=818294544}) = 0
+1719579164.979921 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55182254}) = 0
+1719579164.980084 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579164.980402 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=818952981}) = 0
+1719579164.980927 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=819465377}) = 0
+1719579164.981136 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=821437773}) = 0
+1719579164.983146 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55457043}) = 0
+1719579164.988313 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579164.988570 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=827091680}) = 0
+1719579164.988729 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55646941}) = 0
+1719579164.988827 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.988988 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=827511211}) = 0
+1719579164.989091 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55777357}) = 0
+1719579164.989179 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=827698920}) = 0
+1719579164.989288 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=55841158}) = 0
+1719579164.989411 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.989511 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=828059857}) = 0
+1719579164.989678 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579164.989940 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=828662045}) = 0
+1719579164.990279 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56117046}) = 0
+1719579164.990488 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579164.990609 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=829143243}) = 0
+1719579164.990790 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56228712}) = 0
+1719579164.990875 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=829420170}) = 0
+1719579164.991067 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56300951}) = 0
+1719579164.991280 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579164.991603 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=830311316}) = 0
+1719579164.991862 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56428139}) = 0
+1719579164.991956 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579164.992162 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=830750639}) = 0
+1719579164.992469 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=831007253}) = 0
+1719579164.992703 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56688086}) = 0
+1719579164.994011 write(166, "B|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579164.994476 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=833175326}) = 0
+1719579164.994811 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=56922879}) = 0
+1719579164.995567 write(166, "E|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579164.995730 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=834292514}) = 0
+1719579164.995897 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57055952}) = 0
+1719579164.996048 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.996252 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=834861368}) = 0
+1719579164.996492 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57196158}) = 0
+1719579164.996951 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579164.997115 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=835692045}) = 0
+1719579164.997351 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57351315}) = 0
+1719579164.997530 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579164.997735 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=836483452}) = 0
+1719579164.998097 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=836631889}) = 0
+1719579164.999001 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=837538296}) = 0
+1719579164.999179 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 7594, NULL, 8) = 1
+1719579165.141224 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=979770185}) = 0
+1719579165.141407 read(183, "\0", 1)    = 1
+1719579165.141864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=980443049}) = 0
+1719579165.142149 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=57850066}) = 0
+1719579165.143327 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579165.143545 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=982080081}) = 0
+1719579165.143686 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=982221695}) = 0
+1719579165.143915 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=982454977}) = 0
+1719579165.144324 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58078660}) = 0
+1719579165.144496 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579165.144941 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=983504508}) = 0
+1719579165.145153 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58204390}) = 0
+1719579165.145348 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579165.145561 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=984097529}) = 0
+1719579165.145687 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58357463}) = 0
+1719579165.146084 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=984622425}) = 0
+1719579165.146287 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58448349}) = 0
+1719579165.146584 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579165.146793 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=985339612}) = 0
+1719579165.146981 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=985519352}) = 0
+1719579165.147256 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58634548}) = 0
+1719579165.147557 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579165.147748 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=986284196}) = 0
+1719579165.147946 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58766162}) = 0
+1719579165.148120 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=986696279}) = 0
+1719579165.148348 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=58859964}) = 0
+1719579165.148751 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579165.148928 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=987463519}) = 0
+1719579165.149109 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59004182}) = 0
+1719579165.149292 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579165.149502 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=988234456}) = 0
+1719579165.149899 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=988447529}) = 0
+1719579165.150060 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59192045}) = 0
+1719579165.150245 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579165.150422 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=988950706}) = 0
+1719579165.150501 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59284807}) = 0
+1719579165.150705 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579165.150872 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=989416852}) = 0
+1719579165.151047 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=989593884}) = 0
+1719579165.151236 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=989779717}) = 0
+1719579165.151558 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59463925}) = 0
+1719579165.151768 write(166, "B|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579165.151973 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=990527113}) = 0
+1719579165.152200 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59604811}) = 0
+1719579165.152364 write(166, "E|10566|RealTimeDomain::DelayTil"..., 75) = 75
+1719579165.152538 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=991257998}) = 0
+1719579165.152916 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579165.153922 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=992466801}) = 0
+1719579165.154088 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=992629301}) = 0
+1719579165.154232 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=59879916}) = 0
+1719579165.154365 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579165.154497 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=993032217}) = 0
+1719579165.154624 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60023249}) = 0
+1719579165.154767 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579165.154945 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=993491176}) = 0
+1719579165.155132 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60195907}) = 0
+1719579165.155369 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579165.155485 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=994032009}) = 0
+1719579165.155635 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=994239978}) = 0
+1719579165.155830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=129, tv_nsec=994363103}) = 0
+1719579165.155952 epoll_pwait(180, [], 32, 111, NULL, 8) = 0
+1719579165.391210 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=229847397}) = 0
+1719579165.391539 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=230070001}) = 0
+1719579165.391637 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60596376}) = 0
+1719579165.391762 mprotect(0x3b34c000, 61440, PROT_READ|PROT_WRITE) = 0
+1719579165.391980 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579165.392084 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=230608231}) = 0
+1719579165.392160 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=230681616}) = 0
+1719579165.392292 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=230814272}) = 0
+1719579165.392499 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=60895751}) = 0
+1719579165.392612 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579165.392682 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=231203335}) = 0
+1719579165.392745 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61011375}) = 0
+1719579165.392946 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579165.393052 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=231573804}) = 0
+1719579165.393136 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61132729}) = 0
+1719579165.393205 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=231725939}) = 0
+1719579165.393269 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61195698}) = 0
+1719579165.393342 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579165.393413 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=231933439}) = 0
+1719579165.393519 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579165.393643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=232165418}) = 0
+1719579165.393760 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61441272}) = 0
+1719579165.393859 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579165.394028 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=232548439}) = 0
+1719579165.394108 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61551378}) = 0
+1719579165.394288 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=232807137}) = 0
+1719579165.394376 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61610285}) = 0
+1719579165.394451 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579165.394526 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=233045783}) = 0
+1719579165.395027 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61705598}) = 0
+1719579165.395226 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579165.395331 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=233851043}) = 0
+1719579165.395830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=234362502}) = 0
+1719579165.395995 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61851847}) = 0
+1719579165.396125 write(166, "B|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579165.396396 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=234928335}) = 0
+1719579165.396677 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=61970077}) = 0
+1719579165.396793 write(166, "E|10566|RealTimeDomain::DelayTil"..., 76) = 76
+1719579165.396874 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=235392085}) = 0
+1719579165.397213 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62065859}) = 0
+1719579165.397296 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579165.397412 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=235933283}) = 0
+1719579165.397494 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62175495}) = 0
+1719579165.397598 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579165.397729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=236246877}) = 0
+1719579165.397787 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62264347}) = 0
+1719579165.397848 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579165.397906 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=236424221}) = 0
+1719579165.397990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=236508231}) = 0
+1719579165.398069 clock_gettime(CLOCK_MONOTONIC, {tv_sec=130, tv_nsec=236594117}) = 0
+1719579165.398182 epoll_pwait(180, [], 32, 7191, NULL, 8) = 0
+1719579172.595015 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=433540563}) = 0
+1719579172.595102 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=433641709}) = 0
+1719579172.595227 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62599190}) = 0
+1719579172.595386 write(166, "B|10566|ThreadController active|"..., 37) = 37
+1719579172.595488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=434011240}) = 0
+1719579172.595613 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=434144573}) = 0
+1719579172.595732 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=434273167}) = 0
+1719579172.595832 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62835597}) = 0
+1719579172.595957 write(166, "B|10566|RunNormalPriorityTask|ta"..., 58) = 58
+1719579172.596081 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=434617386}) = 0
+1719579172.596213 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=62976639}) = 0
+1719579172.596342 write(166, "B|10566|default_tq||sequence_man"..., 36) = 36
+1719579172.596446 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=434972229}) = 0
+1719579172.596625 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63106796}) = 0
+1719579172.596733 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=435273792}) = 0
+1719579172.597065 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63186118}) = 0
+1719579172.597328 write(166, "B|10566|SequenceManager RunTask|"..., 46) = 46
+1719579172.597437 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=435967386}) = 0
+1719579172.597555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=436100719}) = 0
+1719579172.597748 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=436301136}) = 0
+1719579172.597902 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=436448948}) = 0
+1719579172.598028 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63546066}) = 0
+1719579172.598296 write(166, "B|10566|SequenceManager PostTask"..., 73) = 73
+1719579172.598499 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=437045563}) = 0
+1719579172.598695 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=63860492}) = 0
+1719579172.598879 write(166, "E|10566|SequenceManager PostTask"..., 73) = 73
+1719579172.599030 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579172.599281 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=437802699}) = 0
+1719579172.599451 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64117420}) = 0
+1719579172.599608 write(166, "E|10566|SequenceManager RunTask|"..., 46) = 46
+1719579172.599806 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=438339678}) = 0
+1719579172.599924 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64236221}) = 0
+1719579172.600151 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=438685459}) = 0
+1719579172.600285 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64305754}) = 0
+1719579172.600449 write(166, "E|10566|default_tq||sequence_man"..., 36) = 36
+1719579172.600584 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=439104209}) = 0
+1719579172.600722 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64410909}) = 0
+1719579172.600843 write(166, "E|10566|RunNormalPriorityTask||s"..., 47) = 47
+1719579172.601029 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=439560615}) = 0
+1719579172.601147 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=439677126}) = 0
+1719579172.601286 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64574972}) = 0
+1719579172.601430 write(166, "B|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579172.601800 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=440326501}) = 0
+1719579172.601945 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64739972}) = 0
+1719579172.602056 write(166, "E|10566|RealTimeDomain::DelayTil"..., 77) = 77
+1719579172.602201 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=440725095}) = 0
+1719579172.602424 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=64900129}) = 0
+1719579172.602613 write(166, "B|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579172.602764 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=441284053}) = 0
+1719579172.602903 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65053096}) = 0
+1719579172.603065 write(166, "E|10566|ThreadController active|"..., 37) = 37
+1719579172.603213 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=441732699}) = 0
+1719579172.603351 clock_gettime(CLOCK_THREAD_CPUTIME_ID, {tv_sec=0, tv_nsec=65158722}) = 0
+1719579172.603504 write(166, "E|10566|SequenceManager::DoIdleW"..., 53) = 53
+1719579172.603652 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=442172959}) = 0
+1719579172.603816 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=442343168}) = 0
+1719579172.604009 clock_gettime(CLOCK_MONOTONIC, {tv_sec=137, tv_nsec=442545668}) = 0
+1719579172.604147 epoll_pwait(180, [{EPOLLIN, {u32=183, u64=183}}], 32, 19352, NULL, 8) = 1
+1719579182.444091 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=285925919}) = 0
+1719579182.447808 read(183, "\0", 1)    = 1
+1719579182.448039 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=286652221}) = 0
+1719579182.448899 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=287505398}) = 0
+1719579182.449658 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=288322794}) = 0
+1719579182.450151 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=288693992}) = 0
+1719579182.450309 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=290087170}) = 0
+1719579182.453030 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=291574201}) = 0
+1719579182.453173 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=291699461}) = 0
+1719579182.453325 epoll_pwait(180, [], 32, 0, NULL, 8) = 0
+1719579182.456104 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=294645399}) = 0
+1719579182.456348 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=295029410}) = 0
+1719579182.460545 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=299198785}) = 0
+1719579182.461163 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=299698004}) = 0
+1719579182.461388 epoll_pwait(180,  <unfinished ...>) = ?
+1719579182.533637 +++ killed by SIGTERM +++

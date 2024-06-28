@@ -1,0 +1,9 @@
+1719579115.975634 futex(0xeac40ac8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579118.871437 write(4, "B|10566|DetachCurrentThread", 27) = 27
+1719579118.872684 munmap(0xf09a4000, 8192) = 0
+1719579118.873091 write(4, "E|10566", 7) = 7
+1719579118.873257 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579118.873810 munmap(0xf09a6000, 20480) = 0
+1719579118.875678 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579118.876282 exit(0)               = ?
+1719579118.876689 +++ exited with 0 +++

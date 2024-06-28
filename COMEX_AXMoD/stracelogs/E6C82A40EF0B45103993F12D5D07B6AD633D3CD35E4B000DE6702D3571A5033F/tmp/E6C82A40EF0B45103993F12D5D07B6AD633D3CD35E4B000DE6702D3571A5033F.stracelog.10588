@@ -1,0 +1,261 @@
+1719579115.974197 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579116.286071 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579116.292029 fcntl64(125, F_DUPFD_CLOEXEC, 0) = 104
+1719579116.305867 write(4, "B|10566|transactionCallback", 27) = 27
+1719579116.306207 write(4, "B|10566|setTransformHint", 24) = 24
+1719579116.306443 write(4, "E|10566", 7) = 7
+1719579116.306651 write(4, "E|10566", 7) = 7
+1719579116.307652 close(125)            = 0
+1719579116.310239 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579116.586990 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.006598 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.313734 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.325721 write(4, "C|10566|Heap size (KB)|4274", 27) = 27
+1719579117.327027 getuid32()            = 10277
+1719579117.330350 prctl(PR_GET_DUMPABLE) = 0 (SUID_DUMP_DISABLE)
+1719579117.390577 write(3, "B|10566|dlopen: libvpsextension."..., 34) = 34
+1719579117.391619 write(3, "B|10566|dlopen: libvpsextension."..., 56) = 56
+1719579117.392837 mprotect(0xf0ec3000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.394490 mprotect(0xf0fac000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.396066 mprotect(0xf0e2a000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.396194 mprotect(0xf0dc6000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.398596 mmap2(NULL, 409600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcfbdc000
+1719579117.414260 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xcfbdc000, 409600, "linker_alloc") = 0
+1719579117.414793 openat(AT_FDCWD, "/system/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.417850 openat(AT_FDCWD, "/system_ext/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.419231 write(3, "E|", 2)     = 2
+1719579117.425952 mprotect(0xf0ec3000, 409600, PROT_READ) = 0
+1719579117.445701 mprotect(0xf0fac000, 409600, PROT_READ) = 0
+1719579117.458750 mprotect(0xf0e2a000, 409600, PROT_READ) = 0
+1719579117.461229 mprotect(0xf0dc6000, 409600, PROT_READ) = 0
+1719579117.462496 munmap(0xcfbdc000, 409600) = 0
+1719579117.462989 write(3, "E|", 2)     = 2
+1719579117.470778 getuid32()            = 10277
+1719579117.470976 prctl(PR_GET_DUMPABLE) = 0 (SUID_DUMP_DISABLE)
+1719579117.472390 write(3, "B|10566|dlopen: libvpsextension."..., 34) = 34
+1719579117.473481 write(3, "B|10566|dlopen: libvpsextension."..., 56) = 56
+1719579117.492151 mprotect(0xf0ec3000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.492607 mprotect(0xf0fac000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.492794 mprotect(0xf0e2a000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.496799 mprotect(0xf0dc6000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.498440 mmap2(NULL, 409600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcfbdc000
+1719579117.500970 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xcfbdc000, 409600, "linker_alloc") = 0
+1719579117.512074 openat(AT_FDCWD, "/system/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.512353 openat(AT_FDCWD, "/system_ext/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.512611 write(3, "E|", 2)     = 2
+1719579117.512709 mprotect(0xf0ec3000, 409600, PROT_READ) = 0
+1719579117.515760 mprotect(0xf0fac000, 409600, PROT_READ) = 0
+1719579117.516153 mprotect(0xf0e2a000, 409600, PROT_READ) = 0
+1719579117.516756 mprotect(0xf0dc6000, 409600, PROT_READ) = 0
+1719579117.517050 munmap(0xcfbdc000, 409600) = 0
+1719579117.520350 write(3, "E|", 2)     = 2
+1719579117.522751 getuid32()            = 10277
+1719579117.522931 prctl(PR_GET_DUMPABLE) = 0 (SUID_DUMP_DISABLE)
+1719579117.523034 write(3, "B|10566|dlopen: libvpsextension."..., 34) = 34
+1719579117.523155 write(3, "B|10566|dlopen: libvpsextension."..., 56) = 56
+1719579117.525606 mprotect(0xf0ec3000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.525970 mprotect(0xf0fac000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.526257 mprotect(0xf0e2a000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.527740 mprotect(0xf0dc6000, 409600, PROT_READ|PROT_WRITE) = 0
+1719579117.531860 mmap2(NULL, 409600, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xcfbdc000
+1719579117.532675 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xcfbdc000, 409600, "linker_alloc") = 0
+1719579117.534035 openat(AT_FDCWD, "/system/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.534249 openat(AT_FDCWD, "/system_ext/lib/libvpsextension.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579117.534481 write(3, "E|", 2)     = 2
+1719579117.534649 mprotect(0xf0ec3000, 409600, PROT_READ) = 0
+1719579117.535116 mprotect(0xf0fac000, 409600, PROT_READ) = 0
+1719579117.535287 mprotect(0xf0e2a000, 409600, PROT_READ) = 0
+1719579117.535541 mprotect(0xf0dc6000, 409600, PROT_READ) = 0
+1719579117.541003 munmap(0xcfbdc000, 409600) = 0
+1719579117.541265 write(3, "E|", 2)     = 2
+1719579117.543981 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=386912579}) = 0
+1719579117.583097 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.759490 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.845386 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=683918077}) = 0
+1719579117.846847 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.890505 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579117.893999 fcntl64(142, F_DUPFD_CLOEXEC, 0) = 133
+1719579117.895329 fcntl64(144, F_DUPFD_CLOEXEC, 0) = 147
+1719579117.895523 fcntl64(145, F_DUPFD_CLOEXEC, 0) = 148
+1719579117.895931 write(4, "B|10566|releaseBufferCallback", 29) = 29
+1719579117.898597 write(4, "B|10566|setTransformHint", 24) = 24
+1719579117.900464 write(4, "E|10566", 7) = 7
+1719579117.902040 write(4, "B|10566|wait", 12) = 12
+1719579117.902955 ppoll([{fd=132, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=132, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+1719579117.906665 write(4, "E|10566", 7) = 7
+1719579117.907428 write(4, "B|10566|wait", 12) = 12
+1719579117.908664 ppoll([{fd=147, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=147, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+1719579117.908997 write(4, "E|10566", 7) = 7
+1719579117.909520 write(4, "B|10566|merge", 13) = 13
+1719579117.910679 ioctl(132, SYNC_IOC_MERGE, 0xdca01bc8) = 0
+1719579117.913097 write(4, "E|10566", 7) = 7
+1719579117.913756 write(4, "B|10566|releaseBuffer", 21) = 21
+1719579117.913966 write(4, "B|10566|ViewRootImpl[WelcomeActi"..., 59) = 59
+1719579117.915379 write(4, "E|10566", 7) = 7
+1719579117.915636 futex(0xe9fc6cac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579117.915799 futex(0xbd383ef4, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579117.916399 futex(0xbd383ef0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579117.916598 write(4, "E|10566", 7) = 7
+1719579117.916769 write(4, "B|10566|processNextBufferLocked", 31) = 31
+1719579117.917477 futex(0xeac06e38, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579117.917978 write(4, "E|10566", 7) = 7
+1719579117.918913 write(4, "C|10566|PendingRelease|0", 24) = 24
+1719579117.924569 write(4, "C|10566|QueuedBuffer - ViewRootI"..., 63) = 63
+1719579117.926376 futex(0xeac06e38, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579117.926887 write(4, "E|10566", 7) = 7
+1719579117.930422 write(4, "B|10566|transactionCallback", 27) = 27
+1719579117.931217 write(4, "B|10566|setTransformHint", 24) = 24
+1719579117.936011 write(4, "E|10566", 7) = 7
+1719579117.937394 write(4, "E|10566", 7) = 7
+1719579117.939145 close(145)            = 0
+1719579117.939603 close(144)            = 0
+1719579117.940752 close(142)            = 0
+1719579117.942632 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.003552 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.010541 fcntl64(145, F_DUPFD_CLOEXEC, 0) = 150
+1719579118.013667 fcntl64(146, F_DUPFD_CLOEXEC, 0) = 151
+1719579118.014554 write(4, "B|10566|releaseBufferCallback", 29) = 29
+1719579118.019002 write(4, "B|10566|setTransformHint", 24) = 24
+1719579118.021904 write(4, "E|10566", 7) = 7
+1719579118.022348 write(4, "B|10566|wait", 12) = 12
+1719579118.026842 ppoll([{fd=138, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=138, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+1719579118.027499 write(4, "E|10566", 7) = 7
+1719579118.028797 write(4, "B|10566|wait", 12) = 12
+1719579118.032686 ppoll([{fd=151, events=POLLIN}], 1, {tv_sec=0, tv_nsec=0}, NULL, 0) = 1 ([{fd=151, revents=POLLIN}], left {tv_sec=0, tv_nsec=0})
+1719579118.033561 write(4, "E|10566", 7) = 7
+1719579118.034693 write(4, "B|10566|merge", 13) = 13
+1719579118.045824 ioctl(138, SYNC_IOC_MERGE, 0xdca01bc8) = 0
+1719579118.046482 write(4, "E|10566", 7) = 7
+1719579118.047539 write(4, "B|10566|releaseBuffer", 21) = 21
+1719579118.047698 write(4, "B|10566|ViewRootImpl[WelcomeActi"..., 59) = 59
+1719579118.047895 write(4, "E|10566", 7) = 7
+1719579118.048764 futex(0xe9fc6cac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579118.050071 futex(0xbd383ef4, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579118.050964 write(4, "E|10566", 7) = 7
+1719579118.051745 write(4, "B|10566|processNextBufferLocked", 31) = 31
+1719579118.054550 futex(0xeac06e38, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579118.055279 write(4, "E|10566", 7) = 7
+1719579118.055649 write(4, "C|10566|PendingRelease|0", 24) = 24
+1719579118.055850 write(4, "C|10566|QueuedBuffer - ViewRootI"..., 63) = 63
+1719579118.056823 futex(0xeac06e38, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579118.056997 write(4, "E|10566", 7) = 7
+1719579118.057190 write(4, "B|10566|transactionCallback", 27) = 27
+1719579118.057410 write(4, "B|10566|setTransformHint", 24) = 24
+1719579118.057578 write(4, "E|10566", 7) = 7
+1719579118.058072 write(4, "E|10566", 7) = 7
+1719579118.058582 close(146)            = 0
+1719579118.061740 close(145)            = 0
+1719579118.065515 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.434031 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=273512667}) = 0
+1719579118.436882 write(70, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579118.440281 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.448635 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=287160794}) = 0
+1719579118.448830 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.769547 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.771387 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=609917857}) = 0
+1719579118.771924 write(70, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579118.772283 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.773839 sched_yield()         = 0
+1719579118.782690 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.906770 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.908870 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=747541204}) = 0
+1719579118.909313 write(70, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579118.909613 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.914967 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.924462 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579118.926309 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.006465 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=845045532}) = 0
+1719579120.012571 write(70, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579120.020545 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.055671 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=894228454}) = 0
+1719579120.055915 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.056497 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=895031996}) = 0
+1719579120.056742 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.056990 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=895513766}) = 0
+1719579120.057126 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.058428 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=896966423}) = 0
+1719579120.058595 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.059044 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=897597829}) = 0
+1719579120.059244 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.059529 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=898069287}) = 0
+1719579120.060423 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.066037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=904583246}) = 0
+1719579120.069755 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.070274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=908856580}) = 0
+1719579120.070611 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.099056 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=937618771}) = 0
+1719579120.100689 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579120.111811 clock_gettime(CLOCK_MONOTONIC, {tv_sec=84, tv_nsec=950441584}) = 0
+1719579120.112224 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579121.155988 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579121.158996 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579122.018945 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579122.045356 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579122.105055 write(4, "C|10566|Heap size (KB)|5313", 27) = 27
+1719579122.106133 write(4, "C|10566|Heap size (KB)|5313", 27) = 27
+1719579122.117338 getuid32()            = 10277
+1719579122.119400 fstat64(47, 0xdca017c0) = 0
+1719579122.119707 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GmsConfigOverlayCommon.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.120426 fstat64(48, 0xdca017c0) = 0
+1719579122.120763 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GmsConfigOverlayComms.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.123892 fstat64(49, 0xdca017c0) = 0
+1719579122.124560 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GmsConfigOverlayGSA.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.133881 fstat64(50, 0xdca017c0) = 0
+1719579122.135517 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GmsConfigOverlayGeotz.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.135842 fstat64(51, 0xdca017c0) = 0
+1719579122.142824 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GmsConfigOverlayPhotos.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.143040 fstat64(52, 0xdca017c0) = 0
+1719579122.148851 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GoogleExtServicesConfigOverlay.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.151782 fstat64(53, 0xdca017c0) = 0
+1719579122.153684 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@GooglePermissionControllerFrameworkOverlay.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.154777 fstat64(54, 0xdca017c0) = 0
+1719579122.168574 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@ModuleMetadataGoogleOverlay.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.168821 fstat64(55, 0xdca017c0) = 0
+1719579122.169483 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@MotoFrameworkResOverlayPayjoy.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.172449 fstat64(56, 0xdca017c0) = 0
+1719579122.172850 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@framework-rro-irservice.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.173116 fstat64(57, 0xdca017c0) = 0
+1719579122.173634 fstatat64(AT_FDCWD, "/data/resource-cache/vendor@overlay@framework-res__auto_generated_rro_vendor.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.182124 fstat64(58, 0xdca017c0) = 0
+1719579122.191077 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@framework-res__auto_generated_rro_product.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.196143 fstat64(59, 0xdca017c0) = 0
+1719579122.196861 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@framework-rro-launcher3.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.197788 fstat64(60, 0xdca017c0) = 0
+1719579122.198746 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@framework-rro-motointelligence.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.198952 fstat64(61, 0xdca017c0) = 0
+1719579122.199456 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@MotoFrameworkResOverlayCommon.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.201462 fstat64(62, 0xdca017c0) = 0
+1719579122.202456 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@framework-rro-asi.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.205618 fstat64(63, 0xdca017c0) = 0
+1719579122.207107 fstatat64(AT_FDCWD, "/data/resource-cache/vendor@overlay@MotoFrameworkResOverlayGAButton.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.207830 fstat64(64, 0xdca017c0) = 0
+1719579122.208653 fstatat64(AT_FDCWD, "/data/resource-cache/vendor@overlay@framework-res-rro-sku3.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.209484 fstat64(65, 0xdca017c0) = 0
+1719579122.209618 fstat64(74, 0xdca017c0) = 0
+1719579122.210243 fstatat64(AT_FDCWD, "/data/resource-cache/product@overlay@NavigationBarMode3Button@NavigationBarMode3ButtonOverlay.apk@idmap", 0xdca017b8, 0) = 0
+1719579122.211395 fstat64(75, 0xdca017c0) = 0
+1719579122.216142 fstatat64(AT_FDCWD, "/data/resource-cache/data@resource-cache@com.android.systemui-neutral-2ShH.frro@idmap", 0xdca017b8, 0) = 0
+1719579122.217779 fstatat64(AT_FDCWD, "/data/resource-cache/data@resource-cache@com.android.systemui-accent-ECh1.frro@idmap", 0xdca017b8, 0) = 0
+1719579122.219180 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=57732680}) = 0
+1719579122.221480 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579126.904459 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=743012938}) = 0
+1719579126.904618 write(168, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579126.915582 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579127.333002 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=171576731}) = 0
+1719579127.336986 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579127.522205 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=363452115}) = 0
+1719579127.526371 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579128.766437 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=605195884}) = 0
+1719579128.767062 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579129.048132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=886821954}) = 0
+1719579129.048821 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = 0
+1719579129.104414 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=942950709}) = 0
+1719579129.105052 ioctl(68, BINDER_WRITE_READ, 0xdca02050) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579130.567256 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.567464 futex(0xeb397514, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.569533 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=408072209}) = 0
+1719579130.569712 futex(0xeb397514, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=408072209}, 0xffffffff) = 0
+1719579130.587508 futex(0xeb397514, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.587777 rt_sigreturn({mask=0xf0b69e50}) = 68
+1719579130.595055 ioctl(68, BINDER_WRITE_READ <unfinished ...>) = ?
+1719579182.557201 +++ killed by SIGTERM +++

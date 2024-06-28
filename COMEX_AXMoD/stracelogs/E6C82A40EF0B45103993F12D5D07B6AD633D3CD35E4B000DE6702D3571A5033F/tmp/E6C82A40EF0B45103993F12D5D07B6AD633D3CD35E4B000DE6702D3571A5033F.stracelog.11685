@@ -1,0 +1,99 @@
+1719579126.030298 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbcd72000, 1077248, "stack_and_tls:11685") = 0
+1719579126.030709 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee8c9000
+1719579126.031039 mprotect(0xee8c9000, 4096, PROT_NONE) = 0
+1719579126.031214 sigaltstack({ss_sp=0xee8ca000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579126.031714 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee8ca000, 16384, "thread signal stack") = 0
+1719579126.031916 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579126.032254 write(4, "B|10566|Thread::Init", 20) = 20
+1719579126.033313 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579126.033535 mprotect(0xbcd72000, 4096, PROT_NONE) = 0
+1719579126.033736 madvise(0xbcd72000, 1060864, MADV_DONTNEED) = 0
+1719579126.034009 write(4, "E|10566", 7) = 7
+1719579126.034222 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579126.034518 write(4, "E|10566", 7) = 7
+1719579126.034909 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579126.035179 write(4, "E|10566", 7) = 7
+1719579126.035487 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579126.035681 write(4, "E|10566", 7) = 7
+1719579126.035837 write(4, "E|10566", 7) = 7
+1719579126.036063 prctl(PR_SET_NAME, "Thread-11") = 0
+1719579126.036696 getpriority(PRIO_PROCESS, 11685) = 30
+1719579126.036923 setpriority(PRIO_PROCESS, 11685, 0) = 0
+1719579126.037665 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=876242071}) = 0
+1719579126.037934 write(4, "C|10566|Heap size (KB)|5882", 27) = 27
+1719579126.038296 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=876846810}) = 0
+1719579126.038522 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=877136289}) = 0
+1719579126.038835 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=877374727}) = 0
+1719579126.039071 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=877606862}) = 0
+1719579126.039316 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=877872487}) = 0
+1719579126.039606 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=878173737}) = 0
+1719579126.039932 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=878475717}) = 0
+1719579126.040213 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=878752019}) = 0
+1719579126.040596 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=879149467}) = 0
+1719579126.040809 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=879358790}) = 0
+1719579126.041048 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=879605092}) = 0
+1719579126.041277 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=879910925}) = 0
+1719579126.041667 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=880559831}) = 0
+1719579126.042173 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=880715769}) = 0
+1719579126.042475 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=881010925}) = 0
+1719579126.042640 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=881180092}) = 0
+1719579126.042782 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=881302123}) = 0
+1719579126.043525 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=882073113}) = 0
+1719579126.043731 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=882264988}) = 0
+1719579126.044157 prctl(PR_GET_DUMPABLE) = 0 (SUID_DUMP_DISABLE)
+1719579126.044915 write(3, "B|10566|dlsym", 13) = 13
+1719579126.049768 write(3, "E|", 2)     = 2
+1719579126.067364 mprotect(0xeebb2000, 4096, PROT_READ|PROT_WRITE) = 0
+1719579126.067478 mprotect(0xeebb2000, 4096, PROT_READ) = 0
+1719579126.067613 mprotect(0x3a840000, 49152, PROT_READ|PROT_WRITE) = 0
+1719579126.067771 mprotect(0x3a84c000, 16384, PROT_READ|PROT_WRITE) = 0
+1719579126.067910 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_seed_new", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579126.068444 mprotect(0x3a850000, 16384, PROT_READ|PROT_WRITE) = 0
+1719579126.068615 read(-1, 0x3a850000, 8192) = -1 EBADF (Bad file descriptor)
+1719579126.070168 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_seed", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579126.070432 read(-1, 0x3a850000, 8192) = -1 EBADF (Bad file descriptor)
+1719579126.070741 gettimeofday({tv_sec=1719579126, tv_usec=70999}, NULL) = 0
+1719579126.072112 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_stamp", 0xbce74f20, 0) = -1 ENOENT (No such file or directory)
+1719579126.072987 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_seed_new", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 166
+1719579126.073405 fstat64(166, 0xbce756b0) = 0
+1719579126.073959 close(166)            = 0
+1719579126.074592 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_seed_new", O_WRONLY|O_LARGEFILE) = 166
+1719579126.075099 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=913979470}) = 0
+1719579126.076179 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=914723324}) = 0
+1719579126.076400 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=914924626}) = 0
+1719579126.076559 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=915121814}) = 0
+1719579126.076736 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=915272126}) = 0
+1719579126.077051 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=915653064}) = 0
+1719579126.078971 getuid32()            = 10277
+1719579126.079357 getuid32()            = 10277
+1719579126.079672 clock_gettime(CLOCK_BOOTTIME, {tv_sec=90, tv_nsec=918212127}) = 0
+1719579126.079945 ioctl(68, BINDER_WRITE_READ, 0xbce753d0) = 0
+1719579126.080772 ioctl(68, BINDER_WRITE_READ, 0xbce753d0) = 0
+1719579126.097047 ioctl(68, BINDER_WRITE_READ, 0xbce75530) = 0
+1719579126.097828 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=936543066}) = 0
+1719579126.099512 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=938133952}) = 0
+1719579126.100331 clock_gettime(CLOCK_BOOTTIME, {tv_sec=90, tv_nsec=938928118}) = 0
+1719579126.100748 ioctl(68, BINDER_WRITE_READ, 0xbce75140) = 0
+1719579126.102687 ioctl(68, BINDER_WRITE_READ, 0xbce752a0) = 0
+1719579126.107232 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=945789525}) = 0
+1719579126.107521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=946065463}) = 0
+1719579126.107907 getuid32()            = 10277
+1719579126.108405 clock_gettime(CLOCK_BOOTTIME, {tv_sec=90, tv_nsec=946952546}) = 0
+1719579126.108927 ioctl(68, BINDER_WRITE_READ, 0xbce753d0) = 0
+1719579126.116027 ioctl(68, BINDER_WRITE_READ, 0xbce75530) = 0
+1719579126.116488 gettimeofday({tv_sec=1719579126, tv_usec=123685}, NULL) = 0
+1719579126.124079 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/variations_stamp", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 0666) = 167
+1719579126.124491 fstat64(167, 0xbce753e0) = 0
+1719579126.124577 close(167)            = 0
+1719579126.125080 munmap(0xee8ce000, 8192) = 0
+1719579126.125598 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=964136142}) = 0
+1719579126.125917 madvise(0xe1fdc000, 4096, MADV_DONTNEED) = 0
+1719579126.126799 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=965334423}) = 0
+1719579126.128373 ioctl(68, BINDER_THREAD_EXIT, 0) = 0
+1719579126.128810 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579126.129005 munmap(0xee8c9000, 20480) = 0
+1719579126.129141 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579126.129402 set_tid_address(0)    = 11685
+1719579126.129533 munmap(0xbcd71000, 1085440) = 0
+1719579126.129743 exit(0)               = ?
+1719579126.130025 +++ exited with 0 +++

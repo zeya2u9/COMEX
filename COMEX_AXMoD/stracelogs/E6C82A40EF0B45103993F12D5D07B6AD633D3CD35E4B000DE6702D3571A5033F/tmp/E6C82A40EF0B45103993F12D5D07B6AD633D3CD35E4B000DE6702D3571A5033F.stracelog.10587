@@ -1,0 +1,32 @@
+1719579115.974236 ioctl(68, BINDER_WRITE_READ, 0xdcb03050) = 0
+1719579116.292119 ioctl(68, BINDER_WRITE_READ, 0xdcb03050) = 0
+1719579117.009201 fcntl64(134, F_DUPFD_CLOEXEC, 0) = 121
+1719579117.030115 write(4, "B|10566|transactionCallback", 27) = 27
+1719579117.031340 write(4, "B|10566|setTransformHint", 24) = 24
+1719579117.031465 write(4, "E|10566", 7) = 7
+1719579117.036358 write(4, "E|10566", 7) = 7
+1719579117.037277 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=37406879}) = 0
+1719579117.042308 getuid32()            = 10277
+1719579117.043093 writev(5, [{iov_base="\0[)\355\261~f\237\310:\2", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="OpenGLRenderer\0", iov_len=15}, {iov_base="Davey! duration=1600ms; Flags=1,"..., iov_len=598}], 4) = 625
+1719579117.044499 write(4, "C|10566|Davey! duration=1600ms; "..., 607) = 607
+1719579117.045019 close(134)            = 0
+1719579117.046112 ioctl(68, BINDER_WRITE_READ, 0xdcb03050) = 0
+1719579117.304606 write(4, "C|10566|Heap size (KB)|4258", 27) = 27
+1719579117.314409 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=153442608}) = 0
+1719579117.321681 ioctl(68, BINDER_WRITE_READ, 0xdcb03050) = 0
+1719579117.322175 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579117.322530 futex(0xeabd79c0, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579117.391047 write(6, "E|", 2)     = 2
+1719579117.391640 futex(0xeabd79c0, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579117.392123 fcntl64(136, F_DUPFD_CLOEXEC, 0) = 137
+1719579117.392307 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=230831991}) = 0
+1719579117.392432 close(136)            = 0
+1719579117.392551 ioctl(68, BINDER_WRITE_READ, 0xdcb03050) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579130.445538 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.446958 futex(0xeb392564, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.447316 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=285855531}) = 0
+1719579130.447488 futex(0xeb392564, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=285855531}, 0xffffffff) = 0
+1719579130.530069 futex(0xeb392564, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.530287 rt_sigreturn({mask=[TERM RT_7]}) = 68
+1719579130.532756 ioctl(68, BINDER_WRITE_READ <unfinished ...>) = ?
+1719579182.557841 +++ killed by SIGTERM +++

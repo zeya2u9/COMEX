@@ -1,0 +1,35 @@
+1719579125.941148 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbcd72000, 1077248, "stack_and_tls:11680") = 0
+1719579125.941666 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee8f3000
+1719579125.942647 mprotect(0xee8f3000, 4096, PROT_NONE) = 0
+1719579125.942806 sigaltstack({ss_sp=0xee8f4000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579125.943351 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee8f4000, 16384, "thread signal stack") = 0
+1719579125.943624 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579125.943832 write(4, "B|10566|Thread::Init", 20) = 20
+1719579125.944046 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579125.944221 mprotect(0xbcd72000, 4096, PROT_NONE) = 0
+1719579125.944415 madvise(0xbcd72000, 1060864, MADV_DONTNEED) = 0
+1719579125.944586 write(4, "E|10566", 7) = 7
+1719579125.944990 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579125.948618 write(4, "E|10566", 7) = 7
+1719579125.949970 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579125.950171 write(4, "E|10566", 7) = 7
+1719579125.950743 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579125.951104 write(4, "E|10566", 7) = 7
+1719579125.951469 write(4, "E|10566", 7) = 7
+1719579125.952666 prctl(PR_SET_NAME, "SharedPreferenc"...) = 0
+1719579125.954575 getpriority(PRIO_PROCESS, 11680) = 30
+1719579125.954776 setpriority(PRIO_PROCESS, 11680, 0) = 0
+1719579125.956002 write(4, "C|10566|Heap size (KB)|5849", 27) = 27
+1719579125.958914 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml.bak", F_OK) = -1 ENOENT (No such file or directory)
+1719579125.960034 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", F_OK) = -1 ENOENT (No such file or directory)
+1719579125.960640 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", 0xbce75d58, 0) = -1 ENOENT (No such file or directory)
+1719579125.961294 futex(0xf0c55958, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xf0ca1f4c) = 1
+1719579125.961466 futex(0xf0ca1f4c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579125.962136 munmap(0xee96c000, 8192) = 0
+1719579125.962315 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579125.965041 munmap(0xee8f3000, 20480) = 0
+1719579125.968455 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579125.969356 set_tid_address(0)    = 11680
+1719579125.969663 munmap(0xbcd71000, 1085440) = 0
+1719579125.969855 exit(0)               = ?
+1719579125.970328 +++ exited with 0 +++

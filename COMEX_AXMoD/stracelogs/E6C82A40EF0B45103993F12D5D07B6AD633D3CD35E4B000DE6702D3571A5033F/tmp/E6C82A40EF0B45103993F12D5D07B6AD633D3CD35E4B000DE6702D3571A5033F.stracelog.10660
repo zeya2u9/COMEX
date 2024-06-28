@@ -1,0 +1,14 @@
+1719579115.968812 clock_gettime(CLOCK_MONOTONIC, {tv_sec=80, tv_nsec=807347578}) = 0
+1719579115.969109 epoll_pwait(78, 0xd6c01a80, 16, -1, NULL, 8) = -1 EINTR (Interrupted system call)
+1719579130.751740 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.752218 futex(0xeb3908b4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.752644 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=591770822}) = 0
+1719579130.753565 futex(0xeb3908b4, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=591770822}, 0xffffffff) = 0
+1719579130.800977 futex(0xeb3908b4, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579130.801142 rt_sigreturn({mask=0xee9a6e50}) = -1 EINTR (Interrupted system call)
+1719579130.801352 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.802142 futex(0xf0c558f8, FUTEX_WAIT_PRIVATE, 33, NULL) = 0
+1719579131.206685 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.207141 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=45687638}) = 0
+1719579131.208123 epoll_pwait(78,  <unfinished ...>) = ?
+1719579182.557275 +++ killed by SIGTERM +++

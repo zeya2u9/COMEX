@@ -1,0 +1,15 @@
+1719579115.969048 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out)
+1719579124.620745 clock_gettime(CLOCK_MONOTONIC, {tv_sec=89, tv_nsec=459298804}) = 0
+1719579124.621159 write(4, "C|10566|Heap size (KB)|5701", 27) = 27
+1719579124.621486 clock_gettime(CLOCK_MONOTONIC, {tv_sec=89, tv_nsec=460122190}) = 0
+1719579124.622051 futex(0xd165c5ac, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579124.627013 futex(0xd15c57f8, FUTEX_WAIT_PRIVATE, 0, {tv_sec=20, tv_nsec=0}) = -1 ETIMEDOUT (Connection timed out)
+1719579144.627687 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=466226839}) = 0
+1719579144.628045 clock_gettime(CLOCK_MONOTONIC, {tv_sec=109, tv_nsec=466585797}) = 0
+1719579144.628429 futex(0xd165c5ac, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579144.628700 futex(0xd15c57f8, FUTEX_WAIT_PRIVATE, 0, {tv_sec=30, tv_nsec=0}) = -1 ETIMEDOUT (Connection timed out)
+1719579174.628905 clock_gettime(CLOCK_MONOTONIC, {tv_sec=139, tv_nsec=467426859}) = 0
+1719579174.629076 clock_gettime(CLOCK_MONOTONIC, {tv_sec=139, tv_nsec=467626338}) = 0
+1719579174.629257 futex(0xd165c5ac, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579174.630441 futex(0xd15c57f8, FUTEX_WAIT_PRIVATE, 0, {tv_sec=40, tv_nsec=0}) = ?
+1719579182.556617 +++ killed by SIGTERM +++

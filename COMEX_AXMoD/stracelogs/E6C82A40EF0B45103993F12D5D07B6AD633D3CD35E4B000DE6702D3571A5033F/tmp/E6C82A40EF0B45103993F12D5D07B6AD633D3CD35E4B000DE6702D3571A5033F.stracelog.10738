@@ -1,0 +1,980 @@
+1719579115.968885 clock_gettime(CLOCK_MONOTONIC, {tv_sec=80, tv_nsec=808062265}) = 0
+1719579115.973964 epoll_pwait(88, [{EPOLLIN, {u32=87, u64=87}}], 16, -1, NULL, 8) = 1
+1719579122.048487 read(87, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579122.052567 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=893995007}) = 0
+1719579122.055905 gettimeofday({tv_sec=1719579122, tv_usec=56008}, NULL) = 0
+1719579122.058586 getuid32()            = 10277
+1719579122.058895 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579122.060703 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=899387143}) = 0
+1719579122.066232 epoll_pwait(88, [{EPOLLIN, {u32=87, u64=87}}], 16, -1, NULL, 8) = 1
+1719579122.088472 read(87, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579122.088837 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=927374073}) = 0
+1719579122.089474 getuid32()            = 10277
+1719579122.089839 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579122.093051 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=931859178}) = 0
+1719579122.094332 write(4, "B|10566|VerifyClass com.umeng.an"..., 47) = 47
+1719579122.095514 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=934115115}) = 0
+1719579122.096100 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=934661782}) = 0
+1719579122.096603 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=935985584}) = 0
+1719579122.097878 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=936411470}) = 0
+1719579122.098507 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=937194074}) = 0
+1719579122.098884 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=946900481}) = 0
+1719579122.114973 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=953724596}) = 0
+1719579122.115726 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=954468347}) = 0
+1719579122.116296 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=954906836}) = 0
+1719579122.116880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=955432982}) = 0
+1719579122.117054 write(4, "E|10566", 7) = 7
+1719579122.117571 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579122.123687 write(4, "C|10566|Heap size (KB)|5329", 27) = 27
+1719579122.125380 gettimeofday({tv_sec=1719579122, tv_usec=125613}, NULL) = 0
+1719579122.126236 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=964784858}) = 0
+1719579122.128570 write(4, "S|10566|open null|1", 19) = 19
+1719579122.131196 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, AT_SYMLINK_NOFOLLOW) = 0
+1719579122.133067 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 152
+1719579122.133450 fstat64(152, 0xbf17e0c8) = 0
+1719579122.135212 fstat64(152, 0xbf17dd38) = 0
+1719579122.141916 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dda0, 0) = 0
+1719579122.142239 ioctl(152, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e2e0) = 0
+1719579122.142699 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 100, 0) = 100
+1719579122.149441 write(4, "F|10566|open null|1", 19) = 19
+1719579122.151858 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=990442621}) = 0
+1719579122.152165 gettimeofday({tv_sec=1719579122, tv_usec=152208}, NULL) = 0
+1719579122.152356 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=990917933}) = 0
+1719579122.152800 write(4, "S|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.153193 write(4, "F|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.153394 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=991931319}) = 0
+1719579122.153566 gettimeofday({tv_sec=1719579122, tv_usec=153598}, NULL) = 0
+1719579122.153994 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=992550642}) = 0
+1719579122.154515 write(4, "S|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.155115 write(4, "F|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.155330 clock_gettime(CLOCK_MONOTONIC, {tv_sec=86, tv_nsec=993883767}) = 0
+1719579122.157840 gettimeofday({tv_sec=1719579122, tv_usec=157955}, NULL) = 0
+1719579122.166404 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=4966008}) = 0
+1719579122.168361 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.168902 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.169181 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.171829 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.172745 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d918, 0) = 0
+1719579122.177892 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d8f0, 0) = -1 ENOENT (No such file or directory)
+1719579122.179993 fstat64(152, 0xbf17d918) = 0
+1719579122.180173 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 4096, 0) = 4096
+1719579122.181837 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.184139 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.184492 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=23032520}) = 0
+1719579122.186255 gettimeofday({tv_sec=1719579122, tv_usec=186299}, NULL) = 0
+1719579122.186552 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=25090541}) = 0
+1719579122.187103 write(4, "S|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.187973 write(4, "F|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.191371 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=29962677}) = 0
+1719579122.194478 gettimeofday({tv_sec=1719579122, tv_usec=194993}, NULL) = 0
+1719579122.196214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=34760855}) = 0
+1719579122.196652 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.196970 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.197419 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=35986844}) = 0
+1719579122.198147 gettimeofday({tv_sec=1719579122, tv_usec=198972}, NULL) = 0
+1719579122.199343 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=37979761}) = 0
+1719579122.201783 write(4, "S|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.202029 write(4, "F|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.202420 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=40962053}) = 0
+1719579122.202739 gettimeofday({tv_sec=1719579122, tv_usec=202774}, NULL) = 0
+1719579122.202950 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=41489345}) = 0
+1719579122.203143 write(4, "S|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.203381 write(4, "F|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.203619 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=42156584}) = 0
+1719579122.203826 gettimeofday({tv_sec=1719579122, tv_usec=203861}, NULL) = 0
+1719579122.203979 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=42516480}) = 0
+1719579122.204224 write(4, "S|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.204482 write(4, "F|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.204619 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=43156897}) = 0
+1719579122.204780 gettimeofday({tv_sec=1719579122, tv_usec=204941}, NULL) = 0
+1719579122.205132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=43670491}) = 0
+1719579122.205431 write(4, "S|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.205817 write(4, "F|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.206833 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=45386949}) = 0
+1719579122.207204 gettimeofday({tv_sec=1719579122, tv_usec=207498}, NULL) = 0
+1719579122.207683 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=46224658}) = 0
+1719579122.208131 write(4, "S|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.209061 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.209765 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.210151 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.211065 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.211443 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.215636 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.216824 fstat64(152, 0xbf17dff8) = 0
+1719579122.217579 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.219077 write(4, "F|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.219521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=58064034}) = 0
+1719579122.219777 gettimeofday({tv_sec=1719579122, tv_usec=220057}, NULL) = 0
+1719579122.220502 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=59152367}) = 0
+1719579122.221215 write(4, "S|10566|executeForString SELECT "..., 112) = 112
+1719579122.221903 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.223621 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.224068 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.230833 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.231009 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.231572 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.232153 fstat64(152, 0xbf17dff8) = 0
+1719579122.232495 pread64(152, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579122.233673 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.234060 write(4, "F|10566|executeForString SELECT "..., 112) = 112
+1719579122.234429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=72958983}) = 0
+1719579122.235920 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579122.236774 gettimeofday({tv_sec=1719579122, tv_usec=236882}, NULL) = 0
+1719579122.237126 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=75814817}) = 0
+1719579122.237526 write(4, "S|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.238004 write(4, "F|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.239607 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=78151536}) = 0
+1719579122.243266 gettimeofday({tv_sec=1719579122, tv_usec=243321}, NULL) = 0
+1719579122.244488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=83413411}) = 0
+1719579122.245362 write(4, "S|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.245666 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.246024 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.246227 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.247816 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e128, 0) = 0
+1719579122.248337 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.248613 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e100, 0) = -1 ENOENT (No such file or directory)
+1719579122.249455 fstat64(152, 0xbf17e128) = 0
+1719579122.249774 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.251204 write(4, "F|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.251798 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=90684350}) = 0
+1719579122.252507 gettimeofday({tv_sec=1719579122, tv_usec=252548}, NULL) = 0
+1719579122.252732 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=92311850}) = 0
+1719579122.259590 write(4, "S|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.260557 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.260991 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.261671 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.262921 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e268, 0) = 0
+1719579122.263997 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.264697 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e240, 0) = -1 ENOENT (No such file or directory)
+1719579122.265651 fstat64(152, 0xbf17e268) = 0
+1719579122.271804 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579122.272189 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.272615 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.273073 write(4, "F|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.273251 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=111789143}) = 0
+1719579122.274081 gettimeofday({tv_sec=1719579122, tv_usec=274164}, NULL) = 0
+1719579122.274491 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=113033571}) = 0
+1719579122.274699 write(4, "S|10566|prepare select __b from "..., 54) = 54
+1719579122.275275 write(4, "F|10566|prepare select __b from "..., 54) = 54
+1719579122.276152 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=114700029}) = 0
+1719579122.279185 gettimeofday({tv_sec=1719579122, tv_usec=279527}, NULL) = 0
+1719579122.279742 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=118282477}) = 0
+1719579122.280281 write(4, "S|10566|execute COMMIT;|4113", 28) = 28
+1719579122.280757 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.281665 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579122.282277 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.282712 write(4, "F|10566|execute COMMIT;|4113", 28) = 28
+1719579122.285192 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=123748676}) = 0
+1719579122.285492 gettimeofday({tv_sec=1719579122, tv_usec=285534}, NULL) = 0
+1719579122.285697 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=124237738}) = 0
+1719579122.286013 write(4, "S|10566|close null|4370", 23) = 23
+1719579122.286304 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e480, 0) = 0
+1719579122.286639 fstat64(152, 0xbf17e3e0) = 0
+1719579122.288102 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e448, 0) = 0
+1719579122.288990 close(152)            = 0
+1719579122.290086 write(4, "F|10566|close null|4370", 23) = 23
+1719579122.295161 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=133757739}) = 0
+1719579122.295426 getuid32()            = 10277
+1719579122.296179 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579122.296374 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=134911177}) = 0
+1719579122.296832 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579122.297217 write(4, "C|10566|Heap size (KB)|5361", 27) = 27
+1719579122.297401 gettimeofday({tv_sec=1719579122, tv_usec=297435}, NULL) = 0
+1719579122.297556 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=136104563}) = 0
+1719579122.297711 write(4, "S|10566|open null|1", 19) = 19
+1719579122.298997 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, AT_SYMLINK_NOFOLLOW) = 0
+1719579122.300535 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 152
+1719579122.301957 fstat64(152, 0xbf17e0c8) = 0
+1719579122.302111 fstat64(152, 0xbf17dd38) = 0
+1719579122.302300 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dda0, 0) = 0
+1719579122.303159 ioctl(152, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e2e0) = 0
+1719579122.303802 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 100, 0) = 100
+1719579122.306209 write(4, "F|10566|open null|1", 19) = 19
+1719579122.306702 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=145553886}) = 0
+1719579122.307969 gettimeofday({tv_sec=1719579122, tv_usec=308251}, NULL) = 0
+1719579122.309434 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=147976699}) = 0
+1719579122.309616 write(4, "S|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.309943 write(4, "F|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.312414 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=151409356}) = 0
+1719579122.313082 gettimeofday({tv_sec=1719579122, tv_usec=313116}, NULL) = 0
+1719579122.313225 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=151758731}) = 0
+1719579122.314489 write(4, "S|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.315052 write(4, "F|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.315514 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=154060971}) = 0
+1719579122.315875 gettimeofday({tv_sec=1719579122, tv_usec=315935}, NULL) = 0
+1719579122.316077 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=154838054}) = 0
+1719579122.316781 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.319892 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.320095 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.320854 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.321167 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d918, 0) = 0
+1719579122.321454 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d8f0, 0) = -1 ENOENT (No such file or directory)
+1719579122.321939 fstat64(152, 0xbf17d918) = 0
+1719579122.322138 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 4096, 0) = 4096
+1719579122.324997 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.329742 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.331302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=169916337}) = 0
+1719579122.332594 gettimeofday({tv_sec=1719579122, tv_usec=332694}, NULL) = 0
+1719579122.336864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=175828316}) = 0
+1719579122.338154 write(4, "S|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.342096 write(4, "F|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.342829 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=181373473}) = 0
+1719579122.348295 gettimeofday({tv_sec=1719579122, tv_usec=348400}, NULL) = 0
+1719579122.348605 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=187156963}) = 0
+1719579122.348848 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.350445 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.351223 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=189784255}) = 0
+1719579122.352258 gettimeofday({tv_sec=1719579122, tv_usec=352586}, NULL) = 0
+1719579122.358281 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=197247642}) = 0
+1719579122.365633 write(4, "S|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.366537 write(4, "F|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.367698 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=206410924}) = 0
+1719579122.368608 gettimeofday({tv_sec=1719579122, tv_usec=368670}, NULL) = 0
+1719579122.368915 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=207503372}) = 0
+1719579122.369354 write(4, "S|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.371729 write(4, "F|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.372072 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=210610091}) = 0
+1719579122.372303 gettimeofday({tv_sec=1719579122, tv_usec=372336}, NULL) = 0
+1719579122.372432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=210966705}) = 0
+1719579122.372582 write(4, "S|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.373483 write(4, "F|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.373640 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=212174987}) = 0
+1719579122.373777 gettimeofday({tv_sec=1719579122, tv_usec=373810}, NULL) = 0
+1719579122.373932 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=212465612}) = 0
+1719579122.374266 write(4, "S|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.374787 write(4, "F|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.378489 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=217039571}) = 0
+1719579122.378809 gettimeofday({tv_sec=1719579122, tv_usec=378849}, NULL) = 0
+1719579122.379216 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=218244987}) = 0
+1719579122.379948 write(4, "S|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.380288 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.380668 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.380926 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.381092 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.381313 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.381454 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.382792 fstat64(152, 0xbf17dff8) = 0
+1719579122.383431 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.383691 write(4, "F|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.383897 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=222451759}) = 0
+1719579122.384067 gettimeofday({tv_sec=1719579122, tv_usec=384101}, NULL) = 0
+1719579122.384282 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=223138217}) = 0
+1719579122.391744 write(4, "S|10566|executeForString SELECT "..., 112) = 112
+1719579122.392213 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.392388 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.399103 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.399875 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.401463 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.405115 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.405433 fstat64(152, 0xbf17dff8) = 0
+1719579122.405590 pread64(152, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579122.405784 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.405986 write(4, "F|10566|executeForString SELECT "..., 112) = 112
+1719579122.406360 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=244898740}) = 0
+1719579122.406535 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579122.406819 gettimeofday({tv_sec=1719579122, tv_usec=406869}, NULL) = 0
+1719579122.407022 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=245560459}) = 0
+1719579122.407193 write(4, "S|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.407503 write(4, "F|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.407678 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=246216032}) = 0
+1719579122.407922 gettimeofday({tv_sec=1719579122, tv_usec=407965}, NULL) = 0
+1719579122.408090 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=246633271}) = 0
+1719579122.410032 write(4, "S|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.410475 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.410799 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.410977 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.411172 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e128, 0) = 0
+1719579122.411391 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.412660 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e100, 0) = -1 ENOENT (No such file or directory)
+1719579122.412906 fstat64(152, 0xbf17e128) = 0
+1719579122.413083 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.413392 write(4, "F|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.413825 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=252371710}) = 0
+1719579122.414047 gettimeofday({tv_sec=1719579122, tv_usec=414085}, NULL) = 0
+1719579122.414234 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=252776918}) = 0
+1719579122.414403 write(4, "S|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.414602 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.414957 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.415126 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.415287 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e268, 0) = 0
+1719579122.415457 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.415713 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e240, 0) = -1 ENOENT (No such file or directory)
+1719579122.415920 fstat64(152, 0xbf17e268) = 0
+1719579122.416089 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579122.416262 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.416437 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.416711 write(4, "F|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.416922 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=255505564}) = 0
+1719579122.417224 gettimeofday({tv_sec=1719579122, tv_usec=417266}, NULL) = 0
+1719579122.417383 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=256005199}) = 0
+1719579122.417631 write(4, "S|10566|execute COMMIT;|3856", 28) = 28
+1719579122.417899 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.418404 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579122.418728 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.418927 write(4, "F|10566|execute COMMIT;|3856", 28) = 28
+1719579122.419125 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=257792856}) = 0
+1719579122.420983 gettimeofday({tv_sec=1719579122, tv_usec=421286}, NULL) = 0
+1719579122.421757 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=260354783}) = 0
+1719579122.422096 write(4, "S|10566|close null|4113", 23) = 23
+1719579122.422338 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e480, 0) = 0
+1719579122.424401 fstat64(152, 0xbf17e3e0) = 0
+1719579122.425027 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e448, 0) = 0
+1719579122.426760 close(152)            = 0
+1719579122.427262 write(4, "F|10566|close null|4113", 23) = 23
+1719579122.428093 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=266639576}) = 0
+1719579122.428491 getuid32()            = 10277
+1719579122.430944 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579122.431831 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=270591763}) = 0
+1719579122.432689 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579122.433297 gettimeofday({tv_sec=1719579122, tv_usec=433489}, NULL) = 0
+1719579122.434280 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=272867909}) = 0
+1719579122.438549 write(4, "S|10566|open null|1", 19) = 19
+1719579122.439861 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, AT_SYMLINK_NOFOLLOW) = 0
+1719579122.440931 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 152
+1719579122.441893 fstat64(152, 0xbf17e0c8) = 0
+1719579122.442764 fstat64(152, 0xbf17dd38) = 0
+1719579122.443040 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dda0, 0) = 0
+1719579122.443293 ioctl(152, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e2e0) = 0
+1719579122.448859 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 100, 0) = 100
+1719579122.454350 write(4, "F|10566|open null|1", 19) = 19
+1719579122.455069 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=294064214}) = 0
+1719579122.456418 gettimeofday({tv_sec=1719579122, tv_usec=456493}, NULL) = 0
+1719579122.456615 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=295149266}) = 0
+1719579122.456803 write(4, "S|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.457122 write(4, "F|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579122.458972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=297520516}) = 0
+1719579122.459225 gettimeofday({tv_sec=1719579122, tv_usec=459258}, NULL) = 0
+1719579122.459359 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=297898537}) = 0
+1719579122.459618 write(4, "S|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.459955 write(4, "F|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579122.460146 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=298684891}) = 0
+1719579122.461154 gettimeofday({tv_sec=1719579122, tv_usec=461244}, NULL) = 0
+1719579122.467516 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=306126090}) = 0
+1719579122.467989 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.468601 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.470595 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.471380 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.474296 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d918, 0) = 0
+1719579122.475886 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d8f0, 0) = -1 ENOENT (No such file or directory)
+1719579122.476433 fstat64(152, 0xbf17d918) = 0
+1719579122.476572 pread64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\4\0\0\0\n"..., 4096, 0) = 4096
+1719579122.477172 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.480031 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.480287 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=318828591}) = 0
+1719579122.480462 gettimeofday({tv_sec=1719579122, tv_usec=480664}, NULL) = 0
+1719579122.482494 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=321082081}) = 0
+1719579122.482802 write(4, "C|10566|Heap size (KB)|5377", 27) = 27
+1719579122.483055 write(4, "S|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.483366 write(4, "F|10566|executeForString PRAGMA "..., 58) = 58
+1719579122.483758 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=322298331}) = 0
+1719579122.485919 gettimeofday({tv_sec=1719579122, tv_usec=486020}, NULL) = 0
+1719579122.486521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=325373331}) = 0
+1719579122.490223 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.490885 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579122.492039 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=330561301}) = 0
+1719579122.492316 gettimeofday({tv_sec=1719579122, tv_usec=492488}, NULL) = 0
+1719579122.492676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=331221822}) = 0
+1719579122.493217 write(4, "S|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.493911 write(4, "F|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579122.495911 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=334438593}) = 0
+1719579122.496022 gettimeofday({tv_sec=1719579122, tv_usec=496041}, NULL) = 0
+1719579122.496166 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=334691822}) = 0
+1719579122.496341 write(4, "S|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.497668 write(4, "F|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579122.500390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=338916197}) = 0
+1719579122.500619 gettimeofday({tv_sec=1719579122, tv_usec=500950}, NULL) = 0
+1719579122.501153 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=339681197}) = 0
+1719579122.501323 write(4, "S|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.501707 write(4, "F|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579122.504499 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=343502917}) = 0
+1719579122.505166 gettimeofday({tv_sec=1719579122, tv_usec=505443}, NULL) = 0
+1719579122.507330 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=345895104}) = 0
+1719579122.513885 write(4, "S|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.516711 write(4, "F|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579122.516981 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=355515730}) = 0
+1719579122.517308 gettimeofday({tv_sec=1719579122, tv_usec=517345}, NULL) = 0
+1719579122.517460 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=356000626}) = 0
+1719579122.517848 write(4, "S|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.520626 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.524174 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.528325 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.528754 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.529056 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.532166 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.532684 fstat64(152, 0xbf17dff8) = 0
+1719579122.538658 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.539271 write(4, "F|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579122.539929 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=378546722}) = 0
+1719579122.540322 gettimeofday({tv_sec=1719579122, tv_usec=540490}, NULL) = 0
+1719579122.540626 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=379208962}) = 0
+1719579122.541874 write(4, "S|10566|executeForString SELECT "..., 112) = 112
+1719579122.544245 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.546363 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.546620 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.546948 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579122.547421 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.548853 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579122.549099 fstat64(152, 0xbf17dff8) = 0
+1719579122.549408 pread64(152, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579122.549714 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.550952 write(4, "F|10566|executeForString SELECT "..., 112) = 112
+1719579122.551157 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=390229327}) = 0
+1719579122.551960 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579122.552678 gettimeofday({tv_sec=1719579122, tv_usec=552730}, NULL) = 0
+1719579122.552852 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=391386463}) = 0
+1719579122.553129 write(4, "S|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.554909 write(4, "F|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579122.557748 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=396290734}) = 0
+1719579122.558840 gettimeofday({tv_sec=1719579122, tv_usec=558885}, NULL) = 0
+1719579122.559041 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=397613703}) = 0
+1719579122.559484 write(4, "S|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.559964 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.560994 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.561254 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.562737 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e128, 0) = 0
+1719579122.569015 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.570610 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e100, 0) = -1 ENOENT (No such file or directory)
+1719579122.570868 fstat64(152, 0xbf17e128) = 0
+1719579122.571036 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.571382 write(4, "F|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579122.572503 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=411380580}) = 0
+1719579122.573820 gettimeofday({tv_sec=1719579122, tv_usec=574068}, NULL) = 0
+1719579122.577741 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=417223393}) = 0
+1719579122.579045 write(4, "S|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.579798 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.581107 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.582337 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.582874 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e268, 0) = 0
+1719579122.585829 pread64(152, "\0\0\0\4\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579122.587222 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e240, 0) = -1 ENOENT (No such file or directory)
+1719579122.587843 fstat64(152, 0xbf17e268) = 0
+1719579122.588110 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579122.588579 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579122.588987 fcntl64(152, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.589855 write(4, "F|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579122.591468 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=430203654}) = 0
+1719579122.592893 clock_gettime(CLOCK_BOOTTIME, {tv_sec=87, tv_nsec=431495477}) = 0
+1719579122.593423 ioctl(68, BINDER_WRITE_READ, 0xbf17e360) = 0
+1719579122.595888 ioctl(68, BINDER_WRITE_READ, 0xbf17e4c0) = 0
+1719579122.596420 clock_gettime(CLOCK_BOOTTIME, {tv_sec=87, tv_nsec=434994696}) = 0
+1719579122.596779 ioctl(68, BINDER_WRITE_READ, 0xbf17e360) = 0
+1719579122.598709 ioctl(68, BINDER_WRITE_READ, 0xbf17e4c0) = 0
+1719579122.601112 write(4, "C|10566|Heap size (KB)|5413", 27) = 27
+1719579122.602584 gettimeofday({tv_sec=1719579122, tv_usec=602685}, NULL) = 0
+1719579122.608452 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=447094229}) = 0
+1719579122.608808 write(4, "S|10566|prepare INSERT INTO __et"..., 85) = 85
+1719579122.609113 write(4, "F|10566|prepare INSERT INTO __et"..., 85) = 85
+1719579122.609843 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=448521625}) = 0
+1719579122.610320 gettimeofday({tv_sec=1719579122, tv_usec=610574}, NULL) = 0
+1719579122.610929 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=450303188}) = 0
+1719579122.611965 write(4, "S|10566|executeForLastInsertedRo"..., 105) = 105
+1719579122.612174 pread64(152, "\r\0\0\0\1\17\366\0\17\366\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 20480) = 4096
+1719579122.612359 pread64(152, "\r\0\0\0\3\r}\0\17r\16\336\r}\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 32768) = 4096
+1719579122.612613 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e180, 0) = 0
+1719579122.612887 write(4, "F|10566|executeForLastInsertedRo"..., 105) = 105
+1719579122.613400 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=451928917}) = 0
+1719579122.613553 gettimeofday({tv_sec=1719579122, tv_usec=613794}, NULL) = 0
+1719579122.614276 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=452803500}) = 0
+1719579122.614438 write(4, "S|10566|execute COMMIT;|4370", 28) = 28
+1719579122.615406 ioctl(152, _IOC(0, 0xf5, 0x1, 0), 0xee1c22ad) = 0
+1719579122.616290 pwrite64(152, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 4096, 0) = 4096
+1719579122.616650 pwrite64(152, "\r\0\0\0\1\17\366\0\17\366\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 20480) = 4096
+1719579122.616876 pwrite64(152, "\r\0\0\0\4\f\345\0\17r\16\336\r}\f\345\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 32768) = 4096
+1719579122.617100 ioctl(152, _IOC(0, 0xf5, 0x2, 0), 0xee1c22ad) = 0
+1719579122.788002 fdatasync(152)        = 0
+1719579122.788249 fcntl64(152, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579122.788763 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579122.789104 fcntl64(152, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579122.790612 write(4, "F|10566|execute COMMIT;|4370", 28) = 28
+1719579122.790870 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=629412060}) = 0
+1719579122.791211 gettimeofday({tv_sec=1719579122, tv_usec=791444}, NULL) = 0
+1719579122.792394 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=630941799}) = 0
+1719579122.792891 write(4, "S|10566|close null|4627", 23) = 23
+1719579122.793147 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e480, 0) = 0
+1719579122.794307 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=633246904}) = 0
+1719579122.802330 madvise(0xdf902000, 8192, MADV_DONTNEED) = 0
+1719579122.803606 madvise(0xdf908000, 4096, MADV_DONTNEED) = 0
+1719579122.803886 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=642428259}) = 0
+1719579122.804130 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=642668728}) = 0
+1719579122.804366 fstat64(152, 0xbf17e3e0) = 0
+1719579122.807703 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e448, 0) = 0
+1719579122.808447 close(152)            = 0
+1719579122.808887 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=647429509}) = 0
+1719579122.809118 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=647651384}) = 0
+1719579122.809640 write(4, "F|10566|close null|4627", 23) = 23
+1719579122.809845 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=648373364}) = 0
+1719579122.810234 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", F_OK) = 0
+1719579122.811778 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak", F_OK) = -1 ENOENT (No such file or directory)
+1719579122.812807 renameat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak") = 0
+1719579122.814296 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 140
+1719579122.815241 fstat64(140, 0xbf17e5d8) = 0
+1719579122.815469 mmap2(NULL, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xf09a7000
+1719579122.815960 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xf09a7000, 69632, "dalvik-large object space alloca"...) = 0
+1719579122.816587 write(4, "C|10566|Heap size (KB)|5530", 27) = 27
+1719579122.817441 mmap2(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee8d0000
+1719579122.821805 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee8d0000, 36864, "dalvik-large object space alloca"...) = 0
+1719579122.823034 write(4, "C|10566|Heap size (KB)|5566", 27) = 27
+1719579122.828373 write(4, "C|10566|Heap size (KB)|5566", 27) = 27
+1719579122.828641 write(140, "<?xml version='1.0' encoding='ut"..., 537) = 537
+1719579122.830870 gettimeofday({tv_sec=1719579122, tv_usec=830940}, NULL) = 0
+1719579122.831295 fsync(140)            = 0
+1719579122.949132 gettimeofday({tv_sec=1719579122, tv_usec=949168}, NULL) = 0
+1719579122.952023 getsockopt(140, SOL_SOCKET, SO_DOMAIN, 0xbf17e690, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579122.952552 close(140)            = 0
+1719579122.953280 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", 0660) = 0
+1719579122.953710 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", 0xbf17e648, 0) = 0
+1719579122.954482 unlinkat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak", 0) = 0
+1719579122.958824 getuid32()            = 10277
+1719579122.962091 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579122.962859 clock_gettime(CLOCK_MONOTONIC, {tv_sec=87, tv_nsec=801394212}) = 0
+1719579122.963202 epoll_pwait(88, 0xbf17ea80, 16, -1, NULL, 8) = -1 EINTR (Interrupted system call)
+1719579131.017077 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579131.017201 futex(0xeb393bb4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.017391 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=855935640}) = 0
+1719579131.017680 futex(0xeb393bb4, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=855935640}, 0xffffffff) = 0
+1719579131.036894 futex(0xeb393bb4, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.037337 rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+1719579131.037742 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.037937 futex(0xf0c558f8, FUTEX_WAIT_PRIVATE, 33, NULL) = 0
+1719579131.207085 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.207446 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=46179356}) = 0
+1719579131.208426 epoll_pwait(88, [{EPOLLIN, {u32=87, u64=87}}], 16, -1, NULL, 8) = 1
+1719579132.144697 read(87, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579132.144874 sched_yield()         = 0
+1719579132.145209 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=983741429}) = 0
+1719579132.145577 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", F_OK) = 0
+1719579132.145822 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak", F_OK) = -1 ENOENT (No such file or directory)
+1719579132.146076 renameat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak") = 0
+1719579132.146355 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 224
+1719579132.146971 fstat64(224, 0xbf17e5a8) = 0
+1719579132.147242 mmap2(NULL, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xece15000
+1719579132.147425 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xece15000, 69632, "dalvik-large object space alloca"...) = 0
+1719579132.147629 write(4, "C|10566|Heap size (KB)|6715", 27) = 27
+1719579132.147778 mmap2(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xecd5b000
+1719579132.147927 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xecd5b000, 36864, "dalvik-large object space alloca"...) = 0
+1719579132.148298 write(4, "C|10566|Heap size (KB)|6751", 27) = 27
+1719579132.148624 write(4, "C|10566|Heap size (KB)|6751", 27) = 27
+1719579132.148839 write(224, "<?xml version='1.0' encoding='ut"..., 537) = 537
+1719579132.149177 gettimeofday({tv_sec=1719579132, tv_usec=149620}, NULL) = 0
+1719579132.150050 fsync(224)            = 0
+1719579132.151461 gettimeofday({tv_sec=1719579132, tv_usec=151552}, NULL) = 0
+1719579132.151684 getsockopt(224, SOL_SOCKET, SO_DOMAIN, 0xbf17e660, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579132.151918 close(224)            = 0
+1719579132.152211 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", 0660) = 0
+1719579132.152618 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", 0xbf17e618, 0) = 0
+1719579132.152905 unlinkat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml.bak", 0) = 0
+1719579132.153214 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", F_OK) = 0
+1719579132.153388 gettimeofday({tv_sec=1719579132, tv_usec=153420}, NULL) = 0
+1719579132.153709 gettimeofday({tv_sec=1719579132, tv_usec=153742}, NULL) = 0
+1719579132.153905 getuid32()            = 10277
+1719579132.154021 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579132.154134 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=992668878}) = 0
+1719579132.154421 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579132.154625 write(4, "C|10566|Heap size (KB)|6767", 27) = 27
+1719579132.154765 gettimeofday({tv_sec=1719579132, tv_usec=154796}, NULL) = 0
+1719579132.154923 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=993457784}) = 0
+1719579132.155062 write(4, "S|10566|open null|1", 19) = 19
+1719579132.155213 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e088, AT_SYMLINK_NOFOLLOW) = 0
+1719579132.155448 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 224
+1719579132.155594 fstat64(224, 0xbf17dee8) = 0
+1719579132.155704 fstat64(224, 0xbf17db58) = 0
+1719579132.155808 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dbc0, 0) = 0
+1719579132.155937 ioctl(224, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e100) = 0
+1719579132.156106 pread64(224, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 100, 0) = 100
+1719579132.156387 write(4, "F|10566|open null|1", 19) = 19
+1719579132.156510 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=995046118}) = 0
+1719579132.156643 gettimeofday({tv_sec=1719579132, tv_usec=156675}, NULL) = 0
+1719579132.156755 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=995288149}) = 0
+1719579132.156886 write(4, "S|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579132.157074 write(4, "F|10566|executeForLong PRAGMA pa"..., 43) = 43
+1719579132.157193 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=995728097}) = 0
+1719579132.157312 gettimeofday({tv_sec=1719579132, tv_usec=157343}, NULL) = 0
+1719579132.157422 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=995955909}) = 0
+1719579132.157548 write(4, "S|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579132.157715 write(4, "F|10566|executeForLong PRAGMA fo"..., 46) = 46
+1719579132.157830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=996363461}) = 0
+1719579132.158005 gettimeofday({tv_sec=1719579132, tv_usec=158039}, NULL) = 0
+1719579132.158121 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=996654191}) = 0
+1719579132.158290 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579132.158480 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.158607 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.158751 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.158869 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d738, 0) = 0
+1719579132.159035 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d710, 0) = -1 ENOENT (No such file or directory)
+1719579132.159245 fstat64(224, 0xbf17d738) = 0
+1719579132.159371 pread64(224, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 4096, 0) = 4096
+1719579132.159722 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579132.159933 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579132.160056 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=998590493}) = 0
+1719579132.160178 gettimeofday({tv_sec=1719579132, tv_usec=160209}, NULL) = 0
+1719579132.160289 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=998822628}) = 0
+1719579132.160421 write(4, "S|10566|executeForString PRAGMA "..., 58) = 58
+1719579132.160614 write(4, "F|10566|executeForString PRAGMA "..., 58) = 58
+1719579132.160733 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=999266847}) = 0
+1719579132.160904 gettimeofday({tv_sec=1719579132, tv_usec=160936}, NULL) = 0
+1719579132.161035 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=999568878}) = 0
+1719579132.161162 write(4, "S|10566|executeForString PRAGMA "..., 48) = 48
+1719579132.161338 write(4, "F|10566|executeForString PRAGMA "..., 48) = 48
+1719579132.161456 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=999990285}) = 0
+1719579132.162065 gettimeofday({tv_sec=1719579132, tv_usec=162089}, NULL) = 0
+1719579132.162161 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=681795}) = 0
+1719579132.162277 write(4, "S|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579132.162698 write(4, "F|10566|executeForLong PRAGMA jo"..., 53) = 53
+1719579132.162901 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=1439139}) = 0
+1719579132.163049 gettimeofday({tv_sec=1719579132, tv_usec=163279}, NULL) = 0
+1719579132.163420 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=1964347}) = 0
+1719579132.163592 write(4, "S|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579132.163786 write(4, "F|10566|executeForLong PRAGMA jo"..., 60) = 60
+1719579132.163908 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=2434087}) = 0
+1719579132.164098 gettimeofday({tv_sec=1719579132, tv_usec=164125}, NULL) = 0
+1719579132.164261 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=2789035}) = 0
+1719579132.164400 write(4, "S|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579132.164797 write(4, "F|10566|executeForLong PRAGMA wa"..., 53) = 53
+1719579132.164976 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=3612525}) = 0
+1719579132.165272 gettimeofday({tv_sec=1719579132, tv_usec=165315}, NULL) = 0
+1719579132.165384 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=3970285}) = 0
+1719579132.165583 write(4, "S|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579132.165882 write(4, "F|10566|executeForLong PRAGMA wa"..., 57) = 57
+1719579132.165963 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=4488775}) = 0
+1719579132.166157 gettimeofday({tv_sec=1719579132, tv_usec=166182}, NULL) = 0
+1719579132.166282 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=4800702}) = 0
+1719579132.166402 write(4, "S|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579132.166776 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.166862 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.167282 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.167361 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17de18, 0) = 0
+1719579132.167473 pread64(224, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579132.167568 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17ddf0, 0) = -1 ENOENT (No such file or directory)
+1719579132.167650 fstat64(224, 0xbf17de18) = 0
+1719579132.167715 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579132.167947 write(4, "F|10566|execute CREATE TABLE IF "..., 78) = 78
+1719579132.168043 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=6560806}) = 0
+1719579132.168116 gettimeofday({tv_sec=1719579132, tv_usec=168528}, NULL) = 0
+1719579132.168666 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=7443202}) = 0
+1719579132.169328 write(4, "S|10566|executeForString SELECT "..., 112) = 112
+1719579132.169604 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.169778 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.169918 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.170104 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17de18, 0) = 0
+1719579132.170305 pread64(224, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579132.170467 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17ddf0, 0) = -1 ENOENT (No such file or directory)
+1719579132.170788 fstat64(224, 0xbf17de18) = 0
+1719579132.170926 pread64(224, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579132.171127 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579132.171346 write(4, "F|10566|executeForString SELECT "..., 112) = 112
+1719579132.171481 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=10185077}) = 0
+1719579132.171920 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579132.172191 gettimeofday({tv_sec=1719579132, tv_usec=172213}, NULL) = 0
+1719579132.172262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=10784973}) = 0
+1719579132.172376 write(4, "S|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579132.172608 write(4, "F|10566|prepare PRAGMA user_vers"..., 41) = 41
+1719579132.172702 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=11247161}) = 0
+1719579132.173105 gettimeofday({tv_sec=1719579132, tv_usec=173210}, NULL) = 0
+1719579132.173280 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=11795546}) = 0
+1719579132.173414 write(4, "S|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579132.173563 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.173651 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.173802 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.173879 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17df48, 0) = 0
+1719579132.173977 pread64(224, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579132.176332 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17df20, 0) = -1 ENOENT (No such file or directory)
+1719579132.176470 fstat64(224, 0xbf17df48) = 0
+1719579132.177009 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579132.177182 write(4, "F|10566|executeForLong PRAGMA us"..., 48) = 48
+1719579132.177340 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=15880807}) = 0
+1719579132.177544 gettimeofday({tv_sec=1719579132, tv_usec=177574}, NULL) = 0
+1719579132.177679 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=16274818}) = 0
+1719579132.177928 write(4, "S|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579132.178089 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.178422 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.178488 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.178556 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e088, 0) = 0
+1719579132.178708 pread64(224, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579132.178795 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e060, 0) = -1 ENOENT (No such file or directory)
+1719579132.178869 fstat64(224, 0xbf17e088) = 0
+1719579132.178940 fcntl64(224, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579132.179034 fcntl64(224, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579132.179102 fcntl64(224, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.179569 write(4, "F|10566|execute BEGIN EXCLUSIVE;"..., 37) = 37
+1719579132.179634 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=18152162}) = 0
+1719579132.179853 gettimeofday({tv_sec=1719579132, tv_usec=179868}, NULL) = 0
+1719579132.179920 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=18436068}) = 0
+1719579132.180045 write(4, "S|10566|execute ROLLBACK;|3856", 30) = 30
+1719579132.180285 fcntl64(224, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579132.180366 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579132.180765 fcntl64(224, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579132.180931 write(4, "F|10566|execute ROLLBACK;|3856", 30) = 30
+1719579132.181039 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=19554558}) = 0
+1719579132.181226 gettimeofday({tv_sec=1719579132, tv_usec=181268}, NULL) = 0
+1719579132.181314 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=19829505}) = 0
+1719579132.181606 write(4, "S|10566|close null|4113", 23) = 23
+1719579132.182092 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e2a0, 0) = 0
+1719579132.182209 fstat64(224, 0xbf17e200) = 0
+1719579132.182298 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, 0) = 0
+1719579132.182379 close(224)            = 0
+1719579132.182757 write(4, "F|10566|close null|4113", 23) = 23
+1719579132.183191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=21708047}) = 0
+1719579132.183515 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", F_OK) = 0
+1719579132.184531 getuid32()            = 10277
+1719579132.184776 clock_gettime(CLOCK_BOOTTIME, {tv_sec=97, tv_nsec=23293516}) = 0
+1719579132.184907 ioctl(68, BINDER_WRITE_READ, 0xbf17e0d0) = 0
+1719579132.185990 ioctl(68, BINDER_WRITE_READ, 0xbf17e230) = 0
+1719579132.187176 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/.envelope", F_OK) = 0
+1719579132.187373 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/files/.envelope", 0xbf17e348, 0) = 0
+1719579132.187535 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/.envelope", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 224
+1719579132.187724 getdents64(224, /* 2 entries */, 4200) = 48
+1719579132.187817 getdents64(224, /* 0 entries */, 4200) = 0
+1719579132.187922 close(224)            = 0
+1719579132.188101 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/.envelope", F_OK) = 0
+1719579132.188754 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/.envelope", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 224
+1719579132.188964 getdents64(224, /* 2 entries */, 4200) = 48
+1719579132.189125 getdents64(224, /* 0 entries */, 4200) = 0
+1719579132.189258 close(224)            = 0
+1719579132.189521 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579132.189684 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/umeng_zcfg_flag", F_OK) = -1 ENOENT (No such file or directory)
+1719579132.190216 getuid32()            = 10277
+1719579132.190473 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579132.190548 clock_gettime(CLOCK_MONOTONIC, {tv_sec=97, tv_nsec=29067163}) = 0
+1719579132.190677 epoll_pwait(88, [{EPOLLIN, {u32=87, u64=87}}], 16, -1, NULL, 8) = 1
+1719579182.067662 read(87, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579182.067746 sched_yield()         = 0
+1719579182.067853 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=906391715}) = 0
+1719579182.068081 getuid32()            = 10277
+1719579182.068199 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579182.068607 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=907148538}) = 0
+1719579182.071658 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579182.075967 gettimeofday({tv_sec=1719579182, tv_usec=75994}, NULL) = 0
+1719579182.076073 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=914596976}) = 0
+1719579182.077033 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, AT_SYMLINK_NOFOLLOW) = 0
+1719579182.079300 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 149
+1719579182.079501 fstat64(149, 0xbf17e0c8) = 0
+1719579182.079659 fstat64(149, 0xbf17dd38) = 0
+1719579182.079747 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dda0, 0) = 0
+1719579182.079884 ioctl(149, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e2e0) = 0
+1719579182.080071 pread64(149, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 100, 0) = 100
+1719579182.125230 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=963772658}) = 0
+1719579182.125439 gettimeofday({tv_sec=1719579182, tv_usec=125588}, NULL) = 0
+1719579182.125728 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=964257710}) = 0
+1719579182.128528 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=967643335}) = 0
+1719579182.129354 gettimeofday({tv_sec=1719579182, tv_usec=129399}, NULL) = 0
+1719579182.129653 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=968204325}) = 0
+1719579182.130003 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=968545679}) = 0
+1719579182.131406 gettimeofday({tv_sec=1719579182, tv_usec=131469}, NULL) = 0
+1719579182.131821 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=971607242}) = 0
+1719579182.137478 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.137802 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.138099 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.138379 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d918, 0) = 0
+1719579182.143896 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d8f0, 0) = -1 ENOENT (No such file or directory)
+1719579182.144072 fstat64(149, 0xbf17d918) = 0
+1719579182.144189 pread64(149, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 4096, 0) = 4096
+1719579182.144606 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.145037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=983808545}) = 0
+1719579182.145556 gettimeofday({tv_sec=1719579182, tv_usec=145579}, NULL) = 0
+1719579182.145693 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=984213545}) = 0
+1719579182.145890 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=984410889}) = 0
+1719579182.146041 gettimeofday({tv_sec=1719579182, tv_usec=146065}, NULL) = 0
+1719579182.146167 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=984688181}) = 0
+1719579182.146314 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=990257296}) = 0
+1719579182.152061 gettimeofday({tv_sec=1719579182, tv_usec=152091}, NULL) = 0
+1719579182.152184 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=990709223}) = 0
+1719579182.152368 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=990897088}) = 0
+1719579182.152527 gettimeofday({tv_sec=1719579182, tv_usec=152551}, NULL) = 0
+1719579182.152729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=991254640}) = 0
+1719579182.152972 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=991524223}) = 0
+1719579182.155076 gettimeofday({tv_sec=1719579182, tv_usec=155121}, NULL) = 0
+1719579182.155481 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=994052192}) = 0
+1719579182.156675 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=995228286}) = 0
+1719579182.156833 gettimeofday({tv_sec=1719579182, tv_usec=156970}, NULL) = 0
+1719579182.157058 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=995583546}) = 0
+1719579182.157322 clock_gettime(CLOCK_MONOTONIC, {tv_sec=146, tv_nsec=996890890}) = 0
+1719579182.164104 gettimeofday({tv_sec=1719579182, tv_usec=164160}, NULL) = 0
+1719579182.164263 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=2881308}) = 0
+1719579182.164961 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.183148 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.185818 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.192279 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579182.194015 pread64(149, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.194184 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579182.194368 fstat64(149, 0xbf17dff8) = 0
+1719579182.194869 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.195206 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=33763394}) = 0
+1719579182.195410 gettimeofday({tv_sec=1719579182, tv_usec=195431}, NULL) = 0
+1719579182.195530 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=34074019}) = 0
+1719579182.197109 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.197305 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.197428 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.197546 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579182.197705 pread64(149, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.197852 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579182.197948 fstat64(149, 0xbf17dff8) = 0
+1719579182.198243 pread64(149, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579182.201670 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.201945 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=40869488}) = 0
+1719579182.202808 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579182.211380 gettimeofday({tv_sec=1719579182, tv_usec=211422}, NULL) = 0
+1719579182.211783 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=50319594}) = 0
+1719579182.212061 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=50598760}) = 0
+1719579182.222261 gettimeofday({tv_sec=1719579182, tv_usec=222525}, NULL) = 0
+1719579182.222855 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=61410845}) = 0
+1719579182.223260 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.223411 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.223578 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.225694 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e128, 0) = 0
+1719579182.225881 pread64(149, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.227059 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e100, 0) = -1 ENOENT (No such file or directory)
+1719579182.227361 fstat64(149, 0xbf17e128) = 0
+1719579182.228019 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.228562 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=67081627}) = 0
+1719579182.252233 gettimeofday({tv_sec=1719579182, tv_usec=252377}, NULL) = 0
+1719579182.252758 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=91290639}) = 0
+1719579182.253380 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.253885 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.262868 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.263539 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e268, 0) = 0
+1719579182.265141 pread64(149, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.265270 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e240, 0) = -1 ENOENT (No such file or directory)
+1719579182.265471 fstat64(149, 0xbf17e268) = 0
+1719579182.265590 fcntl64(149, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579182.266064 fcntl64(149, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.266170 fcntl64(149, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.266337 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=104860849}) = 0
+1719579182.266579 gettimeofday({tv_sec=1719579182, tv_usec=266604}, NULL) = 0
+1719579182.266665 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=105182932}) = 0
+1719579182.267051 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=105771266}) = 0
+1719579182.272508 gettimeofday({tv_sec=1719579182, tv_usec=272974}, NULL) = 0
+1719579182.276149 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=114977829}) = 0
+1719579182.277018 fcntl64(149, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.277371 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579182.277637 fcntl64(149, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.278244 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=116785381}) = 0
+1719579182.281758 gettimeofday({tv_sec=1719579182, tv_usec=282115}, NULL) = 0
+1719579182.282284 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=120807569}) = 0
+1719579182.282400 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e480, 0) = 0
+1719579182.282661 fstat64(149, 0xbf17e3e0) = 0
+1719579182.283100 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e448, 0) = 0
+1719579182.283452 close(149)            = 0
+1719579182.285310 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=124787205}) = 0
+1719579182.286532 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=125077049}) = 0
+1719579182.286692 getuid32()            = 10277
+1719579182.286796 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579182.289593 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=128307674}) = 0
+1719579182.290388 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases", F_OK) = 0
+1719579182.296749 gettimeofday({tv_sec=1719579182, tv_usec=296795}, NULL) = 0
+1719579182.296872 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=135388873}) = 0
+1719579182.297201 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e268, AT_SYMLINK_NOFOLLOW) = 0
+1719579182.298883 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", O_RDWR|O_CREAT|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0600) = 148
+1719579182.299063 fstat64(148, 0xbf17e0c8) = 0
+1719579182.299212 fstat64(148, 0xbf17dd38) = 0
+1719579182.299381 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17dda0, 0) = 0
+1719579182.299530 ioctl(148, _IOC(_IOC_READ, 0xf5, 0xc, 0x4), 0xbf17e2e0) = 0
+1719579182.302266 pread64(148, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 100, 0) = 100
+1719579182.302862 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=141390488}) = 0
+1719579182.303109 gettimeofday({tv_sec=1719579182, tv_usec=303199}, NULL) = 0
+1719579182.303276 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=141806894}) = 0
+1719579182.303460 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=141997051}) = 0
+1719579182.305691 gettimeofday({tv_sec=1719579182, tv_usec=305712}, NULL) = 0
+1719579182.305807 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=144324759}) = 0
+1719579182.305993 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=144517468}) = 0
+1719579182.306225 gettimeofday({tv_sec=1719579182, tv_usec=306276}, NULL) = 0
+1719579182.306333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=144853718}) = 0
+1719579182.306689 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.307061 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.308248 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.308567 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17d918, 0) = 0
+1719579182.308764 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17d8f0, 0) = -1 ENOENT (No such file or directory)
+1719579182.308908 fstat64(148, 0xbf17d918) = 0
+1719579182.309034 pread64(148, "SQLite format 3\0\20\0\1\1\0@  \0\0\0\5\0\0\0\n"..., 4096, 0) = 4096
+1719579182.309648 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.309875 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=148396062}) = 0
+1719579182.310189 gettimeofday({tv_sec=1719579182, tv_usec=310228}, NULL) = 0
+1719579182.310537 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=149061010}) = 0
+1719579182.312175 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=150755437}) = 0
+1719579182.313324 gettimeofday({tv_sec=1719579182, tv_usec=313383}, NULL) = 0
+1719579182.313488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=152032520}) = 0
+1719579182.313890 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=153185541}) = 0
+1719579182.315035 gettimeofday({tv_sec=1719579182, tv_usec=315212}, NULL) = 0
+1719579182.315329 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=154036271}) = 0
+1719579182.315864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=154406427}) = 0
+1719579182.316044 gettimeofday({tv_sec=1719579182, tv_usec=316073}, NULL) = 0
+1719579182.316244 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=154796739}) = 0
+1719579182.316639 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=155222625}) = 0
+1719579182.317068 gettimeofday({tv_sec=1719579182, tv_usec=317100}, NULL) = 0
+1719579182.317227 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=155753458}) = 0
+1719579182.317555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=156088823}) = 0
+1719579182.317712 gettimeofday({tv_sec=1719579182, tv_usec=317737}, NULL) = 0
+1719579182.317831 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=156355437}) = 0
+1719579182.318429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=156979292}) = 0
+1719579182.318699 gettimeofday({tv_sec=1719579182, tv_usec=318730}, NULL) = 0
+1719579182.318894 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=157425281}) = 0
+1719579182.319166 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.322503 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.325200 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.325509 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579182.325830 pread64(148, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.326043 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579182.327294 fstat64(148, 0xbf17dff8) = 0
+1719579182.328408 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.328625 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=167154918}) = 0
+1719579182.329360 gettimeofday({tv_sec=1719579182, tv_usec=330581}, NULL) = 0
+1719579182.333327 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=171972679}) = 0
+1719579182.334507 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.342242 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.342540 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.342897 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17dff8, 0) = 0
+1719579182.344027 pread64(148, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.347411 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17dfd0, 0) = -1 ENOENT (No such file or directory)
+1719579182.348963 fstat64(148, 0xbf17dff8) = 0
+1719579182.349404 pread64(148, "\r\0\0\0\1\17\367\0\17\367\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096, 8192) = 4096
+1719579182.350475 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.351163 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=191490962}) = 0
+1719579182.362437 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0660) = 0
+1719579182.363159 gettimeofday({tv_sec=1719579182, tv_usec=363211}, NULL) = 0
+1719579182.363436 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=201972369}) = 0
+1719579182.363751 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=202380963}) = 0
+1719579182.364032 gettimeofday({tv_sec=1719579182, tv_usec=364060}, NULL) = 0
+1719579182.364222 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=202790182}) = 0
+1719579182.364504 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.364689 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.365180 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.365651 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e128, 0) = 0
+1719579182.365904 pread64(148, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.368189 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e100, 0) = -1 ENOENT (No such file or directory)
+1719579182.368680 fstat64(148, 0xbf17e128) = 0
+1719579182.369275 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.369469 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=208026953}) = 0
+1719579182.369922 gettimeofday({tv_sec=1719579182, tv_usec=369962}, NULL) = 0
+1719579182.370195 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=208758203}) = 0
+1719579182.371323 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.372073 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.372455 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.372755 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-journal", 0xbf17e268, 0) = 0
+1719579182.373016 pread64(148, "\0\0\0\5\0\0\0\n\0\0\0\0\0\0\0\0", 16, 24) = 16
+1719579182.373874 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db-wal", 0xbf17e240, 0) = -1 ENOENT (No such file or directory)
+1719579182.374120 fstat64(148, 0xbf17e268) = 0
+1719579182.374282 fcntl64(148, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741825, l_len=1}) = 0
+1719579182.374441 fcntl64(148, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=1}) = 0
+1719579182.374580 fcntl64(148, F_SETLK64, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.374803 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=213338620}) = 0
+1719579182.378869 gettimeofday({tv_sec=1719579182, tv_usec=378901}, NULL) = 0
+1719579182.379034 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=217582996}) = 0
+1719579182.380332 fcntl64(148, F_SETLK64, {l_type=F_RDLCK, l_whence=SEEK_SET, l_start=1073741826, l_len=510}) = 0
+1719579182.387836 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=1073741824, l_len=2}) = 0
+1719579182.388135 fcntl64(148, F_SETLK64, {l_type=F_UNLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579182.388658 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=227662684}) = 0
+1719579182.391845 gettimeofday({tv_sec=1719579182, tv_usec=393696}, NULL) = 0
+1719579182.395314 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=234131591}) = 0
+1719579182.395847 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e480, 0) = 0
+1719579182.396025 fstat64(148, 0xbf17e3e0) = 0
+1719579182.397980 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/databases/ua.db", 0xbf17e448, 0) = 0
+1719579182.399866 close(148)            = 0
+1719579182.411427 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=250436332}) = 0
+1719579182.412502 getuid32()            = 10277
+1719579182.417519 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579182.423545 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=262158781}) = 0
+1719579182.423961 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/umeng_general_config.xml", F_OK) = 0
+1719579182.426283 getuid32()            = 10277
+1719579182.426454 epoll_pwait(88, [], 16, 0, NULL, 8) = 0
+1719579182.427048 clock_gettime(CLOCK_MONOTONIC, {tv_sec=147, tv_nsec=265685761}) = 0
+1719579182.427518 epoll_pwait(88,  <unfinished ...>) = ?
+1719579182.551909 +++ killed by SIGTERM +++

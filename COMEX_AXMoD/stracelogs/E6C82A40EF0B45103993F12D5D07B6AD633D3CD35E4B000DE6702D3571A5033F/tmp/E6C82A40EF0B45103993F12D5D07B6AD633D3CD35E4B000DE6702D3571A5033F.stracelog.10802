@@ -1,0 +1,12 @@
+1719579115.960153 restart_syscall(<... resuming interrupted nanosleep ...>) = 0
+1719579119.864697 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = 140
+1719579119.866967 write(140, "EGL$9\205\240\310$bB_\3\0\0\0\1\0\0\0\23\0\0\0\22\0\0\0S2RI"..., 42112) = 42112
+1719579119.867388 fchmod(140, 0400)     = 0
+1719579119.867519 close(140)            = 0
+1719579119.867917 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579119.868092 munmap(0xed8e3000, 20480) = 0
+1719579119.869915 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579119.870130 set_tid_address(0)    = 10802
+1719579119.870291 munmap(0xbcd79000, 1052672) = 0
+1719579119.870550 exit(0)               = ?
+1719579119.870815 +++ exited with 0 +++

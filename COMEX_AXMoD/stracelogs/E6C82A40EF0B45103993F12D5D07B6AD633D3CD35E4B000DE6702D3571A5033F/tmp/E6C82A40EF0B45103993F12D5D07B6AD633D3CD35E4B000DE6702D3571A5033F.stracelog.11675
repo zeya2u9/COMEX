@@ -1,0 +1,61 @@
+1719579125.860114 futex(0xbee05214, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579125.860864 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbed01000, 1077248, "stack_and_tls:11675") = 0
+1719579125.860981 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee99b000
+1719579125.861098 mprotect(0xee99b000, 4096, PROT_NONE) = 0
+1719579125.861203 sigaltstack({ss_sp=0xee99c000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579125.861310 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee99c000, 16384, "thread signal stack") = 0
+1719579125.861420 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579125.861599 write(4, "B|10566|Thread::Init", 20) = 20
+1719579125.861729 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579125.861849 mprotect(0xbed01000, 4096, PROT_NONE) = 0
+1719579125.861982 madvise(0xbed01000, 1060864, MADV_DONTNEED) = 0
+1719579125.862098 write(4, "E|10566", 7) = 7
+1719579125.862212 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579125.862356 write(4, "E|10566", 7) = 7
+1719579125.862470 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579125.862582 write(4, "E|10566", 7) = 7
+1719579125.862694 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579125.862817 write(4, "E|10566", 7) = 7
+1719579125.862930 write(4, "E|10566", 7) = 7
+1719579125.863074 prctl(PR_SET_NAME, "CrAsyncTask #1") = 0
+1719579125.863191 getpriority(PRIO_PROCESS, 11675) = 30
+1719579125.863290 setpriority(PRIO_PROCESS, 11675, 0) = 0
+1719579125.863664 getpriority(PRIO_PROCESS, 11675) = 20
+1719579125.863901 faccessat(AT_FDCWD, "/dev/stune/background/tasks", W_OK) = -1 EACCES (Permission denied)
+1719579125.864192 close(-3)             = -1 EBADF (Bad file descriptor)
+1719579125.864302 faccessat(AT_FDCWD, "/dev/blkio/background/tasks", W_OK) = -1 EACCES (Permission denied)
+1719579125.864438 close(-3)             = -1 EBADF (Bad file descriptor)
+1719579125.864562 openat(AT_FDCWD, "/proc/11675/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0666) = 160
+1719579125.864893 write(160, "50000", 5) = 5
+1719579125.865008 close(160)            = 0
+1719579125.865115 prctl(PR_SET_TIMERSLACK, 50000) = 0
+1719579125.865220 setpriority(PRIO_PROCESS, 11675, 10) = 0
+1719579125.865475 getpriority(PRIO_PROCESS, 11675) = 10
+1719579125.865707 write(4, "C|10566|Heap size (KB)|5817", 27) = 27
+1719579125.866035 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon", F_OK) = 0
+1719579125.866575 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", F_OK) = -1 ENOENT (No such file or directory)
+1719579125.867053 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", 0777) = 0
+1719579125.867835 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", 0771) = 0
+1719579125.868357 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", 0700) = 0
+1719579125.868844 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon", F_OK) = 0
+1719579125.869563 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_textures", F_OK) = -1 ENOENT (No such file or directory)
+1719579125.872022 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_textures", 0777) = 0
+1719579125.876184 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_textures", 0771) = 0
+1719579125.876660 getuid32()            = 10277
+1719579125.876868 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache", F_OK) = 0
+1719579125.879094 getuid32()            = 10277
+1719579125.879376 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache", F_OK) = 0
+1719579125.879647 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView", 0777) = 0
+1719579125.880104 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView", 02700) = 0
+1719579125.880330 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=718930336}) = 0
+1719579125.880553 futex(0xe1fc0048, FUTEX_WAIT_PRIVATE, 2, {tv_sec=30, tv_nsec=0}) = -1 ETIMEDOUT (Connection timed out)
+1719579155.881939 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=720736554}) = 0
+1719579155.883041 clock_gettime(CLOCK_MONOTONIC, {tv_sec=120, tv_nsec=722067440}) = 0
+1719579155.884313 munmap(0xef401000, 8192) = 0
+1719579155.885158 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579155.885785 munmap(0xee99b000, 20480) = 0
+1719579155.886145 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579155.886918 set_tid_address(0)    = 11675
+1719579155.892053 munmap(0xbed00000, 1085440) = 0
+1719579155.893145 exit(0)               = ?
+1719579155.894952 +++ exited with 0 +++

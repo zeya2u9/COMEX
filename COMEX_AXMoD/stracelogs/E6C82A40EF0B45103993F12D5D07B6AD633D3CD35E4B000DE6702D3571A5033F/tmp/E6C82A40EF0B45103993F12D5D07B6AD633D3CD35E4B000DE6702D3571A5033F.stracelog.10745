@@ -1,0 +1,245 @@
+1719579115.968549 ppoll([{fd=91, events=POLLIN|POLLERR}], 1, {tv_sec=19, tv_nsec=807365918}, NULL, 0) = 1 ([{fd=91, revents=POLLIN}], left {tv_sec=19, tv_nsec=393395616})
+1719579116.382734 recvfrom(91, "\26\3\3\0T\2\0\0P\3\3\6v\323\304\2\361t\250\327e\316\3701\272\264\37\21\326\355\207W"..., 16709, 0, NULL, NULL) = 1448
+1719579116.383083 gettimeofday({tv_sec=1719579116, tv_usec=383118}, NULL) = 0
+1719579116.384533 gettimeofday({tv_sec=1719579116, tv_usec=385030}, NULL) = 0
+1719579116.385436 gettimeofday({tv_sec=1719579116, tv_usec=385455}, NULL) = 0
+1719579116.385516 ppoll([{fd=91, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=91, revents=POLLIN}], left {tv_sec=19, tv_nsec=999995677})
+1719579116.385602 recvfrom(91, "2\354\35\262\216z\367\"2\214\375yJRi\240R\363?\376\347\250\24d\321u8\256\306\223[\212"..., 15350, 0, NULL, NULL) = 1706
+1719579116.385962 sched_yield()         = 0
+1719579116.386147 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=224672672}) = 0
+1719579116.386384 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=224908505}) = 0
+1719579116.387035 write(4, "C|10566|Heap size (KB)|3295", 27) = 27
+1719579116.387154 gettimeofday({tv_sec=1719579116, tv_usec=387185}, NULL) = 0
+1719579116.387335 write(4, "C|10566|Heap size (KB)|3295", 27) = 27
+1719579116.387638 gettimeofday({tv_sec=1719579116, tv_usec=387671}, NULL) = 0
+1719579116.388146 write(4, "C|10566|Heap size (KB)|3295", 27) = 27
+1719579116.388781 gettimeofday({tv_sec=1719579116, tv_usec=388816}, NULL) = 0
+1719579116.388998 write(4, "C|10566|Heap size (KB)|3295", 27) = 27
+1719579116.389123 gettimeofday({tv_sec=1719579116, tv_usec=389154}, NULL) = 0
+1719579116.389363 sched_yield()         = 0
+1719579116.390160 sched_yield()         = 0
+1719579116.390640 sched_yield()         = 0
+1719579116.390886 sched_yield()         = 0
+1719579116.391220 sched_yield()         = 0
+1719579116.391716 sched_yield()         = 0
+1719579116.391920 sched_yield()         = 0
+1719579116.392053 sched_yield()         = 0
+1719579116.392410 sched_yield()         = 0
+1719579116.392830 sched_yield()         = 0
+1719579116.393073 sched_yield()         = 0
+1719579116.393423 sched_yield()         = 0
+1719579116.393952 sched_yield()         = 0
+1719579116.394246 sched_yield()         = 0
+1719579116.394591 sched_yield()         = 0
+1719579116.395051 sched_yield()         = 0
+1719579116.395482 sched_yield()         = 0
+1719579116.396040 sched_yield()         = 0
+1719579116.396726 sched_yield()         = 0
+1719579116.397045 sched_yield()         = 0
+1719579116.397885 sched_yield()         = 0
+1719579116.399359 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=237881996}) = 0
+1719579116.399619 write(4, "C|10566|Heap size (KB)|3328", 27) = 27
+1719579116.400499 write(4, "B|10566|Lock contention on linea"..., 54) = 54
+1719579116.401300 write(4, "E|10566", 7) = 7
+1719579116.404012 write(4, "B|10566|Lock contention on Class"..., 70) = 70
+1719579116.405150 write(4, "E|10566", 7) = 7
+1719579116.406676 sched_yield()         = 0
+1719579116.407845 faccessat(AT_FDCWD, "/system/etc/security/cacerts/31ebe74e.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.408899 futex(0xd4eb0f74, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579116.412490 futex(0xf0c71d98, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xd164f70c) = 0
+1719579116.416098 futex(0xd164f70c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579116.417021 write(4, "C|10566|Heap size (KB)|3376", 27) = 27
+1719579116.417729 faccessat(AT_FDCWD, "/system/etc/security/cacerts/780436f4.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.419430 write(4, "C|10566|Heap size (KB)|3456", 27) = 27
+1719579116.419765 gettimeofday({tv_sec=1719579116, tv_usec=419843}, NULL) = 0
+1719579116.420005 futex(0xd164f10c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579116.420236 futex(0xf0c71ab8, FUTEX_WAIT_PRIVATE, 0, NULL) = -1 EAGAIN (Try again)
+1719579116.421688 write(4, "C|10566|Heap size (KB)|3504", 27) = 27
+1719579116.427072 faccessat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.0", F_OK) = 0
+1719579116.428477 faccessat(AT_FDCWD, "/data/misc/user/0/cacerts-removed/c90bc37d.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.428811 openat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.0", O_RDONLY|O_LARGEFILE) = 124
+1719579116.429041 fstat64(124, 0xbee61f78) = 0
+1719579116.429371 write(4, "C|10566|Heap size (KB)|3600", 27) = 27
+1719579116.429643 read(124, "-----BEGIN CERTIFICATE-----\nMIID"..., 8192) = 4467
+1719579116.432741 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xbc9bf000
+1719579116.432953 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbc9bf000, 524288, "scudo:primary") = 0
+1719579116.433258 munmap(0xbc9bf000, 4096) = 0
+1719579116.433811 munmap(0xbca00000, 258048) = 0
+1719579116.434124 sched_yield()         = 0
+1719579116.435460 write(4, "C|10566|Heap size (KB)|3633", 27) = 27
+1719579116.435649 gettimeofday({tv_sec=1719579116, tv_usec=435732}, NULL) = 0
+1719579116.436007 write(4, "C|10566|Heap size (KB)|3649", 27) = 27
+1719579116.436166 gettimeofday({tv_sec=1719579116, tv_usec=436202}, NULL) = 0
+1719579116.436371 getsockopt(124, SOL_SOCKET, SO_DOMAIN, 0xbee61f80, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579116.438043 close(124)            = 0
+1719579116.438485 write(4, "C|10566|Heap size (KB)|3681", 27) = 27
+1719579116.439694 faccessat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.1", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.443722 write(4, "C|10566|Heap size (KB)|3745", 27) = 27
+1719579116.453091 write(4, "C|10566|Heap size (KB)|3761", 27) = 27
+1719579116.453703 write(4, "C|10566|Heap size (KB)|3777", 27) = 27
+1719579116.457897 write(4, "C|10566|Heap size (KB)|3793", 27) = 27
+1719579116.458459 gettimeofday({tv_sec=1719579116, tv_usec=458517}, NULL) = 0
+1719579116.459244 write(4, "C|10566|Heap size (KB)|3857", 27) = 27
+1719579116.464496 write(4, "C|10566|Heap size (KB)|3873", 27) = 27
+1719579116.466089 write(4, "C|10566|Heap size (KB)|3937", 27) = 27
+1719579116.467599 write(4, "C|10566|Heap size (KB)|3969", 27) = 27
+1719579116.468909 write(4, "C|10566|Heap size (KB)|3985", 27) = 27
+1719579116.471473 write(4, "C|10566|Heap size (KB)|4001", 27) = 27
+1719579116.472990 sched_yield()         = 0
+1719579116.473488 write(4, "C|10566|Heap size (KB)|4049", 27) = 27
+1719579116.476524 futex(0xd4eb104c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579116.479900 futex(0xd4eb0d84, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579116.486517 sendto(91, "\26\3\3\0%\20\0\0! [O\260\341\261\206\375\321n\22D's\213\317\202\353<\273\343Gc"..., 93, 0, NULL, 0) = 93
+1719579116.490350 gettimeofday({tv_sec=1719579116, tv_usec=490729}, NULL) = 0
+1719579116.492181 ppoll([{fd=91, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=91, revents=POLLIN}], left {tv_sec=19, tv_nsec=508136566})
+1719579116.986293 recvfrom(91, "\26\3\3\0\332\4\0\0\326\0\0\1,\0\320\300P\235s\21I\215s\241)rJ\270\252\vX@"..., 16709, 0, NULL, NULL) = 274
+1719579116.986663 gettimeofday({tv_sec=1719579116, tv_usec=986699}, NULL) = 0
+1719579116.986979 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=825525648}) = 0
+1719579116.987111 gettimeofday({tv_sec=1719579116, tv_usec=987144}, NULL) = 0
+1719579116.987307 gettimeofday({tv_sec=1719579116, tv_usec=987341}, NULL) = 0
+1719579116.987735 gettimeofday({tv_sec=1719579116, tv_usec=987771}, NULL) = 0
+1719579116.988701 write(4, "C|10566|Heap size (KB)|4166", 27) = 27
+1719579116.989125 clock_gettime(CLOCK_BOOTTIME, {tv_sec=81, tv_nsec=827653669}) = 0
+1719579116.989524 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579116, tv_nsec=989570937}) = 0
+1719579116.989661 writev(72, [{iov_base="\5\371)\354\261~fy\247\373:", iov_len=11}, {iov_base="tats", iov_len=4}, {iov_base="\7\6\1%\350N\r\23\0\0\0\0=\1\0\0\5\1\0\4\0\0\0\0000\300\377\377\0\307\4\0"..., iov_len=33}], 3) = 48
+1719579116.990223 write(4, "C|10566|Heap size (KB)|4182", 27) = 27
+1719579116.990753 gettimeofday({tv_sec=1719579116, tv_usec=990926}, NULL) = 0
+1719579116.992711 sendto(91, "\27\3\3\1\267\0\0\0\0\0\0\0\1Kt\35\214\216\2\313\275\f\n\37\5q\333GAE\225\34"..., 444, 0, NULL, 0) = 444
+1719579116.997085 write(4, "C|10566|Heap size (KB)|4202", 27) = 27
+1719579117.001352 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed898000
+1719579117.005402 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed898000, 8192, "dalvik-indirect ref table") = 0
+1719579117.006366 write(6, "B|10566|pthread_create", 22) = 22
+1719579117.007227 mmap2(NULL, 1085440, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xbc737000
+1719579117.008334 mprotect(0xbc738000, 1077248, PROT_READ|PROT_WRITE) = 0
+1719579117.008771 rt_sigprocmask(SIG_BLOCK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579117.011205 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579117.012740 rt_sigprocmask(SIG_SETMASK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579117.013092 clone(child_stack=0xbc83c1b8, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xbc83c1c8, tls=0xbc83c480, child_tidptr=0xbc83c1c8) = 10920
+1719579117.022221 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579117.022454 futex(0xbc83c214, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579117.022568 write(6, "E|", 2)     = 2
+1719579117.022909 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=861432214}) = 0
+1719579117.023263 gettimeofday({tv_sec=1719579117, tv_usec=23533}, NULL) = 0
+1719579117.025442 ppoll([{fd=91, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=91, revents=POLLIN}], left {tv_sec=19, tv_nsec=429538797})
+1719579117.625279 recvfrom(91, "\27\3\3\f\36424\272m H[\362o/s\221 3\"\336%\246B#\342^uK\247\261q"..., 16709, 0, NULL, NULL) = 3321
+1719579117.625824 gettimeofday({tv_sec=1719579117, tv_usec=625870}, NULL) = 0
+1719579117.627412 write(4, "C|10566|Heap size (KB)|4374", 27) = 27
+1719579117.627627 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=466171389}) = 0
+1719579117.627813 write(4, "C|10566|Heap size (KB)|4390", 27) = 27
+1719579117.628433 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed386000
+1719579117.630612 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed386000, 20480, "dalvik-large object space alloca"...) = 0
+1719579117.630848 write(4, "C|10566|Heap size (KB)|4410", 27) = 27
+1719579117.635688 write(4, "C|10566|Heap size (KB)|4426", 27) = 27
+1719579117.636120 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed37c000
+1719579117.636414 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed37c000, 20480, "dalvik-large object space alloca"...) = 0
+1719579117.636627 write(4, "C|10566|Heap size (KB)|4446", 27) = 27
+1719579117.637049 write(4, "C|10566|Heap size (KB)|4462", 27) = 27
+1719579117.637428 write(4, "C|10566|Heap size (KB)|4478", 27) = 27
+1719579117.637810 write(4, "B|10566|VerifyClass com.lf.contr"..., 57) = 57
+1719579117.637971 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=476491963}) = 0
+1719579117.638408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=476932015}) = 0
+1719579117.641487 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480146599}) = 0
+1719579117.641765 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480310922}) = 0
+1719579117.641946 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480487380}) = 0
+1719579117.642085 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480627015}) = 0
+1719579117.642275 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480814932}) = 0
+1719579117.642408 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=480950140}) = 0
+1719579117.642609 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=481130193}) = 0
+1719579117.642886 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=481412536}) = 0
+1719579117.643128 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=481650974}) = 0
+1719579117.643304 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=481840922}) = 0
+1719579117.643464 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=481999307}) = 0
+1719579117.643624 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=482144047}) = 0
+1719579117.643816 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=482337068}) = 0
+1719579117.643959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=482478682}) = 0
+1719579117.644152 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=482689047}) = 0
+1719579117.644330 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=482850453}) = 0
+1719579117.644664 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=483184412}) = 0
+1719579117.644798 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=483408370}) = 0
+1719579117.645748 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=484297953}) = 0
+1719579117.646630 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=485151078}) = 0
+1719579117.646815 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=485336078}) = 0
+1719579117.646963 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=485482745}) = 0
+1719579117.647183 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=485704568}) = 0
+1719579117.648498 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=487024464}) = 0
+1719579117.648713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=487233995}) = 0
+1719579117.648830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=487364204}) = 0
+1719579117.648998 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=487519204}) = 0
+1719579117.651253 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=489820818}) = 0
+1719579117.651661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=490184048}) = 0
+1719579117.651817 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=490374464}) = 0
+1719579117.652056 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=490579360}) = 0
+1719579117.652231 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=490752798}) = 0
+1719579117.652355 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=490889621}) = 0
+1719579117.652491 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491024256}) = 0
+1719579117.652676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491196704}) = 0
+1719579117.652792 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491326131}) = 0
+1719579117.652934 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491468058}) = 0
+1719579117.653097 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491616964}) = 0
+1719579117.653274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491796704}) = 0
+1719579117.653392 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=491926183}) = 0
+1719579117.653547 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492081652}) = 0
+1719579117.653747 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492268839}) = 0
+1719579117.653933 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492454100}) = 0
+1719579117.654071 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492592746}) = 0
+1719579117.654188 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492721965}) = 0
+1719579117.654319 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=492870298}) = 0
+1719579117.654489 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=493023162}) = 0
+1719579117.654602 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=493136131}) = 0
+1719579117.654773 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=493294465}) = 0
+1719579117.654964 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=493500454}) = 0
+1719579117.655369 write(4, "E|10566", 7) = 7
+1719579117.655549 write(4, "C|10566|Heap size (KB)|4494", 27) = 27
+1719579117.655952 write(4, "C|10566|Heap size (KB)|4510", 27) = 27
+1719579117.656102 gettimeofday({tv_sec=1719579117, tv_usec=656135}, NULL) = 0
+1719579117.656315 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs", F_OK) = 0
+1719579117.656487 getuid32()            = 10277
+1719579117.656633 write(4, "C|10566|Heap size (KB)|4510", 27) = 27
+1719579117.656777 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed699000
+1719579117.656916 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed699000, 8192, "dalvik-indirect ref table") = 0
+1719579117.657055 write(6, "B|10566|pthread_create", 22) = 22
+1719579117.657172 mmap2(NULL, 1085440, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xbc32b000
+1719579117.657290 mprotect(0xbc32c000, 1077248, PROT_READ|PROT_WRITE) = 0
+1719579117.657468 rt_sigprocmask(SIG_BLOCK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579117.657599 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579117.657771 rt_sigprocmask(SIG_SETMASK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579117.657922 clone(child_stack=0xbc4301b8, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xbc4301c8, tls=0xbc430480, child_tidptr=0xbc4301c8) = 10965
+1719579117.658311 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579117.658441 write(6, "E|", 2)     = 2
+1719579117.658625 futex(0xd164f10c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579117.658739 futex(0xf0c71ab8, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1719579117.740373 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/config.xml", F_OK) = -1 ENOENT (No such file or directory)
+1719579117.740647 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/config.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 142
+1719579117.741116 fstat64(142, 0xbee638c8) = 0
+1719579117.741584 mmap2(NULL, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed2bc000
+1719579117.742247 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed2bc000, 69632, "dalvik-large object space alloca"...) = 0
+1719579117.742873 write(4, "C|10566|Heap size (KB)|4678", 27) = 27
+1719579117.743275 mmap2(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed2b3000
+1719579117.751405 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed2b3000, 36864, "dalvik-large object space alloca"...) = 0
+1719579117.758752 write(4, "C|10566|Heap size (KB)|4714", 27) = 27
+1719579117.758987 write(4, "C|10566|Heap size (KB)|4714", 27) = 27
+1719579117.759606 write(142, "<?xml version='1.0' encoding='ut"..., 7694) = 7694
+1719579117.760542 gettimeofday({tv_sec=1719579117, tv_usec=760611}, NULL) = 0
+1719579117.760762 fsync(142)            = 0
+1719579117.762434 gettimeofday({tv_sec=1719579117, tv_usec=762539}, NULL) = 0
+1719579117.762947 getsockopt(142, SOL_SOCKET, SO_DOMAIN, 0xbee63980, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579117.763170 close(142)            = 0
+1719579117.766860 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/config.xml", 0660) = 0
+1719579117.767099 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/config.xml", 0xbee63938, 0) = 0
+1719579117.767278 unlinkat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/config.xml.bak", 0) = -1 ENOENT (No such file or directory)
+1719579117.768046 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579117.769121 getuid32()            = 10277
+1719579117.771070 getuid32()            = 10277
+1719579117.771689 clock_gettime(CLOCK_BOOTTIME, {tv_sec=82, tv_nsec=610214893}) = 0
+1719579117.771881 ioctl(68, BINDER_WRITE_READ, 0xbee63690) = 0
+1719579117.772236 ioctl(68, BINDER_WRITE_READ, 0xbee63690) = 0
+1719579117.783007 ioctl(68, BINDER_WRITE_READ, 0xbee637f0) = 0
+1719579117.784620 munmap(0xee8c0000, 8192) = 0
+1719579117.785189 ioctl(68, BINDER_THREAD_EXIT, 0) = 0
+1719579117.785348 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579117.785475 munmap(0xedf3d000, 20480) = 0
+1719579117.787590 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579117.787713 set_tid_address(0)    = 10745
+1719579117.787832 munmap(0xbed5f000, 1085440) = 0
+1719579117.787966 exit(0)               = ?
+1719579117.788323 +++ exited with 0 +++

@@ -1,0 +1,92 @@
+1719579117.782003 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbc32c000, 1077248, "stack_and_tls:10970") = 0
+1719579117.782503 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed1ec000
+1719579117.782964 mprotect(0xed1ec000, 4096, PROT_NONE) = 0
+1719579117.783299 sigaltstack({ss_sp=0xed1ed000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579117.783482 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed1ed000, 16384, "thread signal stack") = 0
+1719579117.783788 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579117.784471 write(4, "B|10566|Thread::Init", 20) = 20
+1719579117.785652 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579117.785770 mprotect(0xbc32c000, 4096, PROT_NONE) = 0
+1719579117.788702 madvise(0xbc32c000, 1060864, MADV_DONTNEED) = 0
+1719579117.790674 write(4, "E|10566", 7) = 7
+1719579117.790861 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579117.790978 write(4, "E|10566", 7) = 7
+1719579117.791337 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579117.791481 write(4, "E|10566", 7) = 7
+1719579117.792541 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579117.793699 write(4, "E|10566", 7) = 7
+1719579117.793913 write(4, "E|10566", 7) = 7
+1719579117.794278 prctl(PR_SET_NAME, "trackTime") = 0
+1719579117.795269 getpriority(PRIO_PROCESS, 10970) = 20
+1719579117.795429 futex(0xbc9c2fec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579117.795701 futex(0xd15cfdb8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579117.807498 write(4, "C|10566|Heap size (KB)|4875", 27) = 27
+1719579117.808490 write(4, "C|10566|Heap size (KB)|4875", 27) = 27
+1719579117.809852 write(4, "C|10566|Heap size (KB)|4875", 27) = 27
+1719579117.816151 gettimeofday({tv_sec=1719579117, tv_usec=816514}, NULL) = 0
+1719579117.828433 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 140
+1719579117.828755 setsockopt(140, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+1719579117.828869 connect(140, {sa_family=AF_UNIX, sun_path="/dev/socket/dnsproxyd"}, 110) = 0
+1719579117.831022 fcntl64(140, F_GETFL) = 0x2 (flags O_RDWR)
+1719579117.831127 fstat64(140, 0xbc42f080) = 0
+1719579117.832185 write(140, "getaddrinfo www.baidu.com ^ 1024"..., 41) = 41
+1719579117.833305 read(140, "222\0\0\0\0\1\0\0\4\0\0\0\0\2\0\0\0\1\0\0\0\6\0\0\0\20\2\0\0\0"..., 4096) = 96
+1719579118.479997 close(140)            = 0
+1719579118.480957 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=319541734}) = 0
+1719579118.481430 socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 142
+1719579118.482290 getsockopt(142, SOL_SOCKET, SO_PROTOCOL, [6], [4]) = 0
+1719579118.482659 getsockopt(142, SOL_SOCKET, SO_DOMAIN, [10], [4]) = 0
+1719579118.482891 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 145
+1719579118.483834 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=322446006}) = 0
+1719579118.484137 connect(145, {sa_family=AF_UNIX, sun_path="/dev/socket/fwmarkd"}, 110) = 0
+1719579118.489421 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=328150329}) = 0
+1719579118.490148 sendmsg(145, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=16}, {iov_base=NULL, iov_len=0}], msg_iovlen=2, msg_control=[{cmsg_len=16, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[142]}], msg_controllen=16, msg_flags=0}, 0) = 16
+1719579118.490753 recvfrom(145, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1719579118.491139 close(145)            = 0
+1719579118.492360 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=330887986}) = 0
+1719579118.492485 connect(142, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:45.113.192.102", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579131.314498 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579131.314657 futex(0xeb38f264, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.315161 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=153691971}) = 0
+1719579131.315319 futex(0xeb38f264, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=101, tv_nsec=153691971}, 0xffffffff) = 0
+1719579131.327030 futex(0xeb38f264, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.327134 rt_sigreturn({mask=[]}) = 142
+1719579131.327282 connect(142, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:45.113.192.102", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = -1 ETIMEDOUT (Connection timed out)
+1719579150.842547 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=681075323}) = 0
+1719579150.842709 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 124
+1719579150.842880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=681402146}) = 0
+1719579150.843037 connect(124, {sa_family=AF_UNIX, sun_path="/dev/socket/fwmarkd"}, 110) = 0
+1719579150.843301 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=681884021}) = 0
+1719579150.843483 sendmsg(124, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=16}, {iov_base="n\0\0\0^~\0\0\n\0\0P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\377\377-q\300f"..., iov_len=36}], msg_iovlen=2, msg_control=[{cmsg_len=16, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[142]}], msg_controllen=16, msg_flags=0}, 0) = 52
+1719579150.844077 recvfrom(124, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1719579150.844334 close(124)            = 0
+1719579150.845399 getsockname(142, {sa_family=AF_INET6, sin6_port=htons(42542), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, [128->28]) = 0
+1719579150.845680 futex(0xebd794dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579150.846250 futex(0xebd794dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579150.846518 socketpair(AF_UNIX, SOCK_STREAM, 0, [124, 126]) = 0
+1719579150.846707 shutdown(124, SHUT_RDWR) = 0
+1719579150.846819 getsockopt(126, SOL_SOCKET, SO_DOMAIN, [1], [4]) = 0
+1719579150.846953 getsockopt(126, SOL_SOCKET, SO_LINGER, {l_onoff=0, l_linger=0}, [8]) = 0
+1719579150.847145 close(126)            = 0
+1719579150.847340 dup3(124, 142, 0)     = 142
+1719579150.847518 getsockopt(124, SOL_SOCKET, SO_DOMAIN, [1], [4]) = 0
+1719579150.847743 getsockopt(124, SOL_SOCKET, SO_LINGER, {l_onoff=0, l_linger=0}, [8]) = 0
+1719579150.847893 close(124)            = 0
+1719579150.848059 getsockopt(142, SOL_SOCKET, SO_DOMAIN, [1], [4]) = 0
+1719579150.848351 getsockopt(142, SOL_SOCKET, SO_LINGER, {l_onoff=0, l_linger=0}, [8]) = 0
+1719579150.848529 close(142)            = 0
+1719579150.851174 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=689707147}) = 0
+1719579150.851441 gettimeofday({tv_sec=1719579150, tv_usec=851461}, NULL) = 0
+1719579150.851686 socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 124
+1719579150.851918 getsockopt(124, SOL_SOCKET, SO_PROTOCOL, [6], [4]) = 0
+1719579150.852109 getsockopt(124, SOL_SOCKET, SO_DOMAIN, [10], [4]) = 0
+1719579150.852275 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC, 0) = 126
+1719579150.852688 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=691234595}) = 0
+1719579150.852934 connect(126, {sa_family=AF_UNIX, sun_path="/dev/socket/fwmarkd"}, 110) = 0
+1719579150.853212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=691733032}) = 0
+1719579150.853357 sendmsg(126, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", iov_len=16}, {iov_base=NULL, iov_len=0}], msg_iovlen=2, msg_control=[{cmsg_len=16, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, cmsg_data=[124]}], msg_controllen=16, msg_flags=0}, 0) = 16
+1719579150.853640 recvfrom(126, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1719579150.853880 close(126)            = 0
+1719579150.854047 clock_gettime(CLOCK_MONOTONIC, {tv_sec=115, tv_nsec=692569647}) = 0
+1719579150.854194 connect(124, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "::ffff:45.113.192.101", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = ?
+1719579182.540322 +++ killed by SIGTERM +++

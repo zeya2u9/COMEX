@@ -1,0 +1,770 @@
+1719579115.968965 ppoll([{fd=81, events=POLLIN|POLLERR}], 1, {tv_sec=19, tv_nsec=806612168}, NULL, 0) = 1 ([{fd=81, revents=POLLIN}], left {tv_sec=19, tv_nsec=396348169})
+1719579116.380058 recvfrom(81, "\26\3\3\0T\2\0\0P\3\3\224\33\206a`|wN&\7k\213\304\345H6b\273\234iY"..., 16709, 0, NULL, NULL) = 1448
+1719579116.381133 gettimeofday({tv_sec=1719579116, tv_usec=381188}, NULL) = 0
+1719579116.381275 gettimeofday({tv_sec=1719579116, tv_usec=381437}, NULL) = 0
+1719579116.382083 gettimeofday({tv_sec=1719579116, tv_usec=382185}, NULL) = 0
+1719579116.382304 ppoll([{fd=81, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=81, revents=POLLIN}], left {tv_sec=19, tv_nsec=999993386})
+1719579116.382545 recvfrom(81, "2\354\35\262\216z\367\"2\214\375yJRi\240R\363?\376\347\250\24d\321u8\256\306\223[\212"..., 15350, 0, NULL, NULL) = 1706
+1719579116.389417 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=227978922}) = 0
+1719579116.389735 write(4, "C|10566|Heap size (KB)|3296", 27) = 27
+1719579116.389880 gettimeofday({tv_sec=1719579116, tv_usec=389902}, NULL) = 0
+1719579116.390210 write(4, "C|10566|Heap size (KB)|3296", 27) = 27
+1719579116.394007 gettimeofday({tv_sec=1719579116, tv_usec=397599}, NULL) = 0
+1719579116.399675 write(4, "C|10566|Heap size (KB)|3328", 27) = 27
+1719579116.401021 gettimeofday({tv_sec=1719579116, tv_usec=401084}, NULL) = 0
+1719579116.405589 write(4, "C|10566|Heap size (KB)|3328", 27) = 27
+1719579116.405921 write(4, "C|10566|Heap size (KB)|3344", 27) = 27
+1719579116.406778 gettimeofday({tv_sec=1719579116, tv_usec=406814}, NULL) = 0
+1719579116.409726 faccessat(AT_FDCWD, "/system/etc/security/cacerts/31ebe74e.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.411056 futex(0xf0cabdec, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579116.411187 futex(0xf0c71ed8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579116.418021 sched_yield()         = 0
+1719579116.418673 sched_yield()         = 0
+1719579116.419492 write(4, "C|10566|Heap size (KB)|3440", 27) = 27
+1719579116.420038 faccessat(AT_FDCWD, "/system/etc/security/cacerts/780436f4.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.421713 write(4, "C|10566|Heap size (KB)|3520", 27) = 27
+1719579116.426046 gettimeofday({tv_sec=1719579116, tv_usec=426133}, NULL) = 0
+1719579116.427167 write(4, "C|10566|Heap size (KB)|3552", 27) = 27
+1719579116.427644 faccessat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.0", F_OK) = 0
+1719579116.427858 faccessat(AT_FDCWD, "/data/misc/user/0/cacerts-removed/c90bc37d.0", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.428632 openat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.0", O_RDONLY|O_LARGEFILE) = 123
+1719579116.429056 fstat64(123, 0xbf38ef78) = 0
+1719579116.429202 write(4, "C|10566|Heap size (KB)|3584", 27) = 27
+1719579116.429419 read(123, "-----BEGIN CERTIFICATE-----\nMIID"..., 8192) = 4467
+1719579116.431959 write(4, "C|10566|Heap size (KB)|3616", 27) = 27
+1719579116.432890 gettimeofday({tv_sec=1719579116, tv_usec=432912}, NULL) = 0
+1719579116.433043 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=271574343}) = 0
+1719579116.433200 sched_yield()         = 0
+1719579116.433471 sched_yield()         = 0
+1719579116.434142 sched_yield()         = 0
+1719579116.435020 write(4, "C|10566|Heap size (KB)|3633", 27) = 27
+1719579116.435171 gettimeofday({tv_sec=1719579116, tv_usec=436523}, NULL) = 0
+1719579116.437596 getsockopt(123, SOL_SOCKET, SO_DOMAIN, 0xbf38ef80, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579116.437808 close(123)            = 0
+1719579116.438822 write(4, "C|10566|Heap size (KB)|3697", 27) = 27
+1719579116.439425 faccessat(AT_FDCWD, "/system/etc/security/cacerts/c90bc37d.1", F_OK) = -1 ENOENT (No such file or directory)
+1719579116.442555 write(4, "C|10566|Heap size (KB)|3713", 27) = 27
+1719579116.453220 sched_yield()         = 0
+1719579116.453491 sched_yield()         = 0
+1719579116.454039 sched_yield()         = 0
+1719579116.454461 sched_yield()         = 0
+1719579116.458357 write(4, "C|10566|Heap size (KB)|3809", 27) = 27
+1719579116.459292 gettimeofday({tv_sec=1719579116, tv_usec=459334}, NULL) = 0
+1719579116.464559 write(4, "C|10566|Heap size (KB)|3889", 27) = 27
+1719579116.465828 write(4, "C|10566|Heap size (KB)|3921", 27) = 27
+1719579116.468355 sched_yield()         = 0
+1719579116.471803 sched_yield()         = 0
+1719579116.474442 sched_yield()         = 0
+1719579116.474608 sched_yield()         = 0
+1719579116.477023 write(4, "C|10566|Heap size (KB)|4113", 27) = 27
+1719579116.479954 write(4, "C|10566|Heap size (KB)|4129", 27) = 27
+1719579116.486337 sendto(81, "\26\3\3\0%\20\0\0! \266\327\265N\262;\\\236\207\v\265\35\355x\330\302\250\3018\257\nG"..., 93, 0, NULL, 0) = 93
+1719579116.492375 gettimeofday({tv_sec=1719579116, tv_usec=492425}, NULL) = 0
+1719579116.496030 ppoll([{fd=81, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=81, revents=POLLIN}], left {tv_sec=19, tv_nsec=512948961})
+1719579116.990355 recvfrom(81, "\26\3\3\0\332\4\0\0\326\0\0\1,\0\320\300P\235s\21I\215s\241)rJ\270\252\vX\222"..., 16709, 0, NULL, NULL) = 274
+1719579116.991320 gettimeofday({tv_sec=1719579116, tv_usec=991344}, NULL) = 0
+1719579116.991820 gettimeofday({tv_sec=1719579116, tv_usec=991852}, NULL) = 0
+1719579116.992028 gettimeofday({tv_sec=1719579116, tv_usec=992066}, NULL) = 0
+1719579116.992496 gettimeofday({tv_sec=1719579116, tv_usec=992520}, NULL) = 0
+1719579116.992793 write(4, "C|10566|Heap size (KB)|4186", 27) = 27
+1719579116.992921 clock_gettime(CLOCK_BOOTTIME, {tv_sec=81, tv_nsec=831457888}) = 0
+1719579116.993119 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579116, tv_nsec=993156302}) = 0
+1719579116.993238 writev(72, [{iov_base="\5\342)\354\261~f\316\\2;", iov_len=11}, {iov_base="tats", iov_len=4}, {iov_base="\7\6\1`\364\210\r\23\0\0\0\0=\1\0\0\5\1\0\4\0\0\0\0000\300\377\377\0\347\4\0"..., iov_len=33}], 3) = 48
+1719579116.993706 gettimeofday({tv_sec=1719579116, tv_usec=993750}, NULL) = 0
+1719579116.993877 write(4, "C|10566|Heap size (KB)|4202", 27) = 27
+1719579116.996904 sendto(81, "\27\3\3\1\323\0\0\0\0\0\0\0\1\270\317n\364P\253CB\252r\32C\323LdK1b\2"..., 472, 0, NULL, 0) = 472
+1719579116.998606 sched_yield()         = 0
+1719579117.005121 sched_yield()         = 0
+1719579117.005608 sched_yield()         = 0
+1719579117.006416 sched_yield()         = 0
+1719579117.006818 sched_yield()         = 0
+1719579117.007286 sched_yield()         = 0
+1719579117.008678 sched_yield()         = 0
+1719579117.009036 sched_yield()         = 0
+1719579117.011279 sched_yield()         = 0
+1719579117.011482 sched_yield()         = 0
+1719579117.012977 sched_yield()         = 0
+1719579117.013519 sched_yield()         = 0
+1719579117.023202 clock_gettime(CLOCK_MONOTONIC, {tv_sec=81, tv_nsec=861737631}) = 0
+1719579117.025196 gettimeofday({tv_sec=1719579117, tv_usec=25221}, NULL) = 0
+1719579117.025334 ppoll([{fd=81, events=POLLIN|POLLERR}], 1, {tv_sec=20, tv_nsec=0}, NULL, 0) = 1 ([{fd=81, revents=POLLIN}], left {tv_sec=19, tv_nsec=429284370})
+1719579117.626480 recvfrom(81, "\27\3\3\3Syp\357\322\336\312\300\340\325id\24\376\251e\255\33\276\206\256d\334\305w\200\306\4"..., 16709, 0, NULL, NULL) = 856
+1719579117.658856 gettimeofday({tv_sec=1719579117, tv_usec=658893}, NULL) = 0
+1719579117.661628 write(4, "B|10566|monitor contention with "..., 289) = 289
+1719579117.661859 write(4, "E|10566", 7) = 7
+1719579117.662141 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=500682278}) = 0
+1719579117.662311 futex(0xf0c71c78, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xd164e95c) = 1
+1719579117.662436 futex(0xd164e95c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579117.662750 write(4, "C|10566|Heap size (KB)|4542", 27) = 27
+1719579117.663398 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed326000
+1719579117.663563 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed326000, 20480, "dalvik-large object space alloca"...) = 0
+1719579117.663715 write(4, "C|10566|Heap size (KB)|4562", 27) = 27
+1719579117.664231 write(4, "C|10566|Heap size (KB)|4578", 27) = 27
+1719579117.664620 write(4, "B|10566|VerifyClass com.lf.entry"..., 38) = 38
+1719579117.664755 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=503702122}) = 0
+1719579117.665388 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=503951705}) = 0
+1719579117.665754 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=504279309}) = 0
+1719579117.665905 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=504443789}) = 0
+1719579117.724173 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=563031711}) = 0
+1719579117.725528 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=564692024}) = 0
+1719579117.726555 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=565134420}) = 0
+1719579117.727509 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=566169472}) = 0
+1719579117.730882 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=569466087}) = 0
+1719579117.732539 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=571417702}) = 0
+1719579117.736497 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=575056504}) = 0
+1719579117.736980 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=575508848}) = 0
+1719579117.737224 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=575751764}) = 0
+1719579117.737377 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=575908900}) = 0
+1719579117.737610 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=576293640}) = 0
+1719579117.738572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=577385515}) = 0
+1719579117.739900 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=578504890}) = 0
+1719579117.740451 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=578985671}) = 0
+1719579117.740712 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=579351140}) = 0
+1719579117.741623 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=580443119}) = 0
+1719579117.742110 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=580625671}) = 0
+1719579117.742314 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=581044734}) = 0
+1719579117.743006 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=581595671}) = 0
+1719579117.758807 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=597332131}) = 0
+1719579117.759306 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=597828590}) = 0
+1719579117.759964 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=598574892}) = 0
+1719579117.760672 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=599188069}) = 0
+1719579117.761437 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=600177131}) = 0
+1719579117.762458 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=601063069}) = 0
+1719579117.762975 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=601494840}) = 0
+1719579117.763185 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=601725413}) = 0
+1719579117.767238 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=605779528}) = 0
+1719579117.767416 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=606574476}) = 0
+1719579117.768295 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=607585622}) = 0
+1719579117.769835 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=608556611}) = 0
+1719579117.770165 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=608686507}) = 0
+1719579117.770320 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=608892914}) = 0
+1719579117.770519 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=609067132}) = 0
+1719579117.770699 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=609231664}) = 0
+1719579117.770821 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=609363643}) = 0
+1719579117.771133 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=609832028}) = 0
+1719579117.771830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=610356091}) = 0
+1719579117.772197 write(4, "E|10566", 7) = 7
+1719579117.772940 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=773168879}) = 0
+1719579117.773795 getuid32()            = 10277
+1719579117.774658 writev(5, [{iov_base="\0\342)\355\261~f\357\236\25.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: Value {\""..., iov_len=239}], 4) = 262
+1719579117.775197 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=775225338}) = 0
+1719579117.775329 getuid32()            = 10277
+1719579117.776693 writev(5, [{iov_base="\0\342)\355\261~f\372\3774.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSON.typeMismatch(J"..., iov_len=46}], 4) = 69
+1719579117.777561 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=778149661}) = 0
+1719579117.778476 getuid32()            = 10277
+1719579117.778581 writev(5, [{iov_base="\0\342)\355\261~f\35\237a.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONO"..., iov_len=59}], 4) = 82
+1719579117.781028 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=781247943}) = 0
+1719579117.781632 getuid32()            = 10277
+1719579117.782546 writev(5, [{iov_base="\0\342)\355\261~f\307\345\220.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=81}], 4) = 104
+1719579117.783076 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=783342630}) = 0
+1719579117.785129 getuid32()            = 10277
+1719579117.785411 writev(5, [{iov_base="\0\342)\355\261~f&\334\260.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=85}], 4) = 108
+1719579117.788389 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=788423360}) = 0
+1719579117.788484 getuid32()            = 10277
+1719579117.788547 writev(5, [{iov_base="\0\342)\355\261~f\300b\376.", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579117.788812 write(4, "C|10566|Heap size (KB)|4867", 27) = 27
+1719579117.788939 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=789203048}) = 0
+1719579117.790827 getuid32()            = 10277
+1719579117.790935 writev(5, [{iov_base="\0\342)\355\261~fhH\n/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579117.791388 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=791429663}) = 0
+1719579117.792466 getuid32()            = 10277
+1719579117.793589 writev(5, [{iov_base="\0\342)\355\261~f\37B,/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579117.793998 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=794169507}) = 0
+1719579117.794821 getuid32()            = 10277
+1719579117.795543 writev(5, [{iov_base="\0\342)\355\261~f\243\20V/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.795980 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=796014298}) = 0
+1719579117.796161 getuid32()            = 10277
+1719579117.796894 writev(5, [{iov_base="\0\342)\355\261~f\3326r/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579117.797353 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=797426903}) = 0
+1719579117.797607 getuid32()            = 10277
+1719579117.802149 writev(5, [{iov_base="\0\342)\355\261~f\327\304\207/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579117.802428 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=802687997}) = 0
+1719579117.807363 getuid32()            = 10277
+1719579117.813795 writev(5, [{iov_base="\0\342)\355\261~f\375\v\330/", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579117.816005 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=816093207}) = 0
+1719579117.816383 getuid32()            = 10277
+1719579117.828811 writev(5, [{iov_base="\0\342)\355\261~f\27\230\2440", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.831000 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=831048156}) = 0
+1719579117.831674 getuid32()            = 10277
+1719579117.832362 writev(5, [{iov_base="\0\342)\355\261~f\334\311\2101", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.833750 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=833794563}) = 0
+1719579117.834053 getuid32()            = 10277
+1719579117.834575 writev(5, [{iov_base="\0\342)\355\261~f\3\262\2621", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579117.835169 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=835239406}) = 0
+1719579117.835389 getuid32()            = 10277
+1719579117.835660 writev(5, [{iov_base="\0\342)\355\261~f\356\275\3101", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579117.836987 write(4, "B|10566|VerifyClass com.lf.entry"..., 48) = 48
+1719579117.837463 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=676859847}) = 0
+1719579117.843112 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=681674848}) = 0
+1719579117.843579 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=683255004}) = 0
+1719579117.845318 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=683849744}) = 0
+1719579117.845500 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=684021359}) = 0
+1719579117.845747 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=684307192}) = 0
+1719579117.846157 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=684730525}) = 0
+1719579117.846550 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=685150265}) = 0
+1719579117.846965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=685525057}) = 0
+1719579117.847217 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=685783390}) = 0
+1719579117.847425 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686048650}) = 0
+1719579117.847696 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686237557}) = 0
+1719579117.847855 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686403650}) = 0
+1719579117.847984 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686541515}) = 0
+1719579117.848242 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686782973}) = 0
+1719579117.848369 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=686913442}) = 0
+1719579117.848533 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=687080890}) = 0
+1719579117.848721 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=687259588}) = 0
+1719579117.848903 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=687461151}) = 0
+1719579117.850083 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=688656255}) = 0
+1719579117.850643 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=689721411}) = 0
+1719579117.851425 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=690719276}) = 0
+1719579117.852444 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=690985266}) = 0
+1719579117.852568 clock_gettime(CLOCK_MONOTONIC, {tv_sec=82, tv_nsec=691092088}) = 0
+1719579117.853728 write(4, "E|10566", 7) = 7
+1719579117.855577 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=855721752}) = 0
+1719579117.856068 getuid32()            = 10277
+1719579117.856175 writev(5, [{iov_base="\0\342)\355\261~f\30G\0013", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=45}], 4) = 68
+1719579117.856447 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=859903524}) = 0
+1719579117.860474 getuid32()            = 10277
+1719579117.860822 writev(5, [{iov_base="\0\342)\355\261~f$\26A3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579117.861983 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=862042117}) = 0
+1719579117.862108 getuid32()            = 10277
+1719579117.867554 writev(5, [{iov_base="\0\342)\355\261~f\5\270a3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getStrin"..., iov_len=55}], 4) = 78
+1719579117.868064 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=868303368}) = 0
+1719579117.869977 getuid32()            = 10277
+1719579117.870305 writev(5, [{iov_base="\0\342)\355\261~f\10B\3013", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=77}], 4) = 100
+1719579117.871385 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=871441650}) = 0
+1719579117.872000 getuid32()            = 10277
+1719579117.872454 writev(5, [{iov_base="\0\342)\355\261~f\362$\3613", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579117.872814 write(4, "C|10566|Heap size (KB)|4907", 27) = 27
+1719579117.873015 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=873051129}) = 0
+1719579117.873219 getuid32()            = 10277
+1719579117.873448 writev(5, [{iov_base="\0\342)\355\261~f\371\263\t4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579117.873717 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=873753160}) = 0
+1719579117.873927 getuid32()            = 10277
+1719579117.874149 writev(5, [{iov_base="\0\342)\355\261~fHj\0244", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579117.874503 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=874659827}) = 0
+1719579117.875293 getuid32()            = 10277
+1719579117.875514 writev(5, [{iov_base="\0\342)\355\261~f\363?\"4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.875837 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=875877171}) = 0
+1719579117.875982 getuid32()            = 10277
+1719579117.876142 writev(5, [{iov_base="\0\342)\355\261~f3\32344", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579117.876416 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=876453994}) = 0
+1719579117.876561 getuid32()            = 10277
+1719579117.876709 writev(5, [{iov_base="\0\342)\355\261~fj\240=4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579117.877523 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=877583734}) = 0
+1719579117.878713 getuid32()            = 10277
+1719579117.878964 writev(5, [{iov_base="\0\342)\355\261~fv\335N4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579117.880385 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=880691494}) = 0
+1719579117.881903 getuid32()            = 10277
+1719579117.883469 writev(5, [{iov_base="\0\342)\355\261~f&I~4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.886081 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=886247120}) = 0
+1719579117.890263 getuid32()            = 10277
+1719579117.892672 writev(5, [{iov_base="\0\342)\355\261~f\320\16\3234", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.893109 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=893155610}) = 0
+1719579117.893308 getuid32()            = 10277
+1719579117.893439 writev(5, [{iov_base="\0\342)\355\261~f\32y<5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579117.893681 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=893920975}) = 0
+1719579117.894553 getuid32()            = 10277
+1719579117.894817 writev(5, [{iov_base="\0\342)\355\261~f\317&H5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579117.896716 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=896773319}) = 0
+1719579117.896961 getuid32()            = 10277
+1719579117.897778 writev(5, [{iov_base="\0\342)\355\261~f\307\254s5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=43}], 4) = 66
+1719579117.898411 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=898708892}) = 0
+1719579117.898813 getuid32()            = 10277
+1719579117.898957 writev(5, [{iov_base="\0\342)\355\261~f\2345\2215", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579117.899261 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=899303007}) = 0
+1719579117.899437 getuid32()            = 10277
+1719579117.899584 writev(5, [{iov_base="\0\342)\355\261~f_F\2325", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getStrin"..., iov_len=55}], 4) = 78
+1719579117.899826 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=899862694}) = 0
+1719579117.899974 getuid32()            = 10277
+1719579117.900111 writev(5, [{iov_base="\0\342)\355\261~f\246\320\2425", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=77}], 4) = 100
+1719579117.900564 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=900601288}) = 0
+1719579117.900711 getuid32()            = 10277
+1719579117.900847 writev(5, [{iov_base="\0\342)\355\261~f\310\25\2565", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579117.901129 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=901165767}) = 0
+1719579117.901313 getuid32()            = 10277
+1719579117.901484 writev(5, [{iov_base="\0\342)\355\261~f\307\262\2665", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579117.902196 write(4, "C|10566|Heap size (KB)|4923", 27) = 27
+1719579117.902406 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=902441340}) = 0
+1719579117.902634 getuid32()            = 10277
+1719579117.902777 writev(5, [{iov_base="\0\342)\355\261~f|)\3125", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579117.905783 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=906038945}) = 0
+1719579117.906224 getuid32()            = 10277
+1719579117.906424 writev(5, [{iov_base="\0\342)\355\261~f\241\16\0016", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.906728 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=906762799}) = 0
+1719579117.907173 getuid32()            = 10277
+1719579117.907535 writev(5, [{iov_base="\0\342)\355\261~f/\32\f6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579117.908507 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=908721601}) = 0
+1719579117.908859 getuid32()            = 10277
+1719579117.909070 writev(5, [{iov_base="\0\342)\355\261~f\301\375)6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579117.909614 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=909925247}) = 0
+1719579117.910285 getuid32()            = 10277
+1719579117.910555 writev(5, [{iov_base="\0\342)\355\261~f\177[<6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579117.911424 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=911574258}) = 0
+1719579117.912804 getuid32()            = 10277
+1719579117.913233 writev(5, [{iov_base="\0\342)\355\261~f\362\204U6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.913858 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=914106394}) = 0
+1719579117.914247 getuid32()            = 10277
+1719579117.914383 writev(5, [{iov_base="\0\342)\355\261~f\32(|6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.914785 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=914820821}) = 0
+1719579117.915180 getuid32()            = 10277
+1719579117.918541 writev(5, [{iov_base="\0\342)\355\261~f\325\16\2076", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579117.922065 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=925712801}) = 0
+1719579117.927652 getuid32()            = 10277
+1719579117.928413 writev(5, [{iov_base="\0\342)\355\261~f\241A-7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579117.929298 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=929345978}) = 0
+1719579117.929475 getuid32()            = 10277
+1719579117.929625 writev(5, [{iov_base="\0\342)\355\261~f\272\261d7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=44}], 4) = 67
+1719579117.930492 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=930539728}) = 0
+1719579117.930664 getuid32()            = 10277
+1719579117.931053 writev(5, [{iov_base="\0\342)\355\261~f\320\350v7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579117.935264 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=937862958}) = 0
+1719579117.940814 getuid32()            = 10277
+1719579117.940922 writev(5, [{iov_base="\0\342)\355\261~f.\247\3467", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getStrin"..., iov_len=55}], 4) = 78
+1719579117.941681 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=941728271}) = 0
+1719579117.941881 getuid32()            = 10277
+1719579117.945809 writev(5, [{iov_base="\0\342)\355\261~f\17\242!8", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=77}], 4) = 100
+1719579117.948269 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=948355251}) = 0
+1719579117.949037 getuid32()            = 10277
+1719579117.949336 writev(5, [{iov_base="\0\342)\355\261~f\263\300\2068", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579117.959530 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=959632440}) = 0
+1719579117.959789 getuid32()            = 10277
+1719579117.960310 writev(5, [{iov_base="\0\342)\355\261~f8\32429", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579117.961632 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=962868586}) = 0
+1719579117.964631 getuid32()            = 10277
+1719579117.965353 writev(5, [{iov_base="\0\342)\355\261~fj5d9", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579117.966123 write(4, "C|10566|Heap size (KB)|4939", 27) = 27
+1719579117.966929 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=967103586}) = 0
+1719579117.968449 getuid32()            = 10277
+1719579117.968706 writev(5, [{iov_base="\0\342)\355\261~fb\324\2449", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.969026 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=969062441}) = 0
+1719579117.969176 getuid32()            = 10277
+1719579117.969521 writev(5, [{iov_base="\0\342)\355\261~f)\270\3029", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579117.969950 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=970154212}) = 0
+1719579117.970374 getuid32()            = 10277
+1719579117.971109 writev(5, [{iov_base="\0\342)\355\261~f\344`\3239", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579117.971463 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=971579212}) = 0
+1719579117.971813 getuid32()            = 10277
+1719579117.971995 writev(5, [{iov_base="\0\342)\355\261~fL\37\3519", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579117.973062 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=973150983}) = 0
+1719579117.973299 getuid32()            = 10277
+1719579117.974412 writev(5, [{iov_base="\0\342)\355\261~f\7\33\1:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.976665 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=976750410}) = 0
+1719579117.977648 getuid32()            = 10277
+1719579117.979203 writev(5, [{iov_base="\0\342)\355\261~fJ\78:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579117.981939 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=982085254}) = 0
+1719579117.982676 getuid32()            = 10277
+1719579117.982889 writev(5, [{iov_base="\0\342)\355\261~f\206n\211:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579117.983689 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=983763223}) = 0
+1719579117.984109 getuid32()            = 10277
+1719579117.984355 writev(5, [{iov_base="\0\342)\355\261~f\27\t\243:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579117.986829 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=986900672}) = 0
+1719579117.987459 getuid32()            = 10277
+1719579117.988041 writev(5, [{iov_base="\0\342)\355\261~f\300\350\322:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=42}], 4) = 65
+1719579117.988669 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=988711036}) = 0
+1719579117.988900 getuid32()            = 10277
+1719579117.989246 writev(5, [{iov_base="\0\342)\355\261~f|\210\356:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579117.989614 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=989650880}) = 0
+1719579117.989768 getuid32()            = 10277
+1719579117.990607 writev(5, [{iov_base="\0\342)\355\261~f\300\337\374:", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getStrin"..., iov_len=55}], 4) = 78
+1719579117.991457 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=991818485}) = 0
+1719579117.993132 getuid32()            = 10277
+1719579117.994062 writev(5, [{iov_base="\0\342)\355\261~f\365\362\35;", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=77}], 4) = 100
+1719579117.994785 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=995002912}) = 0
+1719579117.995192 getuid32()            = 10277
+1719579117.995475 writev(5, [{iov_base="\0\342)\355\261~f \212N;", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579117.996323 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=996475725}) = 0
+1719579117.996609 getuid32()            = 10277
+1719579117.996898 writev(5, [{iov_base="\0\342)\355\261~fM\3e;", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579117.997264 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579117, tv_nsec=997306089}) = 0
+1719579117.997450 getuid32()            = 10277
+1719579117.997650 writev(5, [{iov_base="\0\342)\355\261~f\351\256q;", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.013767 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=14885258}) = 0
+1719579118.016615 getuid32()            = 10277
+1719579118.022112 writev(5, [{iov_base="\0\342)\356\261~f\212!\343\0", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.023270 write(4, "C|10566|Heap size (KB)|4955", 27) = 27
+1719579118.023506 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=23544477}) = 0
+1719579118.023734 getuid32()            = 10277
+1719579118.024185 writev(5, [{iov_base="\0\342)\356\261~f\235Bg\1", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.026071 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=26111613}) = 0
+1719579118.026220 getuid32()            = 10277
+1719579118.026355 writev(5, [{iov_base="\0\342)\356\261~f}n\216\1", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.026660 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=26955103}) = 0
+1719579118.027079 getuid32()            = 10277
+1719579118.027264 writev(5, [{iov_base="\0\342)\356\261~f_M\233\1", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.037909 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=39501666}) = 0
+1719579118.043501 getuid32()            = 10277
+1719579118.044042 writev(5, [{iov_base="\0\342)\356\261~fb\277Z\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.045680 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=45886927}) = 0
+1719579118.046298 getuid32()            = 10277
+1719579118.047273 writev(5, [{iov_base="\0\342)\356\261~f\317-\274\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.049038 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=49442084}) = 0
+1719579118.049633 getuid32()            = 10277
+1719579118.049762 writev(5, [{iov_base="\0\342)\356\261~f$m\362\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.050172 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=50252292}) = 0
+1719579118.050621 getuid32()            = 10277
+1719579118.050837 writev(5, [{iov_base="\0\342)\356\261~f\4\312\376\2", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.051422 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=51738543}) = 0
+1719579118.051988 getuid32()            = 10277
+1719579118.052147 writev(5, [{iov_base="\0\342)\356\261~f\257w\25\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=46}], 4) = 69
+1719579118.054190 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=54300157}) = 0
+1719579118.054500 getuid32()            = 10277
+1719579118.055481 writev(5, [{iov_base="\0\342)\356\261~f\375\215<\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579118.057047 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=57877033}) = 0
+1719579118.058850 getuid32()            = 10277
+1719579118.059085 writev(5, [{iov_base="\0\342)\356\261~f)\"s\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.061884 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=61951929}) = 0
+1719579118.065149 getuid32()            = 10277
+1719579118.066501 writev(5, [{iov_base="\0\342)\356\261~f\271O\261\3", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.068623 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=68683701}) = 0
+1719579118.069951 getuid32()            = 10277
+1719579118.070429 writev(5, [{iov_base="\0\342)\356\261~f\265\7\30\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.071863 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=74352764}) = 0
+1719579118.075723 getuid32()            = 10277
+1719579118.076687 writev(5, [{iov_base="\0\342)\356\261~f|\210n\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.077379 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=77764014}) = 0
+1719579118.078506 getuid32()            = 10277
+1719579118.079023 writev(5, [{iov_base="\0\342)\356\261~f\256\225\242\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.079409 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=79447400}) = 0
+1719579118.079640 getuid32()            = 10277
+1719579118.079790 writev(5, [{iov_base="\0\342)\356\261~fhE\274\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.080287 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=80320993}) = 0
+1719579118.080457 getuid32()            = 10277
+1719579118.081193 writev(5, [{iov_base="\0\342)\356\261~f\341\231\311\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.082115 write(4, "C|10566|Heap size (KB)|4971", 27) = 27
+1719579118.082548 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=82690994}) = 0
+1719579118.082826 getuid32()            = 10277
+1719579118.082989 writev(5, [{iov_base="\0\342)\356\261~f\262\303\355\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.083607 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=83676983}) = 0
+1719579118.083812 getuid32()            = 10277
+1719579118.084062 writev(5, [{iov_base="\0\342)\356\261~f7\317\374\4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.090156 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=90271151}) = 0
+1719579118.090583 getuid32()            = 10277
+1719579118.090750 writev(5, [{iov_base="\0\342)\356\261~f\257ma\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.091690 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=91733130}) = 0
+1719579118.091992 getuid32()            = 10277
+1719579118.092194 writev(5, [{iov_base="\0\342)\356\261~f\212\274w\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.096573 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=96624016}) = 0
+1719579118.096822 getuid32()            = 10277
+1719579118.097186 writev(5, [{iov_base="\0\342)\356\261~f\220]\302\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.097445 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=97473964}) = 0
+1719579118.097550 getuid32()            = 10277
+1719579118.097703 writev(5, [{iov_base="\0\342)\356\261~f\254U\317\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.098415 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=98665110}) = 0
+1719579118.098811 getuid32()            = 10277
+1719579118.098933 writev(5, [{iov_base="\0\342)\356\261~f\226\202\341\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=46}], 4) = 69
+1719579118.099171 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=99221308}) = 0
+1719579118.099313 getuid32()            = 10277
+1719579118.099476 writev(5, [{iov_base="\0\342)\356\261~f<\377\351\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579118.099776 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=99842297}) = 0
+1719579118.099949 getuid32()            = 10277
+1719579118.100125 writev(5, [{iov_base="\0\342)\356\261~f\371x\363\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.100372 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=100428860}) = 0
+1719579118.100540 getuid32()            = 10277
+1719579118.100741 writev(5, [{iov_base="\0\342)\356\261~f<l\374\5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.104943 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=105051621}) = 0
+1719579118.105244 getuid32()            = 10277
+1719579118.105400 writev(5, [{iov_base="\0\342)\356\261~f\345\365B\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.106502 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=106545423}) = 0
+1719579118.106711 getuid32()            = 10277
+1719579118.106882 writev(5, [{iov_base="\0\342)\356\261~f\17\301Y\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.107517 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=107853861}) = 0
+1719579118.108108 getuid32()            = 10277
+1719579118.108906 writev(5, [{iov_base="\0\342)\356\261~f%\270m\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.109388 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=109492298}) = 0
+1719579118.110318 getuid32()            = 10277
+1719579118.110709 writev(5, [{iov_base="\0\342)\356\261~fJ\270\206\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.112033 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=112124538}) = 0
+1719579118.113123 getuid32()            = 10277
+1719579118.114140 writev(5, [{iov_base="\0\342)\356\261~fz\342\256\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.114788 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=114942507}) = 0
+1719579118.115282 getuid32()            = 10277
+1719579118.115985 writev(5, [{iov_base="\0\342)\356\261~f+\342\331\6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.116772 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=118300216}) = 0
+1719579118.119009 getuid32()            = 10277
+1719579118.119679 writev(5, [{iov_base="\0\342)\356\261~f8\36\r\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.120330 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=120371102}) = 0
+1719579118.120572 getuid32()            = 10277
+1719579118.120694 writev(5, [{iov_base="\0\342)\356\261~f\236\267,\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.121116 write(4, "C|10566|Heap size (KB)|4987", 27) = 27
+1719579118.121904 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=121946675}) = 0
+1719579118.122088 getuid32()            = 10277
+1719579118.122231 writev(5, [{iov_base="\0\342)\356\261~f3\302D\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.122571 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=122628289}) = 0
+1719579118.122805 getuid32()            = 10277
+1719579118.122944 writev(5, [{iov_base="\0\342)\356\261~f\301(O\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.123275 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=123342196}) = 0
+1719579118.123537 getuid32()            = 10277
+1719579118.123736 writev(5, [{iov_base="\0\342)\356\261~ft\rZ\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.126676 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=127122925}) = 0
+1719579118.127644 getuid32()            = 10277
+1719579118.129530 writev(5, [{iov_base="\0\342)\356\261~f\355\275\223\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=43}], 4) = 66
+1719579118.130043 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=130086832}) = 0
+1719579118.130225 getuid32()            = 10277
+1719579118.130893 writev(5, [{iov_base="\0\342)\356\261~f\260\367\300\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579118.131227 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=131272248}) = 0
+1719579118.131993 getuid32()            = 10277
+1719579118.132281 writev(5, [{iov_base="\0\342)\356\261~f8\16\323\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.132945 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=132994697}) = 0
+1719579118.133171 getuid32()            = 10277
+1719579118.133877 writev(5, [{iov_base="\0\342)\356\261~f\211V\355\7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.134546 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=134601676}) = 0
+1719579118.134749 getuid32()            = 10277
+1719579118.134989 writev(5, [{iov_base="\0\342)\356\261~f\314\333\5\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.135919 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=136158291}) = 0
+1719579118.136695 getuid32()            = 10277
+1719579118.136878 writev(5, [{iov_base="\0\342)\356\261~fS\234\35\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.137162 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=137205739}) = 0
+1719579118.137353 getuid32()            = 10277
+1719579118.137469 writev(5, [{iov_base="\0\342)\356\261~f\353\227-\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.137730 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=137769905}) = 0
+1719579118.137897 getuid32()            = 10277
+1719579118.138036 writev(5, [{iov_base="\0\342)\356\261~f\26136\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.138981 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=139051468}) = 0
+1719579118.139292 getuid32()            = 10277
+1719579118.139490 writev(5, [{iov_base="\0\342)\356\261~f\314\301I\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.141489 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=141661989}) = 0
+1719579118.141828 getuid32()            = 10277
+1719579118.142060 writev(5, [{iov_base="\0\342)\356\261~f%\227q\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.142461 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=142498916}) = 0
+1719579118.142870 getuid32()            = 10277
+1719579118.143209 writev(5, [{iov_base="\0\342)\356\261~fd\\~\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.143636 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=143682198}) = 0
+1719579118.143824 getuid32()            = 10277
+1719579118.143923 writev(5, [{iov_base="\0\342)\356\261~f\226j\220\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.144975 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=145504385}) = 0
+1719579118.145753 getuid32()            = 10277
+1719579118.145839 writev(5, [{iov_base="\0\342)\356\261~f\2018\254\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.146221 write(4, "C|10566|Heap size (KB)|5003", 27) = 27
+1719579118.146424 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=146460896}) = 0
+1719579118.146578 getuid32()            = 10277
+1719579118.146829 writev(5, [{iov_base="\0\342)\356\261~f\340\320\272\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.148721 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=152638344}) = 0
+1719579118.155499 getuid32()            = 10277
+1719579118.155843 writev(5, [{iov_base="\0\342)\356\261~f\210\23\31\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.156380 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=156424595}) = 0
+1719579118.156767 getuid32()            = 10277
+1719579118.156950 writev(5, [{iov_base="\0\342)\356\261~f\223\331R\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: No value"..., iov_len=43}], 4) = 66
+1719579118.157305 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=157359907}) = 0
+1719579118.157459 getuid32()            = 10277
+1719579118.157630 writev(5, [{iov_base="\0\342)\356\261~f#\37a\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.get(JSON"..., iov_len=49}], 4) = 72
+1719579118.158295 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=158677616}) = 0
+1719579118.158926 getuid32()            = 10277
+1719579118.159040 writev(5, [{iov_base="\0\342)\356\261~fp:u\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.159301 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=159392408}) = 0
+1719579118.159493 getuid32()            = 10277
+1719579118.159715 writev(5, [{iov_base="\0\342)\356\261~f\230\"\200\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.159964 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=160108501}) = 0
+1719579118.160258 getuid32()            = 10277
+1719579118.160453 writev(5, [{iov_base="\0\342)\356\261~f\325\17\213\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.160680 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=160786106}) = 0
+1719579118.160887 getuid32()            = 10277
+1719579118.161198 writev(5, [{iov_base="\0\342)\356\261~f\272f\225\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.161621 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=162143814}) = 0
+1719579118.163243 getuid32()            = 10277
+1719579118.163559 writev(5, [{iov_base="\0\342)\356\261~fF\36\252\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.164033 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=164074543}) = 0
+1719579118.165382 getuid32()            = 10277
+1719579118.165703 writev(5, [{iov_base="\0\342)\356\261~f/\224\307\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.167634 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=167731523}) = 0
+1719579118.168831 getuid32()            = 10277
+1719579118.169084 writev(5, [{iov_base="\0\342)\356\261~fCa\377\t", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.170231 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=170348607}) = 0
+1719579118.170614 getuid32()            = 10277
+1719579118.170838 writev(5, [{iov_base="\0\342)\356\261~f?P'\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.171779 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=173349544}) = 0
+1719579118.173856 getuid32()            = 10277
+1719579118.174158 writev(5, [{iov_base="\0\342)\356\261~f\250\32U\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.175770 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=175895899}) = 0
+1719579118.176088 getuid32()            = 10277
+1719579118.176366 writev(5, [{iov_base="\0\342)\356\261~f[\365{\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.177119 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=177171472}) = 0
+1719579118.177516 getuid32()            = 10277
+1719579118.178885 writev(5, [{iov_base="\0\342)\356\261~f\20l\217\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.179897 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=180254493}) = 0
+1719579118.180645 getuid32()            = 10277
+1719579118.181112 writev(5, [{iov_base="\0\342)\356\261~f\35w\276\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.183989 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=184338087}) = 0
+1719579118.184887 getuid32()            = 10277
+1719579118.189937 writev(5, [{iov_base="\0\342)\356\261~f\247\306\374\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.192008 write(4, "C|10566|Heap size (KB)|5019", 27) = 27
+1719579118.196276 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=203598610}) = 0
+1719579118.205499 getuid32()            = 10277
+1719579118.205976 writev(5, [{iov_base="\0\342)\356\261~f\22\253\"\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: Value [{"..., iov_len=230}], 4) = 253
+1719579118.206558 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=206928089}) = 0
+1719579118.207817 getuid32()            = 10277
+1719579118.208120 writev(5, [{iov_base="\0\342)\356\261~f\331xU\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSON.typeMismatch(J"..., iov_len=46}], 4) = 69
+1719579118.209067 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=209110590}) = 0
+1719579118.211615 getuid32()            = 10277
+1719579118.212593 writev(5, [{iov_base="\0\342)\356\261~f>\306v\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.213027 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=213088402}) = 0
+1719579118.213287 getuid32()            = 10277
+1719579118.214967 writev(5, [{iov_base="\0\342)\356\261~f\222x\263\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.216184 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=216360278}) = 0
+1719579118.217039 getuid32()            = 10277
+1719579118.217776 writev(5, [{iov_base="\0\342)\356\261~fVe\345\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.218397 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=218456528}) = 0
+1719579118.218815 getuid32()            = 10277
+1719579118.218918 writev(5, [{iov_base="\0\342)\356\261~f\320a\5\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.219109 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=219144861}) = 0
+1719579118.219644 getuid32()            = 10277
+1719579118.219762 writev(5, [{iov_base="\0\342)\356\261~f\235\342\17\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.219973 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=220011268}) = 0
+1719579118.221403 getuid32()            = 10277
+1719579118.221656 writev(5, [{iov_base="\0\342)\356\261~f\4\33\35\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.222628 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=222679966}) = 0
+1719579118.222786 getuid32()            = 10277
+1719579118.222981 writev(5, [{iov_base="\0\342)\356\261~f\236\323E\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.223714 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=223757101}) = 0
+1719579118.225145 getuid32()            = 10277
+1719579118.239731 writev(5, [{iov_base="\0\342)\356\261~f-CV\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.240272 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=240329864}) = 0
+1719579118.240562 getuid32()            = 10277
+1719579118.240766 writev(5, [{iov_base="\0\342)\356\261~f\210$S\16", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.245255 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=245314708}) = 0
+1719579118.245513 getuid32()            = 10277
+1719579118.245674 writev(5, [{iov_base="\0\342)\356\261~f\2244\237\16", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.247023 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=247172260}) = 0
+1719579118.247370 getuid32()            = 10277
+1719579118.248766 writev(5, [{iov_base="\0\342)\356\261~f\244\214\273\16", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.249745 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=249910958}) = 0
+1719579118.250152 getuid32()            = 10277
+1719579118.256125 writev(5, [{iov_base="\0\342)\356\261~f\256V\345\16", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.256488 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=256524032}) = 0
+1719579118.256627 getuid32()            = 10277
+1719579118.256819 writev(5, [{iov_base="\0\342)\356\261~f\0?J\17", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.261489 write(4, "C|10566|Heap size (KB)|5035", 27) = 27
+1719579118.263556 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=263733095}) = 0
+1719579118.268426 getuid32()            = 10277
+1719579118.268593 writev(5, [{iov_base="\0\342)\356\261~fg?\270\17", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: Value  a"..., iov_len=103}], 4) = 126
+1719579118.270542 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=270601689}) = 0
+1719579118.270697 getuid32()            = 10277
+1719579118.270858 writev(5, [{iov_base="\0\342)\356\261~f\331\r!\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSON.typeMismatch(J"..., iov_len=46}], 4) = 69
+1719579118.271756 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=274929502}) = 0
+1719579118.279426 getuid32()            = 10277
+1719579118.279763 writev(5, [{iov_base="\0\342)\356\261~f^\27c\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.280030 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=280157888}) = 0
+1719579118.280257 getuid32()            = 10277
+1719579118.280557 writev(5, [{iov_base="\0\342)\356\261~f\300\336\262\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.280885 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=280943357}) = 0
+1719579118.281052 getuid32()            = 10277
+1719579118.281169 writev(5, [{iov_base="\0\342)\356\261~f\375\332\276\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.281365 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=281402732}) = 0
+1719579118.281647 getuid32()            = 10277
+1719579118.282050 writev(5, [{iov_base="\0\342)\356\261~fl\335\305\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.282496 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=282521586}) = 0
+1719579118.282621 getuid32()            = 10277
+1719579118.282755 writev(5, [{iov_base="\0\342)\356\261~f\362\357\326\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.283040 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=283066795}) = 0
+1719579118.283482 getuid32()            = 10277
+1719579118.283706 writev(5, [{iov_base="\0\342)\356\261~f\253A\337\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.284171 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=284195024}) = 0
+1719579118.284308 getuid32()            = 10277
+1719579118.285819 writev(5, [{iov_base="\0\342)\356\261~f\320x\360\20", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.296627 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=296693671}) = 0
+1719579118.296959 getuid32()            = 10277
+1719579118.299053 writev(5, [{iov_base="\0\342)\356\261~f\247/\257\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.301485 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=302546276}) = 0
+1719579118.303165 getuid32()            = 10277
+1719579118.303693 writev(5, [{iov_base="\0\342)\356\261~fd}\10\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.305425 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=305523620}) = 0
+1719579118.305690 getuid32()            = 10277
+1719579118.305985 writev(5, [{iov_base="\0\342)\356\261~f\244\3535\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.306585 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=313278933}) = 0
+1719579118.313612 getuid32()            = 10277
+1719579118.314084 writev(5, [{iov_base="\0\342)\356\261~f\325A\254\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.318745 write(4, "C|10566|Heap size (KB)|5051", 27) = 27
+1719579118.322252 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=322508726}) = 0
+1719579118.322961 getuid32()            = 10277
+1719579118.324224 writev(5, [{iov_base="\0\342)\356\261~f\266\279\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.327700 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=328800601}) = 0
+1719579118.329537 getuid32()            = 10277
+1719579118.330157 writev(5, [{iov_base="\0\342)\356\261~fY\31\231\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.333378 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=333557789}) = 0
+1719579118.334334 getuid32()            = 10277
+1719579118.334508 writev(5, [{iov_base="\0\342)\356\261~f\35\260\341\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="org.json.JSONException: Value  a"..., iov_len=103}], 4) = 126
+1719579118.334962 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=335131748}) = 0
+1719579118.335296 getuid32()            = 10277
+1719579118.335523 writev(5, [{iov_base="\0\342)\356\261~fd\264\371\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSON.typeMismatch(J"..., iov_len=46}], 4) = 69
+1719579118.337435 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=337489509}) = 0
+1719579118.337732 getuid32()            = 10277
+1719579118.341761 writev(5, [{iov_base="\0\342)\356\261~fe\256\35\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.json.JSONObject.getJSONA"..., iov_len=58}], 4) = 81
+1719579118.342637 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=342716228}) = 0
+1719579118.343948 getuid32()            = 10277
+1719579118.344469 writev(5, [{iov_base="\0\342)\356\261~fDom\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.JSONO"..., iov_len=80}], 4) = 103
+1719579118.345135 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=346392895}) = 0
+1719579118.347434 getuid32()            = 10277
+1719579118.349112 writev(5, [{iov_base="\0\342)\356\261~f?\211\245\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.Entry.fromJson("..., iov_len=48}], 4) = 71
+1719579118.351810 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=355041646}) = 0
+1719579118.357823 getuid32()            = 10277
+1719579118.360572 writev(5, [{iov_base="\0\342)\356\261~fn\201)\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=63}], 4) = 86
+1719579118.367359 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=367615449}) = 0
+1719579118.370937 getuid32()            = 10277
+1719579118.371470 writev(5, [{iov_base="\0\342)\356\261~f\331]\351\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.entry.EntryLoader.onP"..., iov_len=62}], 4) = 85
+1719579118.373204 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=373978054}) = 0
+1719579118.374084 getuid32()            = 10277
+1719579118.375033 writev(5, [{iov_base="\0\342)\356\261~f\306sJ\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.376156 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=376195710}) = 0
+1719579118.376319 getuid32()            = 10277
+1719579118.376500 writev(5, [{iov_base="\0\342)\356\261~f~Jl\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=107}], 4) = 130
+1719579118.376750 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=376785138}) = 0
+1719579118.377130 getuid32()            = 10277
+1719579118.377313 writev(5, [{iov_base="\0\342)\356\261~f\362Hu\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=80}], 4) = 103
+1719579118.377594 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=377633002}) = 0
+1719579118.377932 getuid32()            = 10277
+1719579118.382343 writev(5, [{iov_base="\0\342)\356\261~f\3528\202\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=93}], 4) = 116
+1719579118.382705 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=383216805}) = 0
+1719579118.383457 getuid32()            = 10277
+1719579118.383598 writev(5, [{iov_base="\0\342)\356\261~f\245l\327\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.383906 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=383931857}) = 0
+1719579118.384092 getuid32()            = 10277
+1719579118.384208 writev(5, [{iov_base="\0\342)\356\261~f\321U\342\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=85}], 4) = 108
+1719579118.384471 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=384507690}) = 0
+1719579118.384735 getuid32()            = 10277
+1719579118.385293 writev(5, [{iov_base="\0\342)\356\261~f*\37\353\26", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=103}], 4) = 126
+1719579118.386249 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=387937847}) = 0
+1719579118.388088 getuid32()            = 10277
+1719579118.388393 writev(5, [{iov_base="\0\342)\356\261~f7v\37\27", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.lf.controler.tools.downl"..., iov_len=91}], 4) = 114
+1719579118.389159 write(4, "C|10566|Heap size (KB)|5067", 27) = 27
+1719579118.390300 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579118.390958 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence/d4a773347acc387fb984e97ed5c767a9", F_OK) = -1 ENOENT (No such file or directory)
+1719579118.392077 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579118.392571 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence", F_OK) = 0
+1719579118.393488 write(4, "C|10566|Heap size (KB)|5083", 27) = 27
+1719579118.393921 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence/d4a773347acc387fb984e97ed5c767a9", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 145
+1719579118.396216 fstat64(145, 0xbf390578) = 0
+1719579118.396966 write(145, "\232\316x\244\376\241\230\332\323)\4\3567O}\373\264/\177\23\210W\10\31\277\352\302\307\275\3526\255"..., 864) = 864
+1719579118.397425 getsockopt(145, SOL_SOCKET, SO_DOMAIN, 0xbf3905d0, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579118.397910 close(145)            = 0
+1719579118.398458 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579118.399038 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence/d5080d5280b7d61e5de5fa436587b4a4", F_OK) = -1 ENOENT (No such file or directory)
+1719579118.399615 gettimeofday({tv_sec=1719579118, tv_usec=399657}, NULL) = 0
+1719579118.400062 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579118.400345 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence", F_OK) = 0
+1719579118.400798 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence/d5080d5280b7d61e5de5fa436587b4a4", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 145
+1719579118.402168 fstat64(145, 0xbf3904c8) = 0
+1719579118.404083 write(145, "\232\316x\244\376\241\230\332\323)\4\3567O}\373\264/\177\23\210W\10\31\277\352\302\307\275\3526\255"..., 64) = 64
+1719579118.421022 getsockopt(145, SOL_SOCKET, SO_DOMAIN, 0xbf390520, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579118.421484 close(145)            = 0
+1719579118.425146 write(4, "C|10566|Heap size (KB)|5099", 27) = 27
+1719579118.425717 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files", F_OK) = 0
+1719579118.425966 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence", F_OK) = 0
+1719579118.426405 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/files/data_persistence/6a5079786c6b6aba10fd7472e94dc76f", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 145
+1719579118.426808 fstat64(145, 0xbf390578) = 0
+1719579118.427293 write(145, "\232\316x\244\376\241\230\332\323)\4\3567O}\373\264/\177\23\210W\10\31\277\352\302\307\275\3526\255"..., 80) = 80
+1719579118.428595 getsockopt(145, SOL_SOCKET, SO_DOMAIN, 0xbf3905d0, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579118.428860 close(145)            = 0
+1719579118.429213 getuid32()            = 10277
+1719579118.429549 getuid32()            = 10277
+1719579118.430709 clock_gettime(CLOCK_BOOTTIME, {tv_sec=83, tv_nsec=269253604}) = 0
+1719579118.430918 ioctl(68, BINDER_WRITE_READ, 0xbf390690) = 0
+1719579118.433775 ioctl(68, BINDER_WRITE_READ, 0xbf390690) = 0
+1719579118.435104 ioctl(68, BINDER_WRITE_READ, 0xbf3907f0) = 0
+1719579118.436014 munmap(0xee96c000, 8192) = 0
+1719579118.437446 ioctl(68, BINDER_THREAD_EXIT, 0) = 0
+1719579118.440543 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579118.440703 munmap(0xee8f3000, 20480) = 0
+1719579118.442557 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579118.447666 set_tid_address(0)    = 10722
+1719579118.447807 munmap(0xbf28c000, 1085440) = 0
+1719579118.447950 exit(0)               = ?
+1719579118.448157 +++ exited with 0 +++

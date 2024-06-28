@@ -1,0 +1,113 @@
+1719579115.974094 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out)
+1719579118.792281 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=634017078}) = 0
+1719579118.795913 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=634717547}) = 0
+1719579118.798258 futex(0xf0a42680, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xf0a42664) = 1
+1719579118.802594 futex(0xf0a42664, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579118.808739 write(4, "B|10566|void art::ProfileSaver::"..., 76) = 76
+1719579118.837527 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=678719895}) = 0
+1719579118.853994 openat(AT_FDCWD, "/data/app/~~uF99sVVd_S3rNSg1SciKHQ==/com.lf.coupon-aWWaYAdhHw3RD6C4-_I5sA==/base.apk", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_PATH) = 146
+1719579118.861735 fstat64(146, 0xdc83be48) = 0
+1719579118.864361 readlinkat(AT_FDCWD, "/proc/self/fd/146", "/data/app/~~uF99sVVd_S3rNSg1SciK"..., 4095) = 84
+1719579118.875886 fstatat64(AT_FDCWD, "/data/app/~~uF99sVVd_S3rNSg1SciKHQ==/com.lf.coupon-aWWaYAdhHw3RD6C4-_I5sA==/base.apk", 0xdc83be48, 0) = 0
+1719579118.878477 close(146)            = 0
+1719579118.879186 openat(AT_FDCWD, "base.apk", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_PATH) = -1 ENOENT (No such file or directory)
+1719579118.880364 setpriority(PRIO_PROCESS, 10596, 0) = 0
+1719579118.881136 write(4, "B|10566|void art::ProfileSaver::"..., 89) = 89
+1719579118.881319 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579118.881871 write(4, "E|10566", 7) = 7
+1719579118.882038 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579118.885107 write(4, "E|10566", 7) = 7
+1719579118.885525 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579118.886776 write(4, "E|10566", 7) = 7
+1719579118.887868 write(4, "E|10566", 7) = 7
+1719579118.892292 setpriority(PRIO_PROCESS, 10596, 9) = 0
+1719579118.898641 write(4, "E|10566", 7) = 7
+1719579118.898767 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=737287661}) = 0
+1719579118.898968 futex(0xf0705674, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579118.899070 futex(0xf0705690, FUTEX_WAIT_PRIVATE, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579130.609305 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.615156 futex(0xeb391f04, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579130.620125 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=459532163}) = 0
+1719579130.626733 futex(0xeb391f04, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=459532163}, 0xffffffff) = 0
+1719579130.645646 futex(0xeb391f04, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579130.646224 rt_sigreturn({mask=[ABRT BUS USR1 SEGV USR2 PIPE ALRM STKFLT CHLD STOP TTIN TTOU XCPU IO PWR SYS RTMIN]}) = 4033894032
+1719579130.660982 futex(0xf0705690, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579162.782982 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=621549794}) = 0
+1719579162.783225 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=621749533}) = 0
+1719579162.783590 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=622111512}) = 0
+1719579162.787814 write(4, "B|10566|bool art::ProfileSaver::"..., 76) = 76
+1719579162.788079 write(4, "B|10566|void art::ProfileSaver::"..., 76) = 76
+1719579162.789648 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=628190003}) = 0
+1719579162.789962 setpriority(PRIO_PROCESS, 10596, 0) = 0
+1719579162.790242 write(4, "B|10566|void art::ProfileSaver::"..., 89) = 89
+1719579162.790467 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579162.790731 write(4, "E|10566", 7) = 7
+1719579162.790890 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579162.794464 write(4, "E|10566", 7) = 7
+1719579162.795232 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579162.796024 write(4, "E|10566", 7) = 7
+1719579162.796269 write(4, "B|10566|void art::ProfileSaver::"..., 131) = 131
+1719579162.797138 write(4, "E|10566", 7) = 7
+1719579162.797615 write(4, "E|10566", 7) = 7
+1719579162.797758 setpriority(PRIO_PROCESS, 10596, 9) = 0
+1719579162.800089 write(4, "E|10566", 7) = 7
+1719579162.800191 write(4, "B|10566|GetProfiledMethods", 26) = 26
+1719579162.800365 write(4, "E|10566", 7) = 7
+1719579162.801658 write(4, "B|10566|bool art::ProfileCompila"..., 73) = 73
+1719579162.803380 openat(AT_FDCWD, "/data/misc/profiles/cur/0/com.lf.coupon/primary.prof", O_RDWR|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC) = 139
+1719579162.805188 fcntl64(139, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+1719579162.805393 flock(139, LOCK_EX|LOCK_NB) = 0
+1719579162.805703 fstat64(139, 0xdc83cea8) = 0
+1719579162.806021 fstatat64(AT_FDCWD, "/data/misc/profiles/cur/0/com.lf.coupon/primary.prof", 0xdc83ce40, 0) = 0
+1719579162.806223 write(4, "B|10566|ProfileCompilationInfo::"..., 179) = 179
+1719579162.806435 fstat64(139, 0xdc83cd80) = 0
+1719579162.806624 fstat64(139, 0xdc83cea8) = 0
+1719579162.806766 write(4, "E|10566", 7) = 7
+1719579162.806940 flock(139, LOCK_UN)   = 0
+1719579162.807010 close(139)            = 0
+1719579162.807326 write(4, "E|10566", 7) = 7
+1719579162.807463 write(4, "B|10566|bool art::ProfileCompila"..., 79) = 79
+1719579162.807534 openat(AT_FDCWD, "/data/misc/profiles/cur/0/com.lf.coupon/primary.prof", O_WRONLY|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC) = 139
+1719579162.807685 fcntl64(139, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+1719579162.807765 flock(139, LOCK_EX|LOCK_NB) = 0
+1719579162.807832 fstat64(139, 0xdc83ceb8) = 0
+1719579162.807910 fstatat64(AT_FDCWD, "/data/misc/profiles/cur/0/com.lf.coupon/primary.prof", 0xdc83ce50, 0) = 0
+1719579162.808029 ftruncate64(139, 0)   = 0
+1719579162.808234 lseek(139, 0, SEEK_SET) = 0
+1719579162.808466 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=646983911}) = 0
+1719579162.808540 write(4, "B|10566|bool art::ProfileCompila"..., 51) = 51
+1719579162.808636 write(139, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 60) = 60
+1719579162.808853 write(139, "\1\0%\366-hE\0\0\0\t\1\0\0\10\0base.apk", 24) = 24
+1719579162.810557 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=649143598}) = 0
+1719579162.810768 mmap2(NULL, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee178000
+1719579162.810955 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee178000, 45056, "scudo:counters") = 0
+1719579162.811135 madvise(0xb8f00000, 262144, MADV_DONTNEED) = 0
+1719579162.811435 munmap(0xee178000, 45056) = 0
+1719579162.811591 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=650108807}) = 0
+1719579162.812727 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=651249796}) = 0
+1719579162.812805 write(139, "x\1c``b\220d`d\0\0\0z\0\35", 16) = 16
+1719579162.813141 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=651660786}) = 0
+1719579162.813205 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=651721463}) = 0
+1719579162.813310 write(139, "x\1c`\350d```g```x\360\333\36D\241\2\7$\356\201\357\365H<(\263\1."..., 54) = 54
+1719579162.813394 _llseek(139, 12, [12], SEEK_SET) = 0
+1719579162.813484 write(139, "\0\0\0\0<\0\0\0\30\0\0\0\0\0\0\0\2\0\0\0T\0\0\0\20\0\0\0\10\0\0\0"..., 48) = 48
+1719579162.813591 lseek(139, 0, SEEK_SET) = 0
+1719579162.813670 write(139, "pro\000015\0\3\0\0\0", 12) = 12
+1719579162.813742 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=652257817}) = 0
+1719579162.813811 write(4, "E|10566", 7) = 7
+1719579162.813883 fstatat64(AT_FDCWD, "/data/misc/profiles/cur/0/com.lf.coupon/primary.prof", 0xdc83cec8, 0) = 0
+1719579162.814053 flock(139, LOCK_UN)   = 0
+1719579162.814331 close(139)            = 0
+1719579162.814484 write(4, "E|10566", 7) = 7
+1719579162.814586 futex(0xf0c8955c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579162.814728 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579162.814811 madvise(0xd0ea5000, 131072, MADV_DONTNEED) = 0
+1719579162.814931 madvise(0xd6add000, 131072, MADV_DONTNEED) = 0
+1719579162.815007 madvise(0xd0bf9000, 131072, MADV_DONTNEED) = 0
+1719579162.815282 write(4, "E|10566", 7) = 7
+1719579162.815374 write(4, "E|10566", 7) = 7
+1719579162.815691 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=654208338}) = 0
+1719579162.815767 clock_gettime(CLOCK_MONOTONIC, {tv_sec=127, tv_nsec=654283755}) = 0
+1719579162.815888 futex(0xf0705674, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579162.815959 futex(0xf0705690, FUTEX_WAIT_PRIVATE, 1, NULL) = ?
+1719579182.556795 +++ killed by SIGTERM +++

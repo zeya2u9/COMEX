@@ -1,0 +1,73 @@
+1719579125.969409 futex(0xbb98d214, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579125.972324 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbb889000, 1077248, "stack_and_tls:11682") = 0
+1719579125.972573 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee8f3000
+1719579125.972743 mprotect(0xee8f3000, 4096, PROT_NONE) = 0
+1719579125.972913 sigaltstack({ss_sp=0xee8f4000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579125.973201 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee8f4000, 16384, "thread signal stack") = 0
+1719579125.973474 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579125.973789 write(4, "B|10566|Thread::Init", 20) = 20
+1719579125.973981 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579125.974213 mprotect(0xbb889000, 4096, PROT_NONE) = 0
+1719579125.974404 madvise(0xbb889000, 1060864, MADV_DONTNEED) = 0
+1719579125.974719 write(4, "E|10566", 7) = 7
+1719579125.975173 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579125.975466 write(4, "E|10566", 7) = 7
+1719579125.975745 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579125.975918 write(4, "E|10566", 7) = 7
+1719579125.976135 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579125.976385 write(4, "E|10566", 7) = 7
+1719579125.976670 write(4, "E|10566", 7) = 7
+1719579125.977240 prctl(PR_SET_NAME, "queued-work-loo"...) = 0
+1719579125.977453 getpriority(PRIO_PROCESS, 11682) = 30
+1719579125.977863 setpriority(PRIO_PROCESS, 11682, 0) = 0
+1719579125.978666 write(4, "C|10566|Heap size (KB)|5850", 27) = 27
+1719579125.979348 eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK) = 162
+1719579125.979819 epoll_create1(EPOLL_CLOEXEC) = 163
+1719579125.980171 epoll_ctl(163, EPOLL_CTL_ADD, 162, {EPOLLIN, {u32=162, u64=162}}) = 0
+1719579125.980541 futex(0xf0c55958, FUTEX_REQUEUE_PRIVATE, 0, 1, 0xf0ca1f4c) = 1
+1719579125.980943 futex(0xf0ca1f4c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579125.981233 getpriority(PRIO_PROCESS, 11682) = 20
+1719579125.981425 setpriority(PRIO_PROCESS, 11682, -2) = 0
+1719579125.982838 getuid32()            = 10277
+1719579125.983149 getuid32()            = 10277
+1719579125.984237 getuid32()            = 10277
+1719579125.984678 getuid32()            = 10277
+1719579125.985267 epoll_pwait(163, [], 16, 0, NULL, 8) = 0
+1719579125.985390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=823927065}) = 0
+1719579125.985520 epoll_pwait(163, [], 16, 97, NULL, 8) = 0
+1719579126.082900 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=921435669}) = 0
+1719579126.083171 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", F_OK) = -1 ENOENT (No such file or directory)
+1719579126.083734 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0666) = 167
+1719579126.084189 fstat64(167, 0xbb98c9e8) = 0
+1719579126.084432 mmap2(NULL, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee776000
+1719579126.084656 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee776000, 69632, "dalvik-large object space alloca"...) = 0
+1719579126.084956 write(4, "C|10566|Heap size (KB)|5968", 27) = 27
+1719579126.086332 mmap2(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xeded2000
+1719579126.086597 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xeded2000, 36864, "dalvik-large object space alloca"...) = 0
+1719579126.086817 write(4, "C|10566|Heap size (KB)|6004", 27) = 27
+1719579126.087116 write(4, "C|10566|Heap size (KB)|6004", 27) = 27
+1719579126.088302 write(167, "<?xml version='1.0' encoding='ut"..., 127) = 127
+1719579126.088712 gettimeofday({tv_sec=1719579126, tv_usec=88760}, NULL) = 0
+1719579126.088966 fsync(167)            = 0
+1719579126.094756 gettimeofday({tv_sec=1719579126, tv_usec=94791}, NULL) = 0
+1719579126.095038 getsockopt(167, SOL_SOCKET, SO_DOMAIN, 0xbb98caa0, [4]) = -1 ENOTSOCK (Socket operation on non-socket)
+1719579126.095243 close(167)            = 0
+1719579126.095425 fchmodat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", 0660) = 0
+1719579126.095881 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml", 0xbb98ca58, 0) = 0
+1719579126.096185 unlinkat(AT_FDCWD, "/data/user/0/com.lf.coupon/shared_prefs/WebViewChromiumPrefs.xml.bak", 0) = -1 ENOENT (No such file or directory)
+1719579126.096985 getuid32()            = 10277
+1719579126.099593 epoll_pwait(163, [], 16, 0, NULL, 8) = 0
+1719579126.100412 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=938986660}) = 0
+1719579126.100826 epoll_pwait(163, 0xbb98ca80, 16, -1, NULL, 8) = -1 EINTR (Interrupted system call)
+1719579131.398264 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579131.398362 futex(0xeb38bc34, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.398526 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=237056719}) = 0
+1719579131.398683 futex(0xeb38bc34, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=101, tv_nsec=237056719}, 0xffffffff) = 0
+1719579131.409974 futex(0xeb38bc34, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.410135 rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+1719579131.411770 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.411958 futex(0xf0c558f8, FUTEX_WAIT_PRIVATE, 34, NULL) = 0
+1719579131.658044 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.659326 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=497870703}) = 0
+1719579131.659515 epoll_pwait(163,  <unfinished ...>) = ?
+1719579182.538824 +++ killed by SIGTERM +++

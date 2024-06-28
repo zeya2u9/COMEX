@@ -1,0 +1,575 @@
+1719579127.354996 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xba077000, 1044480, "stack_and_tls:11818") = 0
+1719579127.355292 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xed1bf000
+1719579127.355743 mprotect(0xed1bf000, 4096, PROT_NONE) = 0
+1719579127.356706 sigaltstack({ss_sp=0xed1c0000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579127.357066 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xed1c0000, 16384, "thread signal stack") = 0
+1719579127.359807 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579127.360476 mprotect(0x47c0c000, 49152, PROT_READ|PROT_WRITE) = 0
+1719579127.361479 setpriority(PRIO_PROCESS, 0, 0) = 0
+1719579127.362118 prctl(PR_SET_NAME, "ThreadPoolForeg"...) = 0
+1719579127.362284 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=200811213}) = 0
+1719579127.362441 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=200977463}) = 0
+1719579127.362670 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=93, tv_nsec=200977463}, 0xffffffff) = 0
+1719579127.379936 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579127.380232 futex(0xba173008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579127.380725 write(6, "E|", 2)     = 2
+1719579127.390028 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=228592934}) = 0
+1719579127.390205 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579127.391613 write(6, "B|10566|pthread_create", 22) = 22
+1719579127.391866 mmap2(NULL, 1052672, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xb9e74000
+1719579127.392078 mprotect(0xb9e75000, 1044480, PROT_READ|PROT_WRITE) = 0
+1719579127.392220 rt_sigprocmask(SIG_BLOCK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579127.392349 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579127.392546 rt_sigprocmask(SIG_SETMASK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579127.392677 clone(child_stack=0xb9f711b8, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xb9f711c8, tls=0xb9f71480, child_tidptr=0xb9f711c8) = 11822
+1719579127.393295 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579127.393745 write(6, "E|", 2)     = 2
+1719579127.393887 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=233271216}) = 0
+1719579127.395027 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579127.395152 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=233684393}) = 0
+1719579127.395311 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=233834914}) = 0
+1719579127.395414 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=93, tv_nsec=233834914}, 0xffffffff) = 0
+1719579127.430255 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=268792105}) = 0
+1719579127.430460 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=268984813}) = 0
+1719579127.430576 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579127.431034 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579127.431206 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=269733303}) = 0
+1719579127.431341 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=269870439}) = 0
+1719579127.431825 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=93, tv_nsec=269870439}, 0xffffffff) = 0
+1719579127.814655 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579127.814927 futex(0xba173008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579127.815744 write(6, "E|", 2)     = 2
+1719579127.815949 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=654526050}) = 0
+1719579127.816173 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579127.816426 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579127.816674 futex(0x3a825ad4, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579127.817710 write(6, "E|", 2)     = 2
+1719579127.817931 futex(0x3a825ad4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579127.818274 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=657070373}) = 0
+1719579127.818694 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579127.819536 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=658107248}) = 0
+1719579127.819877 prctl(PR_GET_NAME, "ThreadPoolForeg") = 0
+1719579127.820342 write(4, "B|10566|AttachCurrentThread", 27) = 27
+1719579127.820607 write(4, "B|10566|Thread::Attach", 22) = 22
+1719579127.820970 write(4, "B|10566|Thread birth", 20) = 20
+1719579127.821229 write(4, "B|10566|Thread::Init", 20) = 20
+1719579127.821562 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579127.822335 mprotect(0xba077000, 4096, PROT_NONE) = 0
+1719579127.822549 madvise(0xba077000, 1024000, MADV_DONTNEED) = 0
+1719579127.823230 write(4, "E|10566", 7) = 7
+1719579127.824776 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579127.825971 write(4, "E|10566", 7) = 7
+1719579127.826186 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579127.827294 write(4, "E|10566", 7) = 7
+1719579127.827700 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee7fe000
+1719579127.828433 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee7fe000, 8192, "dalvik-indirect ref table") = 0
+1719579127.829009 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579127.829326 write(4, "E|10566", 7) = 7
+1719579127.829565 write(4, "E|10566", 7) = 7
+1719579127.829740 write(4, "E|10566", 7) = 7
+1719579127.829905 write(4, "C|10566|Heap size (KB)|6297", 27) = 27
+1719579127.830089 getpriority(PRIO_PROCESS, 11818) = 20
+1719579127.830673 prctl(PR_SET_NAME, "ThreadPoolForeg"...) = 0
+1719579127.830855 write(4, "E|10566", 7) = 7
+1719579127.831053 write(4, "E|10566", 7) = 7
+1719579127.831321 getuid32()            = 10277
+1719579127.831574 clock_gettime(CLOCK_BOOTTIME, {tv_sec=92, tv_nsec=670120999}) = 0
+1719579127.831855 ioctl(68, BINDER_WRITE_READ, 0xba1725b0) = 0
+1719579127.832489 ioctl(68, BINDER_WRITE_READ, 0xba1725b0) = 0
+1719579127.833188 ioctl(68, BINDER_WRITE_READ, 0xba172710) = 0
+1719579127.833519 clock_gettime(CLOCK_BOOTTIME, {tv_sec=92, tv_nsec=672056937}) = 0
+1719579127.833704 ioctl(68, BINDER_WRITE_READ, 0xba1725a0) = 0
+1719579127.834934 ioctl(68, BINDER_WRITE_READ, 0xba172700) = 0
+1719579127.835445 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=674001000}) = 0
+1719579127.835859 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579127.836067 write(6, "E|", 2)     = 2
+1719579127.836360 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579127.836573 futex(0xb9f7100c, FUTEX_WAKE_PRIVATE, 2147483647) = 1
+1719579127.837190 futex(0xb9f71008, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579127.837439 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=675975896}) = 0
+1719579127.838137 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579127.838644 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=677309594}) = 0
+1719579127.839029 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=677588865}) = 0
+1719579127.839255 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=93, tv_nsec=677588865}, 0xffffffff) = 0
+1719579128.129458 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.129576 futex(0xba173008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.133322 write(6, "E|", 2)     = 2
+1719579128.133885 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=972626446}) = 0
+1719579128.134261 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.134389 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.134480 futex(0x3a825ad4, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.142337 write(6, "E|", 2)     = 2
+1719579128.142684 futex(0x3a825ad4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.143390 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=981930614}) = 0
+1719579128.143609 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.143760 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.144425 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=982970978}) = 0
+1719579128.146955 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=985508479}) = 0
+1719579128.147364 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=93, tv_nsec=985508479}, 0xffffffff) = 0
+1719579128.176793 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=15312596}) = 0
+1719579128.177417 ugetrlimit(RLIMIT_NOFILE, {rlim_cur=32*1024, rlim_max=32*1024}) = 0
+1719579128.177571 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=16104002}) = 0
+1719579128.177680 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=16213169}) = 0
+1719579128.177789 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb__tmp_for_rebuild", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.178037 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=16556607}) = 0
+1719579128.178429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=16950825}) = 0
+1719579128.178540 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.178683 write(6, "E|", 2)     = 2
+1719579128.178836 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=17356450}) = 0
+1719579128.178976 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.179157 fstatat64(AT_FDCWD, "/", 0xba172890, 0) = 0
+1719579128.179311 fstatat64(AT_FDCWD, "/data", 0xba172890, 0) = 0
+1719579128.179441 fstatat64(AT_FDCWD, "/data/user", 0xba172890, 0) = 0
+1719579128.179564 fstatat64(AT_FDCWD, "/data/user/0", 0xba172890, 0) = 0
+1719579128.179689 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon", 0xba172890, 0) = 0
+1719579128.179811 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", 0xba172890, 0) = 0
+1719579128.179934 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default", 0xba172890, 0) = 0
+1719579128.180122 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage", 0xba172890, 0) = -1 ENOENT (No such file or directory)
+1719579128.180438 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage", 0700) = 0
+1719579128.180835 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", 0xba172890, 0) = -1 ENOENT (No such file or directory)
+1719579128.181042 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", 0700) = 0
+1719579128.181759 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=20278951}) = 0
+1719579128.181857 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=20389315}) = 0
+1719579128.181965 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.182852 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.183087 write(6, "E|", 2)     = 2
+1719579128.183183 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.183508 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=22194680}) = 0
+1719579128.184305 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=22844003}) = 0
+1719579128.184421 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 198
+1719579128.184712 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=23247336}) = 0
+1719579128.188400 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=26943066}) = 0
+1719579128.188676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=27318222}) = 0
+1719579128.189066 fstatat64(AT_FDCWD, "/", 0xba1728d8, 0) = 0
+1719579128.189485 fstatat64(AT_FDCWD, "/data", 0xba1728d8, 0) = 0
+1719579128.189603 fstatat64(AT_FDCWD, "/data/user", 0xba1728d8, 0) = 0
+1719579128.189694 fstatat64(AT_FDCWD, "/data/user/0", 0xba1728d8, 0) = 0
+1719579128.189848 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon", 0xba1728d8, 0) = 0
+1719579128.189948 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview", 0xba1728d8, 0) = 0
+1719579128.190128 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default", 0xba1728d8, 0) = 0
+1719579128.190246 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage", 0xba1728d8, 0) = 0
+1719579128.190451 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", 0xba1728d8, 0) = 0
+1719579128.190670 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=29199108}) = 0
+1719579128.190916 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=29479681}) = 0
+1719579128.199117 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=37668223}) = 0
+1719579128.200908 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", O_RDWR|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579128.201100 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", O_RDWR|O_CREAT|O_LARGEFILE, 0600) = 179
+1719579128.201388 fcntl64(179, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+1719579128.201751 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=40277494}) = 0
+1719579128.201836 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=40356036}) = 0
+1719579128.201956 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.202237 gettimeofday({tv_sec=1719579128, tv_usec=202266}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579128.202422 openat(AT_FDCWD, "/data/misc/zoneinfo/current/tzdata", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579128.202836 openat(AT_FDCWD, "/apex/com.android.tzdata/etc/tz/tzdata", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 200
+1719579128.203083 read(200, "tzdata2021a\0\0\0\0\30\0\0x\300\0\7\200Z", 24) = 24
+1719579128.207055 lseek(200, 24, SEEK_SET) = 24
+1719579128.207268 read(200, "Africa/Abidjan\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 30888) = 30888
+1719579128.207641 lseek(200, 284347, SEEK_SET) = 284347
+1719579128.214280 read(200, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 303) = 303
+1719579128.214804 close(200)            = 0
+1719579128.215701 openat(AT_FDCWD, "/data/misc/zoneinfo/current/tzdata", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1719579128.215845 openat(AT_FDCWD, "/apex/com.android.tzdata/etc/tz/tzdata", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 195
+1719579128.219816 read(195, "tzdata2021a\0\0\0\0\30\0\0x\300\0\7\200Z", 24) = 24
+1719579128.220256 lseek(195, 24, SEEK_SET) = 24
+1719579128.220562 read(195, "Africa/Abidjan\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 30888) = 30888
+1719579128.222072 close(195)            = 0
+1719579128.222302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=60840153}) = 0
+1719579128.222762 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=61288434}) = 0
+1719579128.222928 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.225261 write(198, "2024/06/28-18:22:08.202 2e2a Cre"..., 132) = 132
+1719579128.225733 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.225957 write(6, "E|", 2)     = 2
+1719579128.226165 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.226435 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=64979476}) = 0
+1719579128.226611 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=65145830}) = 0
+1719579128.226785 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 195
+1719579128.227488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=66028018}) = 0
+1719579128.227682 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.227899 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.235057 write(6, "E|", 2)     = 2
+1719579128.238417 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=76952081}) = 0
+1719579128.238691 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.238853 write(195, "\225|\271\305\"\0\1", 7) = 7
+1719579128.239087 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.239290 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.240107 write(6, "E|", 2)     = 2
+1719579128.240320 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.240488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=79027863}) = 0
+1719579128.240661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=79199530}) = 0
+1719579128.240850 write(195, "\1\32leveldb.BytewiseComparator\2\0\3\2"..., 34) = 34
+1719579128.241037 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.241216 write(6, "E|", 2)     = 2
+1719579128.241422 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.242131 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=80819998}) = 0
+1719579128.243959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=83209217}) = 0
+1719579128.246141 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.246727 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", O_RDONLY|O_LARGEFILE) = 201
+1719579128.247521 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=86182030}) = 0
+1719579128.248142 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.252235 write(6, "E|", 2)     = 2
+1719579128.252951 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=91474010}) = 0
+1719579128.253073 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.253266 fdatasync(201)        = 0
+1719579128.277510 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.278233 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.278842 write(6, "E|", 2)     = 2
+1719579128.280942 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.282061 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=121401773}) = 0
+1719579128.289713 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.290327 write(6, "E|", 2)     = 2
+1719579128.290856 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=129506514}) = 0
+1719579128.291372 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.291780 close(201)            = 0
+1719579128.293088 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.293413 write(6, "E|", 2)     = 2
+1719579128.293836 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.294559 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=133660629}) = 0
+1719579128.296447 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.296693 write(6, "E|", 2)     = 2
+1719579128.308411 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=146974224}) = 0
+1719579128.308616 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.308877 fdatasync(195)        = 0
+1719579128.310263 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.310495 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.310648 write(6, "E|", 2)     = 2
+1719579128.311938 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.312220 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=150945630}) = 0
+1719579128.312580 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=151177974}) = 0
+1719579128.313022 close(195)            = 0
+1719579128.313295 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=151897714}) = 0
+1719579128.313708 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=152269849}) = 0
+1719579128.313849 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 195
+1719579128.314582 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=153290943}) = 0
+1719579128.315661 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=154227350}) = 0
+1719579128.316056 write(195, "MANIFEST-000001\n", 16) = 16
+1719579128.316742 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=155355475}) = 0
+1719579128.317104 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.317285 write(6, "E|", 2)     = 2
+1719579128.317867 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=156525683}) = 0
+1719579128.318300 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.319450 fdatasync(195)        = 0
+1719579128.321304 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=159929486}) = 0
+1719579128.321899 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=160467767}) = 0
+1719579128.322123 close(195)            = 0
+1719579128.322402 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.322539 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.323545 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.326285 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.327141 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.327354 write(6, "E|", 2)     = 2
+1719579128.327555 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.328505 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=167157195}) = 0
+1719579128.329572 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=168119643}) = 0
+1719579128.330261 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.330752 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000001.dbtmp", F_OK) = 0
+1719579128.331248 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.332097 write(6, "E|", 2)     = 2
+1719579128.332591 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.333305 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=171912039}) = 0
+1719579128.333830 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=172376466}) = 0
+1719579128.334159 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.334494 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.335283 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.337361 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.340213 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.341390 write(6, "E|", 2)     = 2
+1719579128.341752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=180650998}) = 0
+1719579128.342354 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.343237 renameat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000001.dbtmp", AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT") = 0
+1719579128.345779 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.346288 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.352578 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.353377 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.355806 write(6, "E|", 2)     = 2
+1719579128.356701 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.356940 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=196392822}) = 0
+1719579128.358082 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.358397 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.360090 write(6, "E|", 2)     = 2
+1719579128.360361 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=198899229}) = 0
+1719579128.360499 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.360703 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", O_RDONLY|O_LARGEFILE) = 199
+1719579128.360897 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.361065 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.362388 write(6, "E|", 2)     = 2
+1719579128.362762 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.363018 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=201541417}) = 0
+1719579128.363173 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=201693552}) = 0
+1719579128.363328 read(199, "MANIFEST-000001\n", 8192) = 16
+1719579128.363584 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.363743 write(6, "E|", 2)     = 2
+1719579128.363858 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.363965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=202497302}) = 0
+1719579128.364074 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=202606209}) = 0
+1719579128.364181 read(199, "", 8192)   = 0
+1719579128.364500 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=203035688}) = 0
+1719579128.364614 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=203146469}) = 0
+1719579128.364726 close(199)            = 0
+1719579128.364957 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=203490740}) = 0
+1719579128.365069 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=203618344}) = 0
+1719579128.365195 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", O_RDONLY|O_LARGEFILE) = 199
+1719579128.365657 mprotect(0x3a9a8000, 32768, PROT_READ|PROT_WRITE) = 0
+1719579128.365808 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=204337667}) = 0
+1719579128.365927 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=204459594}) = 0
+1719579128.366051 read(199, "\225|\271\305\"\0\1\1\32leveldb.BytewiseCompara"..., 32768) = 41
+1719579128.366341 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=213466835}) = 0
+1719579128.377744 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=216273241}) = 0
+1719579128.377866 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.378027 close(199)            = 0
+1719579128.381765 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=220326627}) = 0
+1719579128.381944 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.382078 write(6, "E|", 2)     = 2
+1719579128.382229 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=220757825}) = 0
+1719579128.382341 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.382490 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", 0xba172710, 0) = 0
+1719579128.382664 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=221186367}) = 0
+1719579128.383029 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=221979856}) = 0
+1719579128.383589 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.383743 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", O_WRONLY|O_APPEND|O_LARGEFILE) = 195
+1719579128.384078 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.385932 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.386225 write(6, "E|", 2)     = 2
+1719579128.386461 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.386677 gettimeofday({tv_sec=1719579128, tv_usec=386721}, {tz_minuteswest=-330, tz_dsttime=0}) = 0
+1719579128.387027 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=225586159}) = 0
+1719579128.387212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=225795377}) = 0
+1719579128.387912 write(198, "2024/06/28-18:22:08.386 2e2a Reu"..., 131) = 131
+1719579128.388109 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.388602 write(6, "E|", 2)     = 2
+1719579128.388872 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.389270 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=227807878}) = 0
+1719579128.389491 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=228039024}) = 0
+1719579128.389704 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 200
+1719579128.390067 getdents64(200, /* 6 entries */, 4200) = 168
+1719579128.390664 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", 0xba172860, 0) = 0
+1719579128.390943 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", 0xba172860, 0) = 0
+1719579128.391239 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", 0xba172860, 0) = 0
+1719579128.391559 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", 0xba172860, 0) = 0
+1719579128.391902 getdents64(200, /* 0 entries */, 4200) = 0
+1719579128.392164 close(200)            = 0
+1719579128.392434 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.393042 write(6, "E|", 2)     = 2
+1719579128.393681 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.394192 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=232730482}) = 0
+1719579128.394396 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=232955274}) = 0
+1719579128.394891 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.395237 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.395844 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.396442 write(6, "E|", 2)     = 2
+1719579128.396656 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.396856 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=235389597}) = 0
+1719579128.397171 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=236929962}) = 0
+1719579128.398843 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.399053 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=237592618}) = 0
+1719579128.399358 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.399894 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.402073 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.403155 write(6, "E|", 2)     = 2
+1719579128.406626 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=245291473}) = 0
+1719579128.407471 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.408058 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.409297 write(6, "E|", 2)     = 2
+1719579128.409770 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.410342 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=248926109}) = 0
+1719579128.410977 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.412915 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.422159 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.422297 write(6, "E|", 2)     = 2
+1719579128.422419 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=260956891}) = 0
+1719579128.422543 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.422659 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.422820 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.426632 write(6, "E|", 2)     = 2
+1719579128.427205 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.427539 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=266064079}) = 0
+1719579128.427697 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.428021 write(6, "E|", 2)     = 2
+1719579128.435040 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=274109445}) = 0
+1719579128.436087 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.437018 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 199
+1719579128.437411 getdents64(199, /* 6 entries */, 4200) = 168
+1719579128.437715 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", 0xba172860, 0) = 0
+1719579128.440763 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", 0xba172860, 0) = 0
+1719579128.440918 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", 0xba172860, 0) = 0
+1719579128.441212 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", 0xba172860, 0) = 0
+1719579128.441325 getdents64(199, /* 0 entries */, 4200) = 0
+1719579128.441437 close(199)            = 0
+1719579128.441848 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.443324 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.445778 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.446800 write(6, "E|", 2)     = 2
+1719579128.446928 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.447099 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=285637363}) = 0
+1719579128.447326 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=285857206}) = 0
+1719579128.447474 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=286000800}) = 0
+1719579128.447580 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=286105644}) = 0
+1719579128.448021 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=286553248}) = 0
+1719579128.448617 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=287987832}) = 0
+1719579128.450072 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.451271 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.451684 write(6, "E|", 2)     = 2
+1719579128.452277 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.452679 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=291453040}) = 0
+1719579128.453304 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=291887520}) = 0
+1719579128.454000 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=292527572}) = 0
+1719579128.454132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=292657624}) = 0
+1719579128.454261 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000003.log", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE, 0600) = 206
+1719579128.455008 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=293533040}) = 0
+1719579128.455121 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=293652207}) = 0
+1719579128.455209 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 199
+1719579128.455444 getdents64(199, /* 7 entries */, 4200) = 200
+1719579128.455934 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", 0xba1727d8, 0) = 0
+1719579128.456154 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", 0xba1727d8, 0) = 0
+1719579128.456408 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", 0xba1727d8, 0) = 0
+1719579128.456545 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000003.log", 0xba1727d8, 0) = 0
+1719579128.461292 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", 0xba1727d8, 0) = 0
+1719579128.462929 getdents64(199, /* 0 entries */, 4200) = 0
+1719579128.465337 close(199)            = 0
+1719579128.466024 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=304561844}) = 0
+1719579128.466317 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=304841687}) = 0
+1719579128.466580 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=305322260}) = 0
+1719579128.467728 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=306247625}) = 0
+1719579128.467854 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=306374292}) = 0
+1719579128.468052 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.468423 write(6, "E|", 2)     = 2
+1719579128.468544 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=307072052}) = 0
+1719579128.468725 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.468880 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=307445802}) = 0
+1719579128.469093 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.469224 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.470027 write(6, "E|", 2)     = 2
+1719579128.470734 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=309302365}) = 0
+1719579128.470940 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.471178 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=310058303}) = 0
+1719579128.482641 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=321322470}) = 0
+1719579128.483043 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=321686168}) = 0
+1719579128.483913 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.484156 write(6, "E|", 2)     = 2
+1719579128.484359 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=322909398}) = 0
+1719579128.484571 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.484802 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb", O_RDONLY|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 199
+1719579128.485356 getdents64(199, /* 7 entries */, 4200) = 200
+1719579128.486255 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOG", 0xba1727d8, 0) = 0
+1719579128.486514 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/LOCK", 0xba1727d8, 0) = 0
+1719579128.489459 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/MANIFEST-000001", 0xba1727d8, 0) = 0
+1719579128.490476 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/000003.log", 0xba1727d8, 0) = 0
+1719579128.490770 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb/CURRENT", 0xba1727d8, 0) = 0
+1719579128.491097 getdents64(199, /* 0 entries */, 4200) = 0
+1719579128.491302 close(199)            = 0
+1719579128.491484 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=331443826}) = 0
+1719579128.493644 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=332236638}) = 0
+1719579128.494002 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=332541013}) = 0
+1719579128.494196 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=332720544}) = 0
+1719579128.494799 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.495130 write(6, "E|", 2)     = 2
+1719579128.495250 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.495559 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=334274920}) = 0
+1719579128.495992 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=334571638}) = 0
+1719579128.496243 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=334783930}) = 0
+1719579128.497670 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=336209972}) = 0
+1719579128.497903 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=336444451}) = 0
+1719579128.498064 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=336602784}) = 0
+1719579128.498864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=337548253}) = 0
+1719579128.499232 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=337770493}) = 0
+1719579128.499417 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Local Storage/leveldb__tmp_for_rebuild", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.505992 write(189, "\0", 1)   = 1
+1719579128.507263 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.508658 write(6, "E|", 2)     = 2
+1719579128.509248 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.509409 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=347946952}) = 0
+1719579128.512517 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.512810 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.521970 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=361198099}) = 0
+1719579128.523048 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=361606120}) = 0
+1719579128.523378 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.524217 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=361606120}, 0xffffffff) = 0
+1719579128.527086 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.527479 write(6, "E|", 2)     = 2
+1719579128.527728 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=366434506}) = 0
+1719579128.531770 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.533695 write(189, "\0", 1)   = 1
+1719579128.535215 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=373770340}) = 0
+1719579128.535423 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.535895 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579128.536801 write(189, "\0", 1)   = 1
+1719579128.537422 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=375966486}) = 0
+1719579128.538287 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.540206 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=378770757}) = 0
+1719579128.540462 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=379002893}) = 0
+1719579128.540734 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=379002893}, 0xffffffff) = 0
+1719579128.617100 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.617446 futex(0xba173008, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.621258 write(6, "E|", 2)     = 2
+1719579128.621828 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=460463682}) = 0
+1719579128.622116 futex(0xba173008, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.622635 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.623233 futex(0x3a825ad4, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.625966 write(6, "E|", 2)     = 2
+1719579128.626373 futex(0x3a825ad4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.627005 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=465551808}) = 0
+1719579128.627862 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=467233370}) = 0
+1719579128.628870 faccessat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", F_OK) = -1 ENOENT (No such file or directory)
+1719579128.629368 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=467915089}) = 0
+1719579128.630081 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=468628475}) = 0
+1719579128.630247 fstatat64(AT_FDCWD, "/", 0xba172a70, 0) = 0
+1719579128.630522 fstatat64(AT_FDCWD, "/data", 0xba172a70, 0) = 0
+1719579128.630693 fstatat64(AT_FDCWD, "/data/user", 0xba172a70, 0) = 0
+1719579128.630818 fstatat64(AT_FDCWD, "/data/user/0", 0xba172a70, 0) = 0
+1719579128.630916 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon", 0xba172a70, 0) = 0
+1719579128.631230 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache", 0xba172a70, 0) = 0
+1719579128.631389 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView", 0xba172a70, 0) = 0
+1719579128.632204 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default", 0xba172a70, 0) = 0
+1719579128.632605 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache", 0xba172a70, 0) = 0
+1719579128.633019 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache", 0xba172a70, 0) = -1 ENOENT (No such file or directory)
+1719579128.633237 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache", 0700) = 0
+1719579128.633420 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", 0xba172a70, 0) = -1 ENOENT (No such file or directory)
+1719579128.633981 mkdirat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", 0700) = 0
+1719579128.634251 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=472773631}) = 0
+1719579128.634370 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=472891131}) = 0
+1719579128.634523 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1719579128.634704 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=473231913}) = 0
+1719579128.634966 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=473764829}) = 0
+1719579128.635428 openat(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm/index", O_WRONLY|O_CREAT|O_EXCL|O_LARGEFILE, 0600) = 190
+1719579128.635699 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=474235663}) = 0
+1719579128.635820 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=474353423}) = 0
+1719579128.635963 fcntl64(190, F_GETFL) = 0x20001 (flags O_WRONLY|O_LARGEFILE)
+1719579128.636151 pwrite64(190, "0\\r\247\33m\373\374\t\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 24, 0) = 24
+1719579128.636941 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.637525 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579128.637994 write(6, "E|", 2)     = 2
+1719579128.638147 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.638382 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=476923163}) = 0
+1719579128.638667 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=477250403}) = 0
+1719579128.638966 close(190)            = 0
+1719579128.639123 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=477668423}) = 0
+1719579128.639377 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.639701 write(6, "E|", 2)     = 2
+1719579128.639866 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=478421392}) = 0
+1719579128.640095 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.640365 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/cache/WebView/Default/HTTP Cache/Code Cache/wasm", 0xba172bc0, 0) = 0
+1719579128.640853 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=479431392}) = 0
+1719579128.641138 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=479672486}) = 0
+1719579128.641299 fstatat64(AT_FDCWD, "/data/user/0/com.lf.coupon/app_webview/Default/Application Cache", 0xba172d20, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1719579128.642399 write(6, "B|10566|Contending for pthread m"..., 36) = 36
+1719579128.642584 futex(0x3a878614, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1719579128.642771 write(6, "E|", 2)     = 2
+1719579128.643044 futex(0x3a878614, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579128.643696 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=482266080}) = 0
+1719579128.644014 futex(0x3a8202a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1719579128.644752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=483293059}) = 0
+1719579128.645488 clock_gettime(CLOCK_MONOTONIC, {tv_sec=93, tv_nsec=484036289}) = 0
+1719579128.646003 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=94, tv_nsec=484036289}, 0xffffffff) = -1 ETIMEDOUT (Connection timed out)
+1719579129.645839 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=484378263}) = 0
+1719579129.646215 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=484757795}) = 0
+1719579129.646451 clock_gettime(CLOCK_MONOTONIC, {tv_sec=94, tv_nsec=485018420}) = 0
+1719579129.646791 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=423, tv_nsec=485018420}, 0xffffffff) = ? ERESTART_RESTARTBLOCK (Interrupted by signal)
+1719579131.585591 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579131.585646 futex(0xeb38a5e4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.585736 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=424290436}) = 0
+1719579131.585836 futex(0xeb38a5e4, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=101, tv_nsec=424290436}, 0xffffffff) = 0
+1719579131.625498 futex(0xeb38a5e4, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.625816 rt_sigreturn({mask=0xed1c4e50}) = -1 EINTR (Interrupted system call)
+1719579131.626075 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=465067367}) = 0
+1719579131.626723 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=465448617}) = 0
+1719579131.627154 futex(0xba17300c, FUTEX_WAIT_BITSET_PRIVATE, 2, {tv_sec=423, tv_nsec=485138617}, 0xffffffff) = ?
+1719579182.533390 +++ killed by SIGTERM +++

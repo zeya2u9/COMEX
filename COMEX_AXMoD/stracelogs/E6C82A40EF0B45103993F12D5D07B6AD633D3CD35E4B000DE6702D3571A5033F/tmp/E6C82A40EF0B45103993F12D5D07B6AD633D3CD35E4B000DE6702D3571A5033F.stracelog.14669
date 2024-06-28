@@ -1,0 +1,22 @@
+1719579163.691241 futex(0xbee05214, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1719579163.691844 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbed09000, 1044480, "stack_and_tls:14669") = 0
+1719579163.691938 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee17e000
+1719579163.692110 mprotect(0xee17e000, 4096, PROT_NONE) = 0
+1719579163.692189 sigaltstack({ss_sp=0xee17f000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579163.692262 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee17f000, 16384, "thread signal stack") = 0
+1719579163.692382 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579163.692479 nanosleep({tv_sec=4, tv_nsec=0}, 0xbee05170) = 0
+1719579167.692982 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = -1 EEXIST (File exists)
+1719579167.693428 unlinkat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", 0) = 0
+1719579167.694784 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = 154
+1719579167.697845 write(154, "EGL$\314_\1\202$bB_\3\0\0\0\1\0\0\0!\0\0\0\22\0\0\0S2RI"..., 72456) = 72456
+1719579167.698713 clock_gettime(CLOCK_MONOTONIC, {tv_sec=132, tv_nsec=537268148}) = 0
+1719579167.698900 fchmod(154, 0400)     = 0
+1719579167.699740 close(154)            = 0
+1719579167.700164 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579167.700368 munmap(0xee17e000, 20480) = 0
+1719579167.700681 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579167.700869 set_tid_address(0)    = 14669
+1719579167.701001 munmap(0xbed08000, 1052672) = 0
+1719579167.701376 exit(0)               = ?
+1719579167.701838 +++ exited with 0 +++

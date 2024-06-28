@@ -1,0 +1,14 @@
+1719579115.960088 restart_syscall(<... resuming interrupted nanosleep ...>) = 0
+1719579119.899125 write(4, "B|10566|ShaderCache::saveToDiskL"..., 37) = 37
+1719579119.901979 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.skia.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = 146
+1719579119.904161 write(146, "EGL$\270M_v$bB_\3\0\0\0\1\0\0\0\10\0\0\0\22\0\0\0S2RI"..., 12140) = 12140
+1719579119.904820 fchmod(146, 0400)     = 0
+1719579119.913892 close(146)            = 0
+1719579119.914759 write(4, "E|10566", 7) = 7
+1719579119.916386 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579119.916865 munmap(0xed8de000, 20480) = 0
+1719579119.917214 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579119.917402 set_tid_address(0)    = 10806
+1719579119.917564 munmap(0xbcc78000, 1052672) = 0
+1719579119.917735 exit(0)               = ?
+1719579119.917934 +++ exited with 0 +++

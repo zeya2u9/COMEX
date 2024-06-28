@@ -1,0 +1,139 @@
+1719579115.974442 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out)
+1719579118.688446 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=526971911}) = 0
+1719579118.688737 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=527469828}) = 0
+1719579118.689187 futex(0xf0a42664, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579118.689807 futex(0xf0a42680, FUTEX_WAIT_PRIVATE, 15, {tv_sec=1, tv_nsec=992212148}) = 0
+1719579118.808864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=647464840}) = 0
+1719579118.809123 write(4, "B|10566|Releasing app image spac"..., 43) = 43
+1719579118.815349 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=660109529}) = 0
+1719579118.829155 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=668302759}) = 0
+1719579118.837584 clock_gettime(CLOCK_REALTIME, {tv_sec=1719579118, tv_nsec=838333829}) = 0
+1719579118.838948 getuid32()            = 10277
+1719579118.839234 writev(5, [{iov_base="\0V)\356\261~f\205\365\3671", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="com.lf.coupon\0", iov_len=14}, {iov_base="WaitForGcToComplete blocked RunE"..., iov_len=67}], 4) = 93
+1719579118.841737 write(4, "E|10566", 7) = 7
+1719579118.863886 write(4, "B|10566|Delete thread pool", 26) = 26
+1719579118.864964 futex(0xeac40ac8, FUTEX_REQUEUE_PRIVATE, 0, 2147483647, 0xeac40aac) = 4
+1719579118.865213 futex(0xeac40aac, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579118.865400 write(6, "B|10566|pthread_join", 20) = 20
+1719579118.865646 futex(0xf09bc1c8, FUTEX_WAIT, 10571, NULL) = 0
+1719579118.876980 munmap(0xf09ab000, 86016) = 0
+1719579118.877300 write(6, "E|", 2)     = 2
+1719579118.878546 write(6, "B|10566|pthread_join", 20) = 20
+1719579118.878737 munmap(0xee8c4000, 86016) = 0
+1719579118.879428 write(6, "E|", 2)     = 2
+1719579118.880096 write(6, "B|10566|pthread_join", 20) = 20
+1719579118.880453 munmap(0xee772000, 86016) = 0
+1719579118.882084 write(6, "E|", 2)     = 2
+1719579118.882264 write(6, "B|10566|pthread_join", 20) = 20
+1719579118.882518 munmap(0xedec6000, 86016) = 0
+1719579118.885755 write(6, "E|", 2)     = 2
+1719579118.888946 write(4, "E|10566", 7) = 7
+1719579118.889106 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=727643702}) = 0
+1719579118.891907 futex(0xf0a42664, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579118.893144 futex(0xf0a42680, FUTEX_WAIT_PRIVATE, 16, {tv_sec=1, tv_nsec=792038274}) = -1 ETIMEDOUT (Connection timed out)
+1719579120.685679 clock_gettime(CLOCK_MONOTONIC, {tv_sec=85, tv_nsec=524223308}) = 0
+1719579120.686127 write(4, "B|10566|void art::gc::Heap::Trim"..., 70) = 70
+1719579120.686447 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.686983 madvise(0xe20e8000, 811008, MADV_DONTNEED) = 0
+1719579120.687241 write(4, "E|10566", 7) = 7
+1719579120.687613 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.687830 madvise(0xf0cf9000, 4096, MADV_DONTNEED) = 0
+1719579120.688063 write(4, "E|10566", 7) = 7
+1719579120.688237 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.689844 madvise(0xf07d8000, 4096, MADV_DONTNEED) = 0
+1719579120.690012 write(4, "E|10566", 7) = 7
+1719579120.690158 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.690286 madvise(0xf039a000, 8192, MADV_DONTNEED) = 0
+1719579120.690397 write(4, "E|10566", 7) = 7
+1719579120.690762 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.693442 madvise(0xf035e000, 8192, MADV_DONTNEED) = 0
+1719579120.693945 write(4, "E|10566", 7) = 7
+1719579120.694278 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.694540 madvise(0xf033b000, 8192, MADV_DONTNEED) = 0
+1719579120.696018 write(4, "E|10566", 7) = 7
+1719579120.697031 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.698570 madvise(0xf0ceb000, 8192, MADV_DONTNEED) = 0
+1719579120.699997 write(4, "E|10566", 7) = 7
+1719579120.701482 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.702051 madvise(0xf0cf7000, 4096, MADV_DONTNEED) = 0
+1719579120.705206 write(4, "E|10566", 7) = 7
+1719579120.705848 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.706110 madvise(0xf0cf5000, 4096, MADV_DONTNEED) = 0
+1719579120.706511 write(4, "E|10566", 7) = 7
+1719579120.706752 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.706940 madvise(0xf0cf3000, 4096, MADV_DONTNEED) = 0
+1719579120.707125 write(4, "E|10566", 7) = 7
+1719579120.707367 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.707545 madvise(0xf0b62000, 8192, MADV_DONTNEED) = 0
+1719579120.715270 write(4, "E|10566", 7) = 7
+1719579120.717764 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.718370 madvise(0xf0b5d000, 8192, MADV_DONTNEED) = 0
+1719579120.718572 write(4, "E|10566", 7) = 7
+1719579120.718646 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.718712 madvise(0xf0b4f000, 4096, MADV_DONTNEED) = 0
+1719579120.718943 write(4, "E|10566", 7) = 7
+1719579120.719083 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.719514 madvise(0xf02cf000, 8192, MADV_DONTNEED) = 0
+1719579120.719720 write(4, "E|10566", 7) = 7
+1719579120.719896 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.720060 madvise(0xeed38000, 4096, MADV_DONTNEED) = 0
+1719579120.720168 write(4, "E|10566", 7) = 7
+1719579120.720299 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.720537 madvise(0xeeb4c000, 4096, MADV_DONTNEED) = 0
+1719579120.720706 write(4, "E|10566", 7) = 7
+1719579120.721289 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.721432 madvise(0xee96e000, 8192, MADV_DONTNEED) = 0
+1719579120.722498 write(4, "E|10566", 7) = 7
+1719579120.722682 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.722980 madvise(0xee96b000, 4096, MADV_DONTNEED) = 0
+1719579120.723290 write(4, "E|10566", 7) = 7
+1719579120.723761 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.724362 madvise(0xee91d000, 4096, MADV_DONTNEED) = 0
+1719579120.725908 write(4, "E|10566", 7) = 7
+1719579120.726283 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.726448 madvise(0xee8e9000, 4096, MADV_DONTNEED) = 0
+1719579120.726675 write(4, "E|10566", 7) = 7
+1719579120.727018 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.727188 madvise(0xee8c3000, 4096, MADV_DONTNEED) = 0
+1719579120.727426 write(4, "E|10566", 7) = 7
+1719579120.728576 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.728805 madvise(0xee16f000, 8192, MADV_DONTNEED) = 0
+1719579120.730165 write(4, "E|10566", 7) = 7
+1719579120.730579 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.733454 madvise(0xee053000, 8192, MADV_DONTNEED) = 0
+1719579120.735229 write(4, "E|10566", 7) = 7
+1719579120.737309 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.740323 madvise(0xee8f0000, 8192, MADV_DONTNEED) = 0
+1719579120.740500 write(4, "E|10566", 7) = 7
+1719579120.740755 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.740922 madvise(0xed899000, 4096, MADV_DONTNEED) = 0
+1719579120.743359 write(4, "E|10566", 7) = 7
+1719579120.750265 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.750623 madvise(0xed73f000, 8192, MADV_DONTNEED) = 0
+1719579120.750820 write(4, "E|10566", 7) = 7
+1719579120.751431 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.751915 madvise(0xed6f4000, 8192, MADV_DONTNEED) = 0
+1719579120.752702 write(4, "E|10566", 7) = 7
+1719579120.753712 write(4, "B|10566|void art::IndirectRefere"..., 48) = 48
+1719579120.754178 madvise(0xed69a000, 4096, MADV_DONTNEED) = 0
+1719579120.755714 write(4, "E|10566", 7) = 7
+1719579120.756020 write(4, "E|10566", 7) = 7
+1719579120.756890 clock_gettime(CLOCK_MONOTONIC, {tv_sec=85, tv_nsec=595440138}) = 0
+1719579120.757038 clock_gettime(CLOCK_MONOTONIC, {tv_sec=85, tv_nsec=595558888}) = 0
+1719579120.757921 write(4, "B|10566|void art::gc::Heap::Trim"..., 53) = 53
+1719579120.758145 clock_gettime(CLOCK_MONOTONIC, {tv_sec=85, tv_nsec=596720399}) = 0
+1719579120.758389 clock_gettime(CLOCK_MONOTONIC, {tv_sec=85, tv_nsec=596925034}) = 0
+1719579120.758567 write(4, "E|10566", 7) = 7
+1719579120.761732 write(4, "B|10566|virtual void art::MemMap"..., 53) = 53
+1719579120.764347 madvise(0xd6a7d000, 131072, MADV_DONTNEED) = 0
+1719579120.764558 write(4, "E|10566", 7) = 7
+1719579120.766164 futex(0xf0a42664, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579120.768061 futex(0xf0a42680, FUTEX_WAIT_PRIVATE, 16, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1719579130.420202 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579130.420486 futex(0xeb396b84, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.420821 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=259340424}) = 0
+1719579130.420901 futex(0xeb396b84, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=259340424}, 0xffffffff) = 0
+1719579130.434027 futex(0xeb396b84, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579130.434291 rt_sigreturn({mask=[]}) = 4037289600
+1719579130.434556 futex(0xf0a42680, FUTEX_WAIT_PRIVATE, 16, NULL) = ?
+1719579182.560433 +++ killed by SIGTERM +++

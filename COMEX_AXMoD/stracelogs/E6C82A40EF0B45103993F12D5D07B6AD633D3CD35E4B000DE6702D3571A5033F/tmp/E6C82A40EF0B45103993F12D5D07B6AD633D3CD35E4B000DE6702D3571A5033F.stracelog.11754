@@ -1,0 +1,226 @@
+1719579126.704815 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xbb780000, 1077248, "stack_and_tls:11754") = 0
+1719579126.705115 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xedf02000
+1719579126.706013 mprotect(0xedf02000, 4096, PROT_NONE) = 0
+1719579126.706139 sigaltstack({ss_sp=0xedf03000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579126.706261 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xedf03000, 16384, "thread signal stack") = 0
+1719579126.706376 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579126.706512 write(4, "B|10566|Thread::Init", 20) = 20
+1719579126.706657 write(4, "B|10566|InitStackHwm", 20) = 20
+1719579126.706769 mprotect(0xbb780000, 4096, PROT_NONE) = 0
+1719579126.706882 madvise(0xbb780000, 1060864, MADV_DONTNEED) = 0
+1719579126.707004 write(4, "E|10566", 7) = 7
+1719579126.707123 write(4, "B|10566|InitTlsEntryPoints", 26) = 26
+1719579126.707240 write(4, "E|10566", 7) = 7
+1719579126.707355 write(4, "B|10566|InitInterpreterTls", 26) = 26
+1719579126.707504 write(4, "E|10566", 7) = 7
+1719579126.707617 write(4, "B|10566|ThreadList::Register", 28) = 28
+1719579126.707741 write(4, "E|10566", 7) = 7
+1719579126.707853 write(4, "E|10566", 7) = 7
+1719579126.707971 prctl(PR_SET_NAME, "CrAsyncTask #2") = 0
+1719579126.708088 getpriority(PRIO_PROCESS, 11754) = 30
+1719579126.708371 setpriority(PRIO_PROCESS, 11754, 0) = 0
+1719579126.711047 getpriority(PRIO_PROCESS, 11754) = 20
+1719579126.711320 openat(AT_FDCWD, "/proc/11754/timerslack_ns", O_WRONLY|O_CREAT|O_TRUNC|O_LARGEFILE|O_NOFOLLOW|O_CLOEXEC, 0666) = 170
+1719579126.711869 write(170, "50000", 5) = 5
+1719579126.713276 close(170)            = 0
+1719579126.713837 prctl(PR_SET_TIMERSLACK, 50000) = 0
+1719579126.714246 setpriority(PRIO_PROCESS, 11754, 10) = 0
+1719579126.715507 getpriority(PRIO_PROCESS, 11754) = 10
+1719579126.715945 write(4, "C|10566|Heap size (KB)|6135", 27) = 27
+1719579126.716343 write(4, "B|10566|PlatformServiceBridgeImp"..., 62) = 62
+1719579126.716725 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=556022972}) = 0
+1719579126.717756 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=556315992}) = 0
+1719579126.718033 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=556568440}) = 0
+1719579126.718502 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=557042711}) = 0
+1719579126.719757 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=558386826}) = 0
+1719579126.720064 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=559132451}) = 0
+1719579126.720805 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=559342816}) = 0
+1719579126.721216 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=561507764}) = 0
+1719579126.724022 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=562915004}) = 0
+1719579126.729567 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=568746410}) = 0
+1719579126.730919 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=569449796}) = 0
+1719579126.731197 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=569738494}) = 0
+1719579126.731458 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=569984223}) = 0
+1719579126.735429 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=574464588}) = 0
+1719579126.737214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=575903911}) = 0
+1719579126.737761 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=576304276}) = 0
+1719579126.738716 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=579563964}) = 0
+1719579126.741864 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=580519693}) = 0
+1719579126.742355 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=581091255}) = 0
+1719579126.742876 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=581418235}) = 0
+1719579126.743063 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=581601776}) = 0
+1719579126.743249 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=581784068}) = 0
+1719579126.743416 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=581955682}) = 0
+1719579126.744629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=583201568}) = 0
+1719579126.745610 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=585422402}) = 0
+1719579126.748344 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=593536986}) = 0
+1719579126.757137 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=595697090}) = 0
+1719579126.757515 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=596143028}) = 0
+1719579126.757898 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=596439226}) = 0
+1719579126.758310 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=596996934}) = 0
+1719579126.759149 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=597759434}) = 0
+1719579126.759729 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=598413757}) = 0
+1719579126.761284 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=600186518}) = 0
+1719579126.768760 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=607561883}) = 0
+1719579126.771251 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=609865008}) = 0
+1719579126.775014 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=614296154}) = 0
+1719579126.776477 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=615114696}) = 0
+1719579126.777378 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=616297613}) = 0
+1719579126.781370 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=620246051}) = 0
+1719579126.791743 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=630711104}) = 0
+1719579126.795770 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=642093293}) = 0
+1719579126.812341 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=651542044}) = 0
+1719579126.813736 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=653005221}) = 0
+1719579126.815449 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=654083867}) = 0
+1719579126.816665 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=655287877}) = 0
+1719579126.821817 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=669103972}) = 0
+1719579126.831836 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=673493869}) = 0
+1719579126.838467 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=677010067}) = 0
+1719579126.838906 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=677446473}) = 0
+1719579126.843599 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=682838193}) = 0
+1719579126.844751 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=683450536}) = 0
+1719579126.845561 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=684688766}) = 0
+1719579126.847965 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=686647880}) = 0
+1719579126.848700 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=687331266}) = 0
+1719579126.849214 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=687891735}) = 0
+1719579126.851379 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=690898714}) = 0
+1719579126.855551 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=694420798}) = 0
+1719579126.857393 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=696257881}) = 0
+1719579126.858733 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=698717361}) = 0
+1719579126.862540 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=701646684}) = 0
+1719579126.865533 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=704479705}) = 0
+1719579126.866459 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=705004809}) = 0
+1719579126.866982 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=706053768}) = 0
+1719579126.868043 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=706825018}) = 0
+1719579126.871734 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=710321268}) = 0
+1719579126.872375 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=711144602}) = 0
+1719579126.875512 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=714253144}) = 0
+1719579126.876360 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=715196060}) = 0
+1719579126.877946 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=717333613}) = 0
+1719579126.879477 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=718037571}) = 0
+1719579126.880660 write(4, "C|10566|Heap size (KB)|6151", 27) = 27
+1719579126.881945 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xee8c4000
+1719579126.882248 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xee8c4000, 8192, "dalvik-indirect ref table") = 0
+1719579126.882749 write(6, "B|10566|pthread_create", 22) = 22
+1719579126.882866 mmap2(NULL, 1085440, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xbb676000
+1719579126.883756 mprotect(0xbb677000, 1077248, PROT_READ|PROT_WRITE) = 0
+1719579126.883910 rt_sigprocmask(SIG_BLOCK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579126.884040 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579126.885024 rt_sigprocmask(SIG_SETMASK, ~[], [QUIT USR1 PIPE RTMIN], 8) = 0
+1719579126.886559 clone(child_stack=0xbb77b1b8, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xbb77b1c8, tls=0xbb77b480, child_tidptr=0xbb77b1c8) = 11784
+1719579126.889313 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579126.890108 futex(0xbb77b214, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579126.890963 write(6, "E|", 2)     = 2
+1719579126.891568 futex(0xbc9c601c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579126.892079 futex(0xd15d5018, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579126.985312 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=824305967}) = 0
+1719579126.986252 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=826346228}) = 0
+1719579126.989858 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=828393988}) = 0
+1719579126.990752 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=829302270}) = 0
+1719579126.990950 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=829541697}) = 0
+1719579126.992294 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=830910395}) = 0
+1719579126.992766 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=837074979}) = 0
+1719579127.005002 write(4, "C|10566|Heap size (KB)|6215", 27) = 27
+1719579127.006458 write(4, "C|10566|Heap size (KB)|6215", 27) = 27
+1719579127.007382 write(4, "C|10566|Heap size (KB)|6216", 27) = 27
+1719579127.008543 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=847527219}) = 0
+1719579127.009591 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=848239563}) = 0
+1719579127.010242 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=856720293}) = 0
+1719579127.024683 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=863253523}) = 0
+1719579127.026388 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=864938315}) = 0
+1719579127.026815 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=865398419}) = 0
+1719579127.027362 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=865951336}) = 0
+1719579127.028629 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=867941701}) = 0
+1719579127.029868 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=868433263}) = 0
+1719579127.031290 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=869934097}) = 0
+1719579127.032442 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=871024982}) = 0
+1719579127.033523 getuid32()            = 10277
+1719579127.034785 clock_gettime(CLOCK_BOOTTIME, {tv_sec=91, tv_nsec=873598316}) = 0
+1719579127.036722 ioctl(68, BINDER_WRITE_READ, 0xbb881890) = 0
+1719579127.041795 ioctl(68, BINDER_WRITE_READ, 0xbb8819f0) = 0
+1719579127.043380 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=882044202}) = 0
+1719579127.043988 write(152, "\1\0\0\0\0\0\0\0", 8) = 8
+1719579127.046724 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=885307275}) = 0
+1719579127.047231 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=887484411}) = 0
+1719579127.050076 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=889140817}) = 0
+1719579127.055524 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=895054047}) = 0
+1719579127.060563 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=899380297}) = 0
+1719579127.062402 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=900981964}) = 0
+1719579127.062747 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=903189829}) = 0
+1719579127.065262 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=903859569}) = 0
+1719579127.065781 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=905619725}) = 0
+1719579127.068835 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=909305142}) = 0
+1719579127.073879 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=912444674}) = 0
+1719579127.078700 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=918002539}) = 0
+1719579127.081081 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=919733633}) = 0
+1719579127.083892 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=922429675}) = 0
+1719579127.084031 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=922557696}) = 0
+1719579127.084397 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=922950664}) = 0
+1719579127.085191 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=923841185}) = 0
+1719579127.085676 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=924555665}) = 0
+1719579127.087333 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=925908165}) = 0
+1719579127.088591 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=927348790}) = 0
+1719579127.089168 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=927923009}) = 0
+1719579127.089751 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=928654415}) = 0
+1719579127.092959 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=931586551}) = 0
+1719579127.093232 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=931777488}) = 0
+1719579127.100132 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=954573376}) = 0
+1719579127.121775 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=961373377}) = 0
+1719579127.124033 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=962635356}) = 0
+1719579127.127059 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=974907961}) = 0
+1719579127.137717 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=976249055}) = 0
+1719579127.137915 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=976457232}) = 0
+1719579127.138414 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=996459995}) = 0
+1719579127.158388 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=996959891}) = 0
+1719579127.158696 write(4, "B|10566|Run checkpoint function", 31) = 31
+1719579127.159145 write(4, "E|10566", 7) = 7
+1719579127.160459 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=999525516}) = 0
+1719579127.161318 clock_gettime(CLOCK_MONOTONIC, {tv_sec=91, tv_nsec=999850464}) = 0
+1719579127.164955 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=3568693}) = 0
+1719579127.165724 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=4267600}) = 0
+1719579127.165949 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=4478537}) = 0
+1719579127.166093 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=4626037}) = 0
+1719579127.166247 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=4779787}) = 0
+1719579127.166439 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=4973693}) = 0
+1719579127.166588 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=6571454}) = 0
+1719579127.169180 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=7984579}) = 0
+1719579127.170599 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=9163694}) = 0
+1719579127.171188 gettimeofday({tv_sec=1719579127, tv_usec=171674}, NULL) = 0
+1719579127.171841 clock_gettime(CLOCK_BOOTTIME, {tv_sec=92, tv_nsec=10365309}) = 0
+1719579127.172149 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=10705986}) = 0
+1719579127.172518 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=15293226}) = 0
+1719579127.180538 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=19128955}) = 0
+1719579127.180893 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=19423695}) = 0
+1719579127.181080 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=19648799}) = 0
+1719579127.181434 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=19969268}) = 0
+1719579127.181917 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=20656091}) = 0
+1719579127.182607 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=21138955}) = 0
+1719579127.183106 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=21710466}) = 0
+1719579127.183595 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=22163487}) = 0
+1719579127.184002 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=22555987}) = 0
+1719579127.184432 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=22983487}) = 0
+1719579127.185410 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=24332862}) = 0
+1719579127.188397 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=28628227}) = 0
+1719579127.190360 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=28896977}) = 0
+1719579127.194018 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=33514321}) = 0
+1719579127.196202 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=34805676}) = 0
+1719579127.197131 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=39273332}) = 0
+1719579127.201206 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=39749999}) = 0
+1719579127.201444 write(4, "B|10566|Lock contention on Class"..., 70) = 70
+1719579127.206554 write(4, "E|10566", 7) = 7
+1719579127.207987 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=46569843}) = 0
+1719579127.208544 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=47403593}) = 0
+1719579127.209694 write(4, "E|10566", 7) = 7
+1719579127.209862 clock_gettime(CLOCK_MONOTONIC, {tv_sec=92, tv_nsec=48406927}) = 0
+1719579127.210871 futex(0xe1fda448, FUTEX_WAIT_PRIVATE, 2, {tv_sec=30, tv_nsec=0}) = -1 ETIMEDOUT (Connection timed out)
+1719579157.213473 clock_gettime(CLOCK_MONOTONIC, {tv_sec=122, tv_nsec=52251374}) = 0
+1719579157.213954 clock_gettime(CLOCK_MONOTONIC, {tv_sec=122, tv_nsec=52551947}) = 0
+1719579157.214393 munmap(0xee8c6000, 8192) = 0
+1719579157.230251 ioctl(68, BINDER_THREAD_EXIT, 0) = 0
+1719579157.230764 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579157.231777 munmap(0xedf02000, 20480) = 0
+1719579157.233835 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579157.233929 set_tid_address(0)    = 11754
+1719579157.234158 munmap(0xbb77f000, 1085440) = 0
+1719579157.253077 exit(0)               = ?
+1719579157.253969 +++ exited with 0 +++

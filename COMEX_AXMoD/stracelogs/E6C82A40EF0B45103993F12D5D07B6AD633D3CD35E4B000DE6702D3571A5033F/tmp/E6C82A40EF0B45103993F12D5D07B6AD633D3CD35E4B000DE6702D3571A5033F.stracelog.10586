@@ -1,0 +1,6 @@
+1719579115.974294 restart_syscall(<... resuming interrupted futex ...>) = -1 ETIMEDOUT (Connection timed out)
+1719579125.684648 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=523211827}) = 0
+1719579125.684925 clock_gettime(CLOCK_MONOTONIC, {tv_sec=90, tv_nsec=523452765}) = 0
+1719579125.685121 futex(0xd164421c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579125.685290 futex(0xf0c5ac58, FUTEX_WAIT_PRIVATE, 1, NULL) = ?
+1719579182.557910 +++ killed by SIGTERM +++

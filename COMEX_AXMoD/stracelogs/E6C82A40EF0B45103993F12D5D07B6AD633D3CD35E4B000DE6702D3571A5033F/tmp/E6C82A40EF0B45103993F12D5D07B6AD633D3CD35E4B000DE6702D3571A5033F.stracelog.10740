@@ -1,0 +1,20 @@
+1719579115.968850 clock_gettime(CLOCK_MONOTONIC, {tv_sec=80, tv_nsec=807407317}) = 0
+1719579115.973779 epoll_pwait(90, [], 16, 2483, NULL, 8) = 0
+1719579118.467966 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=306551681}) = 0
+1719579118.470587 write(4, "C|10566|Heap size (KB)|5122", 27) = 27
+1719579118.471941 getuid32()            = 10277
+1719579118.479953 epoll_pwait(90, [], 16, 0, NULL, 8) = 0
+1719579118.480317 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=319263193}) = 0
+1719579118.481162 epoll_pwait(90, 0xbf075a80, 16, -1, NULL, 8) = -1 EINTR (Interrupted system call)
+1719579131.048616 --- SIGRT_1 {si_signo=SIGRT_1, si_code=SI_TKILL, si_pid=10566, si_uid=10277} ---
+1719579131.049369 futex(0xeb396854, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.049635 clock_gettime(CLOCK_MONOTONIC, {tv_sec=95, tv_nsec=888217205}) = 0
+1719579131.049915 futex(0xeb396854, FUTEX_WAIT_BITSET_PRIVATE, 6, {tv_sec=100, tv_nsec=888217205}, 0xffffffff) = 0
+1719579131.070791 futex(0xeb396854, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.070894 rt_sigreturn({mask=[]}) = -1 EINTR (Interrupted system call)
+1719579131.071030 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 0
+1719579131.071133 futex(0xf0c558f8, FUTEX_WAIT_PRIVATE, 33, NULL) = 0
+1719579131.207417 futex(0xf0c8a09c, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579131.207860 clock_gettime(CLOCK_MONOTONIC, {tv_sec=96, tv_nsec=46383263}) = 0
+1719579131.208020 epoll_pwait(90,  <unfinished ...>) = ?
+1719579182.551841 +++ killed by SIGTERM +++

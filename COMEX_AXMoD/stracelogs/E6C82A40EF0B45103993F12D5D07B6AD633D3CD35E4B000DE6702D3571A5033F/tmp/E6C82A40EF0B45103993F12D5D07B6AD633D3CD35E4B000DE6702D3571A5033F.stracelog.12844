@@ -1,0 +1,20 @@
+1719579137.594788 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xb8bc0000, 1044480, "stack_and_tls:12844") = 0
+1719579137.595520 mmap2(NULL, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xecce4000
+1719579137.598862 mprotect(0xecce4000, 4096, PROT_NONE) = 0
+1719579137.603984 sigaltstack({ss_sp=0xecce5000, ss_flags=0, ss_size=16384}, NULL) = 0
+1719579137.604144 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xecce5000, 16384, "thread signal stack") = 0
+1719579137.604964 rt_sigprocmask(SIG_SETMASK, [QUIT USR1 PIPE RTMIN], NULL, 8) = 0
+1719579137.605118 nanosleep({tv_sec=4, tv_nsec=0}, 0xb8cbc170) = 0
+1719579141.608624 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = -1 EEXIST (File exists)
+1719579141.611155 unlinkat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", 0) = 0
+1719579141.611620 openat(AT_FDCWD, "/data/user_de/0/com.lf.coupon/code_cache/com.android.opengl.shaders_cache", O_RDWR|O_CREAT|O_EXCL|O_LARGEFILE, 000) = 119
+1719579141.615033 write(119, "EGL$\265\273\365\333$bB_\3\0\0\0\1\0\0\0\30\0\0\0\22\0\0\0S2RI"..., 54296) = 54296
+1719579141.615435 fchmod(119, 0400)     = 0
+1719579141.615644 close(119)            = 0
+1719579141.615808 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579141.616243 munmap(0xecce4000, 20480) = 0
+1719579141.616431 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579141.616596 set_tid_address(0)    = 12844
+1719579141.616813 munmap(0xb8bbf000, 1052672) = 0
+1719579141.617112 exit(0)               = ?
+1719579141.617426 +++ exited with 0 +++

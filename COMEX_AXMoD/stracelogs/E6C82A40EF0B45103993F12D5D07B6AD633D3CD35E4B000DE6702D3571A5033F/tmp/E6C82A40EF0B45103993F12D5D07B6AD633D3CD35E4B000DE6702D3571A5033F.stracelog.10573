@@ -1,0 +1,12 @@
+1719579115.974980 futex(0xeac40ac8, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+1719579118.866181 futex(0xeac40aac, FUTEX_WAKE_PRIVATE, 1) = 1
+1719579118.866683 write(4, "B|10566|DetachCurrentThread", 27) = 27
+1719579118.867040 munmap(0xf03fd000, 8192) = 0
+1719579118.867212 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=705753335}) = 0
+1719579118.867730 clock_gettime(CLOCK_MONOTONIC, {tv_sec=83, tv_nsec=706270315}) = 0
+1719579118.869019 write(4, "E|10566", 7) = 7
+1719579118.870449 sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+1719579118.870634 munmap(0xef3fe000, 20480) = 0
+1719579118.870811 rt_sigprocmask(SIG_BLOCK, ~[], NULL, 8) = 0
+1719579118.870981 exit(0)               = ?
+1719579118.871279 +++ exited with 0 +++
