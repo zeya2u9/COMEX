@@ -4,7 +4,7 @@ This repository contains "COMEX: Deeply Observing Application Behavior on Real A
 ## COMEX Design Details
 
 ### DCoP
-<img src="https://github.com/zeya2u9/COMEX/assets/108210209/f926f24a-b835-4050-99e0-42dbaea53034" width="100" height="100">
+<img src="https://github.com/zeya2u9/COMEX/assets/108210209/f926f24a-b835-4050-99e0-42dbaea53034" width="800" height="600">
 
 ### AXMoD
 ![malware_framework-setup](https://github.com/zeya2u9/COMEX/assets/108210209/2647f53b-4382-4fcd-ac22-882133c37413)
