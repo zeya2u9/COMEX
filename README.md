@@ -54,4 +54,10 @@ python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
 - Follow the pre-requisites of DCoP
 
 ##### Running the main script
-- 
+- To execute the main script `dynamic.py`, located in the directory `<Path to COMEX>/COMEX/COMEX_DCoP/dynamic.py>`.
+
+- An example testcase can be seen as follows:
+
+```python
+python3 dynamic.py
+```
