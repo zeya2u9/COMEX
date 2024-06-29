@@ -26,14 +26,8 @@ In this phase the APK under test is executed on the device and analysis data is 
 
 ### Running the testbed
 #### Requirements:
-1. Rooted device
-
-2. Connect device to the host PC using ADB.
-
-The DCoP module requires a host PC with connected devices for execution.
-
-3. Setting up a VM for each device
-
-Since, 'monkeyrunner' does not support parallelism. Thus, to run monkeyrunner on mulitple devices simultaneously which are connected to a single host machine, we create multiple VMS and assign each device to a specific VM. 
+- Rooted device
+- Connect device to the host PC using ADB. The DCoP module requires a host PC with connected devices for execution.
+- Setting up a VM for each device. Since, 'monkeyrunner' does not support parallelism. Thus, to run monkeyrunner on mulitple devices simultaneously which are connected to a single host machine, we create multiple VMS and assign each device to a specific VM. 
 
 
