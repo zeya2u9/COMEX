@@ -4,7 +4,7 @@ This repository contains "COMEX: Deeply Observing Application Behavior on Real A
 ## COMEX Design Details
 
 ### DCoP
-
+![malware_framework-thread](/home/nsl400/Desktop/comex_readme_images/malware_framework-thread.png)
 
 
 ### AXMoD
