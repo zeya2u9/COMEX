@@ -4,12 +4,11 @@ This repository contains "COMEX: Deeply Observing Application Behavior on Real A
 ## COMEX Design Details
 
 ### DCoP
+DCoP is the main data collection pipeline that analyzes individual APKs using the AXMod module. 
+
 <div align = "center">
 <img src="https://github.com/zeya2u9/COMEX/assets/108210209/f926f24a-b835-4050-99e0-42dbaea53034" width="600" height="250">
 </div>
-
-#### Overview:
-DCoP is the main data collection pipeline that analyzes individual APKs using the AXMod module. 
 
 ### AXMoD
 AXMoD works in two phases - (1) Setup phase, and (2) Analysis phase. 
