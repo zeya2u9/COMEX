@@ -23,3 +23,17 @@ In this phase we follow the above steps (shown in figure) to have a baseline dev
 In this phase the APK under test is executed on the device and analysis data is pulled from it.
 
 <img src="https://github.com/zeya2u9/COMEX/assets/108210209/a897c215-64ef-4716-8f0b-7c4d8ce8d0b5" width="800" height="150">
+
+### Running the testbed
+#### Requirements:
+1. Rooted device
+
+2. Connect device to the host PC using ADB.
+
+The DCoP module requires a host PC with connected devices for execution.
+
+3. Setting up a VM for each device
+
+Since, 'monkeyrunner' does not support parallelism. Thus, to run monkeyrunner on mulitple devices simultaneously which are connected to a single host machine, we create multiple VMS and assign each device to a specific VM. 
+
+
