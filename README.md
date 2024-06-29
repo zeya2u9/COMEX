@@ -31,3 +31,14 @@ In this phase the APK under test is executed on the device and analysis data is 
 - Setting up a VM for each device. Since, 'monkeyrunner' does not support parallelism. Thus, to run monkeyrunner on mulitple devices simultaneously which are connected to a single host machine, we create multiple VMS and assign each device to a specific VM. 
 
 
+### Modes of running the testbed
+
+A. Testing of a single APK:
+   Requirements: Follow the pre-requisites to set up AXMoD.
+   
+   Running the main script i.e raw_testbed.py located in the directory "~/COMEX/COMEX_AXMoD/raw_testbed.py". It requires an argument, the full path to the APK to be executed.
+
+   An example testcase can be seen as follow:
+'''python
+python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
+'''
