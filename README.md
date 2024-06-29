@@ -33,7 +33,7 @@ In this phase the APK under test is executed on the device and analysis data is 
 
 ### Modes of running the testbed
 
-#### Testing of a single APK
+#### A. Testing of a single APK
 
 ##### Requirements
 - Follow the pre-requisites to set up AXMoD.
@@ -46,3 +46,12 @@ In this phase the APK under test is executed on the device and analysis data is 
 ```python
 python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
 ```
+
+#### B. Completely automated testing of an APK database
+
+##### Requirements:
+- Follow the pre-requisites of AXMoD
+- Follow the pre-requisites of DCoP
+
+##### Running the main script
+- 
