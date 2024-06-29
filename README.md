@@ -39,9 +39,10 @@ In this phase the APK under test is executed on the device and analysis data is 
 - Follow the pre-requisites to set up AXMoD.
 
 ##### Running the main script
-- To run the main script `raw_testbed.py` located in the directory `<Path to COMEX>/COMEX/COMEX_AXMoD/raw_testbed.py`, you need to provide an argument, which is the full path to the APK to be executed.
+- To execute the main script `raw_testbed.py`, located in the directory `<Path to COMEX>/COMEX/COMEX_AXMoD/raw_testbed.py`, you must provide a parameter specifying the full path to the APK file to be executed.
 
 - An example testcase can be seen as follows:
 
 ```python
 python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
+```
