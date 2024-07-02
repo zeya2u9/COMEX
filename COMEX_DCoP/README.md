@@ -86,4 +86,3 @@ python3 dynamic.py
 - Adjust the `year_target` and `family_targets` as per the analysis requirements.
 - Monitor the logs for any errors or issues during the analysis process.
 - The system relies on SSH and SCP for file transfers. Ensure `sshpass` is installed and properly configured.
-- The analysis process may take time depending on the size and complexity of the APKs. Ensure VMs and devices are properly connected and available for the duration of the analysis.
