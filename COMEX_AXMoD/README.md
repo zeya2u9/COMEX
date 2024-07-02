@@ -19,6 +19,7 @@ This repository contains a Python script `raw_testbed.py` for collecting analysi
 ### Install Python dependencies:
 ```bash
 pip install -r requirements.txt
+```
 Install and configure ADB:
 Download ADB from the official site.
 Add ADB to your system PATH.
