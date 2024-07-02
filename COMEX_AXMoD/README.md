@@ -20,15 +20,9 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
 
 1. Clone this repository:
     ```sh
-    git clone https://github.com/yourusername/apk-analysis-testbed.git
-    cd apk-analysis-testbed
-    ```
-
-2. Ensure you have Python 3.x installed. Install necessary Python packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
+    git clone https://github.com/zeya2u9/COMEX.git
+    cd COMEX_AXMoD
+    ``
 3. Ensure `adb` and `monkeyrunner` are installed and added to your system's PATH.
 
 ## Usage
