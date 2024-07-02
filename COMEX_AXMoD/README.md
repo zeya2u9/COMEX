@@ -8,7 +8,6 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
 - [Installation](#installation)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Credits](#credits)
 
 ## Requirements
 
