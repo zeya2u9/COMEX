@@ -22,7 +22,7 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
     ```sh
     git clone https://github.com/zeya2u9/COMEX.git
     cd COMEX_AXMoD
-    ``
+    ```
 3. Ensure `adb` and `monkeyrunner` are installed and added to your system's PATH.
 
 ## Usage
@@ -53,11 +53,11 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
   - **Pcapdroid**: Used to capture network data of a specific APK.
 - **andro_bins/**: Contains the `strace` binary required to capture system calls for the specific APK.
 - **apkinfo/**: Contains text files saved as `APK's hash.txt` which include the package name of the APK.
-- **data/**: Folder where collected data will be stored, organized into subfolders such as:
-  - **stracelogs/**: Contains system call logs.
-  - **perfetto_traces/**: Contains Perfetto traces.
-  - **netstat/**: Contains network statistics.
-  - **batterystat/**: Contains battery usage statistics.
-  - **lsof/**: Contains list of open files.
-  - **pcaps/**: Contains packet captures.
-
+- **andro_bins/**: Contains the `strace` binary required to capture system calls for the specific APK.
+- **apkinfo/**: Contains text files saved as `APK's hash.txt` which include the package name of the APK.
+- **stracelogs/**: Contains system call logs.
+- **perfetto_traces/**: Contains Perfetto traces.
+- **netstat/**: Contains network statistics.
+- **batterystat/**: Contains battery usage statistics.
+- **lsof/**: Contains list of open files.
+- **pcaps/**: Contains packet captures.
