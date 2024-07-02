@@ -53,8 +53,6 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
   - **Pcapdroid**: Used to capture network data of a specific APK.
 - **andro_bins/**: Contains the `strace` binary required to capture system calls for the specific APK.
 - **apkinfo/**: Contains text files saved as `APK's hash.txt` which include the package name of the APK.
-- **andro_bins/**: Contains the `strace` binary required to capture system calls for the specific APK.
-- **apkinfo/**: Contains text files saved as `APK's hash.txt` which include the package name of the APK.
 - **stracelogs/**: Contains system call logs.
 - **perfetto_traces/**: Contains Perfetto traces.
 - **netstat/**: Contains network statistics.
