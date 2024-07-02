@@ -7,6 +7,7 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tools and Scripts](#tools-and-scripts)
 - [Folder Structure](#folder-structure)
 
 ## Requirements
@@ -34,6 +35,14 @@ This repository contains a Python script `raw_testbed.py` designed to collect an
     ```
 
 3. The script will collect various types of data and save them in respective folders.
+
+## Tools and Scripts
+
+- **Monkeyrunner**: Used to control the device and interact with the APK.
+- **ADB**: Used to communicate with the Android device.
+- **Magisk**: Tool for rooting the device.
+- **Pcapdroid**: App used to capture network data of a specific APK.
+- **Strace**: Tool for capturing system calls.
 
 ## Folder Structure
 
