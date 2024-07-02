@@ -47,6 +47,8 @@ In this phase the APK under test is executed on the device and analysis data is 
 python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
 ```
 
+Running this script will generate analysis data in multiple folders such as netstat, stracelogs, etc. Refer to AXMoD for more details.
+
 #### B. Completely automated testing of an APK database
 
 ##### Requirements:
@@ -61,3 +63,5 @@ python3 raw_testbed.py <Path to COMEX>/COMEX/COMEX_AXMoD/apks/<APK name>
 ```python
 python3 dynamic.py
 ```
+
+Running this script will generate analysis data in VM's which can be transferred to some remote location as per requirement.
