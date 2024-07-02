@@ -1,6 +1,6 @@
-# APK Analysis Testbed
+# COMEX_AXMoD module
 
-This repository contains a Python script `raw_testbed.py` designed to collect analysis data for an APK by running it on a device. It generates various types of data organized into folders such as `stracelogs`, `perfetto_traces`, `netstat`, `batterystat`, `lsof`, `pcaps`, etc. The script requires the use of `monkeyrunner` and `adb`.
+This module contains a Python script `raw_testbed.py` designed to collect analysis data for an APK by running it on a device. It generates various types of data organized into folders such as `stracelogs`, `perfetto_traces`, `netstat`, `batterystat`, `lsof`, `pcaps`, etc. The script requires the use of `monkeyrunner` and `adb`.
 
 ## Table of Contents
 
