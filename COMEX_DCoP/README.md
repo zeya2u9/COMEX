@@ -1,6 +1,6 @@
-# APK Analysis Testbed
+# COMEX_DCoP Module
 
-This project automates the analysis of APK files using multiple virtual machines (VMs) connected to mobile phones. The system is designed to efficiently distribute APKs, execute analysis scripts on the VMs, and collect the resulting data.
+This module automates the analysis of APK files using multiple virtual machines (VMs) connected to mobile phones. The system is designed to efficiently distribute APKs, execute analysis scripts on the VMs, and collect the resulting data.
 
 ## Directory Structure
 
