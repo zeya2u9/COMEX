@@ -3,7 +3,9 @@ This repository contains the code implementation of paper titled "COMEX: Deeply 
 
 ## COMEX Design Details
 
-### **D**ata **Co**llection **P**ipeline
+```diff
+### @@D@@ata **Co**llection **P**ipeline
+```
 DCoP is the main data collection pipeline that analyzes individual APKs using the AXMod module. 
 
 <div align = "center">
