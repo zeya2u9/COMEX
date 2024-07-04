@@ -59,3 +59,7 @@ This module contains a Python script `raw_testbed.py` designed to collect analys
 - **batterystat/**: Contains battery usage statistics.
 - **lsof/**: Contains list of open files.
 - **pcaps/**: Contains packet captures.
+
+## Notes
+
+Please note that MonkeyRunner is an unmaintained tool. You may need to find the appropriate MonkeyRunner binary and set it up accordingly, such as setting the correct Java version, to ensure it works correctly with your environment.
