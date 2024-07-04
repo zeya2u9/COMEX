@@ -1,22 +1,17 @@
 # COMEX_DCoP Module
 
-This module automates the analysis of APK files using multiple virtual machines (VMs) connected to mobile phones. The system is designed to efficiently distribute APKs, execute analysis scripts on the VMs, and collect the resulting data.
+This module automates the analysis of an APK database on mobile device using individual virtual machines for each device. The module is designed to efficiently distribute APKs, execute analysis scripts, and collect the resulting raw data.
 
 ## Directory Structure
 
 - `~/COMEX/COMEX_DCoP/scripts/crash_resume/`
-    - `counters.json`: Stores counters for analyzed benign and malware APKs.
-    - Other files for crash recovery.
+    - `counters.json`: Stores counters for analyzed benign and malware APKs. It is automatically populated once the testbed starts.
+    - Other files for crash recovery (bengin_done.txt and malware_done.txt).
 
 - `~/COMEX/COMEX_DCoP/metadata/`
-    - CSV files with metadata for benign and malware APKs. Each CSV is named in the format `<year>_<family>.csv`.
+    - `benign` : Each CSV in this folder is named in the format `<year>.csv`.
+    - `malware` : Each CSV in this folder is named in the format `<year>_<family>.csv`.
 
-- `~/COMEX/COMEX_DCoP/crash_resume/`
-    - `benign_done.txt`: Tracks analyzed benign APKs.
-    - `malware_done.txt`: Tracks analyzed malware APKs.
-
-- `~/COMEX/COMEX_AXMoD/batterystats/`
-    - Analysis results for APKs, stored as `<hash>-batterystats.csv`.
 
 ## How It Works
 
@@ -34,7 +29,6 @@ This module automates the analysis of APK files using multiple virtual machines 
    - `PhoneWorkerThread` handles the execution of analysis tasks on assigned VMs.
    - APKs are transferred from the server to the VMs using SCP.
    - The `raw_testbed.py` script is executed on the VMs to analyze the APKs.
-   - Results are stored in `~/COMEX/COMEX_AXMoD/batterystats/`.
 
 4. **Logging and Monitoring**:
    - Logs are printed to track the progress and state of dispatchers and worker threads.
@@ -86,3 +80,4 @@ python3 dynamic.py
 - Adjust the `year_target` and `family_targets` as per the analysis requirements.
 - Monitor the logs for any errors or issues during the analysis process.
 - The system relies on SSH and SCP for file transfers. Ensure `sshpass` is installed and properly configured.
+- Make sure that all the mobile devices are continuously being charged using a usb hub (preferred with external power source).  
