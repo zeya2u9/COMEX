@@ -7,7 +7,7 @@ This repository contains "COMEX: Deeply Observing Application Behavior on Real A
 DCoP is the main data collection pipeline that analyzes individual APKs using the AXMod module. 
 
 <div align = "center">
-<img src="https://github.com/zeya2u9/COMEX/assets/108210209/9020254f-8801-4728-8eab-7dbd71c70380" width="800" height="200">
+<img src="https://github.com/zeya2u9/COMEX/assets/108210209/9020254f-8801-4728-8eab-7dbd71c70380" width="700" height="200">
 
 </div>
 
