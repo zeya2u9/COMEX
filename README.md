@@ -3,7 +3,7 @@ This repository contains the code implementation of paper titled "COMEX: Deeply 
 
 ## COMEX Design Details
 
-### ```diff @@D@@```ata **Co**llection **P**ipeline
+### Data Collection Pipeline (DCoP)
 DCoP is the main data collection pipeline that analyzes individual APKs using the AXMod module. 
 
 <div align = "center">
@@ -11,7 +11,7 @@ DCoP is the main data collection pipeline that analyzes individual APKs using th
 
 </div>
 
-### **A**nalysis e**X**ecution **MoD**ule
+### Analysis eXecution MoDule (AXMoD)
 AXMoD works in two phases - (1) Setup phase, and (2) Analysis phase. 
 
 #### (1) Setup phase
