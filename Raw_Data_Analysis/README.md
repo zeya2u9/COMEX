@@ -1,9 +1,12 @@
 # Basic analysis of raw data obtained from COMEX
 
 The raw data obtained can be categorised into three types:
-    - Operating system
-    - Network
-    - Hardware
+
+- Operating system
+
+- Network
+
+- Hardware
 
 ## OS related
 
