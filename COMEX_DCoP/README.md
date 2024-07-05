@@ -81,6 +81,11 @@ python3 dynamic.py
 - Commented code and the thread function can be used for reference as to how to use the script.
 - **Note**: Androzoo mentions that one can only make upto 40 concurrent connections to their database.
 
+### Downloading APKs from VirusShare
+
+- To download APKs from VirusShare, first contact/request its maintainers for credentials.
+- Using the credentials, login to their website, and go to the [torrents link](https://virusshare.com/torrents) and download the respective years' torrent files
+
 ## Notes
 
 - Ensure that VM credentials and paths are correctly configured in the script.
