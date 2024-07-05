@@ -74,17 +74,17 @@ python3 dynamic.py
 - **Path**: `~/COMEX/COMEX_AXMoD/batterystats/`
 - **Contents**: CSV files containing the analysis results for each APK. The files are named `<hash>-batterystats.csv`.
 
-### Downloading APKs from Androzoo
+### Downloading APKs from [AndroZoo](https://androzoo.uni.lu/)
 
-- To download APKs from Androzoo, first contact/request the maintainers for an API key.
+- To download APKs from AndroZoo, first contact/request the maintainers for an API key.
 - Replace the API key in `~/COMEX/COMEX_DCoP/scripts/androzoo_script.py` and modify it for your own use.
 - Commented code and the thread function can be used for reference as to how to use the script.
-- **Note**: Androzoo mentions that one can only make upto 40 concurrent connections to their database.
+- **Note**: AndroZoo mentions that one can only make upto 40 concurrent connections to their database.
 
-### Downloading APKs from VirusShare
+### Downloading APKs from [VirusShare](https://virusshare.com/)
 
 - To download APKs from VirusShare, first contact/request its maintainers for credentials.
-- Using the credentials, login to their website, and go to the [torrents link](https://virusshare.com/torrents) and download the respective years' torrent files
+- Using the credentials, login to their website, and go to the [torrents link](https://virusshare.com/torrents) and download the respective years' torrent files.
 
 ## Notes
 
