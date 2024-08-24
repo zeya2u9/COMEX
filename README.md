@@ -1,5 +1,5 @@
 # COMEX
-This repository contains the code implementation of paper titled "COMEX: Deeply Observing Application Behavior on Real Android Devices" accepted in Usenix CSET'24. COMEX is a testbed for dynamic analysis of android applications on real mobile devices. 
+This repository contains the code implementation of paper titled "COMEX: Deeply Observing Application Behavior on Real Android Devices" accepted in Usenix CSET'24. COMEX is a testbed for dynamic analysis of android applications on real mobile devices. Refer to paper [here](https://dl.acm.org/doi/10.1145/3675741.3675745).
 
 ## COMEX Design Details
 
